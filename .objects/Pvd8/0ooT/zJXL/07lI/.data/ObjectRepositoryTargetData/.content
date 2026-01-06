@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="04k2lt2tjkSb9Unh5Y2P3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1436, 134, 125, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIRibbonButton' name='Insert iManage Attachment' /&gt;" Guid="57bf14be-c3c9-4279-b6dd-6c11a6a3cf97" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by attaching a file from iManage - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="657e4140fbdfbdd525385c16e53966e5.png" xmlns="">0sQVlUCi27Eqg8SBq-UcAJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

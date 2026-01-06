@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Send &Only",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gq4jiwrt-EO0mX9ovakYXw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/gq4jiwrt-EO0mX9ovakYXw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q",
+  "Created": "2026-01-05T14:20:45.3713513Z",
+  "Updated": "2026-01-05T14:20:45.3713513Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XTgezg-eMUOptMcTWegD9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="25e50da5-42ee-4a50-a55b-ca1e620035db" CvTextArea="442, 391, 681, 25" CvTextArgument="Projects [268889.PMO0361] - GtG Release Management - phase 1" CvType="Text" DesignTimeRectangle="443, 379, 1224, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Recent Matters - Sundararajan, Ramya - iManage Work - Web conten*' cls='Chrome_WidgetWin_1' title='Recent Matters - Sundararajan, Ramya - iManage Work' /&gt;&lt;ctrl name='Recent Matters - Sundararajan, Ramya - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Projects [268*' role='row' /&gt;&lt;ctrl idx='6' role='grouping' /&gt;" Guid="acf15158-25ef-4743-bfac-af06fb25556f" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e7522f67478a82777987387f223f12a5.png" xmlns="">0sZw0Pu-DSkuTSatabE4T1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

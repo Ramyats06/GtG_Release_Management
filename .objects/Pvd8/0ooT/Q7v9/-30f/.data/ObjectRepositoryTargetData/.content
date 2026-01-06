@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TUgeuxX9REyRhPIok5q-0g" Reference="m1hPtSXhEE-MN2DzQb4wOA/-30fxD_FHUWx2a2n5rBfdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bdedc730-e0ec-492c-89e2-dddad17a366b" CvTextArea="289, 91, 39, 13" CvTextArgument="More" CvType="Text" DesignTimeRectangle="289, 91, 39, 13" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='50' /&gt;&lt;ctrl idx='3' name='More' role='drop down button' /&gt;" Guid="090afdee-8e69-4d19-bb22-2e35ca1045fd" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bdedc730-e0ec-492c-89e2-dddad17a366b" CvTextArea="150, 121, 103, 18" CvTextArgument="iManage Work" CvType="Text" DesignTimeRectangle="150, 121, 103, 20" ElementType="Text" Guid="f3991cc5-f241-400b-9f94-c8d973ec14d0" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="180928cb5f9d367b8f06eecd46814563.png" xmlns="">0db-ApnX54EmkbOL-l88pUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

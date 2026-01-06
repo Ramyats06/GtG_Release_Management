@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Qup4_LKEWEagLLg55rGggA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a8145b6e-82f2-4915-bb4a-de10f2277403" CvTextArea="1458, 299, 116, 19" CvTextArgument="Litera Forte" CvType="Text" DesignTimeRectangle="1450, 285, 473, 42" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIElement' /&gt;" Guid="ced165ae-1a63-4450-a6ef-ea3b4bc16977" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document2 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="17ae491e44ab5a3c319d6a9eb1786846.png" xmlns="">0Vrr6z1od-0ezqMkUuEuZcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VD5OvrwLj0mQRs8_CWCJCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d3d1fa14-0805-4966-8349-90aca19f4c4b" CvElementArea="1488, 468, 403, 61" CvType="InputBox" DesignTimeRectangle="1858, 472, 29, 20" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='tsMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia name='Show List' role='button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Show List' /&gt;" Guid="b31a3a2f-1ec1-43ef-9bff-250ae3670e81" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document2 - Word' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d3d1fa14-0805-4966-8349-90aca19f4c4b" CvTextArea="1509, 449, 155, 16" CvTextArgument="Confidential Phrases:" CvType="Text" DesignTimeRectangle="1471, 447, 206, 22" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia name='Confidential Phrases:' role='tree item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='1' /&gt;" Guid="42bf796b-4383-41be-8c58-2f1a9c2384f6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3d042ea2ffc3fa12eec316734beffcb3.png" xmlns="">0txaO3pGo6UqJ0T1Fu6-vIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

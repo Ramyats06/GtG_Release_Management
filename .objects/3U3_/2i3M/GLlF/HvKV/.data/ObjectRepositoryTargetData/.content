@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2Q3d1MJ8GEqvgJg_95m7eQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="239, 83, 1692, 1056" ElementType="Container" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Print' /&gt;" Guid="67f98136-5f8a-4193-a270-03b5e852c24f" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="18f9dff99f8ea04b09ba90a5d2d5d110.png" xmlns="">0szXnwUssVUaYUANIjsLQKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kHtNmtcfMkS5fg_qXB_Vnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="230bae30-6c97-4665-a711-db66ac61cfdb" CvTextArea="311, 287, 750, 24" CvTextArgument="Will the firm be receiving any information about health status, medical records," CvType="Text" DesignTimeRectangle="312, 286, 749, 24" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="9ad38df7-06c1-4bf6-b20c-504a27ce9948" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="443bd7c5a0b6e2e5b577f7ddbecf9778.png" xmlns="">0PST4Uj8w1UqdUUYEfoJTXw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

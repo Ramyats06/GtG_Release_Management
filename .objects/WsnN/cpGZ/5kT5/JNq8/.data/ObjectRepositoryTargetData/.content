@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OIGy4UlZ60y2HHKbYVGsVQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/JNq8z1pknkC61m1Kpuu25w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="a6886fac-71c4-4a59-b0f7-21f912148483" CvTextArea="314, 848, 718, 24" CvType="AnyWordGroup" DesignTimeRectangle="315, 843, 717, 27" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='question-title-text' type='' tag='SPAN' /&gt;" Guid="f828ce04-2c1a-411b-9ad3-b6761d66f66e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6886fac-71c4-4a59-b0f7-21f912148483" CvElementArea="311, 882, 26, 25" CvTextArea="339, 884, 31, 18" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="315, 878, 70, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                               Yes         ' type='' tag='LABEL' class='' check:innerText='Yes' /&gt;" Guid="a7c28963-e3d3-4c2f-9608-d1130998360e" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="a6886fac-71c4-4a59-b0f7-21f912148483" CvTextArea="282, 653, 314, 24" CvTextArgument="Sensitive Health Information" CvType="Text" DesignTimeRectangle="285, 650, 812, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Sensitive Health Information' class='group-title-text' tag='SPAN' type='' check:innerText='Sensitive Health Information' /&gt;" Guid="fa9d3fb2-22a9-443b-9803-27a59acdc149" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a311d30ed89656cb8e332f6fbec496c.png" xmlns="">0AWjubXOgJ0Gz1jGiQxGj4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

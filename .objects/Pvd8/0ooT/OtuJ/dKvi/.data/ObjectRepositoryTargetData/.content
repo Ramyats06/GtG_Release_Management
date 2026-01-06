@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LhpxcbVs3UOh0AtpHPlT7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="81919822-8f80-423c-ba02-1c892a25e2fb" CvElementArea="99, 532, 26, 25" CvType="ArrowButton" DesignTimeRectangle="99, 532, 26, 25" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="472441ad-3651-45e9-8e37-f2da8249cc76" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="81919822-8f80-423c-ba02-1c892a25e2fb" CvTextArea="122, 533, 267, 25" CvTextArgument="rsundararajan@cooley.com" CvType="Text" DesignTimeRectangle="122, 533, 267, 25" ElementType="Text" Guid="90e181b9-c7f1-4a60-9a52-ee79a909a711" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc9365afd3ffc9ec97645752bd507df8.png" xmlns="">0NumZvXAtY0uzPkgLr6xEMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

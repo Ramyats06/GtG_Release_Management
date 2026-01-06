@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S_ks8QqgX06r_4f7gQJ1Lw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="308, 542, 1578, 60" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Subject' role='edit' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="46d43e3b-7437-45b0-a80d-e61e84671950" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0ddfeed-98cc-4803-b1ed-a490a45fdd9a" CvTextArea="198, 561, 61, 22" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="170, 558, 120, 44" ElementType="Text" FuzzySelectorArgument="&lt;uia automationid='4516' cls='Static' name='Subject' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Subject' /&gt;" Guid="f961edfe-5e00-48a8-b001-9473710737a4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="acab4c7af2f8e25ce312006237573789.png" xmlns="">0ltYYtZosQEOuKzvGw-KorQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

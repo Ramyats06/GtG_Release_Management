@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="olVJ3HTfO0KRrnAEIUOAUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c2b34c6f-2f20-4d4b-ab9d-8061cc352ff6" CvTextArea="1439, 192, 118, 21" CvTextArgument="Insert iManage" CvType="Text" DesignTimeRectangle="1439, 192, 118, 21" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="f90c5c5c-3c1a-4ed5-b0cf-c0b62ab1d1f9" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c2b34c6f-2f20-4d4b-ab9d-8061cc352ff6" CvTextArea="1449, 216, 96, 16" CvTextArgument="Attachment" CvType="Text" DesignTimeRectangle="1449, 216, 96, 16" ElementType="Text" Guid="1459bad6-9f06-44c7-9461-8f888948d609" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4d573006435ce34f9cb94e64b1c013e8.png" xmlns="">0gt6DmP8RokCgdkH197uHmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

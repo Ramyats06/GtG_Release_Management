@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chat  Elmer, James  Microsoft Teams",
+  "Type": "Screen",
+  "Id": "4QC-fajuHE2_R0gkyuyBRA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/4QC-fajuHE2_R0gkyuyBRA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Ifvp33rKrUGMZV5QJ4WzIA",
+  "Created": "2025-11-06T10:38:16.8931193Z",
+  "Updated": "2025-11-06T10:38:16.8931193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Join with an ID",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "qfk-w70EXES8sevhflbuIA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/qfk-w70EXES8sevhflbuIA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/ID8H8PpeF0CStOfduy7Mbg",
+  "Created": "2025-11-24T12:14:09.5228786Z",
+  "Updated": "2025-11-24T12:14:09.5228786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

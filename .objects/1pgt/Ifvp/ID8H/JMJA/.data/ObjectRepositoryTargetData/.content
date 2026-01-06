@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U_U-aTNxJUK0Vf_d2oxcEA" Reference="m1hPtSXhEE-MN2DzQb4wOA/JMJAk81B0UO1BTvN0ykrsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1fd2f1ea-b294-4e59-86c1-3640b9f88885" CvElementArea="1734, 101, 184, 52" CvType="InputBox" DesignTimeRectangle="1880, 104, 36, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Calendar' role='document' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' /&gt;&lt;ctrl name='Calendar toolbar' role='tool bar' /&gt;&lt;ctrl name='Create a new event.' role='grouping' /&gt;&lt;ctrl idx='2' name='New' role='push button' /&gt;" Guid="876e78b0-30c8-4e54-93cc-a04538b9b68e" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1fd2f1ea-b294-4e59-86c1-3640b9f88885" CvElementArea="1734, 101, 184, 52" CvType="InputBox" DesignTimeRectangle="1736, 104, 144, 48" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar toolbar' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Create a new event.' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='New' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='New' /&gt;" Guid="2b29d1d8-d98e-4c43-81f2-380b52e29810" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="29a34444338f9fa8e6608e2fa20f38ef.png" xmlns="">0fyd6trsdxkeZcw0ndlfWjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

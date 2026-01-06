@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TeamsOverlay",
+  "Type": "Element",
+  "Id": "Psq42gI3wEiDJnww2mMBDg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/Psq42gI3wEiDJnww2mMBDg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/7ByfoNW2j0CFz9p-SdOeuw",
+  "Created": "2025-11-24T10:41:43.9603386Z",
+  "Updated": "2025-11-24T10:41:43.9603386Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

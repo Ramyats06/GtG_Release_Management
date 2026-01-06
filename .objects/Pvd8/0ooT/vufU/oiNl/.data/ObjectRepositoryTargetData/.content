@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eQ2Th0EqLES35xsQdd92xQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7ebd7b59-fde6-4e78-b555-713ce9eed092" CvTextArea="45, 822, 184, 16" CvTextArgument="Created with OneNote." CvType="Text" DesignTimeRectangle="45, 822, 184, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="22c1f107-cd38-4f15-bb19-a3495bcb97c4" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled page - Message (HTML) ' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f339d812a3d23ec64fe2e5c8fec7e14d.png" xmlns="">0UgP-TDfM4kqHjcNMnNlMgg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

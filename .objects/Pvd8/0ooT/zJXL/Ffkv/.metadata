@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Save Undo Redo Previous…",
+  "Type": "Element",
+  "Id": "Ffkv9b0eF0-vI2ux8i97TQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/Ffkv9b0eF0-vI2ux8i97TQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q",
+  "Created": "2025-11-20T14:53:47.6762941Z",
+  "Updated": "2025-11-20T14:53:47.6762941Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

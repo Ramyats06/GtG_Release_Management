@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Clear status message",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "HjNzStwSnk6T0O7np5tizQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/HjNzStwSnk6T0O7np5tizQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T12:20:40.2366268Z",
+  "Updated": "2025-11-28T12:20:40.2366268Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

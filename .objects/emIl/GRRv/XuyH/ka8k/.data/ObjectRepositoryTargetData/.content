@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z_fA6PTWgk2vprpRruG-Qg" Reference="m1hPtSXhEE-MN2DzQb4wOA/ka8kzMAvKkGpXqAn91W71w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="98ac9bd5-3bb6-4e0d-9970-23d1765e854c" CvElementArea="48, 189, 22, 24" CvType="ArrowButton" DesignTimeRectangle="48, 189, 22, 24" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="e4bb2fa0-e627-4763-ba27-e86baa84451d" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="98ac9bd5-3bb6-4e0d-9970-23d1765e854c" CvTextArea="75, 164, 177, 22" CvTextArgument="Suggested Locations" CvType="Text" DesignTimeRectangle="75, 164, 177, 22" ElementType="Text" Guid="a82ee15c-bc57-4337-94a3-7d71446a2a92" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c22f62b924d4ddc9da27088040525bda.png" xmlns="">00Uil4WsP7EWUlrJ3-j4GXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

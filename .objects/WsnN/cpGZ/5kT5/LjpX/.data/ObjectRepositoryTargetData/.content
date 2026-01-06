@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nR0W_IjqIka6ctLbN7NM7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="43c11486-df93-4ab8-873c-1b0fb13018b1" CvTextArea="359, 732, 509, 24" CvTextArgument="Ramya's Testing_Draft Engagement Letter_[Date].docx" CvType="Text" DesignTimeRectangle="359, 732, 511, 25" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' name='download-button' tag='A' class='' aaname='Ramya&amp;apos;s Testing_Draft Engagement Letter_[Date].docx' check:innerText='Ramya&amp;apos;s Testing_Draft Engagement Letter_[Date].docx' /&gt;" Guid="39933a41-5dca-460d-a4ac-b3a1bc8a934d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="43c11486-df93-4ab8-873c-1b0fb13018b1" CvElementArea="309, 725, 40, 43" CvType="Icon" DesignTimeRectangle="315, 729, 30, 36" FuzzySelectorArgument="&lt;webctrl type='' class='attachment-icon l-left icon-file' isleaf='1' tag='DIV' aaname='' /&gt;" Guid="2006bb78-66bc-48dd-b620-6b327773ada5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAoCAYAAACb3CikAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGNSURBVFhH7ZXbTsJAEIZ9/7cxKLRQsLScKghIPYCIAkoVEBE0Ubn53WmCaXYbG8UtXOzFd9NOdr7sHHZvulxhF1AiPN8imqb9G4nEAfYZVrGCzs2dkDQMKSI504JdOoZpFdBwLzF8nGM8fxeSB5EiUqu30O4NkTsyUSg5cNs9jKZLjF8+BIE1UkSaZ20MvBnylo2UprMbstG5HcGbvQkCa6SInJ53/HKQSDKZhK6nUak2cD14EATWSBfxv+k6I4166wLe0ysmi88tiRBMJm+X2L8rXyYoQcQnwsgYBgplB92+J8jEKkIY2RyqDRdd1i/BKYpdJOWj+zJ973mLIqkUDtkkmVbRl5Eucj9ZoOxUfRkeWnQZIws9nZEvMmH1Jxm6mSC06Gjrlp2aP0lSRYpsMkgmDNq69ATk2TtEsVJFfoMS4VEiPJEiP3X+X6Ez+TyRIidNV9gBm0Jn8nkiRehxCtuKm0Bn8nkiRVRp+ABVGj5AlYYPUKXhA3amNHGhRHgEkbAujwNBZNvsiMgKX+kFJ6/l22lKAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a3a890842a6e5a22afc5e1a8ebc7dfdb.png" xmlns="">0tsLt7OzUOUm3uIYLxQef4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

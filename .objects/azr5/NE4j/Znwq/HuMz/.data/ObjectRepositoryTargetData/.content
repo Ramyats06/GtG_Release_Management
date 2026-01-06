@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pzqnP9YQek6mkWHr7v6rYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f88f8bdb-a6bf-4d3c-8060-1d3338e4f843" CvTextArea="100, 373, 313, 18" CvTextArgument="UK Engagement Letter Pro Bono Corporate" CvType="Text" DesignTimeRectangle="65, 372, 368, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='ftvSegment' /&gt;&lt;wnd cls='WindowsForms10.Window.*' idx='2' /&gt;&lt;ctrl name='UK Engagement Letter Pro Bono Corporate' role='outline item' /&gt;" Guid="020b9a9b-8f77-4968-8aeb-28b076113420" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='SegmentForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="78d3794c04a30c77f8aed0c85122af3a.png" xmlns="">0P1dzV6KL9EG76jC5wIfV2A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

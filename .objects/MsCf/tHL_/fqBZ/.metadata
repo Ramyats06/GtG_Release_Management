@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Web Store - Google Chrome",
+  "Type": "Screen",
+  "Id": "fqBZ6XWH9E6jdhHQ9oMy3g",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/fqBZ6XWH9E6jdhHQ9oMy3g",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/tHL_nP1G2kSTczM5x-eF9g",
+  "Created": "2025-12-02T11:27:28.6267147Z",
+  "Updated": "2025-12-02T11:27:28.6267147Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

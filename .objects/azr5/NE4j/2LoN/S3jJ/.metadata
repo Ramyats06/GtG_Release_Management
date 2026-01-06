@@ -1,0 +1,14 @@
+﻿{
+  "Name": "iManage",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "S3jJznz5gk2pM9XRXstp0w",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/S3jJznz5gk2pM9XRXstp0w",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/2LoNLjqfm0K96Lt9YZ46FQ",
+  "Created": "2025-12-12T10:25:58.4055366Z",
+  "Updated": "2025-12-12T10:25:58.4055366Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

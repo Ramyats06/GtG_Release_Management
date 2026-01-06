@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OpJDC8FYGkK31WHuGf_ycw" Reference="m1hPtSXhEE-MN2DzQb4wOA/uHNPXcdTYE6QqKiy1_1EmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 1942, 1150" DesignTimeScaleFactor="1.5" Guid="b04d0221-0fe5-44d1-a6f1-73a6facb7c6d" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="98, 83, 1815, 45" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' role='Pane' automationid='' check:fulltext='Home&amp;#x9;Insert&amp;#x9;Draw&amp;#x9;Design&amp;#x9;Layout&amp;#x9;References&amp;#x9;Mailings&amp;#x9;Review&amp;#x9;View&amp;#x9;Forte&amp;#x9;Numbering&amp;#x9;iManage&amp;#x9;Litera&amp;#x9;Acrobat&amp;#x9;Cooley&amp;#x9;Comments&amp;#x9;Editing&amp;#x9;Share' /&gt;" Guid="a62df584-d4e0-4979-9655-8e43dbbd2ad7" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:Literal x:TypeArguments="x:String" Value="" />
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="0cc69a87064a8e6f88209a362f600fd9.png" xmlns="">0S0ciaz6O40SocMhggCDkLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "This PC",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "sbrKVH2FtES_3k7m-aRPWw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/sbrKVH2FtES_3k7m-aRPWw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg",
+  "Created": "2025-12-18T09:45:43.3706993Z",
+  "Updated": "2025-12-18T09:45:43.3706993Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

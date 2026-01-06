@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Save As Save as Adobe P…",
+  "Type": "Element",
+  "Id": "_MeACSOu5UqwjKYSzZVZNQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/_MeACSOu5UqwjKYSzZVZNQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2025-11-14T10:19:19.8941416Z",
+  "Updated": "2025-11-14T10:19:19.8941416Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

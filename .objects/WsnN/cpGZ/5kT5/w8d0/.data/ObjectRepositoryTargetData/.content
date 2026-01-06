@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zOxrxeLkaEGrt9Ng6tuAUg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="6e776bc0-1373-49dc-9004-6d1bd0069b5f" CvTextArea="314, 519, 715, 24" CvTextArgument="Does the new client develop, produce, or service items for use by military or" CvType="Text" DesignTimeRectangle="314, 519, 715, 25" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="4c7e8abb-76ce-4d27-af31-56d9176ccb72" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6e776bc0-1373-49dc-9004-6d1bd0069b5f" CvTextArea="314, 825, 817, 25" CvTextArgument="Does the new client develop, produce, or utilize radioactive materials, or items relating" CvType="Text" DesignTimeRectangle="312, 825, 819, 25" ElementType="Text" Guid="729a868b-95f2-4f46-83b7-540cb5a9a864" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9983121b047bea7b25bf5347b4b9d177.png" xmlns="">037rBoMA7iEeiIjr0Quvxdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

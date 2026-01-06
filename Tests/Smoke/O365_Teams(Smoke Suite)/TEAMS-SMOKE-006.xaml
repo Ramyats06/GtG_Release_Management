@@ -1,0 +1,205 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TEAMS_SMOKE_005" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TEAMS_SMOKE_005_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TEAMS_SMOKE_005" sap:VirtualizedContainerService.HintSize="1034,2761.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chat  Sundararajan, Ramya (You)  Microsoft Te" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2738.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="7efc9401-5152-472c-a36d-805304199316" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2479.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Profile picture of Sund…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="88ecbef6-10d1-4c8c-8b5d-7e387b747d45" ContentHash="Rk4Sb0fe6USRPZ04-zFFKw" CvElementArea="1675, 33, 41, 38" CvType="Icon" DesignTimeRectangle="1670, 25, 42, 43" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Your profile, status Available ' role='push button' /&gt;&lt;ctrl name='Profile picture of Sundararajan, Ramya.' role='graphic' /&gt;" Guid="b899d815-3ba7-461b-b3c5-1c09f7d4a219" ImageBase64="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" InformativeScreenshot="9909f29f05f05a2a92fa32f3a5349d9a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/w_RIFOWLwky3RYjnVNBDIg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Your current work locat…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="2d5cc3db-ae9e-47f8-b204-9a98bd00547b" ContentHash="zjopGP84BkOs7NJZ2dVTZA" CvTextArea="1572, 329, 192, 19" CvTextArgument="+ Set work location" CvType="Text" DesignTimeRectangle="1454, 313, 474, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='Your current work location: Set work location' role='menu item' /&gt;" Guid="0de11a37-0ed9-4bf8-9218-e332d6b24832" InformativeScreenshot="4bafa539deadb6b67265bf9c69953977.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Koi5kqYI8E2Mar4loHg6Ww" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Office'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="a0bfef4d-8688-4e5e-8438-f847ee8f62c0" ContentHash="NeJY97pkVUKddY7wh46Nng" CvTextArea="1574, 431, 57, 21" CvTextArgument="Office" CvType="Text" DesignTimeRectangle="1518, 417, 346, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Your current work location: Set work location' role='popup menu' /&gt;&lt;ctrl name='For today' role='grouping' /&gt;&lt;ctrl name='Office' role='menu item' /&gt;" Guid="dc22a160-d018-47c4-890c-d0d11f5002ef" InformativeScreenshot="019ac50f6cf032eea0b4d8e42bba3176.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/tUieMkpVGUCUchCdXQi4cQ" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="a0bfef4d-8688-4e5e-8438-f847ee8f62c0" CvTextArea="1574, 431, 57, 21" CvTextArgument="Office" CvType="Text" DesignTimeRectangle="1574, 431, 57, 21" ElementType="Text" Guid="223c307d-36f1-417b-86dd-4dc6326bdb12" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="484,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NCheckState DisplayName="Check App State 'Your current work locat…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Work status has been changed to In office" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Work status has NOT been changed to In office" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="1180a4a7-3280-4b65-b227-5abb0972b1f0" ContentHash="4dhA8CI8c0eDGIEJQEmEQg" CvTextArea="1602, 327, 113, 21" CvTextArgument="In the office" CvType="Text" DesignTimeRectangle="1454, 313, 474, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='Your current work location: In the office' role='menu item' /&gt;" Guid="6e90cc54-2c6b-4993-b569-3150e0f5f46f" ImageBase64="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" InformativeScreenshot="fed7e0d46493bac67f78bed9a5ab6a88.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/EKEe1MENkkKS3QC2WdTpHA" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'In the office'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="334c5880-c05a-4cae-b823-36a2e190b0de" ContentHash="rRTN7N_noU-7x3DiG9EK9Q" CvTextArea="1602, 327, 113, 21" CvTextArgument="In the office" CvType="Text" DesignTimeRectangle="1454, 313, 474, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='Your current work location: In the office' role='menu item' /&gt;" Guid="1714102f-bf7d-4697-88a3-2d5361c9602a" InformativeScreenshot="85c1c9dc218456b1246242458e3cd503.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/h8BVfUr0Bkukto8l8jOY9Q" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear work location'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="0651792c-ee40-4efa-aab3-eee0f7070446" ContentHash="hEbU2_HCwU2lspMzLDLa_w" CvTextArea="1563, 540, 180, 19" CvTextArgument="Clear work location" CvType="Text" DesignTimeRectangle="1518, 526, 346, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Your current work location: In the office' role='popup menu' /&gt;&lt;ctrl name='For today' role='grouping' /&gt;&lt;ctrl name='Clear work location' role='menu item' /&gt;" Guid="7ec69b7a-6e0b-446b-a0a3-901b97ee412a" InformativeScreenshot="afa5a935d1d06ca013c003595d9c0e94.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/o8rPlJ-CH0-ImY802l9hMA" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Your current work locat…(2)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="7efc9401-5152-472c-a36d-805304199316" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Passed:Work location has been cleared" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion Failed: Work location has NOT been cleared" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="8ad82e46-6ad6-41cc-b34f-daed492f0324" ContentHash="p_xP_1pDK0SLPJCkcYgPrw" CvTextArea="1572, 329, 192, 19" CvTextArgument="+ Set work location" CvType="Text" DesignTimeRectangle="1454, 313, 474, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='Your current work location: Set work location' role='menu item' /&gt;" Guid="892f0b93-b528-4330-b7ec-b31cc446ae00" InformativeScreenshot="1e00d9419f3cc8046da3e189baade624.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fWogn9xA10OvssXzlJaZQA" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="ZhzGzQwjnEeQlNQ3MRyMMQ" FilePath="MSTeams_8wekyb3d8bbwe!MSTeams" IconBase64="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" InformativeScreenshot="3d8db80b853ef911a76799ded8ee96b8.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/VLGkD81_EUCGd7gljQkyNg" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" Version="V2">
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

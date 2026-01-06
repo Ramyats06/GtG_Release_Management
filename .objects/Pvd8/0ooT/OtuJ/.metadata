@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get to Green Release Management - Inbox - Get",
+  "Type": "Screen",
+  "Id": "OtuJKX3cJUmeWjY_2IIEzg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/0ooT6fn_QUaCHuC0K28MlA",
+  "Created": "2025-12-12T10:34:38.7023605Z",
+  "Updated": "2025-12-12T10:34:38.7023605Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

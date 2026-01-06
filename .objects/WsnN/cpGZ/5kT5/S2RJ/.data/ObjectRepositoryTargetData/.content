@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gLWcGpiJ_UuYuGPtuTBjlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="71623a0f-1b31-4791-b7f8-40f82072234a" CvElementArea="386, 362, 27, 27" CvTextArea="414, 365, 27, 18" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="390, 359, 66, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                               No         ' type='' tag='LABEL' class='' check:innerText='No' /&gt;" Guid="b093c932-eb59-4f57-a330-88b4c2e6cd0a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="71623a0f-1b31-4791-b7f8-40f82072234a" CvTextArea="314, 273, 817, 24" CvTextArgument="Does the new client develop, produce, or utilize radioactive materials, or items relating" CvType="Text" DesignTimeRectangle="314, 273, 817, 25" ElementType="Text" Guid="1d1007dc-8edc-416a-bd6a-1eabe36be297" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="662032579fcc3a029a0c1f12691f6423.png" xmlns="">0lObFKHK_ok2n1a5mCr5J8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Book1 - Excel",
+  "Type": "Element",
+  "Id": "1pGlULsdlE6gezroizZE0w",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/1pGlULsdlE6gezroizZE0w",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg",
+  "Created": "2025-11-06T10:08:30.2715487Z",
+  "Updated": "2025-11-06T10:08:30.2715487Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

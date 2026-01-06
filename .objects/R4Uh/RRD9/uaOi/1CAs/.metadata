@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Pane Lower Ribbon",
+  "Type": "Element",
+  "Id": "1CAs-5XCPEimYjrpi_AJfA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/1CAs-5XCPEimYjrpi_AJfA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/uaOiltKHcU6itQQrz3D7wg",
+  "Created": "2025-11-28T10:05:11.466024Z",
+  "Updated": "2025-11-28T10:05:11.466024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XiTXZNtT0kOOzRfdQzv5dA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/Intake/Requests/RequestList.aspx" CVScreenId="cc403f94-112c-4796-8870-1e5e8ef6977e" CvElementArea="1582, 445, 283, 42" CvTextArea="1685, 456, 79, 24" CvTextArgument="Sign out" CvType="Button" DesignTimeRectangle="1586, 449, 278, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='Y_X_lnkLogout' tag='A' /&gt;" Guid="a6cffe86-6fd0-433a-b05f-5f30ed17ef77" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1d8f7db929ccf1d57eb38080f382b5e4.png" xmlns="">0x15ojdwHzESmJQYsuEijHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

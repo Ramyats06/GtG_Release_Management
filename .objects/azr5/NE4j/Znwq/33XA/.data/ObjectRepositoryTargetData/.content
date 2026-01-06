@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uI9syAGRZE6lil40umue1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c20cb68f-735c-4a98-ba5a-8324bc117925" CvTextArea="208, 247, 636, 24" CvTextArgument="Projects [268889.PMO0361] - GtG Release Management - phase 1" CvType="Text" DesignTimeRectangle="202, 241, 787, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Matter Projects [268889.PMO0361] - GtG Release Management - phas*' role='link' /&gt;" Guid="511ce0ea-4833-4bbb-b7c2-baf88337fb59" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c20cb68f-735c-4a98-ba5a-8324bc117925" CvElementArea="173, 245, 30, 25" CvType="Icon" DesignTimeRectangle="172, 242, 30, 31" ElementType="Icon" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='4' role='graphic' /&gt;" Guid="5a23a40a-7666-4808-b602-b0186f163710" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFnSURBVFhH7ZYxy4JAGMffb+oQIiREQwi1t9WkJPgRxC2iqTUiEioUB2kIcWlyEC2X/8tzYNClQ6Xv23DDDw6e55773d3DcT9FUeAbECI8QoRHiPAIEZ5akSzLsFgs4DhOo1BNqs2vVyvieR4kSWoF3/ef1qsVOR6PbNL5fK6MvwPVoppUm48JET4mRPhYIyLL5RKbzQa3260yXtKqyOFwYHnEer2uzClpVeRyuUBRFMiyjDiOK3NKPhIJwxCWZbGdV+URhmFgNBo9vJ50OqfT6SHv4xOZz+fo9/uYzWasF6IoQpIkTM62bfR6Paiqysa73Q6u6zIZXdcxGAxgmiaCIGjmavI8Z7ucTqcYj8d3JpMJhsMhG/M1iOv1itVqBU3T7jU/EqmD+qLb7aLT6TxdBU8jJ1LHfr9necR2u63MKWlVhN4O6gfqo399R17hLZGv+Y+kacrM2+ClH9pfI0R4hAiPEHmkwC8jXkm4fuvIzQAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="85223ba426e343a6a6dc6b366bd60465.png" xmlns="">0r6ydKJJdbU2u9s8hE0AxTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

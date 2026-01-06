@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Suggested Locations",
+  "Type": "Element",
+  "Id": "_pF7zf92B02LqDDtSCer6Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/_pF7zf92B02LqDDtSCer6Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/aC7kySkbd0qMHIq3n17YXg",
+  "Created": "2026-01-05T15:18:39.7616984Z",
+  "Updated": "2026-01-05T15:18:39.7616984Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add a Zoom Meeting",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "4KSLNpsoPUSJl7mBrTI0PA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/4KSLNpsoPUSJl7mBrTI0PA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/IVE_7tXbiEq6FXnNeHiO_Q",
+  "Created": "2025-11-21T11:45:43.0246185Z",
+  "Updated": "2025-11-21T11:45:43.0246185Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

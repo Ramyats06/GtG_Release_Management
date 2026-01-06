@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Calendar Selected date …",
+  "Type": "Element",
+  "Id": "tjqz1UPgpUiuXdwk3WqLbQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/tjqz1UPgpUiuXdwk3WqLbQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/R_nu4KGla0qGL-Ym3EyN0Q",
+  "Created": "2025-11-24T12:06:06.0930765Z",
+  "Updated": "2025-11-24T12:06:06.0930765Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

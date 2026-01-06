@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="anKhHwMYXEK1pjALZLnf2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="196c9ce9-1f93-48d7-989a-d07d1779e991" CvElementArea="1473, 21, 34, 29" CvType="ArrowButton" DesignTimeRectangle="1467, 0, 48, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='SystemTrayIcon' cls='SystemTray.NormalButton' name='Show Hidden Icons' /&gt;" Guid="bb250697-9176-4f76-af68-6973173b9ff7" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Shell_TrayWnd' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ee7d1a5dff63ee3f01054637b9d9a176.png" xmlns="">0BILaJta8IUydSSPC4kGQww</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

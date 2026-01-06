@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Will the firm be receiv…",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "9yGH18yZuEuw3rL3XGeebw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/9yGH18yZuEuw3rL3XGeebw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/5kT5EB7Cu02SEgiYEtHQ5A",
+  "Created": "2025-11-07T11:13:32.9566551Z",
+  "Updated": "2025-11-07T11:13:32.9566551Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

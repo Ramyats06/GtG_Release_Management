@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mdRcf4wviUOP5-qRsHNf-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a397b652-7c81-4aaf-87a1-7a115fd4d198" CvElementArea="1627, 1073, 165, 58" CvTextArea="1664, 1091, 55, 25" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="1629, 1074, 127, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" Guid="262a1359-801a-4156-a73d-8a4ec732c680" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a397b652-7c81-4aaf-87a1-7a115fd4d198" CvElementArea="1793, 1073, 130, 58" CvTextArea="1824, 1091, 67, 21" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1796, 1075, 126, 53" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Cancel' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Cancel' /&gt;" Guid="b342d21c-89ab-4677-905d-3eb7e4807f64" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee37b31ac4ae2a486f8fe2a09c9728c6.png" xmlns="">00CnLhAITJUCfu57w9B-v7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

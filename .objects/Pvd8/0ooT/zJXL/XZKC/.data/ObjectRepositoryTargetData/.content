@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TJgojYfi2kmxoIA9by5Lpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b5063b96-cb38-49a3-bd22-8a4959ecfcfd" CvElementArea="54, 613, 304, 66" CvType="InputBox" DesignTimeRectangle="58, 616, 263, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='TestExcel.xlsx 9 KB 1 of 1 attachments' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='TestExcel.xlsx&amp;#x9;9 KB' /&gt;" Guid="b3c52468-7f0c-410d-abdb-6b94eddda245" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b5063b96-cb38-49a3-bd22-8a4959ecfcfd" CvElementArea="54, 613, 304, 66" CvType="InputBox" DesignTimeRectangle="321, 616, 35, 60" ElementType="Button" FullSelectorArgument="&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='Attachment options' /&gt;" Guid="d1301295-0269-4bb6-82fa-b38d791ac74a" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="11e50713a56c52eaedd4221602933587.png" xmlns="">0q-n6-nolUk-srJZkZy6HOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

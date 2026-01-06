@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-vd0bAWWX02Ts3MSP3qB1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="dbf1d508-8d44-4e2c-952b-3f57b3ba44b3" CvTextArea="1130, 96, 79, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1119, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="de9ade8b-3e01-49e1-8bb2-fd12e4d708ea" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252526089v1&amp;lt;EUACTIVE&amp;gt; - TestDociManageto iManage - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="718d1fe5f59da9a9435566b900a2d128.png" xmlns="">0oPssC8sNR0CnnJakpXRZ7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

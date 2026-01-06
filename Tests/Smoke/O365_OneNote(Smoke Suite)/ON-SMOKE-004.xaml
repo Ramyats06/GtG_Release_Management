@@ -1,0 +1,159 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ON_SMOKE_004" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ON_SMOKE_004_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ON_SMOKE_004" sap:VirtualizedContainerService.HintSize="1034,1198" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Untitled page - OneNote" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1175.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6f4a538f-18e7-4198-93ae-3d06100b46ea" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,916" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Page'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6f4a538f-18e7-4198-93ae-3d06100b46ea" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="cac37c2e-20af-45af-bcd6-426198e1f29f" ContentHash="SCUdQyLgIUyNiiYB-DBaoQ" CvElementArea="308, 156, 162, 40" CvTextArea="362, 167, 79, 21" CvTextArgument="Add Page" CvType="Button" DesignTimeRectangle="309, 158, 159, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='3' /&gt;&lt;ctrl name='Add Page' role='push button' /&gt;" Guid="103e9011-b972-451a-852a-49a1aa4283e6" InformativeScreenshot="93f49bebbd3377665e47cfa51c515912.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/wOLMK1l0_UudMed_U9zn9Q" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State '2'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6f4a538f-18e7-4198-93ae-3d06100b46ea" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: New page has been added" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: New page has Not been added" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="XyPzcMCbnUq3UhMq1ZZ4VQ" DesignTimeRectangle="296, 203, 304, 936" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='3' /&gt;&lt;ctrl name='Page Tab Collection' role='grouping' /&gt;" Guid="dfcea1d5-a850-41db-96b2-e2ad24a9d8a1" ImageBase64="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DcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyBA0IEPQgAxBAzIEDcgQNCBD0IAMQQMyBA3IEDQgQ9CADEEDMgQNyPgraP8jaEDAGyNmggYUCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakCFoQIagARmCBmQIGpAhaECGoAEZggZkCBqQIWhAhqABGYIGZAgakPHG/xv/Y2ZW2O6LZmZPbG/c/R+a5Ta3gu+PMwAAAABJRU5ErkJggg==" InformativeScreenshot="267a0af54740cc12d6038ad5d88d3970.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/oop98r258Eu2RU7oA5Afjg" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="2140, 114, 1440, 817" ContentHash="hzMO1i3H90WnLBLeiB8FwQ" FilePath="C:\Program Files\Microsoft Office\root\Office16\onenote.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUuSURBVGhD7ZpbbFRVFIaraAwEjdJ22gq2SqmJ8a0PBiUmRgho5AE7YowShGmLyMVLq9Vqiy1CoraFBrWFmXGqztAy9EZb6ZVe6bTAg1HbWm8hCtZr1JAoRl+We+191pzTM5vhHOh2IGElX1poMvP9O/9eJ73EXZnLcK5iXM2YFSPwvdHB/hzP+bnkRM4vcClwLPunUk3L8sySvVAsYU7XCDVrM1v2IrEkFAqlaG6WZq7sRWKJ3+9P1dwszSUXwOfzpWluluZKgJnGdgC2RsEOsjedSWwHGFz3LVhhiDG8/hTb1T8qDcID7Mz4qGRHRhtwFrXB64taBemtsJ1Y2AKlnENQcpvgtVuRZtiGpDVDcVoTFKcKilIboeiWRvDeO8yCnMaHjlTgYuEBdHFNXireEiHO5Zn4NhTX5IsQJv4qsqARXlnQAO2Pj0Fo/fdwXEEIHiAszogmLuQ1cdOpc3Ht1EmcM78BAg+O8FqNsjrJJC4GLYBBPF0Xt1sX46mjeOH8eii8uR5qlg9A79qvYcT1g+X70PTQhCV4gGinblucQeIvcw6CZ9kR6FnzJYRcU4oCSMSRmseOQn/lJPTvnoTa3GPSnvfu+pzjWT0YPnUhXg8vpRzkuJd1Q/eaSRaA3QMVAczidOooTvP3mX+h4p7OiJ7THKmYCJ86iRekBKEgOQj7lnapDWAWp7r0GQLgnBz9NaLnNBgA6yLEhfyLyQc4ygOY1yJVxRwAJ5A9ovecQdNTPhE+dRJ/gVMHe5d2qg4QeUmx532s2zS/n/6Lf8Qqld5xKNxzmp7ycV4XXb4O8pPqIC+pVn0Aszj1HC8njd81on0GMOz5KlwXmm4WwCiez8RR/vmk/eoDoLiQn74WjQHwgk50TGn/AqhkmwXrQtNdPqbJ6+LIc44AVKsOIHv8I3gxabAub9x1GM6yCuFMjf/BT5ymq2yMi+cZxJFnHX4WoENxAJM47XNjALqgrcUfa/8D0GL4vLPsMyGepIsjzzg+vKAAb2f2W4IHMIvTPsfNQmPcLnj6OGfP/MM/4mAAs/jWROSD/yGASZwuKG4WGnFBxSWtYELm6Sj7NEJ8S+L7sJlRdb/iAChPaxHFqS64WWiMaxF7Puj+QvuKGAwg5HXxzYk1sCmhhgVoVxvALE77HDcLjXG7YM8LM4Lw26k/ta8CtL/1CRMneSG+KcEHTye8pz6AEDc/Reug6uFevl3ogtJ2oZ7vWdXFxZHKVZ0R4hsZT8V74V3VAaaL08NInLhxLcouKNVFF/dx8Y0JXi6/Id7DAhxWG8B46nrP9bqQPIqfq+cobjx1FEdy493qA5D49Kdo5D4X4vKey8Rz5iH74B3VAWSP/3PXRS5O8iieq4lnz9sLrpuqwbtS8Rpl8iUkHq0uxp4LeV18A4rzUxfiJF9wpxcOOIdsf0tJW/F88AA2Zm7e3TsgOjshn1Gw5E3Yfl81uFe2QfOjJ6Bv7Te2vqmXycqwHWDX8gBEZUUAdq/YD3seCIKHyQcfGYaOJ8ZhaN13/Kd0MlkZMlkZtgPUZg3A+RmEoPMoNLGTR/mBJ0+y07deH0QmK8N2ALyMVsDOY23w5FHe7o8WZbIybAfATWKNKd75C/3hrkxWhu0AKGMHmZwVZLIybAeQvZkKZLIyLvsAmZmZyZqbpZnTsHq0SvaGM41M1owrscLNnG4UatbmOka6w+FY7HQ6l2RlZcUEfG90YC63M2ajmNXBv0+4noG/m10YY9DhBgb+3YStwRD46/1rYww6MJe4uP8ATfy6HSYk28YAAAAASUVORK5CYII=" InformativeScreenshot="b7d60004e3a761f9b6e68f3228892c64.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3noYwZaBtk2DbR-7yWGXiQ" Selector="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

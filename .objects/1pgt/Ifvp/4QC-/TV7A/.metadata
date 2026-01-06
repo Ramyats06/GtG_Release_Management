@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Image preview of the fi…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "TV7AMAiAikWvmn5FGagSxg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/TV7AMAiAikWvmn5FGagSxg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/4QC-fajuHE2_R0gkyuyBRA",
+  "Created": "2025-12-18T16:49:54.3442935Z",
+  "Updated": "2025-12-18T16:49:54.3442935Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

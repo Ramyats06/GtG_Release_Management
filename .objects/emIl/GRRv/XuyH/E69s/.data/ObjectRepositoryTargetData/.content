@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4nyirwHi8EquPovHb9QLkQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="08bef1d0-9b20-4e6f-bb0c-c14d92d92f37" CvElementArea="1652, 1079, 137, 47" CvTextArea="1667, 1092, 107, 18" CvTextArgument="Send and File" CvType="Button" DesignTimeRectangle="1653, 1080, 134, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='flowLayoutFooterOptions' /&gt;&lt;wnd ctrlname='buttonSendAndFile' /&gt;" Guid="40f55a2b-cea4-4d6c-b215-0c24081f00bb" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="da52cb3ee3636509b1a0c22f3b2eeaf0.png" xmlns="">0tdfiPrRhLEaJ05PxXQktLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Intapp",
+  "Type": "Screen",
+  "Id": "5kT5EB7Cu02SEgiYEtHQ5A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/5kT5EB7Cu02SEgiYEtHQ5A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/cpGZgFgKwU2jEq-JVKDT1w",
+  "Created": "2025-11-06T11:16:07.345403Z",
+  "Updated": "2025-11-06T11:16:07.345403Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

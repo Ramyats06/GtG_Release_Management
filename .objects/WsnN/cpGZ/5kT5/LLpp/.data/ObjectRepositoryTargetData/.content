@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l0aR4eZwcU28sXKNu-y2Mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="4e6ace96-e6c8-48aa-b3ac-4abe2cdcb1be" CvTextArea="321, 531, 96, 22" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="315, 521, 825, 44" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='selectize-input items not-full has-options' tag='DIV' aaname='' /&gt;" Guid="3ab2f4ef-c814-484b-bdd7-270f6447347b" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4e6ace96-e6c8-48aa-b3ac-4abe2cdcb1be" CvTextArea="312, 489, 297, 25" CvTextArgument="Originating Team Timekeepers:" CvType="Text" DesignTimeRectangle="315, 486, 294, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Originating Team Timekeepers:' class='question-title-text' tag='SPAN' type='' check:innerText='Originating Team Timekeepers:' /&gt;" Guid="e092629b-63e1-4608-8855-ff7995d42a17" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="275626a911b948fc0cb41f4c918f36f5.png" xmlns="">0E38qHs4iCUWdESbd-KZnZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

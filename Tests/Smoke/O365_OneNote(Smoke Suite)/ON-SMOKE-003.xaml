@@ -1,0 +1,193 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ON_SMOKE_003" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ON_SMOKE_003_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ON_SMOKE_003" sap:VirtualizedContainerService.HintSize="1034,1446.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Untitled page - OneNote" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1424" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f412824b-5fb4-4179-95fc-7b97f7e37d6d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1164.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f412824b-5fb4-4179-95fc-7b97f7e37d6d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="a04e515a-1301-46e9-ad7e-4d82bad5f85e" ContentHash="8woWjlUhOkCqbzzAU-3nzQ" CvTextArea="111, 96, 55, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="98, 83, 83, 45" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Home' role='page tab' /&gt;" Guid="f572b6df-48db-4eb0-b271-ad8913220fbf" InformativeScreenshot="f0e45b74c4b61f107a6b895decb95d5b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/bOzVse3cCkWpjo6SlIGi1Q" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Paste Cut Copy Format P…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="f412824b-5fb4-4179-95fc-7b97f7e37d6d" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Home options are displayed successfully after clicking on 'Home'." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Home options are not displayed after clicking on 'Home'." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="SlcgTE_Bmk6o-opsbSZzyQ" DesignTimeRectangle="12, 0, 1896, 74" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;" Guid="56edaaa3-20e7-4468-8ada-830842e0c3b4" InformativeScreenshot="e24bc4a9341b174e699dc0779c75436f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DxK30517p0yUjxGujf7u2A" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Insert'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f412824b-5fb4-4179-95fc-7b97f7e37d6d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="8b5bb93b-806d-4484-a21e-b07feead61ce" ContentHash="RLqbEuC0QkqW7GmNnNsNmw" CvTextArea="197, 98, 49, 16" CvTextArgument="Insert" CvType="Text" DesignTimeRectangle="182, 83, 80, 45" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Insert' role='page tab' /&gt;" Guid="8394e8cd-baa4-4ba7-b1f4-e42f4896b611" InformativeScreenshot="79b513bd2dc1c0564bc19000d5901bf5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/8rillulQhkWW2isV6Wbhxg" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Lower Ribbon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="f412824b-5fb4-4179-95fc-7b97f7e37d6d" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Passed: Insert options are displayed successfully after clicking on 'Insert'." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion Failed: Insert options are not displayed after clicking on 'Insert'." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="rL843UQN2E2C-FjA5yl0XA" DesignTimeRectangle="12, 0, 1896, 74" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;" Guid="d3cdc894-ad0c-45df-94c5-6c6a064b5d81" InformativeScreenshot="dde9ea48e97913b5bbef7636f770d814.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/EwQd6dqFB0-rOxpf7ngbkg" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="2140, 114, 1440, 817" ContentHash="hzMO1i3H90WnLBLeiB8FwQ" FilePath="C:\Program Files\Microsoft Office\root\Office16\onenote.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUuSURBVGhD7ZpbbFRVFIaraAwEjdJ22gq2SqmJ8a0PBiUmRgho5AE7YowShGmLyMVLq9Vqiy1CoraFBrWFmXGqztAy9EZb6ZVe6bTAg1HbWm8hCtZr1JAoRl+We+191pzTM5vhHOh2IGElX1poMvP9O/9eJ73EXZnLcK5iXM2YFSPwvdHB/hzP+bnkRM4vcClwLPunUk3L8sySvVAsYU7XCDVrM1v2IrEkFAqlaG6WZq7sRWKJ3+9P1dwszSUXwOfzpWluluZKgJnGdgC2RsEOsjedSWwHGFz3LVhhiDG8/hTb1T8qDcID7Mz4qGRHRhtwFrXB64taBemtsJ1Y2AKlnENQcpvgtVuRZtiGpDVDcVoTFKcKilIboeiWRvDeO8yCnMaHjlTgYuEBdHFNXireEiHO5Zn4NhTX5IsQJv4qsqARXlnQAO2Pj0Fo/fdwXEEIHiAszogmLuQ1cdOpc3Ht1EmcM78BAg+O8FqNsjrJJC4GLYBBPF0Xt1sX46mjeOH8eii8uR5qlg9A79qvYcT1g+X70PTQhCV4gGinblucQeIvcw6CZ9kR6FnzJYRcU4oCSMSRmseOQn/lJPTvnoTa3GPSnvfu+pzjWT0YPnUhXg8vpRzkuJd1Q/eaSRaA3QMVAczidOooTvP3mX+h4p7OiJ7THKmYCJ86iRekBKEgOQj7lnapDWAWp7r0GQLgnBz9NaLnNBgA6yLEhfyLyQc4ygOY1yJVxRwAJ5A9ovecQdNTPhE+dRJ/gVMHe5d2qg4QeUmx532s2zS/n/6Lf8Qqld5xKNxzmp7ycV4XXb4O8pPqIC+pVn0Aszj1HC8njd81on0GMOz5KlwXmm4WwCiez8RR/vmk/eoDoLiQn74WjQHwgk50TGn/AqhkmwXrQtNdPqbJ6+LIc44AVKsOIHv8I3gxabAub9x1GM6yCuFMjf/BT5ymq2yMi+cZxJFnHX4WoENxAJM47XNjALqgrcUfa/8D0GL4vLPsMyGepIsjzzg+vKAAb2f2W4IHMIvTPsfNQmPcLnj6OGfP/MM/4mAAs/jWROSD/yGASZwuKG4WGnFBxSWtYELm6Sj7NEJ8S+L7sJlRdb/iAChPaxHFqS64WWiMaxF7Puj+QvuKGAwg5HXxzYk1sCmhhgVoVxvALE77HDcLjXG7YM8LM4Lw26k/ta8CtL/1CRMneSG+KcEHTye8pz6AEDc/Reug6uFevl3ogtJ2oZ7vWdXFxZHKVZ0R4hsZT8V74V3VAaaL08NInLhxLcouKNVFF/dx8Y0JXi6/Id7DAhxWG8B46nrP9bqQPIqfq+cobjx1FEdy493qA5D49Kdo5D4X4vKey8Rz5iH74B3VAWSP/3PXRS5O8iieq4lnz9sLrpuqwbtS8Rpl8iUkHq0uxp4LeV18A4rzUxfiJF9wpxcOOIdsf0tJW/F88AA2Zm7e3TsgOjshn1Gw5E3Yfl81uFe2QfOjJ6Bv7Te2vqmXycqwHWDX8gBEZUUAdq/YD3seCIKHyQcfGYaOJ8ZhaN13/Kd0MlkZMlkZtgPUZg3A+RmEoPMoNLGTR/mBJ0+y07deH0QmK8N2ALyMVsDOY23w5FHe7o8WZbIybAfATWKNKd75C/3hrkxWhu0AKGMHmZwVZLIybAeQvZkKZLIyLvsAmZmZyZqbpZnTsHq0SvaGM41M1owrscLNnG4UatbmOka6w+FY7HQ6l2RlZcUEfG90YC63M2ajmNXBv0+4noG/m10YY9DhBgb+3YStwRD46/1rYww6MJe4uP8ATfy6HSYk28YAAAAASUVORK5CYII=" InformativeScreenshot="b7d60004e3a761f9b6e68f3228892c64.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3noYwZaBtk2DbR-7yWGXiQ" Selector="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eyVQg5z7oUGXS2zJV9Ld7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="81d246bd-e811-46b9-baa1-f05edb88a4e2" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="17, 83, 81, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="9bbb911f-c8e0-4368-8cf6-69d981e5d07f" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book3 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="09e126227823bb0361dea1ac2f6bbc4d.png" xmlns="">08CFjQb1nVU-U9fJTfzO8LQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

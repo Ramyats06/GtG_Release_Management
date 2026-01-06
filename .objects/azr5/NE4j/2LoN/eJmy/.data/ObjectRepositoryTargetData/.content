@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qcMxLSamx0GVKJpLcbIVlQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="076f0f5b-e620-4567-ab1a-c03e19fbe4f3" CvElementArea="177, 487, 113, 38" CvTextArea="220, 498, 25, 15" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="178, 489, 112, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='btnOK' /&gt;" Guid="ad685c6c-44c1-4838-9be2-c0557caf3b87" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='PrefillChooser' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5c43757da1dcb7996b5ffab98d4efa9c.png" xmlns="">04Rx324lqtEa9aztFMdQHIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "FileSave AttachmentsWor…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "VvAlz8AtAEGZMXm6gPJ65Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/VvAlz8AtAEGZMXm6gPJ65Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-21T11:04:16.9778828Z",
+  "Updated": "2025-11-21T11:04:16.9778828Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

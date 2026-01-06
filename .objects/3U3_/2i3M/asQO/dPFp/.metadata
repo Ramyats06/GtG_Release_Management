@@ -1,0 +1,13 @@
+﻿{
+  "Name": "AutoSaveSaveUndo More O…",
+  "Type": "Element",
+  "Id": "dPFpuEIbdEyqwztnoLuSFw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/dPFpuEIbdEyqwztnoLuSFw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg",
+  "Created": "2025-12-18T11:13:35.3289422Z",
+  "Updated": "2025-12-18T11:13:35.3289422Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

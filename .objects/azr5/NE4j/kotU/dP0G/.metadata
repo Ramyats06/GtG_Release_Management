@@ -1,0 +1,13 @@
+﻿{
+  "Name": "More Options",
+  "Type": "Element",
+  "Id": "dP0GOgVvxEi5va3T5jM7IQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/dP0GOgVvxEi5va3T5jM7IQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/kotUFaepY0WJLixV3rsnMg",
+  "Created": "2025-11-07T16:58:47.0436091Z",
+  "Updated": "2025-11-07T16:58:47.0436091Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

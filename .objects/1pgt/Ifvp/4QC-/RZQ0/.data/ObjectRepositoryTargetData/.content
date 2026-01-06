@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9JjS7HW-WE21Y06GyHtgrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c0cf23f8-7f13-4b9e-94da-c2f0ec69658d" CvElementArea="695, 1033, 1129, 69" CvType="InputBox" DesignTimeRectangle="1705, 1055, 46, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Actions and apps' role='push button' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="70415cd0-84f1-404b-8f1a-2da5a78c66d5" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c0cf23f8-7f13-4b9e-94da-c2f0ec69658d" CvElementArea="695, 1033, 1129, 69" CvType="InputBox" DesignTimeRectangle="1609, 1055, 46, 28" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Emoji, GIFs and Stickers' role='push button' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="70df657d-6135-4c72-96ce-387da927c45e" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ae1c864072076c5b6a68151618483a2b.png" xmlns="">0p3tw3ed3yk2nZuHeQGwT6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

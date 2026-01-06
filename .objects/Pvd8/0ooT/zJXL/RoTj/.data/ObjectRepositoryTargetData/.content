@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-ElnPv75WUGTd0x2YoUefA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="127ae179-651a-4471-9432-0e07485dc8ff" CvElementArea="1451, 1021, 178, 58" CvTextArea="1470, 1039, 106, 19" CvTextArgument="Attach File" CvType="Button" DesignTimeRectangle="1454, 1023, 140, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Attach File' role='push button' /&gt;" Guid="81cfef7a-72db-428e-8344-805c699254af" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='WindowsForms10.Window.*' title='Select' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eeb977c57825066cf8805b7e8d10975b.png" xmlns="">0RysYY2ulwkiXTSPlb_tGzw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

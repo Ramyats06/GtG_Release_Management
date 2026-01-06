@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rzozUbUhoEKMvvaSeNDNkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="318e9520-ef63-4aec-9c01-129b3f0362ab" CvTextArea="324, 467, 186, 22" CvTextArgument="Zach Robert (26638)" CvType="Text" DesignTimeRectangle="316, 458, 823, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Zach Robert (26638)' tag='DIV' type='' class='item active' check:innerText='Zach Robert (26638)' /&gt;" Guid="66167a4e-59e4-4f60-ae2f-0ad88719bce1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="318e9520-ef63-4aec-9c01-129b3f0362ab" CvTextArea="324, 467, 186, 22" CvTextArgument="Zach Robert (26638)" CvType="Text" DesignTimeRectangle="326, 466, 184, 23" ElementType="Text" Guid="97adda0d-8160-48f4-9e5d-8f148f749110" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="05cc057142e816e1b7af8f3cad40137f.png" xmlns="">0HfkkC9bTakSjdMn-99LZgw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

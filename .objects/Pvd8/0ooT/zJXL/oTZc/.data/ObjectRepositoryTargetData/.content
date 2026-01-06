@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xSiY15LYek-YDGr8uin01g" Reference="m1hPtSXhEE-MN2DzQb4wOA/oTZcYOKTT0q-aY-PejdQSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="26928ab0-88af-4954-bfd6-7e5b56825445" CvTextArea="78, 327, 67, 21" CvTextArgument="Desktop" CvType="Text" DesignTimeRectangle="77, 318, 71, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd ctrlid='100' title='Navigation Pane' /&gt;&lt;ctrl name='Start of Quick Access - Desktop (pinned)' role='outline item' /&gt;" Guid="36cb49da-deef-4a23-9731-86b5bab280da" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='#32770' title='Insert File' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f5632754-adf3-463b-86ec-48dd81adea61" CvElementArea="193, 324, 24, 24" CvType="Icon" DesignTimeRectangle="191, 322, 28, 28" ElementType="Icon" Guid="1f377936-acf7-49d6-baea-7f8e04a5be14" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEJSURBVEhL7dQ9C8IwEAZg///upIMoFEHBj0UH3RwUB0VBB6lQFRREQetgpzMnDT3Ktbl+4CB94Si0JA9JLi3Bj1OAuacAjTmdL2A7R3i4rv8mPpnA7c6Gcs36Vr3dE6GZQEQ0KEVTg7iVFJOiqcHxZMqCWHFoYhBX1h2OWIgWom/P80cFEYE4cL5cQ8VqsZNH1UY1VTgisNkfsBOa6um+/BmCiMDr7Q7VBKvrqC3HreciPkMTit9mixV4zLnRJGoa2zmwGBb+bSQRg9jm4YtOSxoRSLGGeu7Vauj24jWRxgiGMd159EzxnyqNEdRXgmI6iGJHcu0fFSOIE3JY2oibJq8UYO75dxDgA/DVtXZHcbV/AAAAAElFTkSuQmCC" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d5768b0fac8788c5756aac5c7e0a401.png" xmlns="">0L28wT-RCF0u-2H_Dm6aqqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

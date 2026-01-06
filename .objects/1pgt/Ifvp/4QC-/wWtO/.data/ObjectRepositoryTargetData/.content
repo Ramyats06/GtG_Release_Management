@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_dR26ZjkyUCOt-nUnKpvwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4a67e7ea-7a3d-4732-94d2-127d9bfca650" CvElementArea="1411, 990, 123, 51" CvTextArea="1439, 1005, 66, 21" CvTextArgument="Attach" CvType="Button" DesignTimeRectangle="1413, 992, 121, 49" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Opening file picker' role='document' /&gt;&lt;ctrl name='TestData - OneDrive' role='document' /&gt;&lt;ctrl name='Attach' role='push button' /&gt;" Guid="acd8393f-bb19-4532-b353-d5ba8cecfb6b" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="da57696cc04783efdacf09405596c932.png" xmlns="">0QZe2V5y860Kaq33bq8mFbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

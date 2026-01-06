@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4-Mg4_MA2kOFllHr2J0Zcg" Reference="m1hPtSXhEE-MN2DzQb4wOA/2DNSxdPEQkWaexvO6T-sCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/Login.aspx" CVScreenId="2669d884-c164-4d5a-bdc8-6b4317e54e38" CvElementArea="315, 822, 824, 47" CvType="InputBox" DesignTimeRectangle="314, 820, 825, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" Guid="20c695a2-45cd-417a-8c15-b1c779749b8d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2669d884-c164-4d5a-bdc8-6b4317e54e38" CvTextArea="320, 833, 97, 22" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="321, 832, 96, 22" ElementType="Text" Guid="4733627a-7fcd-4e6c-9f81-7833aedc9bc7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="2669d884-c164-4d5a-bdc8-6b4317e54e38" CvTextArea="312, 792, 175, 24" CvTextArgument="Opening Attorney:" CvType="Text" DesignTimeRectangle="312, 792, 175, 24" ElementType="Text" Guid="344bff37-588c-4009-a835-a19d5125993c" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="59c54c550c0aec4a3e359cfda5163866.png" xmlns="">0YQ5lCI0_JkWyDaXWvxriuQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

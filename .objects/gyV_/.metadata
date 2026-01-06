@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Get to Green Release Management - Inbox - Get to Green Release M",
+  "Type": "App",
+  "Id": "gyV_1HaT4UmL2iEY9JepEQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/gyV_1HaT4UmL2iEY9JepEQ",
+  "Created": "2026-01-05T14:50:51.9262078Z",
+  "Updated": "2026-01-05T14:50:51.9262078Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "iManage Work",
+  "Type": "Element",
+  "Id": "8T_PFInu8EarSbREECH9Iw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/8T_PFInu8EarSbREECH9Iw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/aC7kySkbd0qMHIq3n17YXg",
+  "Created": "2026-01-05T16:03:34.847533Z",
+  "Updated": "2026-01-05T16:03:34.847533Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

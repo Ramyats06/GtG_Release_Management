@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Paste Cut Copy Format P…",
+  "Type": "Element",
+  "Id": "DxK30517p0yUjxGujf7u2A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/DxK30517p0yUjxGujf7u2A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/3noYwZaBtk2DbR-7yWGXiQ",
+  "Created": "2025-11-28T10:48:40.5383605Z",
+  "Updated": "2025-11-28T10:48:40.5383605Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

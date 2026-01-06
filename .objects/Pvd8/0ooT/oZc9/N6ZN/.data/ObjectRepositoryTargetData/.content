@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Sl-5akS8WUSOm0udOhwarg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="edd1493a-658c-44fa-a826-1223b53fbd8e" CvElementArea="1880, 13, 28, 26" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="471f8751-cb79-4dfa-88de-ea4b30cf824f" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='WindowsForms10.Window.*' title='Select Filing Location' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a09e30171405853ae546aea4bee00efb.png" xmlns="">0IY3PPiUcik61DX9kra0bbQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

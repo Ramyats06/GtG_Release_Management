@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rCN_fdvGYEKCHprr1UZYWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a23a994e-8cb2-4b4c-8e44-086eeac40c43" CvTextArea="1131, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1119, 83, 105, 45" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' role='Tab Item' automationid='' check:fulltext='iManage' /&gt;" Guid="26f84e6a-5224-445c-8274-1a3177176412" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Ramya&amp;apos;s Testing_Draft Engagement Letter_[Date].docx - Word' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ad3be66a9d4f5afdfa8045975fbd3c73.png" xmlns="">0cNRbWvKpYEi2BVJmRf6gNw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

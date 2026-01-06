@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XDQ1mDCwK0io9ILc2FPfDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6dd8c005-0a6b-47a4-8ebd-21645a7cc2e2" CvElementArea="857, 5, 27, 25" CvType="CloseButton" DesignTimeRectangle="846, 1, 52, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="e14de49d-64b9-4d8d-b51a-91533a98a090" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='CallForwardingWindow' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6dd8c005-0a6b-47a4-8ebd-21645a7cc2e2" CvTextArea="37, 82, 223, 34" CvTextArgument="Call forwarding" CvType="Text" DesignTimeRectangle="39, 73, 822, 47" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Call forwarding' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Call forwarding' /&gt;" Guid="5d264e25-017b-40b6-bd04-22cf46ff3bb9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0aa47080882a0393c1bed6363ef41f51.png" xmlns="">0p0In3CL5XkmQl-QbosD9Zw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e2wIYakfNkqgU8p7Zwa16g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1099, 532, 346, 180" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='3' name=' ' /&gt;&lt;uia cls='NetUIToolWindow' name='Clear Rules' /&gt;" Guid="cc101460-4c16-4afa-9d37-2786891f8a3d" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d460b66eccdd532c6a4b122bbaa01471.png" xmlns="">03b9KO-VjikK5EpBQ_qRlqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

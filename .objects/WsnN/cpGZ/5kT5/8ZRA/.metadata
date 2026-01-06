@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Supervising Attorney",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "8ZRAb20jsEyzEHX_lh9ifw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/8ZRAb20jsEyzEHX_lh9ifw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/5kT5EB7Cu02SEgiYEtHQ5A",
+  "Created": "2025-11-07T10:49:18.949749Z",
+  "Updated": "2025-11-07T10:49:18.949749Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

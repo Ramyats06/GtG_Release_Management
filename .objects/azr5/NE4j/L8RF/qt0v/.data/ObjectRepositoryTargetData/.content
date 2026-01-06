@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NI_QiDFHVk-nRCyYSFFM_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 1942, 1150" ElementVisibilityArgument="Interactive" Guid="9c3ce316-1aa1-4555-801c-dca24ca15a9b" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252526394v2&amp;lt;EUACTIVE&amp;gt; - TestDociManageto iManage - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="58525b0ae5a44036bca7f8f01339f61e.png" xmlns="">0M5ZRh-SGf0iLBcksP71APA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

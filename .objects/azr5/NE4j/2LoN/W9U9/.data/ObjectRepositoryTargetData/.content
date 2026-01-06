@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vNEU60jFt0aGTvMcDTARlg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8082a088-e008-4b5d-b6d1-29afafa9fd9e" CvTextArea="1493, 587, 175, 16" CvTextArgument="Private and confidential" CvType="Text" DesignTimeRectangle="1492, 586, 376, 20" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' /&gt;&lt;uia automationid='lstMLC' cls='WindowsForms10.LISTBOX.app.0.3a991f3_r59_ad3' /&gt;&lt;uia name='Private and confidential' role='list item' /&gt;" Guid="7907a464-ca3b-4587-8062-b08a758278ba" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document2 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9a97fe3c0e66f833dd4c472397683f0b.png" xmlns="">0frcJZcKeYU6tPuSNtE8Mjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

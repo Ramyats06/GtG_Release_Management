@@ -1,0 +1,1 @@
+{"Target":{"Guid":"97b7d970-5128-4ee6-868b-ac74df32c308","Ancestry":[{"IsSelected":true,"Selector":"<wnd app=\"outlook.exe\" cls=\"Net UI Tool Window\" idx=\"*\"/>","ValidAttributes":{"app":"outlook.exe","cls":"Net UI Tool Window","aastate":"focusable"}},{"IsSelected":true,"Selector":"<wnd cls=\"NetUIHWND\"/>","ValidAttributes":{"cls":"NetUIHWND"}}]}}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KKVgHG29FESs0IXNYJPDhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bdd747e1-9e32-4011-84b6-78d1118d7daa" CvElementArea="102, 592, 23, 27" CvTextArea="123, 594, 294, 25" CvTextArgument="Get to Green Release Manag..." CvType="ArrowButton" DesignTimeRectangle="101, 579, 339, 61" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUITreeView' name='Mail Folders' /&gt;&lt;uia cls='NetUIWBTreeDisplayNode' name='Get to Green Release Management' /&gt;" Guid="bb089554-99c9-4b2c-90de-26e8df92b398" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6536ff3a90dbe34ea8a39cd4da43d6bd.png" xmlns="">0F3aAPKbbdkG0BFvLnfjIMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

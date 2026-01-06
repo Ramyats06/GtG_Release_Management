@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yDoFtvr3dEKYH62qGcLqJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1bdb6dcf-6aab-4778-92c6-1631e906d62c" CvElementArea="695, 1033, 1128, 69" CvType="InputBox" DesignTimeRectangle="1752, 1036, 61, 66" ElementType="Toolbar" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Actions for new message' role='tool bar' /&gt;" Guid="061b466a-59e6-4b0a-878a-a123592c0367" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="22870a85cb36e9dd3a0bc79462b30654.png" xmlns="">0INPhyi7FQEGvbsDcQAY5EQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

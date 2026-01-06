@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Print Preview and Setti…",
+  "Type": "Element",
+  "Id": "Tog3mkDpfUi3I_RflYahBw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/Tog3mkDpfUi3I_RflYahBw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/3noYwZaBtk2DbR-7yWGXiQ",
+  "Created": "2025-12-18T14:28:11.80689Z",
+  "Updated": "2025-12-18T14:28:11.80689Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

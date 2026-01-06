@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Back Home New Open Info…",
+  "Type": "Element",
+  "Id": "N7QRJSuihkakWHWKgTnv9g",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/N7QRJSuihkakWHWKgTnv9g",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
+  "Created": "2025-11-28T09:56:02.9634568Z",
+  "Updated": "2025-11-28T09:56:02.9634568Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

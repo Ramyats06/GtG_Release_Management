@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jAywhXk2OUWFf08PpUDGVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1c4cf41f-a1ea-415d-bba2-73373c65f52c" CvElementArea="53, 415, 95, 120" CvTextArea="79, 490, 42, 18" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="56, 419, 90, 114" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' role='button' check:fulltext='Send' /&gt;" Guid="62ee162a-ec23-4a01-9d88-2eb6eb0a9e3f" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="14fbafc5837b96e5f357ded6ea837561.png" xmlns="">0D_w11KtwZE6ehIplpyU0Ew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

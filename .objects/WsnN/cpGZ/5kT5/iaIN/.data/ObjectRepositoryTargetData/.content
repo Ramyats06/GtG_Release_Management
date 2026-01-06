@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xmZjMlak4EuB38FF6y3Q_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="e30ffd67-fc1c-461e-b8dc-675c4d0d5dd0" CvTextArea="321, 423, 96, 22" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="315, 414, 825, 44" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='selectize-input items has-options not-full' tag='DIV' aaname='' /&gt;" Guid="4983527b-b14f-41eb-abd3-4ea011109e74" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e30ffd67-fc1c-461e-b8dc-675c4d0d5dd0" CvTextArea="314, 383, 271, 24" CvTextArgument="Responsible / Billing Partner:" CvType="Text" DesignTimeRectangle="315, 379, 270, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Responsible / Billing Partner:' class='question-title-text' tag='SPAN' type='' check:innerText='Responsible / Billing Partner:' /&gt;" Guid="cbf6fc25-ccd5-4485-bfea-8f16931b6dab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cbd7d1759bfcd88f006abe0fdba993e4.png" xmlns="">0MS_Uo5awmEa1g2J_GZgcSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

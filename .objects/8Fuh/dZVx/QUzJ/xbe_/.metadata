@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Zoom, Ramya Sundararaja…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "xbe_0A1mJkOnTWtlGOpzPw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/xbe_0A1mJkOnTWtlGOpzPw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T11:25:35.8950304Z",
+  "Updated": "2025-11-28T11:25:35.8950304Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

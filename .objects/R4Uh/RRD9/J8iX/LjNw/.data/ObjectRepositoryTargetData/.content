@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wloMi6mp5EW-BkBer-m4Zg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a1f3e8ff-113d-4cc8-913b-a5af092c1cc3" CvTextArea="55, 15, 182, 21" CvTextArgument="1 eu-active.cooley.com" CvType="Text" DesignTimeRectangle="2, 2, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='1 eu-active.cooley.com' role='menu item' /&gt;" Guid="c6ced2e3-0147-4e50-be3d-f068267d729c" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8a8a36ef23578c843aa4a492ee3625d5.png" xmlns="">00mRnafyL7UmnzUSy9gGdbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

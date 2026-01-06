@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9PCzXAMPXUCHDr8txDXtVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ca3e60ae-2006-4a88-ae99-8d76ea1f731f" CvTextArea="1478, 947, 322, 25" CvTextArgument="This is a Test Message from Uipath" CvType="Text" DesignTimeRectangle="1479, 941, 321, 31" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Sundararajan, Ramya Sent This is a Test Message from Uipath Toda*' role='grouping' /&gt;&lt;ctrl name='This is a Test Message from Uipath' role='grouping' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="fadfb61d-e167-4fdd-b5ba-590e5c919ee5" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ee2b59dde46d998380aab1da3ff21ea9.png" xmlns="">0eoH1b62BQEug30XOknmJzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

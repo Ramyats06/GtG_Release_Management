@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New Document More Optio…",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Id": "2pbURUxmlEOgFWZUiyIXeg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/2pbURUxmlEOgFWZUiyIXeg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2025-11-18T15:39:43.0979176Z",
+  "Updated": "2025-11-18T15:39:43.0979176Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

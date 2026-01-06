@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JoNtfyN9S0KNHiaxlyVZ-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="526eb24f-c5c5-49f6-b39b-8cabf506fd40" CvTextArea="324, 531, 211, 22" CvTextArgument="Tamim T. Bazzi (17128)" CvType="Text" DesignTimeRectangle="316, 522, 823, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tamim T. Bazzi (17128)' tag='DIV' type='' class='item active' check:innerText='Tamim T. Bazzi (17128)' /&gt;" Guid="c6a485bd-b482-417c-b211-744e5d4a869d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="526eb24f-c5c5-49f6-b39b-8cabf506fd40" CvTextArea="414, 531, 121, 22" CvTextArgument="Bazzi (17128)" CvType="Text" DesignTimeRectangle="414, 531, 121, 22" ElementType="Text" Guid="a1ea4b8f-3d54-4ddb-87b0-bef58f6b7f70" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d437dbbcf1c331f25eed6db98a199d4a.png" xmlns="">0SlOsBfGYFEietCBoM-7GUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

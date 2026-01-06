@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mL9-dYLI90yaemWjwrQ4Aw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="720a1cc8-a3b4-4209-aa03-b2a3a8bd99ce" CvElementArea="1631, 357, 51, 50" CvType="Button" DesignTimeRectangle="1635, 361, 45, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Options menu' tag='BUTTON' type='button' /&gt;" Guid="fcc27ab0-cd82-45dc-addd-300fc80eb705" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f441dd980cda670cff13a24782303a3.png" xmlns="">0_cr1H3rZDEKJ5VUMc-_Llg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u_CD9xZG3EirQFtle0abeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="aeb72356-a993-4b11-9b69-5984b7ab1ecb" CvTextArea="74, 1046, 55, 16" CvTextArgument="More..." CvType="Text" DesignTimeRectangle="11, 1024, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIStickyButton' name='More options' /&gt;" Guid="97203f4d-0c4c-4715-893d-9ca81ad774f9" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d6b6531b67a2b2e7f147a49ca15cabdd.png" xmlns="">0LLDi7oUPL0iA0G8WAAdZtw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LlrtdshqkkGmC7qSzgG8YA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1583, 600, 303, 52" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='Control4' cls='WindowsForms10.EDIT.app.0.3a991f3_r59_ad3' name='Address' role='edit' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="97193e5d-f82c-4ac9-8a78-544162c24751" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document2 - Word' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f09f33a0-1780-4770-859b-04a41c7b5d79" CvTextArea="1491, 600, 63, 16" CvTextArgument="Address" CvType="Text" DesignTimeRectangle="1491, 600, 88, 52" ElementType="Text" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='LabelControl4' cls='WindowsForms10.STATIC.app.0.3a991f3_r59_ad3' name='Address' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Address' /&gt;" Guid="749c1098-49f5-4ff3-a91c-0a0c9d351787" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bf5beecccc3cbc43e9283a5b9fd23de3.png" xmlns="">0sU-Cl-eXwkam3T0Eokseaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

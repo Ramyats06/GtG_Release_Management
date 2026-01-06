@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Litera",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "JzBXyVVA5kG2Nwsa-QZvkA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/JzBXyVVA5kG2Nwsa-QZvkA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
+  "Created": "2025-11-28T10:20:55.5853569Z",
+  "Updated": "2025-11-28T10:20:55.5853569Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

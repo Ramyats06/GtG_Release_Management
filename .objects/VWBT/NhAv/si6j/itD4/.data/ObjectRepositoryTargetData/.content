@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZOL88_aTOEGwZONOTcM2Gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b05f3aae-72fe-4824-b2b7-302385751cdd" CvTextArea="201, 881, 398, 27" CvTextArgument="Quality Assurance [268889.PM00361]" CvType="Text" DesignTimeRectangle="203, 877, 396, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361]' role='text' /&gt;" Guid="f99ac699-f8db-4002-8c79-0f6ddc670545" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="aaa6a2ac247f80bcf280f8f36845680d.png" xmlns="">0bcaJNAGWAkeM_wiasEBtEw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

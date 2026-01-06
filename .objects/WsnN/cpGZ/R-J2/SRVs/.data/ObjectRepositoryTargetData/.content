@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w8OwHdFuMEWHrW5LaY-ILQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="c5337910-37fa-45f9-ab8c-c69544c50138" CvElementArea="1238, 792, 111, 42" CvTextArea="1253, 803, 79, 24" CvTextArgument="proceed" CvType="Button" DesignTimeRectangle="1241, 795, 106, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='mod-cancel-action-confirmation-1' tag='BUTTON' type='button' /&gt;" Guid="1892e281-4ad5-4721-a68f-d42e3ce4fe94" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d7410728158bf9f7e77176aa19de8d2b.png" xmlns="">0ElwigIY02EmE45aMg_9O1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

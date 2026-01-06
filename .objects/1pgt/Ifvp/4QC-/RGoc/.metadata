@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Check is Teams is opened",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "RGociK7kMEKsiqB6jbIyZw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/RGociK7kMEKsiqB6jbIyZw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/4QC-fajuHE2_R0gkyuyBRA",
+  "Created": "2025-11-06T10:39:49.1842007Z",
+  "Updated": "2025-11-06T10:39:49.1842007Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

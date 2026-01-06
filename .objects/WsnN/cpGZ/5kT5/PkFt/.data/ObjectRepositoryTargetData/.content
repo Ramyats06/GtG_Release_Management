@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="js53Gas3DUaGewMlVKH73g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="34215905-62c2-4450-bb48-04f639907e01" CvElementArea="530, 680, 16, 15" CvType="CheckBox" DesignTimeRectangle="531, 681, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl class='' aaname='' tag='INPUT' type='checkbox' /&gt;" Guid="1245f6b1-8e83-48de-850f-9bdd67453317" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="34215905-62c2-4450-bb48-04f639907e01" CvTextArea="548, 681, 382, 12" CvTextArgument="You have the full intake information and want to provide it now" CvType="Text" DesignTimeRectangle="547, 678, 382, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='You have the full intake information and want to provide it now' class='question-label-value' tag='DIV' type='' check:innerText='You have the full intake information and want to provide it now' /&gt;" Guid="eaac16ac-a1be-4bae-91ed-be2e76faef1e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="10bb94b3777bc8d1774f1aa0c574ebbc.png" xmlns="">05SAiuksVWkyJp96hj32K3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

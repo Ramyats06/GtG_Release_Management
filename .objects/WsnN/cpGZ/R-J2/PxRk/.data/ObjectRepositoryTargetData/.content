@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SMlUVvrCREqHrL6tKcg8EA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/Login.aspx" CVScreenId="3f966210-18c0-41e4-9977-ce5a3f892b88" CvTextArea="239, 377, 264, 38" CvTextArgument="Please Log In" CvType="Text" DesignTimeRectangle="240, 334, 1440, 93" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='wilco-page-header-top' parentid='X_UpdatePanelMain' tag='DIV' /&gt;" Guid="5b448667-af6f-4c30-8be3-bdf3b0acc199" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="252, 506, 1416, 120" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='X_UpdatePanelMain' tag='DIV' aaname=' &amp;#x9;&amp;#x9;                       &amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='User Name:&amp;#x9;&amp;#xA;Password:&amp;#x9;&amp;#xA;&amp;#x9;log in' /&gt;" Guid="144d2dc0-57f8-4b76-9245-ad2cfcfe9462" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a89d1632a01e5420f7ac968c5bbabba2.png" xmlns="">0ayQBdIs9F0upJSn1CpXJ-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

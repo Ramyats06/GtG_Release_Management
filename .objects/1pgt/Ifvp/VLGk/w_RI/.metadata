@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Profile picture of Sund…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "w_RIFOWLwky3RYjnVNBDIg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/w_RIFOWLwky3RYjnVNBDIg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/VLGkD81_EUCGd7gljQkyNg",
+  "Created": "2025-12-18T15:40:54.1160596Z",
+  "Updated": "2025-12-18T15:40:54.1160596Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

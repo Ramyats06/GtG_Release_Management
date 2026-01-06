@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NHfaLOYDl0WnB2A2N9HCmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a2d7852d-1ba8-469b-99cb-45c18793458b" CvElementArea="1514, 1079, 136, 47" CvTextArea="1541, 1092, 83, 21" CvTextArgument="Send Only" CvType="Button" DesignTimeRectangle="1515, 1080, 134, 45" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='flowLayoutFooterOptions' /&gt;&lt;wnd ctrlname='buttonSendOnly' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='flowLayoutFooterOptions' /&gt;&lt;wnd ctrlname='buttonSendOnly' check:text='Send &amp;amp;Only' /&gt;" Guid="4f7c1472-084f-41a4-b9c0-5b4bfd150afb" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dd1e835d95344d2d3af786de5c4ea0cc.png" xmlns="">0pXKtxHUFJEesHIiCf9QZQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

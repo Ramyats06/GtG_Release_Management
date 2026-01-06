@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="washQbWCbUKgkI4n37eU4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5882d7bf-3276-403b-8b41-66400e625408" CvTextArea="330, 225, 174, 22" CvTextArgument="TestingWordDoc.docx" CvType="Text" DesignTimeRectangle="328, 218, 382, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="ba423ef5-fe0e-4d0a-9b97-bf721eda5a6f" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5882d7bf-3276-403b-8b41-66400e625408" CvTextArea="961, 226, 174, 16" CvTextArgument="Microsoft Word Doc..." CvType="Text" DesignTimeRectangle="953, 218, 203, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1121' title='ShellView' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemTypeText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft Word Document' /&gt;" Guid="3715bdda-9082-4a08-a57b-f2d302e7a949" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93dec7c5d1bb66e4368d0c935e5c2b72.png" xmlns="">0BXa-DI20rUCC3XcToEzycg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

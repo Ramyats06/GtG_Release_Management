@@ -1,0 +1,13 @@
+﻿{
+  "Name": "No Color",
+  "Type": "Element",
+  "Id": "5NcXB5Np3Ui7UmaBxUyytQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/5NcXB5Np3Ui7UmaBxUyytQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/kotUFaepY0WJLixV3rsnMg",
+  "Created": "2025-11-07T16:59:14.6854622Z",
+  "Updated": "2025-11-07T16:59:14.6854622Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

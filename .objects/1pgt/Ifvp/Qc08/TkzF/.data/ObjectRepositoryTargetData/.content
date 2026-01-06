@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gigzPm0c90KK4QinNZ-_IQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/TkzFXrJ4CU-juvPbOLRIsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 83, 102, 1056" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' /&gt;&lt;ctrl idx='35' role='grouping' /&gt;" Guid="a070d468-512d-4625-801a-83a0b7d19cd6" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cb813943c3a92f37a53d5e7ccd0f20d2.png" xmlns="">0ocazQvX4MkqY9jlNC7BLAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

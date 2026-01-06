@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YRDOEOaAFkW_yQCRRNX3iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f11fd17e-6b4e-45f1-bddb-4e2e069061fe" CvTextArea="31, 373, 336, 21" CvTextArgument="Forward calls Off" CvType="Text" DesignTimeRectangle="8, 359, 383, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Forward calls, Off, Menu item' role='menu item' /&gt;" Guid="1b211c8d-83e0-4fc4-b1af-f0a1391338f3" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f11fd17e-6b4e-45f1-bddb-4e2e069061fe" CvTextArea="31, 375, 117, 19" CvTextArgument="Forward calls" CvType="Text" DesignTimeRectangle="31, 375, 117, 19" ElementType="Text" Guid="1c610cf2-e700-49e9-8f25-34add19077bd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1c8ea16470ada9e117238643186cc541.png" xmlns="">0qPieKSEsHk-k5inJDAqJAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

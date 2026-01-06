@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YUfgGMp9WUyhFJenCfZsVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d3c55dd3-6fd1-47e4-8d1e-bc172f306d85" CvTextArea="55, 108, 888, 21" CvTextArgument="1 Projects [268889.PMO0361] - GtG Release Management - phase 1\.Email/Correspondence [268889.PMO0361]" CvType="Text" DesignTimeRectangle="55, 108, 888, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='24' /&gt;&lt;ctrl name='1 Projects [268889.PMO0361] - GtG Release Management - phase 1\.*' role='menu item' /&gt;" Guid="6898f709-16a1-4276-aa88-e37a9d935966" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d3c55dd3-6fd1-47e4-8d1e-bc172f306d85" CvTextArea="54, 61, 167, 21" CvTextArgument="Suggested Locations" CvType="Text" DesignTimeRectangle="2, 49, 974, 44" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Suggested Locations' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Suggested Locations' /&gt;" Guid="fb4053f9-5d18-47a6-a07f-0b7c1443ec4f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="578eefe05f199522c0a5fbdf4db40557.png" xmlns="">0ZD4tsJeB8EyjCKJoI3Dg0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

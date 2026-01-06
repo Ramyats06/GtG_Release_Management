@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QDXhvmGYQ02Bp7wikP5VtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="cd2d4dd1-42f9-43ee-a6b1-2fa58396def1" CvTextArea="1566, 119, 146, 19" CvTextArgument="Join with an ID" CvType="Text" DesignTimeRectangle="1511, 104, 219, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Calendar' role='document' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' /&gt;&lt;ctrl name='Calendar toolbar' role='tool bar' /&gt;&lt;ctrl name='Join with an ID' role='push button' /&gt;" Guid="5aeb1d26-f656-45d0-89e8-57a37bb400a6" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cd2d4dd1-42f9-43ee-a6b1-2fa58396def1" CvTextArea="1566, 119, 146, 19" CvTextArgument="Join with an ID" CvType="Text" DesignTimeRectangle="1566, 119, 146, 19" ElementType="Text" Guid="7ee3089d-1f30-4ff7-afdb-f0f913b87dac" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c5c74cda92f807cf4a6f6a9516d69930.png" xmlns="">0C_nxyqZJRE-7qjdiHNvPGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

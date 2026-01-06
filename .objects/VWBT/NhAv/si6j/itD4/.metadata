@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Quality Assurance [2688…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "itD4Auri-U2pUr1X-9EGoA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/itD4Auri-U2pUr1X-9EGoA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/si6jiMr94kanCzBrEAuW7w",
+  "Created": "2026-01-05T16:01:01.9353624Z",
+  "Updated": "2026-01-05T16:01:01.9353624Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

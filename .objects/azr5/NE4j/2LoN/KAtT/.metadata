@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Task Pane Options Close…(1)",
+  "Type": "Element",
+  "Id": "KAtTtjQeq0qrk97tG8YidA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/KAtTtjQeq0qrk97tG8YidA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/2LoNLjqfm0K96Lt9YZ46FQ",
+  "Created": "2025-12-12T10:23:24.8613128Z",
+  "Updated": "2025-12-12T10:23:24.8613128Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

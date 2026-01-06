@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8woWjlUhOkCqbzzAU-3nzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a04e515a-1301-46e9-ad7e-4d82bad5f85e" CvTextArea="111, 96, 55, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="98, 83, 83, 45" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Home' role='page tab' /&gt;" Guid="f572b6df-48db-4eb0-b271-ad8913220fbf" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f0e45b74c4b61f107a6b895decb95d5b.png" xmlns="">0FoXhwc_cTEuYkWAyGZLfNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

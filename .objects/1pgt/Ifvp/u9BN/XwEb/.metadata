@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Office",
+  "Type": "Element",
+  "Id": "XwEbv7MEqEe3uy9yBwWjeQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/XwEbv7MEqEe3uy9yBwWjeQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/u9BN9aR2-E6PwgujQUs1JQ",
+  "Created": "2025-11-24T11:07:53.0119893Z",
+  "Updated": "2025-11-24T11:07:53.0119893Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

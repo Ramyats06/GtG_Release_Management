@@ -1,0 +1,13 @@
+﻿{
+  "Name": "MessageInsertDrawOption…",
+  "Type": "Element",
+  "Id": "L0Sw4DJPbEamE_KW_bPW6g",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/L0Sw4DJPbEamE_KW_bPW6g",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q",
+  "Created": "2025-11-20T15:21:03.5627758Z",
+  "Updated": "2025-11-20T15:21:03.5627758Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

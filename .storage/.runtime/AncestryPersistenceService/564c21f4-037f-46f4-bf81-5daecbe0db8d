@@ -1,0 +1,1 @@
+{"Target":{"Guid":"564c21f4-037f-46f4-bf81-5daecbe0db8d","Ancestry":[{"IsSelected":true,"Selector":"<wnd app=\"winword.exe\" cls=\"Net UI Tool Window\" idx=\"*\"/>","ValidAttributes":{"app":"winword.exe","cls":"Net UI Tool Window","aastate":"focusable"}},{"IsSelected":true,"Selector":"<wnd cls=\"NetUIHWND\"/>","ValidAttributes":{"cls":"NetUIHWND"}}]}}

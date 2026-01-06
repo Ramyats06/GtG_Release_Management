@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-TemvdptZk-tfoZxMfpCgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="dc5bbf44-90ed-4e28-9571-7d1a3068fdea" CvElementArea="386, 823, 27, 27" CvTextArea="413, 825, 28, 18" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="390, 820, 66, 27" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                               No         ' type='' tag='LABEL' class='' check:innerText='No' /&gt;" Guid="b04df1cc-4e16-44bf-a1ac-3187ad0fa188" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc5bbf44-90ed-4e28-9571-7d1a3068fdea" CvTextArea="314, 707, 765, 24" CvTextArgument="Does the new client develop, produce, or service items for use by space launch or" CvType="Text" DesignTimeRectangle="314, 706, 765, 24" ElementType="Text" Guid="de0d834b-3ca8-4280-b606-ca7c6f5dc566" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f5cf08d6fd82ecc1171994022e28293b.png" xmlns="">0TQNcUlzeI0SUUuLq2yRqsA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

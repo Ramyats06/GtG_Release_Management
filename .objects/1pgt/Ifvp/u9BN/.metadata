@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chat  Rezaei, Ali  Microsoft Teams",
+  "Type": "Screen",
+  "Id": "u9BN9aR2-E6PwgujQUs1JQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/u9BN9aR2-E6PwgujQUs1JQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Ifvp33rKrUGMZV5QJ4WzIA",
+  "Created": "2025-11-24T10:58:10.3419958Z",
+  "Updated": "2025-11-24T10:58:10.3419958Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

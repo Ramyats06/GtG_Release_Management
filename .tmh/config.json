@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/cooley/Cooley_Production/testmanager_/",
+  "defaultProject": {
+    "id": "d74e5336-2b25-0000-295a-0b48df630b54",
+    "name": "GtG_Release Management Suite",
+    "key": "WIN"
+  }
+}

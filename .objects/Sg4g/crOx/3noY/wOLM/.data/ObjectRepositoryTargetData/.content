@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SCUdQyLgIUyNiiYB-DBaoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="cac37c2e-20af-45af-bcd6-426198e1f29f" CvElementArea="308, 156, 162, 40" CvTextArea="362, 167, 79, 21" CvTextArgument="Add Page" CvType="Button" DesignTimeRectangle="309, 158, 159, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='3' /&gt;&lt;ctrl name='Add Page' role='push button' /&gt;" Guid="103e9011-b972-451a-852a-49a1aa4283e6" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="93f49bebbd3377665e47cfa51c515912.png" xmlns="">0hEsbvEbyZ0C86Z499N1WVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

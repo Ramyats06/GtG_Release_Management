@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yf7Zrcwy-0aYA_EzDZitxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="dc5bbf44-90ed-4e28-9571-7d1a3068fdea" CvElementArea="385, 517, 27, 26" CvTextArea="413, 519, 27, 18" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="390, 514, 65, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                                           ' class='question-label-container' type='' tag='LABEL' /&gt;" Guid="103acec0-9f8b-4eb5-8caa-8bd0b0888fea" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc5bbf44-90ed-4e28-9571-7d1a3068fdea" CvTextArea="413, 519, 27, 18" CvTextArgument="No" CvType="Text" DesignTimeRectangle="414, 514, 26, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='No' class='question-label-value' type='' tag='DIV' check:innerText='No' /&gt;" Guid="e1a1eef0-9d56-4b4c-8e8d-8f4a8af441c3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c2327e7d640b96acff9903d6323e86d2.png" xmlns="">0KiuyWvk8BUuWdSEf7rM8QA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

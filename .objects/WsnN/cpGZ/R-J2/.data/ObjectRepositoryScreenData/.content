@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="yM5ZQhMbLkWRGlQcTd2FeA" Reference="m1hPtSXhEE-MN2DzQb4wOA/R-J2dTT1VkOtMzgezbQ9kQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1150" BrowserType="Edge" ContentHash="JdrLtAj8dE-AARf4QIHPKw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHWSURBVFhHxdc5T8JgHMfxet/BW0Qt9R1IXDzeFqYDEB8m2HCRSSd1ctINHdTJQQpe4FEJIQ0hUg53JH+fJs8jiii09Km/pEMXvp/keSCBa2fjRylkO5GD5NXaTR6m0dhxCmwRGUbOnq1FTO9l0MRhGj4B588wdPloDcK+q6Cp/Qw0AMBALMkW4djOopldBf4AQH/yng1iPpRDs+EsNAP0Je6hV741F8EHXtFcKAetAnpebqFbuTYHIfhVtBB8Bb2ALuUaOvOx9hCCV0VOvwpGAR35GHClqDGEFhe8BWgbUJb0I2jcNIAexKJX3aBxUwHa8xZ1k0zj8b7SOo5WmQHKUpUrxlZJ7uec3sLp1zgDAD4KKUJy3yeg8igOvjMHlKUKvg82kq2N96nL9XFGAPxcuUi2Nqcv77IOEF8i2dq0I8B3oGIBoPERaPvXS6jN6Smu4SjLr+E7V5RWSK7xFj2qmxmg2Q8RHQ6LDACb5ONbG0WYBNAXp9MQJgCMxel4f0E0CuDUeHtxOj6QF/UCOpUbc+J081s5sVVAd+rO3DidI5wVmwF6Ewk2cTr7jiL+BuiPP7CN000dZMR6wODlkzVxOgwQKWD4QrY2Tqf9PR+NyIi8GhjHfQATaEkAXQZA+AAAAABJRU5ErkJggg==" Reference="m1hPtSXhEE-MN2DzQb4wOA/R-J2dTT1VkOtMzgezbQ9kQ" Selector="&lt;html app='msedge.exe' title='Intapp' /&gt;" Url="http://devbic.cooley.com/Open/app/index.html#/requests/519813" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="55ca2c808e386a8b8781bb3df5fa72c3.jpg" xmlns="">0AKgm2KWH0UGnVikRrw2ANA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

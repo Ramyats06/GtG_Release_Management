@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3gnf2BtF1UStIztTVGLV9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ee4b2500-b059-4eff-84b8-07d3d3304504" CvElementArea="1181, 4, 27, 26" CvType="CloseButton" DesignTimeRectangle="1170, 1, 52, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="8a2f57c2-27b1-46bd-8a26-a9959520c297" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPSettingWndClass' title='Settings' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ee4b2500-b059-4eff-84b8-07d3d3304504" CvTextArea="7, 9, 93, 21" CvTextArgument="zm Settings" CvType="Text" DesignTimeRectangle="7, 9, 93, 21" ElementType="Text" Guid="11daca82-2f50-437b-87a4-2bb00f74d875" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="25be42c773d1065b834d1e37e566245b.png" xmlns="">0lJAlTuGbeEmR3AUg2VJ0iQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

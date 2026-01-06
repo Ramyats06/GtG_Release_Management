@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jMp7SP2mCEmjSpd62CN1oA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d406ec4e-d819-4d36-9ff4-f25c872f27b3" CvElementArea="620, 529, 123, 39" CvTextArea="669, 540, 25, 15" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="621, 531, 122, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='btnOK' /&gt;" Guid="9a9732b3-82b4-40f6-9155-3eee00d488e9" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='DocumentStampUI' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5a917e5146f52d70ea70b34bda70a96b.png" xmlns="">0rLWU4osXQk2gd--WwEoD3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

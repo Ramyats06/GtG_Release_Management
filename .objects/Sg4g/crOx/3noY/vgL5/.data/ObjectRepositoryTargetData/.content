@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jjhXaGLm70Os5pXZ3fvwHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bbfedb1d-d9c9-47e8-9056-53a5f55cb805" CvTextArea="1487, 153, 95, 24" CvTextArgument="Email Page" CvType="Text" DesignTimeRectangle="1435, 134, 162, 61" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Home' role='property page' /&gt;&lt;ctrl name='Email' role='tool bar' /&gt;&lt;ctrl name='Email Page' role='push button' /&gt;" Guid="9380e64d-6b63-4248-bb32-312e1d23bfef" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-5" Y="1" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="38cb76629353118e91cbddbb6c22dc15.png" xmlns="">0WbruEy-Eg0yE91xSBe0R-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

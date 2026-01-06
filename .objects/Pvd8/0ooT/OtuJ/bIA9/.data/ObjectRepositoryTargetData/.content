@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7rddS6Q9Nkm-IvOlvX8SQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="41a07a5e-a0cd-4432-9c73-11db25d2d140" CvElementArea="99, 995, 27, 25" CvType="ArrowButton" DesignTimeRectangle="99, 995, 27, 25" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="d108bad0-7703-4f22-9e22-d299e0c4629d" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="41a07a5e-a0cd-4432-9c73-11db25d2d140" CvTextArea="123, 996, 270, 21" CvTextArgument="Get to Green Release Man..." CvType="Text" DesignTimeRectangle="123, 996, 270, 21" ElementType="Text" Guid="a6603341-0e4f-4cb9-a32b-62ee4d6cae20" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b8b1bfcda69bc1ec7ca10334e0399d1a.png" xmlns="">09p5n9Snda0qBY4Wfotib6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

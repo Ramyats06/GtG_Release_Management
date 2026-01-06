@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Data Bars",
+  "Type": "Element",
+  "Id": "4oDg_8bwG0yg_jxM2luU0Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/4oDg_8bwG0yg_jxM2luU0Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg",
+  "Created": "2025-12-18T10:39:08.5458524Z",
+  "Updated": "2025-12-18T10:39:08.5458524Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

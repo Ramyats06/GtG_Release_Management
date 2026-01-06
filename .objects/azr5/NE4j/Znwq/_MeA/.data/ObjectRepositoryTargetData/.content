@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1vdrW3NYqke3k2qSO2DX2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b5f0774f-e1e0-463a-aaa7-dd25f0504ee0" CvElementArea="3, 3, 222, 56" CvTextArea="54, 24, 55, 13" CvTextArgument="Save As" CvType="Button" DesignTimeRectangle="1, 1, 226, 60" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Save As' role='list item' /&gt;" Guid="3a85ad5b-c23b-4943-bff6-492e0327a417" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="0, 0, 228, 566" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' check:fulltext='Save As&amp;#xD;&amp;#xA;Save as Adobe PDF&amp;#xD;&amp;#xA;Print&amp;#xD;&amp;#xA;Share&amp;#xD;&amp;#xA;Share as Adobe PDF link&amp;#xD;&amp;#xA;Export&amp;#xD;&amp;#xA;Close&amp;#xD;&amp;#xA;Account&amp;#xD;&amp;#xA;Options&amp;#xD;&amp;#xA;Line up&amp;#xD;&amp;#xA;Line down' /&gt;" Guid="7c137c06-5793-463b-a6b4-f274f518db8f" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="889ca6b1371c29d96c994bd2c6a22c9c.png" xmlns="">0osfr2TF4pkeRnlJtur4Fhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

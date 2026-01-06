@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OnjemfSt10e42v2fWU1avw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="1e2b967a-bcc1-4856-b3aa-acc9929b38f7" CvElementArea="315, 558, 824, 41" CvType="InputBox" DesignTimeRectangle="315, 559, 825, 38" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='text-input-singleline is-full-width' aaname='' tag='INPUT' type='text' /&gt;" Guid="bc5f681b-e012-4c79-a857-3093f93f4d00" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1e2b967a-bcc1-4856-b3aa-acc9929b38f7" CvTextArea="311, 528, 145, 19" CvTextArgument="Address Line 1:" CvType="Text" DesignTimeRectangle="315, 524, 142, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Address Line 1:' class='question-title-text' tag='SPAN' type='' check:innerText='Address Line 1:' /&gt;" Guid="edf90b54-354d-46b4-8a2f-dfb708a1e3b7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7b6281eecf09095116e17bbcfa682f03.png" xmlns="">0NTqdmKrfUEiSzSxRsHvUrA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

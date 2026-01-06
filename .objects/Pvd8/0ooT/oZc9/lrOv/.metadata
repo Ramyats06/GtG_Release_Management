@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Set language Any langua…",
+  "Type": "Element",
+  "Id": "lrOvwCuFNkW8_JtiFhcU7A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/lrOvwCuFNkW8_JtiFhcU7A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/oZc9G437kUKeNIImmsttXg",
+  "Created": "2025-11-20T16:12:50.7947971Z",
+  "Updated": "2025-11-20T16:12:50.7947971Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

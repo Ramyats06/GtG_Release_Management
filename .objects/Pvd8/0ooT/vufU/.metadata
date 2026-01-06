@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Untitled page - Message (HTML) ",
+  "Type": "Screen",
+  "Id": "vufU387jnkaHnDRb6UV_vg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/vufU387jnkaHnDRb6UV_vg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/0ooT6fn_QUaCHuC0K28MlA",
+  "Created": "2025-12-18T14:16:26.8135106Z",
+  "Updated": "2025-12-18T14:16:26.8135106Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Book3 - Excel",
+  "Type": "Screen",
+  "Id": "GLlFHos8t0CZWWGtBPmQgQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/GLlFHos8t0CZWWGtBPmQgQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/2i3Mz_Y1ak6IdU0odAUAIQ",
+  "Created": "2025-12-18T10:48:01.8325506Z",
+  "Updated": "2025-12-18T10:48:01.8325506Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

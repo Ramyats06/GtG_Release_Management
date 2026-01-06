@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Wuas_MhXykuWaoQlLEKcrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6028c650-c98d-4821-add4-148e3f268b32" CvTextArea="52, 183, 85, 19" CvTextArgument="Available" CvType="Text" DesignTimeRectangle="8, 167, 383, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Activated item:Available, Submenu' role='menu item' /&gt;" Guid="953f6986-b718-41c9-9754-8626995492b6" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6028c650-c98d-4821-add4-148e3f268b32" CvTextArea="30, 229, 172, 24" CvTextArgument="Set status message" CvType="Text" DesignTimeRectangle="8, 215, 383, 48" FuzzySelectorArgument="&lt;ctrl name='Set status message' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Set status message' /&gt;" Guid="e2569edf-596c-4053-80ec-ccada22ecac7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b3c8e43ab958da8036a2d9b9c2cc315.png" xmlns="">0hcwbCzqnoUGwjcD3HWkYFg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

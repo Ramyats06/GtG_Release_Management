@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Actions for new message",
+  "Type": "Element",
+  "Id": "4oyNWAW7xkS6ESqEdNr-xA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/4oyNWAW7xkS6ESqEdNr-xA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/s4HaWp_JXECWjHjLVVt0kA",
+  "Created": "2025-12-18T15:58:39.2393392Z",
+  "Updated": "2025-12-18T15:58:39.2393392Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

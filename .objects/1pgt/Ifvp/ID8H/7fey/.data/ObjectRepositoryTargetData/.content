@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h8eAkZ4N40e3eTLuznemRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="df710054-9201-4156-8543-40254c2fb1ba" CvElementArea="1393, 432, 35, 33" CvType="CloseButton" DesignTimeRectangle="1387, 426, 48, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Calendar' role='document' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' /&gt;&lt;ctrl name='Join a meeting with an ID Close' role='grouping' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="89c52f7f-3536-4de1-90bb-cc12fb91ff92" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="760fc35d5e2714d35644da30797841fb.png" xmlns="">094a6_y0Bw0Cdw7Vm82CiFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

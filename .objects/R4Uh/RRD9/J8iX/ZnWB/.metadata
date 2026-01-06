@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Compare More Options Se…",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Id": "ZnWBCPNunkyUITcfwmsdBg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/ZnWBCPNunkyUITcfwmsdBg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
+  "Created": "2025-11-28T10:21:25.9756158Z",
+  "Updated": "2025-11-28T10:21:25.9756158Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

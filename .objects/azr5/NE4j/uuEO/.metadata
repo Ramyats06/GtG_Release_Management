@@ -1,0 +1,13 @@
+﻿{
+  "Name": "InsertRemove TrailerDoc ID",
+  "Type": "Screen",
+  "Id": "uuEOvvLNvUaTACs-i-4jlw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/uuEOvvLNvUaTACs-i-4jlw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/NE4jMKGokEOPSVxvuJAq3Q",
+  "Created": "2025-11-07T17:17:58.321922Z",
+  "Updated": "2025-11-07T17:17:58.321922Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

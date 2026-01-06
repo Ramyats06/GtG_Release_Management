@@ -1,0 +1,14 @@
+﻿{
+  "Name": "proceed",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "SRVs-8xgUUG41ejjWamt3Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/SRVs-8xgUUG41ejjWamt3Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/R-J2dTT1VkOtMzgezbQ9kQ",
+  "Created": "2025-12-12T09:35:26.7928468Z",
+  "Updated": "2025-12-12T09:35:26.7928468Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

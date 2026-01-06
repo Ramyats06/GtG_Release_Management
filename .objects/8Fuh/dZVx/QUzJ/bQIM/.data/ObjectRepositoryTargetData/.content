@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vJdkQKNW-UqoK9LckL-IHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="660f5bdc-b350-4c89-ba57-75cf36b663d5" CvTextArea="30, 567, 75, 25" CvTextArgument="Settings" CvType="Text" DesignTimeRectangle="8, 551, 383, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Settings, Menu item' role='menu item' /&gt;" Guid="b56e6d20-623d-4dc5-90c6-17698c7f34eb" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="660f5bdc-b350-4c89-ba57-75cf36b663d5" CvTextArea="30, 567, 75, 25" CvTextArgument="Settings" CvType="Text" DesignTimeRectangle="30, 567, 75, 25" FuzzySelectorArgument="&lt;ctrl name='Settings, Menu item' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Settings, Menu item' /&gt;" Guid="2e3c826c-6d78-44ba-b4aa-ac4226b02238" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="76b812585458d6bb3cb49439d08efa8d.png" xmlns="">0ip-tlGrIdUiJ93M64LAo3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

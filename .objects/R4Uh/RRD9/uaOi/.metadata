@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Presentation2 - PowerPoint",
+  "Type": "Screen",
+  "Id": "uaOiltKHcU6itQQrz3D7wg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/uaOiltKHcU6itQQrz3D7wg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/RRD9Oppc1kiyAZPrlonzhw",
+  "Created": "2025-11-28T10:03:48.2699286Z",
+  "Updated": "2025-11-28T10:03:48.2699286Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

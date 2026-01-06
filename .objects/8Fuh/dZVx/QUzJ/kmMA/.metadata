@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Zoom Workplace",
+  "Type": "Element",
+  "Id": "kmMANWU8Vk2bBfmJVn6z3Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/kmMANWU8Vk2bBfmJVn6z3Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T11:53:58.0395128Z",
+  "Updated": "2025-11-28T11:53:58.0395128Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

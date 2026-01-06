@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FLIKAdTE_k-wpV9-D4a6Iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="ca5c8b7b-47e1-43f4-a58c-2f88942eabcd" CvElementArea="531, 708, 549, 28" CvType="InputBox" DesignTimeRectangle="531, 710, 550, 26" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl class='is-full-width' type='' tag='SELECT' aaname='' /&gt;" Guid="0af932d3-6b08-4869-9c65-0c43b7b6c64c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ca5c8b7b-47e1-43f4-a58c-2f88942eabcd" CvTextArea="529, 689, 298, 13" CvTextArgument="What type of request would you like to submit?" CvType="Text" DesignTimeRectangle="531, 687, 295, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='question-title-text' type='' aaname='What type of request would you like to submit?' tag='SPAN' check:innerText='What type of request would you like to submit?' /&gt;" Guid="5b285563-8a5f-423b-9046-5eca4783f002" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="afc042682a6044a7180114552f110f87.png" xmlns="">0oss7S22OqUa1svbxdPqu0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

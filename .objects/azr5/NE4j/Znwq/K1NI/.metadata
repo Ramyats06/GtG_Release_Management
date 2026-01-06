@@ -1,0 +1,14 @@
+﻿{
+  "Name": "List File",
+  "Type": "Element",
+  "TaxonomyType": "Listbox",
+  "Id": "K1NI83s4V0q-wzYajdzQ3Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/K1NI83s4V0q-wzYajdzQ3Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2025-11-18T14:51:43.710459Z",
+  "Updated": "2025-11-18T14:51:43.710459Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

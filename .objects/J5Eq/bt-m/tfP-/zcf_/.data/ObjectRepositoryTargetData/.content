@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Xuab37c8H0upPrnsZxcLEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cllp.sharepoint.com/sites/is" DesignTimeRectangle="11, 186, 1920, 953" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Technology - Home - Microsoft Edge' role='pane' /&gt;&lt;ctrl idx='68' role='pane' /&gt;" Guid="c943402d-99ce-43ee-8847-706620f0ba7b" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Technology - Home - Work - Microsoft​ Edge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="13c954c42f55cc6fe9867b65652c2e9c.png" xmlns="">00ELeFqtTVUy0XSdOR_sgmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

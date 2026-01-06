@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Untitled page - OneNote",
+  "Type": "App",
+  "Id": "Sg4gSzcR0kGqYVkK3Oe0Ig",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/Sg4gSzcR0kGqYVkK3Oe0Ig",
+  "Created": "2025-11-06T10:17:05.9604262Z",
+  "Updated": "2025-11-06T10:17:05.9604262Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

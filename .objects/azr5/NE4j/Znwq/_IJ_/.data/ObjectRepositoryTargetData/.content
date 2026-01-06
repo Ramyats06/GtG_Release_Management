@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z90uH96n1kSWcSf2iFVYrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 83, 228, 1056" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='OutSpaceNavBar' cls='NetUIScrollViewer' /&gt;" Guid="5aad263f-8b8f-4694-8ec8-90b642eb0dde" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8c5516e988df47f364b0107da3c73c23.png" xmlns="">04ovxw49upkSO-W6Um106ZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

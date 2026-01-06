@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PUo3YaBYDEeflqBG0DjuPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7734c1bf-de8f-405f-a39d-530dfb8c282e" CvTextArea="123, 1076, 271, 21" CvTextArgument="Online Archive - rsundarar..." CvType="Text" DesignTimeRectangle="123, 1076, 271, 21" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="77e8d272-ae16-485b-aa0a-0b2a2716ce82" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2bb65ddd2dc5e63fc5f24257b19c8986.png" xmlns="">0scyQ8iwcuUC4b5es9pfs_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

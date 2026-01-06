@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RiqFLZEPmUaj_Oj-DXIjEg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="77c7c4d4-f00c-437b-86ae-7b6279567560" CvTextArea="377, 821, 73, 21" CvTextArgument="This PC" CvType="Text" DesignTimeRectangle="300, 797, 475, 66" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Open' /&gt;&lt;uia automationid='GroupOpenPlaces' cls='NetUISlabContainer' name='Open' /&gt;&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='This PC' /&gt;" Guid="61c5cb35-ae2e-486f-beab-35032bba279c" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="55b69a9656412265ef51ce511b24aff0.png" xmlns="">0WnZKAsJ5vkSoPgU93qftBA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "File docx",
+  "Type": "Element",
+  "Id": "IERBVYBQv0yZVh7B5EnShQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/IERBVYBQv0yZVh7B5EnShQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/82azAdrYIEC9kzR14Oy91A",
+  "Created": "2025-11-20T10:32:13.8583845Z",
+  "Updated": "2025-11-20T10:32:13.8583845Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zNeYlw0COU-0vptuIaTLxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a20f6ff4-aaab-4f61-b795-c7e96172cba4" CvTextArea="306, 319, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="305, 311, 405, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='3' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="1031c356-bda2-4fe8-9342-820a9ef8e724" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a20f6ff4-aaab-4f61-b795-c7e96172cba4" CvTextArea="306, 319, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="306, 319, 69, 16" ElementType="Text" Guid="85c15916-5fbf-4ab8-a8e3-8499afaeac05" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c37e4137dd6011455f8ed6d1cd9e3d75.png" xmlns="">0caoRDV2hvUapk6X-uCDvdA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

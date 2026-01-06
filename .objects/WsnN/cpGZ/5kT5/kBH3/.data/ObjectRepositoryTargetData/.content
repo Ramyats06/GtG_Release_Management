@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ni-USEqSI0e32MaH-Kzwtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="7928b3b1-4421-4f0b-bee7-feff8c65a72a" CvElementArea="315, 490, 824, 41" CvType="InputBox" DesignTimeRectangle="315, 491, 825, 38" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='text-input-singleline is-full-width' aaname='' tag='INPUT' type='text' /&gt;" Guid="9ec8fcfb-3c0d-4c52-bdf8-eeee310d9ebc" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7928b3b1-4421-4f0b-bee7-feff8c65a72a" CvTextArea="312, 459, 43, 24" CvTextArgument="City:" CvType="Text" DesignTimeRectangle="315, 456, 41, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='City:' class='question-title-text' tag='SPAN' type='' check:innerText='City:' /&gt;" Guid="30553a95-b559-4079-b8f2-f08f3359b69a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f118edb45791d74d9eef1fe8312bec5.png" xmlns="">05s01S639tUuTUi_5lpJ2cQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5mHh_lCSOkGo2GK3gDE0mQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="966128f9-24f4-4822-8ca9-97695604c005" CvElementArea="385, 696, 27, 27" CvTextArea="413, 698, 28, 18" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="390, 693, 66, 27" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                               No         ' type='' tag='LABEL' class='' /&gt;" Guid="cf8ba650-8f5d-4c17-ac5a-a7ce2f642e65" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="966128f9-24f4-4822-8ca9-97695604c005" CvTextArea="312, 662, 720, 24" CvTextArgument="Has the client requested you to sign a HIPAA Business Associate Agreement?" CvType="Text" DesignTimeRectangle="315, 658, 717, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='question-title-text' type='' aaname='Has the client requested you to sign a HIPAA Business Associate Agreement?' tag='SPAN' check:innerText='Has the client requested you to sign a HIPAA Business Associate Agreement?' /&gt;" Guid="9141f074-2675-49de-aaa2-392f1f0d146b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9bedabaad46142fc7d52d3e56d2b870.png" xmlns="">0FB2GhkD9hkyP9sJfz3whnw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

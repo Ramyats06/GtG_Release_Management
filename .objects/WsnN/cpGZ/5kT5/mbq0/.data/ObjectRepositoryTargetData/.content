@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Et8g5I1GZ0KcsIwXqD6NwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="f8d992c9-0193-492e-9c72-33c989888245" CvElementArea="314, 572, 825, 41" CvType="InputBox" DesignTimeRectangle="315, 574, 825, 37" DesignTimeScaleFactor="1.5" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl class='is-full-width' type='' aaname='' tag='SELECT' /&gt;" Guid="1a69c432-6ba9-48ce-9b6b-8d09187c2931" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f8d992c9-0193-492e-9c72-33c989888245" CvTextArea="312, 543, 84, 24" CvTextArgument="Country:" CvType="Text" DesignTimeRectangle="315, 539, 80, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Country:' class='question-title-text' tag='SPAN' type='' check:innerText='Country:' /&gt;" Guid="1487ec4f-35be-41a6-bf2a-f461a97593ee" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5c89b73ff1ae1bbf4f6841db6a860269.png" xmlns="">0SPOfC8gYM02srT66_zNeFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

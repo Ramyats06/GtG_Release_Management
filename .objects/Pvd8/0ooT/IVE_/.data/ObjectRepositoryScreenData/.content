@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="BpzX-3RH1E2AgZ3oQGcukg" Reference="m1hPtSXhEE-MN2DzQb4wOA/IVE_7tXbiEq6FXnNeHiO_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="182, 170, 1440, 818" ContentHash="MmIhbS-KMUaXa1Rek0-Klg" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC+SURBVGhD7ZHRCQMxDEMzXefKBF0mQ3WMFoP7YVfJR2iNctUDwYEdTg83Ib5E7/15SrxyBC2yxitH0CJrvHIELbLGK0fQImu8cgQtssYrR2wwY4zhX59UzySQkQBAAplfFNllKWA/rIjxuN+WMdBbmgu8SyJWMwlkJACQQOYYAfthRQwruYqB3tJcYBcagd2ZBDISAPyvgD1kz7UvMEMCAAlkJAAoF7CH7Ln2BWZIACCBjAQA5QKnxCsLIVprLzQkMeDM8esjAAAAAElFTkSuQmCC" Reference="m1hPtSXhEE-MN2DzQb4wOA/IVE_7tXbiEq6FXnNeHiO_Q" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Meeting  ' /&gt;" Version="V2">
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="63c4af9d83e8eeab328707e438328b09.png" xmlns="">0nxmjbBZNtke5_0XbJGeHnw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

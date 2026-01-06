@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Forte",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "FEZAhYOb1kuOQeuqEzEoPQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/FEZAhYOb1kuOQeuqEzEoPQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2025-11-18T15:39:18.134508Z",
+  "Updated": "2025-11-18T15:39:18.134508Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MMgUfv9fa0itPDJZPr8JJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="73be6a96-cfd9-4ed6-a574-a1ceb537f26a" CvTextArea="328, 294, 88, 18" CvTextArgument="TestXls.xlsx" CvType="Text" DesignTimeRectangle="328, 286, 382, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='1' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="9f49d598-2847-417a-a5ca-7dfa202935a7" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData - Fi*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="73be6a96-cfd9-4ed6-a574-a1ceb537f26a" CvTextArea="960, 294, 180, 16" CvTextArgument="Microsoft Excel Work..." CvType="Text" DesignTimeRectangle="953, 286, 203, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='1' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemTypeText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft Excel Worksheet' /&gt;" Guid="9c68b286-37b6-48aa-a46b-95ee76a3af1a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7e447b035a4e8a6ed477ecc8df248c85.png" xmlns="">0czbYAsP5rUmlk57bDzDKPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

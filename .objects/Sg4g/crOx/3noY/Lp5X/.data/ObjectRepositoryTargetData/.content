@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IADc6ii9hEKE79dZhpUDZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f257eb05-8681-42d4-8510-dcadceb37821" CvTextArea="1422, 147, 159, 25" CvTextArgument="Meeting Details" CvType="Text" DesignTimeRectangle="1414, 135, 509, 42" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='NetUINativeHWNDHost' title='Meeting Details' /&gt;&lt;wnd cls='NetUIHWND' /&gt;" Guid="9fd200c5-4dfa-4653-96e4-df11ec38a167" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1414, 177, 509, 955" FuzzySelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='MsoWorkPane' title='Meeting Details' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Meeting Details' cls='NetUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Meeting Details' /&gt;" Guid="7d01b12b-6b8c-4910-898f-715b0ea8ac49" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4ca14ca03529e2b774cf2071e15dd13b.png" xmlns="">0QKbw5t0XI0CYMmhIF4tHmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

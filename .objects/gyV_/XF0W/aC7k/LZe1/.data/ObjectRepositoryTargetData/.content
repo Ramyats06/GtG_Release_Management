@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1hM3MtdKnkSyRfpMv90ftg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="be2c90ea-8149-4828-92be-12c7debe99d1" CvTextArea="55, 15, 125, 18" CvTextArgument="New Document" CvType="Text" DesignTimeRectangle="55, 15, 125, 18" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='25' /&gt;&lt;ctrl name='New Document' role='menu item' /&gt;" Guid="b70d70a7-8e4b-47a3-97e4-0f0959305f74" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f89dce9032050a571eca798fec5513d.png" xmlns="">0BAEPvBbqZ066CciH7xZanw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

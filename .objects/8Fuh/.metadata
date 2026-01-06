@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Zoom Workplace",
+  "Type": "App",
+  "Id": "8FuhwzAAN0SLuYxbSlaNBQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/8FuhwzAAN0SLuYxbSlaNBQ",
+  "Created": "2025-11-06T10:32:47.3214906Z",
+  "Updated": "2025-11-06T10:32:47.3214906Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

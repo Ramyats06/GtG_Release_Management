@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Hzz-KJHzYUOfJ1kpXtUmxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5e06229b-d019-4f98-af62-4f42c10d562e" CvTextArea="328, 264, 109, 22" CvTextArgument="PPT_Test.pptx" CvType="Text" DesignTimeRectangle="328, 257, 382, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="e7a4e983-3737-4b94-9291-b24d0c856832" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData - Fi*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5e06229b-d019-4f98-af62-4f42c10d562e" CvTextArea="960, 264, 183, 18" CvTextArgument="Microsoft PowerPoint..." CvType="Text" DesignTimeRectangle="953, 257, 203, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemTypeText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft PowerPoint Presentation' /&gt;" Guid="bd1f54a5-b3ad-4a9f-b16e-9e7b54d680a9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a0796687f059a101c65e8b20323fb79a.png" xmlns="">0YwM8JeQuF0-VXirWNmi-xQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

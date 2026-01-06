@@ -1,0 +1,14 @@
+﻿{
+  "Name": "What type of request wo…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "HUKdxh5pw0CpO7hnGIBAJA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/HUKdxh5pw0CpO7hnGIBAJA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/5kT5EB7Cu02SEgiYEtHQ5A",
+  "Created": "2025-11-07T09:27:28.8820412Z",
+  "Updated": "2025-11-07T09:27:28.8820412Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

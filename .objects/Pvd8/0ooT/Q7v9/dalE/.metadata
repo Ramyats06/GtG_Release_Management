@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New Email New Items Ign…",
+  "Type": "Element",
+  "Id": "dalECoY-W0uHdhY_Ici9iQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/dalECoY-W0uHdhY_Ici9iQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-20T14:34:14.3846024Z",
+  "Updated": "2025-11-20T14:34:14.3846024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

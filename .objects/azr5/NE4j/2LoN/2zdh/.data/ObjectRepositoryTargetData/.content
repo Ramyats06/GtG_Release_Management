@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bO1UhrgKxUm1_DHc-qS5wA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="519ad7f0-065b-47af-a87e-2cc8b2acc76e" CvTextArea="1511, 506, 81, 19" CvTextArgument="Recipients:" CvType="Text" DesignTimeRectangle="1471, 503, 128, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' /&gt;&lt;uia name='Recipients:' role='tree item' /&gt;" Guid="f86089c7-f454-45af-bafa-f8f3cbe36727" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document2 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9cb68d43adaeed4bf41f799b665b23e2.png" xmlns="">0QbkVDT6OtUOu0VpDSw6psA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

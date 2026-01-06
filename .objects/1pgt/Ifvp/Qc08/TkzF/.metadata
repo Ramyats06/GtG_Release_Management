@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Activity Chat OneDrive …",
+  "Type": "Element",
+  "Id": "TkzFXrJ4CU-juvPbOLRIsg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/TkzFXrJ4CU-juvPbOLRIsg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Qc08MdKaO0a79-UcqcUceQ",
+  "Created": "2025-12-11T16:27:04.7551606Z",
+  "Updated": "2025-12-11T16:27:04.7551606Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

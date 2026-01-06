@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Requests",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fXZPkhqbxES2fzofZe-pqQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/fXZPkhqbxES2fzofZe-pqQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/cEgJNlczZ0a2XwKdrLBFHw",
+  "Created": "2025-11-11T18:01:26.3059127Z",
+  "Updated": "2025-11-11T18:01:26.3059127Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

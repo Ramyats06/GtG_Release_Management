@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Slide",
+  "Type": "Element",
+  "Id": "UnXKHdUrikiy_g3f_akvhQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/UnXKHdUrikiy_g3f_akvhQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
+  "Created": "2025-11-28T09:59:57.6705324Z",
+  "Updated": "2025-11-28T09:59:57.6705324Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

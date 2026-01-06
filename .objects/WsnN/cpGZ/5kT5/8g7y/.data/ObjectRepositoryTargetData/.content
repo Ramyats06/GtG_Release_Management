@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6d4x4PMdjkKAipNiSYbCRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="ef0022a3-b90a-42e2-b330-97b7c8cbcca4" CvTextArea="326, 575, 178, 21" CvTextArgument="Selin Akkan (20856)" CvType="Text" DesignTimeRectangle="316, 565, 823, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Selin Akkan (20856)' isleaf='1' tag='DIV' type='' class='item active' check:innerText='Selin Akkan (20856)' /&gt;" Guid="69ff4299-e846-4bf9-aa49-f250b66c4e3f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ef0022a3-b90a-42e2-b330-97b7c8cbcca4" CvTextArea="312, 489, 297, 25" CvTextArgument="Originating Team Timekeepers:" CvType="Text" DesignTimeRectangle="315, 486, 294, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Originating Team Timekeepers:' class='question-title-text' tag='SPAN' type='' check:innerText='Originating Team Timekeepers:' /&gt;" Guid="b2717fb1-ec7c-4681-afba-1cb58affd328" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ba92c7aba7d8fb4efae28f866791195.png" xmlns="">0uZgDjXsEK0qfhSayaAJHFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

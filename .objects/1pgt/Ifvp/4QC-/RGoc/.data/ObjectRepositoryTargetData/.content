@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9AIe1P0MbUmlp_kNnSLXsA" Reference="m1hPtSXhEE-MN2DzQb4wOA/RGociK7kMEKsiqB6jbIyZw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 11, 1920, 72" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='TeamsOverlay' /&gt;" Guid="8629a0e8-2c0d-412a-9807-7f1c34d61876" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="59b2a1554c32aa6085e424eae4aaada2.png" xmlns="">0paZ4VBWHaU-acvwifHgJhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

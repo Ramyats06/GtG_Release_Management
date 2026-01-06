@@ -1,0 +1,14 @@
+﻿{
+  "Name": "File name",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "GIcEW18TOU6cfNAlzy4YTA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/GIcEW18TOU6cfNAlzy4YTA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/uaOiltKHcU6itQQrz3D7wg",
+  "Created": "2025-12-18T11:38:51.9234201Z",
+  "Updated": "2025-12-18T11:38:51.9234201Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

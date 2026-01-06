@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M5dRbHXVaUKcrFcnc2uQgQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/x-PKklRVJk2-23kR271GdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="297, 859, 1101, 91" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="745f22d9-fb51-42ad-8303-89919eb42d69" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f2f765971db4a014be4d90f505ca721.png" xmlns="">0vPJQArvJLk6vTqZLONUF1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

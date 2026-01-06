@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qfOpAQjRrkCzbNafwcy2Rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f3843beb-2d21-48e0-aca6-4b9a88ad937b" CvElementArea="1592, 4, 213, 62" CvTextArea="1650, 25, 139, 24" CvTextArgument="Meeting Details" CvType="Button" DesignTimeRectangle="1598, 6, 202, 61" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Meeting Details' role='push button' /&gt;" Guid="851329b9-3445-4749-8038-435b5b43538c" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7bd4801d07df5219665c3af8434d4ac4.png" xmlns="">0TO841YJpIka7P8vf9N41-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

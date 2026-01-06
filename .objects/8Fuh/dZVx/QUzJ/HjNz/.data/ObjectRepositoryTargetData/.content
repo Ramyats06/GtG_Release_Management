@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="54uMZDcJhEi0bWhqIAqPnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fa1b4006-025c-4362-a970-b8fc62fa1152" CvElementArea="50, 410, 258, 49" CvTextArea="79, 424, 198, 26" CvTextArgument="Clear status message" CvType="Button" DesignTimeRectangle="51, 411, 255, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Clear status message' role='push button' /&gt;" Guid="36cc4e84-49be-484b-8f18-9271887774fd" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='personal_note_wnd' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="60cac450d56f778daae346079309c64f.png" xmlns="">0-uPPRvdijkCnPEX1Ha13Wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

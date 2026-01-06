@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cQ3ij-FDvUqOyDAOleyGqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="c5337910-37fa-45f9-ab8c-c69544c50138" CvElementArea="497, 624, 928, 113" CvType="InputBox" DesignTimeRectangle="499, 627, 927, 111" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='confirm-popup-comment-input' parentid='mod-cancel-action-confirmation-1' tag='TEXTAREA' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="263d79d2-e7ec-44dd-ba25-046ddecca47b" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c5337910-37fa-45f9-ab8c-c69544c50138" CvTextArea="497, 599, 115, 22" CvTextArgument="Comment" CvType="Text" DesignTimeRectangle="499, 593, 114, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='confirm-popup-comment-title' parentid='mod-cancel-action-confirmation-1' tag='SPAN' type='' aaname='Comment' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Comment' /&gt;" Guid="118eef06-1382-4fae-a1f5-f645897e926a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="20f5586429016d73103c3ce7b5659816.png" xmlns="">0szvap98nw0Ol8dcsHgl8ew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

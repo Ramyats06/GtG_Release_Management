@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ikMIdPIUxUWADnWG7wwxxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="46c7c709-3c58-4534-b10b-4ef2c3f85857" CvElementArea="49, 113, 740, 62" CvType="InputBox" DesignTimeRectangle="51, 115, 738, 60" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Set status message, e.g. I&amp;apos;ll be out today' role='editable text' /&gt;" Guid="df48573e-3345-4b43-abe5-056cbba2efdb" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='personal_note_wnd' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="46c7c709-3c58-4534-b10b-4ef2c3f85857" CvTextArea="49, 64, 320, 38" CvTextArgument="Set status message" CvType="Text" DesignTimeRectangle="51, 55, 318, 48" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Set status message' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Set status message' /&gt;" Guid="1b473a01-e5b5-4539-9798-88ae3a7e6e2a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fbf0c6e9310cccff0162a9cd10d9ad02.png" xmlns="">0H4uuB2PC_0OC5zB3H3m3XQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

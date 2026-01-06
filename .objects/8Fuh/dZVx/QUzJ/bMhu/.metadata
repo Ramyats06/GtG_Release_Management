@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Back (Alt+Left) Forward…",
+  "Type": "Element",
+  "Id": "bMhuYf-e5UCAdp0zQ9lCpA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/bMhuYf-e5UCAdp0zQ9lCpA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T10:57:01.9753899Z",
+  "Updated": "2025-11-28T10:57:01.9753899Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

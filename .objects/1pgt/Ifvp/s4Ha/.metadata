@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chat  Sundararajan, Ramya (You)  Microsoft Te(1)",
+  "Type": "Screen",
+  "Id": "s4HaWp_JXECWjHjLVVt0kA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/s4HaWp_JXECWjHjLVVt0kA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Ifvp33rKrUGMZV5QJ4WzIA",
+  "Created": "2025-12-18T15:57:12.6847273Z",
+  "Updated": "2025-12-18T15:57:12.6847273Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

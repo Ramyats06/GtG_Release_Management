@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hVn-eOcU2ESOrgkNNqvb_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7e18506d-7577-4a2d-ac4e-d4d8442d9c8d" CvTextArea="73, 630, 146, 18" CvTextArgument="Browse This PC..." CvType="Text" DesignTimeRectangle="73, 628, 146, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='14' /&gt;&lt;ctrl name='Browse This PC...' role='menu item' /&gt;" Guid="0501ccdd-85f8-46a0-adad-3459a0a733de" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b13d851c400edc2c2c6712cfb7efd28d.png" xmlns="">0ULkW1QIvN0eFPlWvlaA3bA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

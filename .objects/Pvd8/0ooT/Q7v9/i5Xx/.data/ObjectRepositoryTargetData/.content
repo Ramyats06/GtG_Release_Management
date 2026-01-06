@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-BF4A58NmEmSDcHEVcSUCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 155, 72, 72" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name=' ' /&gt;&lt;uia cls='NetUIListView' /&gt;&lt;uia cls='NetUIListViewItem' name='Calendar' /&gt;" Guid="87e21381-7565-47e3-9646-50cb6089cc05" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='OneDrive - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="54842b1cf83badfa9d371efd80ca53fc.png" xmlns="">0OVVfOXQSkU6WuE-b4g6PaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

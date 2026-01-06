@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g6_2Rs4_j0S3NlNE8CH9ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="5eb5749f-c52f-459e-ad35-c0ca61d0920e" CvElementArea="313, 589, 415, 42" CvType="InputBox" DesignTimeRectangle="315, 591, 412, 38" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='text-input-singleline is-half-width' aaname='' tag='INPUT' type='text' /&gt;" Guid="f955b99c-ffed-4d99-91d5-9d8e5346e881" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5eb5749f-c52f-459e-ad35-c0ca61d0920e" CvTextArea="314, 560, 149, 19" CvTextArgument="Phone Number:" CvType="Text" DesignTimeRectangle="315, 556, 148, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Phone Number:' class='question-title-text' tag='SPAN' type='' check:innerText='Phone Number:' /&gt;" Guid="abf36ebf-316c-408d-95c9-2935ea1c063c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8264d1c8cbbcc8597222fa03dd2687d3.png" xmlns="">0BcwOIjPP2kaRpR1LI7iS7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

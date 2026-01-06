@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BG8GqaPvPkmyhSavCqjYTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a7666021-a1db-438a-b4ed-c09d8aef4fc9" CvTextArea="52, 183, 85, 19" CvTextArgument="Available" CvType="Text" DesignTimeRectangle="8, 167, 383, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Activated item:Available, Submenu' role='menu item' /&gt;" Guid="d4ec2f5c-4f7d-4e60-8a97-74cbc6669359" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="df90033f134edeb9afdb11bd9748cce3.png" xmlns="">0QpQtmpRokUauBPGI9_yH5A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

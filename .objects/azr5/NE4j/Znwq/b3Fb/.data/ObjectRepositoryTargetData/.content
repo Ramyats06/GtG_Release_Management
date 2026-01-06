@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fb81gv2zLk2vygAk8hVOTA" Reference="m1hPtSXhEE-MN2DzQb4wOA/b3FbUSYUqk2BGHcp5rQ_6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6b2eabc7-e061-4210-8f1f-32aa3f8cf3e6" CvElementArea="684, 34, 26, 23" CvTextArea="438, 36, 244, 22" CvTextArgument="TestingWordDoc.docx . Saved" CvType="ArrowButton" DesignTimeRectangle="438, 35, 272, 24" ElementVisibilityArgument="Interactive" FuzzyMatches="10000" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIAnchor' name='‪TestingWordDoc.docx‬  -  Saved' role='Menu Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='‪TestingWordDoc.docx‬  -  Saved' /&gt;" Guid="7006c52e-21b8-491f-b817-23a434196adb" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='TestingWordDoc.docx - Word' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="81fe896e0aec4630c4ed4204d65fad19.png" xmlns="">0jJEP4RasxEe2KLjg1FwMlw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

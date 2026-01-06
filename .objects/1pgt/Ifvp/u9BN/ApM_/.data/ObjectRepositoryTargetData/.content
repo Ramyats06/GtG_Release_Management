@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QTftfqhVdU2vmNBK1jukpA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bedaeed1-e464-403c-826c-c724658ed923" CvTextArea="1473, 113, 111, 25" CvTextArgument="Cooley LLP" CvType="Text" DesignTimeRectangle="1473, 113, 111, 25" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="6587b0e1-08bc-4db0-b64b-0247ca7e8def" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dcec511aabd522c294481ab22e2c98e4.png" xmlns="">0nXkZUoYxqUuFSkHrpeAe_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Pa0wYhV1yEuMf1cHIvECqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3c50317a-0bf9-4086-804f-926e1f28dc6b" CvElementArea="315, 161, 268, 50" CvTextArea="327, 177, 242, 25" CvTextArgument="New blank presentation" CvType="Button" DesignTimeRectangle="317, 164, 264, 46" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='PlaceTabHomeContent' cls='NetUIScrollViewer' name='Home' /&gt;&lt;uia automationid='HomePageSlabCreateNew' cls='NetUISlabContainer' name='New' /&gt;&lt;uia cls='NetUIButton' name='New blank presentation' /&gt;" Guid="c0e0846d-f6d5-43f4-9d66-03404858fc17" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3deab7040d7da2dd713b4fb4c8f81130.png" xmlns="">0Dc4jQpjyrUqmj3mbX1VVnw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

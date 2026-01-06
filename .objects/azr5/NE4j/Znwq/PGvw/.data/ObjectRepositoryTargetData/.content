@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fhXuVs7FDE6iA5vsRaUGrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 574, 638" ElementVisibilityArgument="Interactive" Guid="6bc5abb0-52a6-4367-9534-a0d4b2cac54c" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='SegmentForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e27216ff4ce6eee140322b83bd4ec1ef.png" xmlns="">0IVM8WrvdFU-a4PHlv8xbnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

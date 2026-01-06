@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rCgLnDNpKkaJwvjso2RI8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d88595f4-7ad7-4b9c-8f21-aee27722598f" CvTextArea="54, 223, 114, 20" CvTextArgument="Out of office" CvType="Text" DesignTimeRectangle="8, 207, 314, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Out of office, Menu item' role='menu item' /&gt;" Guid="59f61819-6f9f-4e38-8193-afa6253899ba" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTPresenceSubMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d88595f4-7ad7-4b9c-8f21-aee27722598f" CvTextArea="54, 79, 45, 24" CvTextArgument="Busy" CvType="Text" DesignTimeRectangle="8, 63, 314, 48" FuzzySelectorArgument="&lt;ctrl name='Busy, Menu item' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Busy, Menu item' /&gt;" Guid="2a49148b-7a19-4d7f-9c98-a9e9f9827f80" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2aac6209a041cd7c281042a600fd0ecf.png" xmlns="">0eUzWQMQNhU-BL_PIShez0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

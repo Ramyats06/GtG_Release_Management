@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fIvHW6UA2UWSy8R9v8NTQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1171, 125, 125, 114" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIRibbonButton' name='Insert iManage Attachment' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIRibbonButton' name='Insert iManage Attachment' role='Button' automationid='' check:fulltext='Insert iManage Attachment' /&gt;" Guid="b56af56f-58e8-47d3-877e-2e2f2de1a000" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="be5c8f1efa95aef3be15a534fc0b7e24.png" xmlns="">0w6l9vvxyUUWo0rZZ5iJOXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

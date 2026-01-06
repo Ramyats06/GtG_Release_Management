@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nw79aRKu10eBocW8STKKuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6fde3c27-5327-4148-8262-7946a3b16826" CvTextArea="21, 82, 27, 15" CvTextArgument="File" CvType="Text" DesignTimeRectangle="21, 82, 27, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="553d332f-5931-47bd-9583-5e8e6e700a15" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="12, 3, 62, 114" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl automationid='' name='Attach File...' role='drop down button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='Attach File...' /&gt;" Guid="5c24f116-3e1d-493a-b257-d87393f3b2b9" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b3977778680380e4ffe9dcc71d385556.png" xmlns="">0xz_6LBsYx0OswBk6Reix8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Line up Line down",
+  "Type": "Element",
+  "Id": "tw4zE7aNiUqmkRYRCDt8qw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/tw4zE7aNiUqmkRYRCDt8qw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-21T10:25:09.0986718Z",
+  "Updated": "2025-11-21T10:25:09.0986718Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

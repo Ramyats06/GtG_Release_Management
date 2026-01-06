@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-iATNo_7LE6SJOBa_Zbshg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/Intake/Requests/RequestList.aspx" CVScreenId="9e9425b3-3c16-4b32-ba3a-474097c4f5d3" CvElementArea="1039, 660, 114, 28" CvTextArea="1048, 668, 95, 15" CvTextArgument="create request" CvType="Button" DesignTimeRectangle="1040, 662, 111, 25" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='Y_X_A_B_ucCreateRequestLightbox_btnCreateRequest' tag='BUTTON' type='button' class='_wb-action-button large-rounded-corners intake-popup-buttons gray' aaname='Create request' check:innerText='create request' /&gt;" Guid="07a272fc-8d1e-4336-85ac-edece387c68c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c169f3ad972b8247e6b914bccba4b4a5.png" xmlns="">0_rqH9OvjpUq76TdPjMGxWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

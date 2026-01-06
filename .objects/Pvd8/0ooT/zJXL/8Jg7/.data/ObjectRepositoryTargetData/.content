@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NPfXljkfwUWT_r44Nm7dBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="313cf37d-d821-42e5-a9d7-d4bd94e95eb6" CvElementArea="53, 424, 95, 119" CvTextArea="78, 500, 42, 18" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="56, 428, 90, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' /&gt;" Guid="aaec8c17-e0f8-4e0b-b00b-1ab07a745c2b" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Sending a large file - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="96ce0941a7dbe925bacfae022ce85ce2.png" xmlns="">0a8ooRHhcKUuKX-nBlFq8_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1nKEyK0AnEmowDZkXRi1Vg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b380bc44-f7e3-4385-b584-520deb1330f0" CvTextArea="377, 681, 73, 21" CvTextArgument="This PC" CvType="Text" DesignTimeRectangle="300, 658, 475, 66" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Save As' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Saving Features' /&gt;&lt;uia cls='NetUIElement' idx='2' /&gt;&lt;uia cls='NetUISimpleButton' name='This PC' /&gt;" Guid="109160ad-6bbd-4196-abd5-5a91635b021c" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b380bc44-f7e3-4385-b584-520deb1330f0" CvTextArea="377, 681, 73, 21" CvTextArgument="This PC" CvType="Text" DesignTimeRectangle="377, 681, 73, 21" ElementType="Text" Guid="6a3808f6-af12-433d-ac84-2fbea1722c6f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a0f8f57f7b92eddee5c125e2bbe9b435.png" xmlns="">0Fpy_ivbW_E6S2v6GE8PlOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

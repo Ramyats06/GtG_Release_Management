@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2TmQGs4wQU6yf0XebEoidg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="92fb3ac4-a486-43bd-86ad-7ce24f7dc0d0" CvTextArea="312, 656, 207, 19" CvTextArgument="Click Here to Generate" CvType="Text" DesignTimeRectangle="315, 652, 204, 27" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl class='generate-document' tag='BUTTON' type='button' aaname='Click Here to Generate' check:innerText='Click Here to Generate' /&gt;" Guid="28eb488f-b5c5-4d90-a01a-37d7965bbf6a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5ba51c9180d3bda39e7f7d4736badbe9.png" xmlns="">0CzuDHPmB3UaDlcbsi_L5jg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

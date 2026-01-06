@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6Lm-D_8R00mca6uHoVIRbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="48a11543-c54a-4fa0-9457-61fd97a37d27" CvElementArea="533, 449, 545, 27" CvType="InputBox" DesignTimeRectangle="531, 450, 550, 26" DesignTimeScaleFactor="1" ElementType="DropDown" FuzzySelectorArgument="&lt;webctrl class='is-full-width' type='' aaname='' tag='SELECT' /&gt;" Guid="9cf827c1-14c4-498e-8520-33be7d9b0f63" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="48a11543-c54a-4fa0-9457-61fd97a37d27" CvTextArea="530, 430, 81, 15" CvTextArgument="Matter Type:" CvType="Text" DesignTimeRectangle="531, 427, 79, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Matter Type:' class='question-title-text' tag='SPAN' type='' check:innerText='Matter Type:' /&gt;" Guid="0f0e9bc8-d685-4433-80f7-8a56937a42cb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7cfcc5e986b8d57b96e134965bacffe8.png" xmlns="">0pJCOLwWZ8Uy0cX0piwdFzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

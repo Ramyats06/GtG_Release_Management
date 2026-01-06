@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Your current work locat…(1)",
+  "Type": "Element",
+  "Id": "EKEe1MENkkKS3QC2WdTpHA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/EKEe1MENkkKS3QC2WdTpHA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/VLGkD81_EUCGd7gljQkyNg",
+  "Created": "2025-12-18T15:42:08.5215202Z",
+  "Updated": "2025-12-18T15:42:08.5215202Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

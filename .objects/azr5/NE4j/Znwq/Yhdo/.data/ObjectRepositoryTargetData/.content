@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x0Qg1fa92U6BcjxwlUYPyw" Reference="m1hPtSXhEE-MN2DzQb4wOA/YhdoQHLEEEitd63D-HdJCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2159d39f-e6b9-4b29-ba63-1485c942ddd4" CvTextArea="74, 998, 55, 18" CvTextArgument="More..." CvType="Text" DesignTimeRectangle="11, 976, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIStickyButton' name='More options' /&gt;" Guid="fa0269a7-b419-4cad-a529-7f89f06313cc" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2159d39f-e6b9-4b29-ba63-1485c942ddd4" CvTextArea="74, 998, 55, 18" CvTextArgument="More..." CvType="Text" DesignTimeRectangle="74, 998, 55, 18" ElementType="Text" Guid="bcc4b2a2-ca9b-4c62-a09e-4b53ecd94114" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f2b0d4c3859c064c1f7fc0b35356b64a.png" xmlns="">0-dzVp4kVs0SxQwe2mU8kEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

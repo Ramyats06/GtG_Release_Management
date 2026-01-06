@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OTQ_ZqfAEUe9XTZj-bqBRw" Reference="m1hPtSXhEE-MN2DzQb4wOA/e6sbhMEonEOjGd4-0KFKiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="37c17d2a-89ba-44bc-b329-5ada4454ff25" CvElementArea="115, 351, 28, 28" CvType="CheckBox" DesignTimeRectangle="118, 353, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open E2E-001 Testi*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="8ffbaa31-b479-4974-9e30-d864abf98407" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='WindowsForms10.Window.*' title='Select' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="37c17d2a-89ba-44bc-b329-5ada4454ff25" CvTextArea="247, 340, 221, 27" CvTextArgument="E2E-001 Testing.docx" CvType="Text" DesignTimeRectangle="248, 329, 1419, 39" FuzzySelectorArgument="&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open E2E-001 Testi*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='E2E-001 Testing.docx' /&gt;" Guid="35eb8aec-c8d4-4f15-aadb-489e13822222" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8b5016942b341c83d2234f524b2257d8.png" xmlns="">0eeIjPWm4e0u1CtiKJbCCcA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

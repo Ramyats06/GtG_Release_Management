@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cAfQDc7My06idMJvwXxcAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f13c3b04-f2d5-4e67-b3a5-e7e08c15c630" CvTextArea="1578, 30, 19, 16" CvTextArgument="SR" CvType="Text" DesignTimeRectangle="1550, 2, 75, 72" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='MeControlWidget' cls='NetUIAnchor' name='Sundararajan, Ramya' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='MeControlWidget' cls='NetUIAnchor' name='Sundararajan, Ramya' role='Menu Item' check:fulltext='Sundararajan, Ramya' /&gt;" Guid="9e235266-ee86-46b8-adca-2b19d05c1b60" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="11, 74, 72, 1010" ElementType="List" FullSelectorArgument="&lt;uia cls='NetUIElement' name=' ' /&gt;&lt;uia cls='NetUIListView' /&gt;" FuzzySelectorArgument="&lt;uia cls='NetUIElement' name=' ' /&gt;&lt;uia cls='NetUIListView' role='List' automationid='' /&gt;" Guid="abf74bfa-8831-4b93-959f-97ef6b4aa3e2" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="59bd8989e33e2b2a585b5c7cd111c311.png" xmlns="">0KsI9UnyDvUC6Bgq-W0tobA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

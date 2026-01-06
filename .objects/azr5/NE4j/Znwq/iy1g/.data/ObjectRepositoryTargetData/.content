@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JzqbQoP6XEG860Xs6Xi7oA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="35, 257, 349, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='ftvSegment' /&gt;&lt;wnd cls='WindowsForms10.Window.*' idx='2' /&gt;&lt;ctrl name='Engagement and Disengagement Letters' role='outline item' /&gt;" Guid="304ef940-1454-432d-bf1f-ab9a18f43215" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='SegmentForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="61216cabf9df2c13674a7c4160778510.png" xmlns="">0dIQdS21P-E2UJzdJ9DJC0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

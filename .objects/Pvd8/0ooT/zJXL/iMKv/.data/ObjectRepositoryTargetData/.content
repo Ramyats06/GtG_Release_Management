@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B5ttXgMZU0SUhal9e5ZBSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2caad5bb-b9e7-46a1-b687-3d0fdeae2f21" CvTextArea="594, 188, 58, 18" CvTextArgument="Include" CvType="Text" DesignTimeRectangle="594, 188, 58, 18" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='Include' /&gt;&lt;uia cls='NetUIAnchor' name='Include' /&gt;" Guid="86af9ad4-8bed-4b99-8bf2-0ef0988bb7a4" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="40d360392a3d684933924d740de56c29.png" xmlns="">0SoSFHZo4NUWh3upZ5sjYUw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

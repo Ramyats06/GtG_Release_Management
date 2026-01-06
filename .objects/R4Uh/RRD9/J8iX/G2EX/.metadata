@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Home Insert Draw Design…",
+  "Type": "Element",
+  "Id": "G2EXwfCW6EGUYThnm9z3LA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/G2EXwfCW6EGUYThnm9z3LA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
+  "Created": "2025-11-28T09:48:11.7869864Z",
+  "Updated": "2025-11-28T09:48:11.7869864Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

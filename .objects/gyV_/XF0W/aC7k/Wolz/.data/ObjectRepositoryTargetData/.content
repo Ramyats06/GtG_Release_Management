@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CpKr4_2UvEGMaHXPSS5YRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ece4f506-7a70-4a0f-a170-d54eed169a14" CvTextArea="1572, 189, 70, 19" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1572, 189, 70, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="4ddb2bae-a97d-4f92-914b-ddcc79627b22" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ece4f506-7a70-4a0f-a170-d54eed169a14" CvTextArea="1575, 213, 45, 16" CvTextArgument="Work" CvType="Text" DesignTimeRectangle="1575, 213, 45, 16" ElementType="Text" Guid="44118156-3285-47d9-9ea8-79e2d1cbc446" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1927503eda2cbab197c824a96b441ac.png" xmlns="">0H9kURgFgKkWMmSjZFPH0Tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

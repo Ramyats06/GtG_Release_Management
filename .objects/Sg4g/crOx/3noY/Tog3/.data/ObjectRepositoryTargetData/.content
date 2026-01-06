@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5lQ9LLytGkqNlJGyZ20Jhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 1110, 780" ElementVisibilityArgument="Interactive" Guid="c0982e38-80b2-4fc2-92bb-49b01f5de1a6" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='NUIDialog' title='Print Preview and Settings' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4751382cb0753af999e53d9cbe8a7c7a.png" xmlns="">0LUsYKgJJiU6KzKSuCoTd1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

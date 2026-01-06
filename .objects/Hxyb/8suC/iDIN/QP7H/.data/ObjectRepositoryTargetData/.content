@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dcUgVqC2K02NNnVbcT9dfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="300ce311-03dc-4080-b3e5-5d319f3e173b" CvTextArea="31, 183, 137, 19" CvTextArgument="7 Out of office" CvType="Text" DesignTimeRectangle="8, 167, 383, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Activated item:Out of office, Submenu' role='menu item' /&gt;" Guid="e0bb10eb-10fc-4a52-ab2f-d8f36fe0feb7" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d58fbc45c98b90663cb6b7ced80ea281.png" xmlns="">0i3lg51UQhkmaq2HzcP7BsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

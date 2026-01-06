@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ewYm0pLyPEa1WCiX0FEQrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="718e9adc-bb06-48ed-b875-bde4bbf78c0c" CvTextArea="42, 192, 67, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' /&gt;" Guid="b2a7cb24-8573-451c-940c-8f58afa9a986" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="783cf492650802f38a5562149db5dcd4.png" xmlns="">0BnDYbAP8w02V7JAXhed3_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

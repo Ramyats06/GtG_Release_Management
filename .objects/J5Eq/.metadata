@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Cooleynet - Home - Google Chrome",
+  "Type": "App",
+  "Id": "J5EqeZ5Q8U-JI8LcIKGbxA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/J5EqeZ5Q8U-JI8LcIKGbxA",
+  "Created": "2025-12-02T09:21:45.659735Z",
+  "Updated": "2025-12-02T09:21:45.659735Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

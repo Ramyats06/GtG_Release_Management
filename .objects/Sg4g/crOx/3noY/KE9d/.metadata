@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Ribbon Tabs List",
+  "Type": "Element",
+  "Id": "KE9dV8qhM0WI4cQ8FIlAVw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/KE9dV8qhM0WI4cQ8FIlAVw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/3noYwZaBtk2DbR-7yWGXiQ",
+  "Created": "2025-11-28T10:37:57.7531148Z",
+  "Updated": "2025-11-28T10:37:57.7531148Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n7d-mui5_0SEmt7zVQKQ1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/Login.aspx" CVScreenId="099e04be-d9ec-4d82-9bf1-a3d754b00d0f" CvTextArea="485, 230, 96, 24" CvTextArgument="Requests" CvType="Text" DesignTimeRectangle="485, 229, 96, 25" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="89b48f05-2aa6-4d65-b5ff-fadc55cf30f4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="90e56f1d444e615b7b62277cb35c28e2.png" xmlns="">0x1sL9scbUkmPuzyYD0JUkw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

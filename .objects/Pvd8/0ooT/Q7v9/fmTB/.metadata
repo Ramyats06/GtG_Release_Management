@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Connect",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fmTBzXkWb0-z0x61BLUi6Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/fmTBzXkWb0-z0x61BLUi6Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-21T10:54:57.6967253Z",
+  "Updated": "2025-11-21T10:54:57.6967253Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

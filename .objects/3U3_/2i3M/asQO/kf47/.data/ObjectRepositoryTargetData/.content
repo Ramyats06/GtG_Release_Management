@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2aU2vyjXAEauZG7GYdJg2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ec2901d0-35da-4075-8290-923d639824b5" CvTextArea="849, 143, 185, 21" CvTextArgument="Conditional Formatting" CvType="Text" DesignTimeRectangle="815, 134, 251, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia automationid='ConditionalFormattingMenu' cls='NetUIAnchor' name='Conditional Formatting' /&gt;" Guid="0289c1af-6076-4114-b00c-6ff8a2bdef96" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="27b6413930c524e29d5bc281560bca9d.png" xmlns="">01iRDbVW-UkW4getOiRau5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

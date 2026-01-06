@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Set work location",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "IacF28Bsy0yIL0XysLyoHw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/IacF28Bsy0yIL0XysLyoHw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/u9BN9aR2-E6PwgujQUs1JQ",
+  "Created": "2025-11-24T11:07:24.6616115Z",
+  "Updated": "2025-11-24T11:07:24.6616115Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

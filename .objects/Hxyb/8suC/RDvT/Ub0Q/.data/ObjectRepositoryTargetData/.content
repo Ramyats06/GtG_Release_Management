@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tSLdW1YR9UOMgRPkCJishw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6dd8c005-0a6b-47a4-8ebd-21645a7cc2e2" CvTextArea="37, 82, 223, 34" CvTextArgument="Call forwarding" CvType="Text" DesignTimeRectangle="39, 73, 822, 47" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Call forwarding' role='text' /&gt;" Guid="08139760-0c03-40fa-ac65-8741a53daa51" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='CallForwardingWindow' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9d25498c9cb65d2dc25d0cdca21aa872.png" xmlns="">0vDxBp7pUGU6t3jVnMeVsDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

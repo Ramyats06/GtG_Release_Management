@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hDYZ9V4gfEeaWm2FcfzssA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="7928b3b1-4421-4f0b-bee7-feff8c65a72a" CvElementArea="312, 612, 416, 42" CvType="InputBox" DesignTimeRectangle="315, 614, 412, 38" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='text-input-singleline is-half-width' aaname='' tag='INPUT' type='text' /&gt;" Guid="77a8d524-891d-4248-a7dd-c103e503c3ae" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7928b3b1-4421-4f0b-bee7-feff8c65a72a" CvTextArea="314, 582, 116, 20" CvTextArgument="Postal Code:" CvType="Text" DesignTimeRectangle="315, 579, 115, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Postal Code:' class='question-title-text' tag='SPAN' type='' check:innerText='Postal Code:' /&gt;" Guid="7bee1d66-affa-49a5-bd35-6db4c9419d4a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7faebd63c32dff6ddd664e714b613f1a.png" xmlns="">0WZJU56CQ8UqI5YBk2NJg1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

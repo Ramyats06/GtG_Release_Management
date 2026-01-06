@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Intapp - Work - Microsoft​ Edge",
+  "Type": "Screen",
+  "Id": "uLGfTJsXRkeGW_yMcAvNNA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/uLGfTJsXRkeGW_yMcAvNNA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/uKcs3d2NCE6BvK6VbQmZ9w",
+  "Created": "2025-11-11T17:56:16.6302955Z",
+  "Updated": "2025-11-11T17:56:16.6302955Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Google Chrome",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "SmqkRkyAzk6-EK-SuqvtzQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/SmqkRkyAzk6-EK-SuqvtzQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/RWaK3KETaUK8Sz2C6U_kAw",
+  "Created": "2025-12-02T09:38:53.5454657Z",
+  "Updated": "2025-12-02T09:38:53.5454657Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

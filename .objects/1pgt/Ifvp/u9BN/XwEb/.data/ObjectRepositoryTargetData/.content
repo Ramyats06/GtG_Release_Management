@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u41I4egDVUu9sxjbohUVaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9e250df5-c37b-4e9a-a0a1-f431854839f1" CvTextArea="1574, 480, 73, 19" CvTextArgument="Remote" CvType="Text" DesignTimeRectangle="1518, 465, 346, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Rezaei, Ali | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Rezaei, Ali | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Your current work location: Set work location' role='popup menu' /&gt;&lt;ctrl name='For today' role='grouping' /&gt;&lt;ctrl name='Remote' role='menu item' /&gt;" Guid="b3d8bd43-45a1-4dc5-a6e8-7154f2442b27" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Rezaei, Ali | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9e250df5-c37b-4e9a-a0a1-f431854839f1" CvTextArea="1574, 431, 57, 19" CvTextArgument="Office" CvType="Text" DesignTimeRectangle="1518, 417, 346, 48" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Rezaei, Ali | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Chat | Rezaei, Ali | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Your current work location: Set work location' role='popup menu' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='For today' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Office' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Office' /&gt;" Guid="60ee7ba8-bbd1-4be6-8250-2baceb9be268" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf9da3cd0ecf526503835ec8a6a506f7.png" xmlns="">0wRoK4V7fkU6Cj4ydkxF6ew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

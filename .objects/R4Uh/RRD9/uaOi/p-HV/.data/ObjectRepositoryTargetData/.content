@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jbNUX9yjrkKRZCRLgOG1zA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1c534d2c-9154-435a-b554-e0425dfb585e" CvTextArea="377, 681, 73, 21" CvTextArgument="This PC" CvType="Text" DesignTimeRectangle="300, 658, 475, 66" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Save As' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Saving Features' /&gt;&lt;uia cls='NetUIElement' idx='2' /&gt;&lt;uia cls='NetUISimpleButton' name='This PC' /&gt;" Guid="97690506-4d2a-4bbf-b15f-302a258b5551" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="632c0240162bf78cb4a393def7f4819e.png" xmlns="">05H4fev10bUSy_famwKdjGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

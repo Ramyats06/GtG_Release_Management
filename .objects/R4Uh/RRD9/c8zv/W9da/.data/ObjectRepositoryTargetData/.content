@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ShFfQyUOAEqQL8nYy5e9DA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="28be97c7-dc34-481f-8434-597527aba8ed" CvTextArea="26, 1115, 77, 15" CvTextArgument="Slide 1 of 1" CvType="Text" DesignTimeRectangle="26, 1115, 77, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Status Bar toolbar' /&gt;&lt;uia cls='NetUISimpleButton' name='View Indicator Slide 1 of 1' /&gt;" Guid="3dee142a-c483-4b74-9537-d9f187d8bcb5" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='PPT_Test.pptx - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="33374b303589b2ac8441f347b4f07119.png" xmlns="">0SvL-wlZtPU-M2QnF3RWsww</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

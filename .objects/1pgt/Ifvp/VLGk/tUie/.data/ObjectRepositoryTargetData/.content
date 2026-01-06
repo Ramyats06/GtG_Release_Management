@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NeJY97pkVUKddY7wh46Nng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a0bfef4d-8688-4e5e-8438-f847ee8f62c0" CvTextArea="1574, 431, 57, 21" CvTextArgument="Office" CvType="Text" DesignTimeRectangle="1518, 417, 346, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Your current work location: Set work location' role='popup menu' /&gt;&lt;ctrl name='For today' role='grouping' /&gt;&lt;ctrl name='Office' role='menu item' /&gt;" Guid="dc22a160-d018-47c4-890c-d0d11f5002ef" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a0bfef4d-8688-4e5e-8438-f847ee8f62c0" CvTextArea="1574, 431, 57, 21" CvTextArgument="Office" CvType="Text" DesignTimeRectangle="1574, 431, 57, 21" ElementType="Text" Guid="223c307d-36f1-417b-86dd-4dc6326bdb12" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="019ac50f6cf032eea0b4d8e42bba3176.png" xmlns="">0Ephf7YJEAkmSVhppkPmDLg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Document1 - Word",
+  "Type": "App",
+  "Id": "azr5BTsba0mqyaDYt0wc9A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/azr5BTsba0mqyaDYt0wc9A",
+  "Created": "2025-11-06T09:41:39.9695058Z",
+  "Updated": "2025-11-06T09:41:39.9695058Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

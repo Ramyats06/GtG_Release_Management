@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pvWRKX_c2kCGsVZa-Ev4jg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="361f7506-6e02-4659-89da-572348be26f7" CvTextArea="202, 493, 396, 27" CvTextArgument="Quality Assurance [268889.PMO0361]" CvType="Text" DesignTimeRectangle="202, 481, 436, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' /&gt;&lt;ctrl idx='4' role='grouping' /&gt;" Guid="15d315cd-6da5-4e77-9be3-2de7649ea665" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="361f7506-6e02-4659-89da-572348be26f7" CvTextArea="231, 523, 400, 21" CvTextArgument="Projects [268889.PMO0361] - GtG Release Manage..." CvType="Text" DesignTimeRectangle="202, 519, 534, 28" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Workspace Name Projects [268889.PMO0361] - GtG Release Managemen*' role='grouping' automationid='' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Projects [268889.PMO0361] - GtG Release Management - phase 1' /&gt;" Guid="707bd1ce-c928-4e52-ad37-b2ad083b174e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d32f6dc61e90d5343006f7ba6bcf41c.png" xmlns="">0QKGR-LeT-UK56GD8Q8FmTQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

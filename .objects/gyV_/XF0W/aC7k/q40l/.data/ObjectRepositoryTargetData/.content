@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8lURv8Oy50iERov35neTkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="0d65c94b-fb67-4d1b-8464-70dba357fa78" CvTextArea="1464, 710, 106, 18" CvTextArgument="100mb.docx" CvType="Text" DesignTimeRectangle="1466, 701, 346, 31" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open 100mb.docx Fi*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="50292ad6-acbe-426e-87fe-614890e3c8e8" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="448cbddf1f1e2749542cb2fa46e95bbd.png" xmlns="">0QtbcQNfbIkCzc9VlHA5WYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

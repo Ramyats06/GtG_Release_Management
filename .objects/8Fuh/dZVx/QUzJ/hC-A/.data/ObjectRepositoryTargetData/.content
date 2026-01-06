@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jQoQrcGJJ0aDwyxzsHWDEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="36f5a71f-6438-4bd4-9154-66dc8309d3ff" CvElementArea="535, 409, 110, 51" CvTextArea="565, 424, 48, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="538, 411, 105, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Save' role='push button' /&gt;" Guid="7095af1b-63cf-4677-82ae-8b9cd807372b" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='personal_note_wnd' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6767564ba64604012975bdb1fc8ab738.png" xmlns="">0Vj5mlR3H3U2WRuMejtvZIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

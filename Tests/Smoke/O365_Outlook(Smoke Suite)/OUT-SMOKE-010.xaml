@@ -1,0 +1,401 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_010" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_010_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="OUT_SMOKE_010" sap:VirtualizedContainerService.HintSize="1034,4671.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1014" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,745.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Get to Green Release Ma…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="41a07a5e-a0cd-4432-9c73-11db25d2d140" ContentHash="7rddS6Q9Nkm-IvOlvX8SQw" CvElementArea="99, 995, 27, 25" CvType="ArrowButton" DesignTimeRectangle="99, 995, 27, 25" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="d108bad0-7703-4f22-9e22-d299e0c4629d" InformativeScreenshot="b8b1bfcda69bc1ec7ca10334e0399d1a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/bIA93wudCE2z0-FLte-eTg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="41a07a5e-a0cd-4432-9c73-11db25d2d140" CvTextArea="123, 996, 270, 21" CvTextArgument="Get to Green Release Man..." CvType="Text" DesignTimeRectangle="123, 996, 270, 21" ElementType="Text" Guid="a6603341-0e4f-4cb9-a32b-62ee4d6cae20" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'email(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,312" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V5">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.OutUiElement>
+                    <OutArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.OutUiElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable CVScreenId="7734c1bf-de8f-405f-a39d-530dfb8c282e" ContentHash="PUo3YaBYDEeflqBG0DjuPg" CvTextArea="123, 1076, 271, 21" CvTextArgument="Online Archive - rsundarar..." CvType="Text" DesignTimeRectangle="123, 1076, 271, 21" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="77e8d272-ae16-485b-aa0a-0b2a2716ce82" InformativeScreenshot="2bb65ddd2dc5e63fc5f24257b19c8986.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Vykut2pwx0S6Tx8RqUe_wQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+              <uix:NMouseScroll.Target>
+                <uix:TargetAnchorable ContentHash="Wh9fJc8Hh0WW8S_iS0GqeA" DesignTimeRectangle="101, 513, 339, 593" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIScrollViewer' idx='2' /&gt;" Guid="686543b2-77a3-4abb-a58d-690f306aa743" InformativeScreenshot="6fc0091d081dd9ba6c9e2250478b6ee3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/umQdI2lG2UOFpW6kXPVReA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NMouseScroll.Target>
+            </uix:NMouseScroll>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Get to Green Release Ma…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="9953094d-3a44-43c3-b533-5063353312c3" ContentHash="qIv6PSUw4EeJusuw40eyOQ" CvTextArea="123, 710, 277, 18" CvTextArgument="Inbox " CvType="Text" DesignTimeRectangle="123, 710, 277, 18" ElementVisibilityArgument="Interactive" Guid="90d897ab-dfd4-4564-a676-6a75f4e494a0" InformativeScreenshot="cd3c5b1d7eefcce03b812cd3cd80af15.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/px0nrcbwVU-jAsF1L6uxyw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="9953094d-3a44-43c3-b533-5063353312c3" CvTextArea="123, 672, 270, 21" CvTextArgument="Get to Green Release Man..." CvType="Text" DesignTimeRectangle="123, 672, 270, 21" ElementType="Text" Guid="47f444ec-3821-4b06-97bd-eeeed8dd0635" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="3ScqkDE_c0augEj73x9Ctw" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="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" InformativeScreenshot="80aa1ebf31061bdc55632065a76d60e4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1276" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="756d8437-33e3-4950-b58b-d296845c00fb" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1007.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Testing by Sending a la…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="756d8437-33e3-4950-b58b-d296845c00fb" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="10ab5fa2-e4f4-489e-ae65-a234e4cb6b38" ContentHash="SJiCzelg00WNRul7s6PLOQ" CvTextArea="489, 438, 227, 19" CvTextArgument="Testing by Sending a large f..." CvType="Text" DesignTimeRectangle="489, 438, 227, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="97ef77ad-adfd-499c-b589-9d06c4062e38" InformativeScreenshot="3bb4d2e8eb16b23a405f3d7f39078cf8.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/teK7lTNVkE6vFyTxf3qdzw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="449, 391, 414, 109" FuzzySelectorArgument="&lt;uia automationid='4704' cls='SuperGrid' name='Table View' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='GroupHeader' name='Group By: Expanded: Date: Today' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='LeafRow' name='Attachment With Attachments, From Sundararajan, Ramya, Subject Testing by Sending a large file, Received 15:41, Size 100 MB, Flag Status Unflagged, Preview Ramya Sundararajan  NESP– Technology Office Operations    Cooley (UK) LLP    22 Bishopsgate  London EC2N 4BQ, UK    +44 (0) 20 7556 4177 office  +44 (0) 20 7785 9355 fax    www.cooley.com    Cooley is committed to racial and social justice, ' role='item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Message Unread' /&gt;" Guid="963c0db2-4a28-4c50-81ae-d3c0e22e6f39" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="756d8437-33e3-4950-b58b-d296845c00fb" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="ece4f506-7a70-4a0f-a170-d54eed169a14" ContentHash="CpKr4_2UvEGMaHXPSS5YRw" CvTextArea="1572, 189, 70, 19" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1572, 189, 70, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="4ddb2bae-a97d-4f92-914b-ddcc79627b22" InformativeScreenshot="e1927503eda2cbab197c824a96b441ac.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/WolzGVg_40C5Ai2jTUbERA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="ece4f506-7a70-4a0f-a170-d54eed169a14" CvTextArea="1575, 213, 45, 16" CvTextArgument="Work" CvType="Text" DesignTimeRectangle="1575, 213, 45, 16" ElementType="Text" Guid="44118156-3285-47d9-9ea8-79e2d1cbc446" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="756d8437-33e3-4950-b58b-d296845c00fb" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="57ada101-1f31-428b-a23e-04fcb03d6a0d" ContentHash="ED8hCYTpYky8oRAO6QDV0g" CvTextArea="114, 61, 36, 13" CvTextArgument="Save" CvType="Text" DesignTimeRectangle="114, 61, 36, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="9f2b26e2-18f5-4bd5-8d20-f898484d51df" InformativeScreenshot="64c8210f950a493d2a8f3b18d06febb3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/evhVAuiyGUCSouGJSvzTiA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="57ada101-1f31-428b-a23e-04fcb03d6a0d" CvTextArea="78, 82, 90, 15" CvTextArgument="Attachments" CvType="Text" DesignTimeRectangle="78, 82, 90, 15" ElementType="Text" Guid="887731eb-1897-495d-ba6e-2bfb0dd01dfc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Line up Line down'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="756d8437-33e3-4950-b58b-d296845c00fb" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="9iui6CIw10q-rabpm5HARw" DesignTimeRectangle="0, 0, 207, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;" Guid="9d62bb64-e32b-44d0-8cda-3d0fa8ac84e0" InformativeScreenshot="23770d96d44b87a822fbab18856110ba.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/-DrGiuXJQ0KMI9YTn-mGwA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Document'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="756d8437-33e3-4950-b58b-d296845c00fb" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="be2c90ea-8149-4828-92be-12c7debe99d1" ContentHash="1hM3MtdKnkSyRfpMv90ftg" CvTextArea="55, 15, 125, 18" CvTextArgument="New Document" CvType="Text" DesignTimeRectangle="55, 15, 125, 18" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='25' /&gt;&lt;ctrl name='New Document' role='menu item' /&gt;" Guid="b70d70a7-8e4b-47a3-97e4-0f0959305f74" InformativeScreenshot="9f89dce9032050a571eca798fec5513d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/LZe1hka1-065CJFSlKijaQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="GIjZAEzmeEC4zlwr5kZH2A" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="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" InformativeScreenshot="abf073b38b535a3100d171235f0b4f6c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/aC7kySkbd0qMHIq3n17YXg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Save As" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,294" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" IsDisplayNameAuto="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="e9aae690-e605-47dd-b3a6-34603e5be7b0" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'Recent Matters'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e9aae690-e605-47dd-b3a6-34603e5be7b0" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="Te9Bzm_d6U6zg4jihuBuBQ" DesignTimeRectangle="19, 202, 82, 76" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="59aa9181-9c7c-4eab-a714-febfe4eedd93" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFIAAABMCAYAAAD+8OBwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATxSURBVHhe7Zp9SNx1HMf3X/1R64GKoqA/oiJpLNpYtVrBiDCC1lzBehxEOEJs6mloMWMiaz7VNXXD0ukUzT1gm4VOnchM5dzUUFt6mFOPdGozTfP59N19Pmid7rfbzX3u8I7PG17c93f3O/3e6z7fh9/drXkm0Aait++yskIsFgvWnP6pCed+bkD9+QvKCmGRMzMzUG4OFSmEihRCRQqhIoVQkUKoSCFUpBAqUggVKYSKFEJFCqEihVCRQqhIIVSkECpSCBUphIoUQkUK4VGR/wz/hc6aSq9zub3VsD+exKMiy+NNSNv8ILICA7xK8ro7MTH6t2GfPIVHRf6w5z2UR+/E76e+8irJT67FcK/NsE+eQkUKoSKFUJFCqEghVKQTgxV7De93BxXphIpchopcoDRiO77ZeC++e+VxNByKMjzHFSrSQdux/UhZtxYHHruVOf7+FsPzXKEiHVhPJjou8e7Al4/ewqhIBySyJHy74Yt1RUn4G0gMuB2pzz6wZGi3ZO9FvXkPWgvM6KkpxWhfN+bts5gcvoIr1l9w6Wwhukoz/E/kid1BSFl/F4o+ehm/Fe5fIut65L+1iau5LikEBTufQ1LAbTjy+kaHPBsog4ODaG5uRllZGerq6tDd3c3/0z49hYq4cP+ryDOmN1Ec8ppj8bgPx3e9hPMHww3FOXMxbx8ObXmY3wRadOj5/Y0VLLCvrw+xsbEIDg6+ipCQEFRVVfF5sw6hRn1yhU/Mke3HD6AkIggHN92Pr5++B7nbnmJBZz9/F7WJH6Nq3y6Umnag8O3NvMjQOccW5se++tMshySRsMjISK5Eq9WKqakp9Pb2clWazWZ+nG7HxsYwPz9v2K9r4XOLTb35E5zaHYisV59AViARgLygDTjxwYs8PzYe/hQZWx/ByQ+34lLJYczP2dHS0sKS8vLyMDExwWL7+/t5SDunoaEBYWFhSEtL42O73W7YNyN8TuT1SH/+of9W7YFfL2B8fBwRERFcac7Jzc1FfHz8wtH/aW1tZen04ihGfTPCr0Q2fRvNQ5skJq+/m0VUVlZylY2OjvLxYq4lkpKTk4O4uDhuu1uVflmRJPPojhdYREZGBvLz87ntHFciu7q6uCqnp6cxNzdn2L/l+J3Ii/lxqPjsHVh/PMJSoqKiUF5ezm3nuBJJ8yiJbGtrc3vR8TuRi/zZXMlSSEh1dTW3nUMLT2hoKJKSkpYwMDDAj9PzampquG3UP0lWtcg/zn3PEmiuKygo4LZzaENeXFx8FSMjI7DZbCySVvUb3QatBI+KPPNF6E19HXt02wYWlp2djYSEBG67m9raWhZJuZEt0ErxqEiJHwjYZ6bR2dnJUtrb21mMO6GrHxr6lNnZWcP+SeJRkRJQNVFo1aa95NDQEB+7SmZmJkwmE+8/vTGsiVUvkiAZk5OTiImJ4f0kzY1GGR4eRkpKCldvU1MT32f09zyBT4gkKLSlycrKYlEkjObOoqIirtb09HSWHB0djY6ODj7fG0N6EZ8RSVBlUhobG1ko7SHpEx+q1NTUVF6x6UMMijclEj4lkiBBruLuVYw0PifSGZJKixHh7Qpcjk+LXE2oSCFUpBAqUggVKYSKFEJFCqEihVCRQqhIIVSkECpSCBUphIoUQkUKoSKFUJFCqEghVKQQLLKnp4d/zUBfYyorQytSCBUphMViwb++At+mQiQedgAAAABJRU5ErkJggg==" InformativeScreenshot="fe60edffb1351505f89d3a1049cb4758.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/kh5wWJpbPUebfv-ENEvPlg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Projects [268889.PMO036…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e9aae690-e605-47dd-b3a6-34603e5be7b0" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="bf8e80f1-07b1-4370-8477-a31828bd78c3" ContentHash="MTpqaGAqmU26huwjVl4AoQ" CvTextArea="203, 390, 680, 27" CvTextArgument="Projects [268889.PMO0361] - GtG Release Management - phase 1" CvType="Text" DesignTimeRectangle="203, 387, 684, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Recent Matters - Sundararajan, Ramya - iManage Work' /&gt;&lt;ctrl name='Recent Matters - Sundararajan, Ramya - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Projects [268*' role='row' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1' role='text' /&gt;" Guid="76f4c638-bd4f-4858-a3e9-cf38c016be55" InformativeScreenshot="c3f5b32293c29f3d4b6d977c496a6153.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/0pVUXbNUx0iCPAgoyr_6Ew" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="bf8e80f1-07b1-4370-8477-a31828bd78c3" CvElementArea="125, 397, 48, 41" CvType="Icon" DesignTimeRectangle="125, 396, 49, 49" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Recent Matters - Sundararajan, Ramya - iManage Work' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Recent Matters - Sundararajan, Ramya - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Projects [268*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Matter ' role='grouping' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Matter' /&gt;" Guid="4d90ad27-41bd-4b04-8619-6f61cdc1a720" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAYAAADh5qNwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANJSURBVGhD7ZlrSBRRFID7lxGSRUZk7zJLUwuNyLLHmmZJS1lRJimWYrS9rEgFF0ssNV3f5raSD0S0rLSQDDOTfigVWEkqYdDfSl1zVTAQT3uOOozsDZ1Vmx2bgY9dhjN3z7fn3jtnmFk/OzphpiFLSQVZSir8P1IdnV1gMPRCX3+/RdPb1wdder1J/kypwcFBkNKh13ePyd9ESt/9iwJ/tH6EXIUDJK6zskhSnG3g++cmyhWrxnf4q1TV9VDI2b4UGjXnLZJsDzt4oVZRrhOWepUQCfcUa+BrZapFot2zGuoSoyhXWUqW+sfIUrKUiMhSspSIiC7VUhIHL6MDCPzOihGKqFLNRbGQumk+14imbV4AzYVqZqwQRJWqvuo/prtG8BwrVgiiSj085TksYz/b+IlYwePTCmasEESVakg+NyI1KmYFjWkXmLFCMFsqe5sdc0ChPD27HzQuNpDuthCeqfy48x900VAXGwRVF5VU0YKDzvQMd8dxLmhcbeCu53I6Vx60E55HHII38aHwKT+GrjVLqjpGBUnr59DDWEOyikvEXO77OlLibQ9uQ03UCdAp1g5XcASUxkSL/d2gIsyH5JEnYd5QpHSFnB3LSBZjM9xtSbo2/hrlKqhS2t0r4dEZLxoI/7H6uBD4Up7ETHo8tLtWGSu/hEsMx666pIT3WVegrfQW8xoW77IijFU7DKnGXXRSa6o5X01yGpd5kLLRGspOesDrG8HQUnzT5Ef5YLKYAE4pXFPJTtZQEb4PmrSRzHghTNlGgVWqjQk0TqUN3LTB6VmodIHSAA9KGOd/gZ8TZG5dzMXkH3CCXM8VNP34402Gadv93mZeNt5zjlDldHvtaV3gjZbWxlF3qAz3pc0AY3Ve9lBybIvJGOYybVIToa0sAfJ8HLgtHauMmwUrVgiiStVEHR+ehrz7FJ5jxQpBVCl+R5EwIjUVa0tUKa6j4CFqRzEVUgh2FBnuiwh+RzEZRJeaDmSpGS1Vr1FT4zjaWFoa6W62lCMe40vpuymwo70VSoN9oSTQ2yIpC/ED/bd2ynVcKXw1OjQ0RMFSOXp6DGMcTKSQHoNBMq9IBwZ+m+TPlJI6spRUkKWkgiwlFWQpqTADpTrhD0NwbLsMFVx4AAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Quality Assurance [2688…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e9aae690-e605-47dd-b3a6-34603e5be7b0" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="b05f3aae-72fe-4824-b2b7-302385751cdd" ContentHash="ZOL88_aTOEGwZONOTcM2Gw" CvTextArea="201, 881, 398, 27" CvTextArgument="Quality Assurance [268889.PM00361]" CvType="Text" DesignTimeRectangle="203, 877, 396, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361]' role='text' /&gt;" Guid="f99ac699-f8db-4002-8c79-0f6ddc670545" InformativeScreenshot="aaa6a2ac247f80bcf280f8f36845680d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/itD4Auri-U2pUr1X-9EGoA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e9aae690-e605-47dd-b3a6-34603e5be7b0" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="2fed6d5e-13e3-4e43-b09d-b77b9eee8a6b" ContentHash="lWveKT8JVEusff-Nu9Q-Bg" CvElementArea="1643, 1075, 130, 56" CvTextArea="1685, 1092, 48, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1646, 1077, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Save' role='push button' /&gt;" Guid="4c3072b1-3ee8-4e39-83dc-212646119f3f" InformativeScreenshot="0b34834ce7f57f82acbfb37739b0ee1c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/k04YvUCnPUiRIs1Ip25vZA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="382,114.66666666666667" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="367, 198, 1186, 732" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIxSURBVGhD7ZZLaxNRGIbzv4KXjSDqQgQ30jbbxOjCS0PT0kWqbrroRggSiqLgRhciiqZdNIuKjRVLWxKiJhovmIUNaGYmyWTOZL7ON5lkLp6EyRRyEjwvPBAyL8x55lxmAsFITQqGBXUi0cce0H80gxEBJhJ97FyAKVyANVyANVyANVyANf+NwMmrAjx8LcPH7yqsvVPgfFyk9kaOV4FHaRnsQRFab+R4FSj+VM2hWzkXG4NZ8CqQ2VHMYXdSq2twPErvjhSvAhcXRShXOrMgNjSIJevU3sjxKtDlwrwIJ644/8OZWH7chDf7BL78UqHwTYVXWwpcv+uUPDsrQvKZDO8LxHgYua8qPM20YOa25OgNxbACbqaWJPj049/90Q0O9sxNERIPGsbM0UJUDVZfyP6W5FEELiUkkBX6oOyp/m2bvwYnnVWo9xmIX4FjlwXIl51PHjf22xyBvRIxnmq//P7Ths09Ap8pMxe/16Dery9+BXBJ2JPNEzh9w7oeuiPBgT5Qd3DN25cKHgYKsWQr1Xbvmif8CqxvW8dqQ9aMde7uLKSckrjBcebcPXzD24NL093pi1+B/ZI1/btFQu2cuiaYjU6ebLSovehK3Wx04j69BuJXAD8lusH1TOsgmmYtj/svZWonpB+j9swNsw+4gB4uwAW4wAQK4Hug2dIMNj70/4bBl1y3l3pOF5i+JfU6yFCf6n4FxgYuwBouwBouwBouwBouwBouwBouwJqw0DwEteBUZELCt3UAAAAASUVORK5CYII=" InformativeScreenshot="6373126f93f50a916c2ac57573e3fd27.png" Selector="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2064.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1805.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage Work'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="M7PGaNIqEUWN7303rdN6wA" DesignTimeRectangle="1561, 131, 95, 144" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIAnchor' name='iManage Work' /&gt;" Guid="7a2eea0b-adae-43fd-8696-632c822e3fa9" InformativeScreenshot="700cb31554a3649c4d027c83fb39ea02.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/8T_PFInu8EarSbREECH9Iw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="a00a89b5-7b5e-4d8a-bf85-dcf16735b3de" ContentHash="o2zPMrcAw0S7Lq_aBhJT6g" CvTextArea="201, 60, 39, 16" CvTextArgument="Work" CvType="Text" DesignTimeRectangle="201, 60, 39, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8884cdba-860e-45d8-9dde-e47a4c63eb57" InformativeScreenshot="334720083c2f2858c7f9d1e618c97c3b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OV__rKtyX0CFj2ZTZUJ-WA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="a00a89b5-7b5e-4d8a-bf85-dcf16735b3de" CvTextArea="201, 82, 39, 15" CvTextArgument="Panel" CvType="Text" DesignTimeRectangle="201, 82, 39, 15" ElementType="Text" Guid="0dac8ca1-40d5-4a8b-a8e8-7a7ac2390677" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Quality Assurance [2688…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="479cbbb8-c370-4ff6-bcee-8dba687cd6f3" ContentHash="LzPtHIOMAUO57tgTT_-N7Q" CvTextArea="1466, 777, 317, 19" CvTextArgument="Quality Assurance [268889.PMO0361]" CvType="Text" DesignTimeRectangle="1466, 777, 317, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="5a76420e-2ca9-42bc-a747-51bd139f3701" InformativeScreenshot="7b81cf6bda1345ecee6429ee9deb26dc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/tCazzGlcSkq55UzW79y8dg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State '100mb.docx'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,1171.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,681.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASS: Attachement recived has been Filed in iManage" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '100mb.docx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="0d65c94b-fb67-4d1b-8464-70dba357fa78" ContentHash="yYlZNyH97Eu7YD01NqaryQ" CvElementArea="1873, 719, 31, 33" CvType="Icon" DesignTimeRectangle="1877, 723, 24, 25" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open 100mb.docx Fi*' role='row' /&gt;&lt;ctrl name='100mb.docx Actions' role='push button' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="fe7ee791-e91b-4258-9f1a-77567ab84e31" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAYAAAC5UQwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFFSURBVEhLY3j1+s1/euJRC6mORy3EwLfu3P2fkJz+X9fA5H9uQfH/R4+fYFWHC5NsYWpm9n9FVU04bmxuw6oOFybZwpDwKBQLM3PysarDhUm2cOGipf+V1LTAlqlr6//fsm0HVnW4MFmJ5tixE/8nTpn2/+KlK1jl8WGyLKQEk2Xhk2fP/x85euz/8xcvscrjwyRbuP/g4f/GZlbgOLR1cP1/4eJlrOpwYZItDI+KRUmlhSVlWNXhwiRbGBkTj2JhflEJVnW4MMkWHjh0BB6k9s7utA9SEIYlmhcvX2GVx4fJspASTJaFx46fBGf8cxcuYpXHh0m2cP6CxYiiTUvv/9btO7Gqw4VJtjA4LBIllWblFmBVhwuTbGF6Vi6KhfWNLVjV4cIkW3jrNqICBmX6x0+eYlWHC5OVaCjBoxZSHdPZwjf/ASxHexwf+R/jAAAAAElFTkSuQmCC" InformativeScreenshot="79d8a0629ec18ded99a3dd33132f1c08.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/KLko3kzYm0qiQDundayg2A" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="0d65c94b-fb67-4d1b-8464-70dba357fa78" CvTextArea="1464, 710, 106, 18" CvTextArgument="100mb.docx" CvType="Text" DesignTimeRectangle="1464, 710, 106, 18" ElementType="Text" Guid="da2a7274-98bf-41bd-906a-742a041750aa" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Move to Trash'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c608c1-9126-4dd3-9ae4-db8731b86a1d" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="68fa5519-a610-4d4a-9fb2-a79005ce065f" ContentHash="p5VGgj-E6E2Cl8uUu0NH1w" CvTextArea="1721, 1082, 96, 13" CvTextArgument="Move to Trash" CvType="Text" DesignTimeRectangle="1721, 1082, 96, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="6ca283cd-e205-4d21-93cd-20ebbe75c78b" InformativeScreenshot="d10d29580d48f333fd1693ca342cac7b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/0IvuAkRLx0W1RfXFIj4k8Q" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAIL: Attachement recived has NOT been Filed in iManage" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="0d65c94b-fb67-4d1b-8464-70dba357fa78" ContentHash="8lURv8Oy50iERov35neTkw" CvTextArea="1464, 710, 106, 18" CvTextArgument="100mb.docx" CvType="Text" DesignTimeRectangle="1466, 701, 346, 31" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open 100mb.docx Fi*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="50292ad6-acbe-426e-87fe-614890e3c8e8" InformativeScreenshot="448cbddf1f1e2749542cb2fa46e95bbd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/q40lXGTytUKdBnhlD5sh3w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="GIjZAEzmeEC4zlwr5kZH2A" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="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" InformativeScreenshot="abf073b38b535a3100d171235f0b4f6c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/aC7kySkbd0qMHIq3n17YXg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VdwPov9rB0uUN9r7ACyL0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" DesignTimeRectangle="255, -3644, 1410, 11856" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl id='request' tag='DIV' type='' class='request-container kist-Tabify-pane is-active docking-panel-container is-docking-panel-static Intapp-dockingPanel-disabled' aaname='    ' check:innerText='▼Overview&amp;#xA;Requesting Attorney:&amp;#x9;&amp;#xA;Client Responsible Partner:&amp;#x9;&amp;#xA;Client Responsible Partner Office:&amp;#x9;' /&gt;" Guid="ea6eceea-a160-40dd-bcc9-c04be75aa7e1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6f9d1caba2db987641f4787deca8c63c.png" xmlns="">0bYnwK8jEek2p0BGe7qCfqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

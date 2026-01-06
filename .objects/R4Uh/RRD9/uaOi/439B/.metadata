@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Cooley Design - CN - 20…",
+  "Type": "Element",
+  "Id": "439BIYGGKEGe4G0LZhKfvQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/439BIYGGKEGe4G0LZhKfvQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/uaOiltKHcU6itQQrz3D7wg",
+  "Created": "2025-11-28T10:07:32.6112058Z",
+  "Updated": "2025-11-28T10:07:32.6112058Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

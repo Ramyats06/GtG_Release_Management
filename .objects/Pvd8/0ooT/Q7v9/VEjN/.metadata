@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check is Outlook is opened",
+  "Type": "Element",
+  "Id": "VEjNVcJBRUqZHpSteWHjyw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/VEjNVcJBRUqZHpSteWHjyw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-06T10:44:42.9319977Z",
+  "Updated": "2025-11-06T10:44:42.9319977Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

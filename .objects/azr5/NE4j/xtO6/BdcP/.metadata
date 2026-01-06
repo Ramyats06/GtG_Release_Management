@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Save and Sync",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "BdcPEJi0ykCslW7TAqGSog",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/BdcPEJi0ykCslW7TAqGSog",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/xtO6bdQpyU6Y9YY2vN57wg",
+  "Created": "2025-11-20T10:43:25.2432032Z",
+  "Updated": "2025-11-20T10:43:25.2432032Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

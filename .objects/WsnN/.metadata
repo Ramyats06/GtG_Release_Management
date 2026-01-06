@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Intapp",
+  "Type": "App",
+  "Id": "WsnNk_WRlkCoaFvp1LOyWg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/WsnNk_WRlkCoaFvp1LOyWg",
+  "Created": "2025-11-06T11:16:07.3241704Z",
+  "Updated": "2025-11-06T11:16:07.3241704Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

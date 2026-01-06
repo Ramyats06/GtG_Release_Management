@@ -1,0 +1,13 @@
+﻿{
+  "Name": "AutoSaveSaveCan't Undo …",
+  "Type": "Element",
+  "Id": "JnJ9OOpU7EmFlBye0ADYJQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/JnJ9OOpU7EmFlBye0ADYJQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/aL0JbbDbc0qwseoe3gQp6Q",
+  "Created": "2025-11-18T12:51:36.4212687Z",
+  "Updated": "2025-11-18T12:51:36.4212687Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

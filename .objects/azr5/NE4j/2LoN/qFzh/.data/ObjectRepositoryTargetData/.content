@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YBwLJfLUDkqi9zMny5PJeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3b2ad8a3-03a2-453b-a96d-e5e14246126f" CvElementArea="1446, 933, 116, 33" CvTextArea="1454, 941, 95, 19" CvTextArgument="Apply Data" CvType="Button" DesignTimeRectangle="1450, 937, 108, 25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' /&gt;&lt;uia automationid='tsEditor' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' /&gt;&lt;uia name='Apply Data' role='button' /&gt;" Guid="4d18cb14-0453-4754-9fed-b097396ddb88" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document2 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1451, 357, 473, 575" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.3a991f3_r59_ad3' role='tree' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='fggfh&amp;#x9;Address&amp;#x9;ff&amp;#x9;Company&amp;#x9;fgfg&amp;#x9;Title&amp;#x9;ramya&amp;#x9;Name&amp;#x9;&amp;#xA;&amp;gt;&amp;#x9;Item 1 of 1&amp;#x9;Move Down&amp;#x9;Move Up&amp;#x9;&amp;#xA;0&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;2&amp;#xA;1&amp;#xA;1&amp;#xA;1&amp;#xA;1&amp;#xA;Line up&amp;#x9;Position&amp;#x9;Page down&amp;#x9;Line down' /&gt;" Guid="572a3dba-df95-4dcf-8221-ece5075b3ecb" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="44e0af85748d0810d0be9f0a42d01375.png" xmlns="">0GZNEv5FMFkCOFBjmw8apFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

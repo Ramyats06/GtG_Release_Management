@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="EkBx72d8MkuhmFI-GF9CQA" Reference="m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="244, 200, 1439, 818" ContentHash="V_GkYz8jHkmo9MvCCt_BCg" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" Reference="m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" Version="V1">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="153c05be66e64793f352bd26afd82d2f.png" xmlns="">0whtWTBnQ6EKvUw8RUGvlQA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

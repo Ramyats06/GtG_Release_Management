@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="svEIMRyQTkyn4ChCqnj17Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3de86427-e432-4493-8f04-9047b780e2c9" CvTextArea="45, 254, 60, 15" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="43, 250, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUITWBtnMenuItem' name='1 eu-active.cooley.com' /&gt;" Guid="52d823c8-8e58-4ed5-a373-8a45275c7396" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="29526b3ed9c03acb34b6fbf77b1edb16.png" xmlns="">0zNW0ZazgoUSHSH0GrP8laA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

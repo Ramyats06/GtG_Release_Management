@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check if Zoom is opened ",
+  "Type": "Element",
+  "Id": "i1Pea9LbIk6Jvw1B5l0dKQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/i1Pea9LbIk6Jvw1B5l0dKQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-06T10:33:53.5363142Z",
+  "Updated": "2025-11-06T10:33:53.5363142Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

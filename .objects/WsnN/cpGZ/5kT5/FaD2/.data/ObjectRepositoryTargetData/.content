@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VfTDbh3ffESo5eUMDXhuUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="983542ab-4da0-4666-8047-458f29d903c4" CvTextArea="321, 596, 96, 21" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="315, 585, 825, 44" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='selectize-input items has-options not-full' tag='DIV' aaname='' /&gt;" Guid="7196de25-4c91-459d-9809-113e67c01786" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="983542ab-4da0-4666-8047-458f29d903c4" CvTextArea="314, 554, 196, 25" CvTextArgument="Pro Forma Recipient:" CvType="Text" DesignTimeRectangle="315, 551, 196, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Pro Forma Recipient:' class='question-title-text' tag='SPAN' type='' check:innerText='Pro Forma Recipient:' /&gt;" Guid="9675bf55-a774-441e-9163-e9772f7b742b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="de80699d8e93cd2de075a4cc4675520c.png" xmlns="">00VHmL8zA2kG9nX4nKuGCnw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

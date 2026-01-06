@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x8XR6YyLp0WDXRO4msKCqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 11, 1920, 266" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="c641e834-59fc-44a0-97ee-9b0e1b3e05cf" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='#252602170v1&amp;lt;EUACTIVE&amp;gt; - TestExcel - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="825ef01cd6fc5581ffa25ab25efb8cbf.png" xmlns="">0AYsNXfyPdEOG2h1PIip-Rg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

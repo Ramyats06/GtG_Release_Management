@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hEbU2_HCwU2lspMzLDLa_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="0651792c-ee40-4efa-aab3-eee0f7070446" CvTextArea="1563, 540, 180, 19" CvTextArgument="Clear work location" CvType="Text" DesignTimeRectangle="1518, 526, 346, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Your current work location: In the office' role='popup menu' /&gt;&lt;ctrl name='For today' role='grouping' /&gt;&lt;ctrl name='Clear work location' role='menu item' /&gt;" Guid="7ec69b7a-6e0b-446b-a0a3-901b97ee412a" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="afa5a935d1d06ca013c003595d9c0e94.png" xmlns="">06KVweeScUEiAbzq2hluUwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

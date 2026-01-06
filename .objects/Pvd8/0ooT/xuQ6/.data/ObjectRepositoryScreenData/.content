@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="6zwpItRZLkqyUeUp8OqEtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="70, 15, 1779, 1098" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIxSURBVGhD7ZZLaxNRGIbzv4KXjSDqQgQ30jbbxOjCS0PT0kWqbrroRggSiqLgRhciiqZdNIuKjRVLWxKiJhovmIUNaGYmyWTOZL7ON5lkLp6EyRRyEjwvPBAyL8x55lxmAsFITQqGBXUi0cce0H80gxEBJhJ97FyAKVyANVyANVyANVyANf+NwMmrAjx8LcPH7yqsvVPgfFyk9kaOV4FHaRnsQRFab+R4FSj+VM2hWzkXG4NZ8CqQ2VHMYXdSq2twPErvjhSvAhcXRShXOrMgNjSIJevU3sjxKtDlwrwIJ644/8OZWH7chDf7BL78UqHwTYVXWwpcv+uUPDsrQvKZDO8LxHgYua8qPM20YOa25OgNxbACbqaWJPj049/90Q0O9sxNERIPGsbM0UJUDVZfyP6W5FEELiUkkBX6oOyp/m2bvwYnnVWo9xmIX4FjlwXIl51PHjf22xyBvRIxnmq//P7Ths09Ap8pMxe/16Dery9+BXBJ2JPNEzh9w7oeuiPBgT5Qd3DN25cKHgYKsWQr1Xbvmif8CqxvW8dqQ9aMde7uLKSckrjBcebcPXzD24NL093pi1+B/ZI1/btFQu2cuiaYjU6ebLSovehK3Wx04j69BuJXAD8lusH1TOsgmmYtj/svZWonpB+j9swNsw+4gB4uwAW4wAQK4Hug2dIMNj70/4bBl1y3l3pOF5i+JfU6yFCf6n4FxgYuwBouwBouwBouwBouwBouwBouwJqw0DwEteBUZELCt3UAAAAASUVORK5CYII=" Selector="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="1ede244f9aca852bf4d0a59da9ab9232.png" xmlns="">0MbS-cz-lkUK7crOY-KYF6Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

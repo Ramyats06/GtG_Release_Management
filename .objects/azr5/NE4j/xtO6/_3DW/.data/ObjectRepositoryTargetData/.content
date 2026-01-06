@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cBLzv0rzDE2oeSiDmt1hGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4c1f83da-85c2-4f7c-a8ab-09e2f551e31a" CvElementArea="57, 311, 1815, 795" CvType="InputBox" DesignTimeRectangle="57, 528, 1802, 578" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;" Guid="f55eb59f-4f3e-4b0b-9681-25de9d2501fc" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252526089v1&amp;lt;EUACTIVE&amp;gt; - TestDociManageto iManage - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="482ab1ce74a23dc31ba4f24ceaf1b900.png" xmlns="">0bUKv-MYzVku4sqT51pWdqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

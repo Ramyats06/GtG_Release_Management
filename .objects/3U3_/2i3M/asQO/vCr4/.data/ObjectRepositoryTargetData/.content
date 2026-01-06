@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lSUYubwe00ORHS8aB4D0RQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="44eac19c-70ca-44fe-9a45-391aa423ac77" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' /&gt;" Guid="351ea5ae-faeb-47ef-a904-3b43f7111fad" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="41, 248, 274, 142" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Connect' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIToolWindow' name='Connect' role='Menu' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='1 eu-active.cooley.com&amp;#x9;&amp;#xA;Choose...&amp;#x9;&amp;#xA;Work Offline' /&gt;" Guid="7ea035c4-62f5-4311-86a4-c49ef92aa929" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bf92f6b562aee994979151ba22d46913.png" xmlns="">0hK-ZyLeCfkWNgULR24dnxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

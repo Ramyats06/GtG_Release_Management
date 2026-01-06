@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZQUFBBU_sUKBEEFKRuzGPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7241f95b-fb0b-4130-b81d-ecb54e85f071" CvTextArea="489, 410, 204, 25" CvTextArgument="Sundararajan, Ramya" CvType="Text" DesignTimeRectangle="489, 410, 204, 25" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="ed2e5de8-e3c2-48b6-b63c-3f1767603fc1" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7241f95b-fb0b-4130-b81d-ecb54e85f071" CvTextArea="488, 438, 226, 19" CvTextArgument="Testing by filing into iMana..." CvType="Text" DesignTimeRectangle="488, 438, 226, 19" ElementType="Text" Guid="de44bd35-aad8-45f2-a3ba-ce8264fc4def" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e38db77ea57ce24c145fa3436daa0883.png" xmlns="">0LfJbei0sQE6ARDkfzqMvVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

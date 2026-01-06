@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H8LaRdXKiEusi-Rs6FhGrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2fe353b9-2090-4950-aa72-d88b40e2a738" CvElementArea="178, 1059, 86, 41" CvTextArea="186, 1067, 63, 21" CvTextArgument="Sheet1" CvType="Button" DesignTimeRectangle="171, 1058, 99, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Book1' cls='ExcelBookTabControl' name='Book1' /&gt;&lt;uia automationid='SheetTab' name='Sheet1' role='Sheet Tab' /&gt;" Guid="a6d229ae-5038-4351-ac66-636887601089" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="54fd257489cef0fc984b7145d0064ad7.png" xmlns="">0l8jvUncGD0SVPA47J7zUig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

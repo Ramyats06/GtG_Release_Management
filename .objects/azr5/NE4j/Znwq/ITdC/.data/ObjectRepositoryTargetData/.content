@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pWA1-hIRXUm_1TYlO-lWkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="220, 55, 298, 53" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='Breadcrumb Parent' /&gt;" Guid="8b164e8c-88ec-4edb-a7e1-68028fcf4d5a" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="986780988d8756ee1ecab346d7915352.png" xmlns="">0PHiRrzSxvUG2Gx4nm-a3vQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YaadZH4Q40yeUGUOQgt_wA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ceb735e2-8579-4a2c-9f20-47692ff4a26e" CvTextArea="30, 389, 61, 15" CvTextArgument="Calendar" CvType="Text" DesignTimeRectangle="11, 335, 102, 84" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Apps' role='grouping' /&gt;&lt;ctrl name='Calendar (Ctrl+4)' role='grouping' /&gt;&lt;ctrl name='Calendar (Ctrl+4)' role='push button' /&gt;" Guid="aa18866b-5bd7-4b88-a711-0c88cf1bd7c2" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c7be86ab4e604a084b3f2220de41bbe2.png" xmlns="">0QHKMwuI6PECWI2UCJzTgsg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4Amt7TIw00O1_w3p3vyBbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="a224ed3d-4e39-4495-a8f8-710550391873" CvTextArea="535, 461, 65, 16" CvTextArgument="Search..." CvType="Text" DesignTimeRectangle="531, 456, 550, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='selectize-input items not-full' tag='DIV' aaname='' /&gt;" Guid="f54fb74f-be78-460f-99a4-49a43b11a17e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a224ed3d-4e39-4495-a8f8-710550391873" CvTextArea="529, 436, 118, 15" CvTextArgument="Opening Attorney:" CvType="Text" DesignTimeRectangle="531, 433, 115, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Opening Attorney:' class='question-title-text' tag='SPAN' type='' check:innerText='Opening Attorney:' /&gt;" Guid="5502efba-9e95-4289-b03f-18082f2ebed2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="668a6869d0131aa06d4167f59e990ba8.png" xmlns="">0xCP-vGx_GkqMonGIadz_9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

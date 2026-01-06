@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Change the view of your…",
+  "Type": "Element",
+  "Id": "MSNEMGQbakKbmHo-Apos1g",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/MSNEMGQbakKbmHo-Apos1g",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/ID8H8PpeF0CStOfduy7Mbg",
+  "Created": "2025-11-24T12:18:19.473597Z",
+  "Updated": "2025-11-24T12:18:19.473597Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

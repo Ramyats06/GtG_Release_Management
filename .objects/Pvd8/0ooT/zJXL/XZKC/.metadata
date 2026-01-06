@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TestExcel.xlsx 9 KB",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "XZKCP4qflEa2MJ6Hfgd4FQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/XZKCP4qflEa2MJ6Hfgd4FQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q",
+  "Created": "2026-01-05T14:29:09.6654267Z",
+  "Updated": "2026-01-05T14:29:09.6654267Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

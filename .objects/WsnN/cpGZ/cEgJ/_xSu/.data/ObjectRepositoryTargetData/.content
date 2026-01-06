@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KL67SQ7oDU6dr5ziqzMMIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/Login.aspx" CVScreenId="3b68d964-5574-41d5-92e8-72600cf5133f" CvElementArea="1076, 779, 173, 42" CvTextArea="1091, 792, 142, 21" CvTextArgument="create request" CvType="Button" DesignTimeRectangle="1077, 778, 171, 42" DesignTimeScaleFactor="1.5" ElementType="Button" Guid="48c0884b-60e4-432e-b81b-43805b456d18" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3b68d964-5574-41d5-92e8-72600cf5133f" CvElementArea="579, 654, 763, 41" CvType="InputBox" DesignTimeRectangle="577, 654, 766, 40" ElementType="InputBox" Guid="84255118-8eec-4a1f-8198-b4edd1cf1f6f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f701af523113273e2443b458dfae718e.png" xmlns="">0Cv1H053vD0K14vSkMtWPDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

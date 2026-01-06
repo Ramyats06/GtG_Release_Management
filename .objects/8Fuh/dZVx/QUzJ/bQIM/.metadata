@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Settings, Menu item",
+  "Type": "Element",
+  "Id": "bQIMnhSeukOSmnBVwVGaxA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/bQIMnhSeukOSmnBVwVGaxA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T13:05:30.0751604Z",
+  "Updated": "2025-11-28T13:05:30.0751604Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

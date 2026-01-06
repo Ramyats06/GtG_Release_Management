@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Create a new event.",
+  "Type": "Element",
+  "Id": "v1cbCfMDP0azu-MvYf2nAg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/v1cbCfMDP0azu-MvYf2nAg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/ID8H8PpeF0CStOfduy7Mbg",
+  "Created": "2025-11-24T12:11:27.9015456Z",
+  "Updated": "2025-11-24T12:11:27.9015456Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

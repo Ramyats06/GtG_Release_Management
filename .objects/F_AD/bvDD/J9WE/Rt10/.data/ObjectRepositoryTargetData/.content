@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bTFxwE2Lhk6vOFmV9w-Wgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ab771d62-fb01-49c6-85c5-688b04399e68" CvTextArea="328, 261, 171, 22" CvTextArgument="testingworddoc.docx" CvType="Text" DesignTimeRectangle="328, 254, 382, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\UIpathTesting*' cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\UIpathTesting*' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="4a4464bd-3af9-484e-b872-0c248514896f" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\UIpathTesting*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="565245e86a41dcb0f0802b31e48f41ad.png" xmlns="">0xlOGztiUv0ChiBvdez-8Vg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

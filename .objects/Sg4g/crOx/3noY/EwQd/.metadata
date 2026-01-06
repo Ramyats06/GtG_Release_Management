@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Lower Ribbon",
+  "Type": "Element",
+  "Id": "EwQd6dqFB0-rOxpf7ngbkg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/EwQd6dqFB0-rOxpf7ngbkg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/3noYwZaBtk2DbR-7yWGXiQ",
+  "Created": "2025-11-28T10:52:03.6317747Z",
+  "Updated": "2025-11-28T10:52:03.6317747Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

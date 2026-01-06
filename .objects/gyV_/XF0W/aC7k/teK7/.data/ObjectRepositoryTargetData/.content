@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SJiCzelg00WNRul7s6PLOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="10ab5fa2-e4f4-489e-ae65-a234e4cb6b38" CvTextArea="489, 438, 227, 19" CvTextArgument="Testing by Sending a large f..." CvType="Text" DesignTimeRectangle="489, 438, 227, 19" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="97ef77ad-adfd-499c-b589-9d06c4062e38" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="449, 391, 414, 109" FuzzySelectorArgument="&lt;uia automationid='4704' cls='SuperGrid' name='Table View' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='GroupHeader' name='Group By: Expanded: Date: Today' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='LeafRow' name='Attachment With Attachments, From Sundararajan, Ramya, Subject Testing by Sending a large file, Received 15:41, Size 100 MB, Flag Status Unflagged, Preview Ramya Sundararajan  NESP– Technology Office Operations    Cooley (UK) LLP    22 Bishopsgate  London EC2N 4BQ, UK    +44 (0) 20 7556 4177 office  +44 (0) 20 7785 9355 fax    www.cooley.com    Cooley is committed to racial and social justice, ' role='item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Message Unread' /&gt;" Guid="963c0db2-4a28-4c50-81ae-d3c0e22e6f39" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3bb4d2e8eb16b23a405f3d7f39078cf8.png" xmlns="">0xoywhplO_0iCwhEUh1-5lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

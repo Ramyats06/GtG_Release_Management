@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-FiEvrDCOEyeZdCc8tUpDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2fe74cec-4b43-4392-9757-d3fdd3e87050" CvTextArea="54, 108, 103, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 96, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="0d515e83-7aa1-4162-b9f8-1910df53e114" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8a47d728ce9e6228eb1e8a1e663106cc.png" xmlns="">0A4H4pwgLsE-rChIrWcAgmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

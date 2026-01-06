@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nUoWZIItLkGCaE4Pjjtwmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="348086bc-9d10-424a-bebe-2f6c63df3306" CvElementArea="1880, 32, 30, 27" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="56481c19-9a9e-4467-8b28-4da382492999" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252522667v1&amp;lt;EUACTIVE&amp;gt; - TestDociManage - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fcbadea4b3ac2f09d235b9edd7cc857a.png" xmlns="">0eY8R2kxUz0aIGCn_O4BW4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

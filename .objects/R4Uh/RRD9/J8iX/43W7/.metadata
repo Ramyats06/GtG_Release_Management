@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Check if PowerPoint is opened",
+  "Type": "Element",
+  "Id": "43W7iewlrUy0LNAoOft1tA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/43W7iewlrUy0LNAoOft1tA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
+  "Created": "2025-11-06T10:26:10.1023225Z",
+  "Updated": "2025-11-06T10:26:10.1023225Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_8W9eupzzkasmEzfQ9AX6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="03284701-e587-4c8c-85df-430c913650e8" CvTextArea="54, 214, 74, 18" CvTextArgument="No Color" CvType="Text" DesignTimeRectangle="2, 203, 254, 42" DesignTimeScaleFactor="1.5" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='No Color' role='menu item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='No Color' role='menu item' automationid='' check:text='No Color' /&gt;" Guid="3bcad5ff-d55e-488b-9491-cd57b7b01dd7" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Ramya&amp;apos;s Testing_Draft Engagement Letter_[Date].docx - Word' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="68067a098de28c0eb20fd8a5964548e5.png" xmlns="">0j_gFgCb280-gdYXE3VehAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

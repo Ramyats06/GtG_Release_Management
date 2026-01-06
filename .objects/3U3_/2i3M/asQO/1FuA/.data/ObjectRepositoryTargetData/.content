@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YrKM-CelwUmaH8_TeRuuSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b8269339-abd3-41bd-8126-e96378b43477" CvTextArea="917, 254, 42, 19" CvTextArgument="Styles" CvType="Text" DesignTimeRectangle="817, 234, 282, 62" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUIAnchor' name='Top/Bottom Rules' /&gt;" Guid="54fdf2aa-bfe0-4bf3-890b-63897ee0a8d4" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="14a2fda9e818be7875fe4d8058ec6c32.png" xmlns="">0F5Xg7Jh6L02ljo0pQY0isQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

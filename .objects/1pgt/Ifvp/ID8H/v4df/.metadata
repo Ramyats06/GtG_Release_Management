@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Work week",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "v4dfrJ-J5k-YsJHtODYtBg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/v4dfrJ-J5k-YsJHtODYtBg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/ID8H8PpeF0CStOfduy7Mbg",
+  "Created": "2025-11-24T12:17:56.9777148Z",
+  "Updated": "2025-11-24T12:17:56.9777148Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

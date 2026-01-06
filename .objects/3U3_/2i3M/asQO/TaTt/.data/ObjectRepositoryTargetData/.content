@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="agkZAfhwhEiQbpYTHVp5_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ffc8d0f7-c875-48a9-b432-56447f3e6754" CvTextArea="89, 339, 208, 20" CvTextArgument="A B C" CvType="Text" DesignTimeRectangle="43, 344, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='3' name=' ' /&gt;&lt;uia cls='NetUITWBtnMenuItem' name='Work Offline' /&gt;" Guid="eebdb5eb-7bba-4a15-b4ae-7ce62c35fc5e" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9fe43ed0162391a9c5e6f4cf945e2548.png" xmlns="">0NYs3IhvNkE2OVO7wAmFTqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

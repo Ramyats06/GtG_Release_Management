@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Set status message(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TSkdkoTZJUCI2M-ecgEwWQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/TSkdkoTZJUCI2M-ecgEwWQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T12:16:20.0678527Z",
+  "Updated": "2025-11-28T12:16:20.0678527Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

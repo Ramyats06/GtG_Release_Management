@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Zoom",
+  "Type": "Element",
+  "Id": "w0JrempSnEOaaoZi_Fza6A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/w0JrempSnEOaaoZi_Fza6A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-21T11:41:17.6190756Z",
+  "Updated": "2025-11-21T11:41:17.6190756Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

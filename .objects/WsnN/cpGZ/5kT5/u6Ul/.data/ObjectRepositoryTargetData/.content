@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C2DNWJf_3EG3QScyCUpZpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="5e49f55c-fbb2-4837-bdf7-45c323d98d9f" CvTextArea="326, 788, 145, 24" CvTextArgument="No results found" CvType="Text" DesignTimeRectangle="316, 779, 823, 39" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Anita Vasudevan (14917)' tag='DIV' type='' class='item active' check:innerText='Anita Vasudevan (14917)' /&gt;" Guid="6f460a93-9f57-450a-8a55-2ceb4841d979" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ce3b3539a1e38dacfa45d2d029a4c724.png" xmlns="">0Zlc52ztyTUKX4wMFV60x_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

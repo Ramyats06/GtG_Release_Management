@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O_tukeNTdkCFLFd9wnpoRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1fc088fa-d532-42e1-8974-1914747d33fd" CvTextArea="54, 15, 225, 18" CvTextArgument="Choose Document To Insert" CvType="Text" DesignTimeRectangle="2, 2, 311, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Choose Document To Insert' role='menu item' /&gt;" Guid="af0eeb24-75f2-4ee1-93b9-76c45ab1a404" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="84f828082d20aea1865ccbc58b84fd6a.png" xmlns="">0f4uCAD_xSEq3AQZvZxv3nw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

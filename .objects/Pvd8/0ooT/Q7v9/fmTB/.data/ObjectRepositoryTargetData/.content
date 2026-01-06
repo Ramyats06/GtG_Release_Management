@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qu_LCSh000qiK0mkXq_1MQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bd1c6c9c-15e7-48aa-abb9-94eddcf1dd2e" CvTextArea="289, 52, 60, 15" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="289, 52, 60, 15" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='37' /&gt;&lt;ctrl idx='2' name='Connect' role='drop down button' /&gt;" Guid="9be65bd7-df9a-4069-ad96-0323b7478a87" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="12, 3, 62, 114" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl automationid='' name='File' role='drop down button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='File' /&gt;" Guid="232c863c-cce5-4fc3-8668-bb0fa3bca403" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9f2a44b105cd7453fb1e0e1a9874d166.png" xmlns="">0FkAZ5G0c30q2vcTQpKC5Gw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

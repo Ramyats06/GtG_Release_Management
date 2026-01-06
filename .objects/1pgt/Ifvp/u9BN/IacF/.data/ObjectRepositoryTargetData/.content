@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="isSklJSykE-g3fc0S7bGog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a6a6b991-e3e2-493f-bfb1-efd6fd0aa7bd" CvTextArea="1572, 329, 192, 19" CvTextArgument="+ Set work location" CvType="Text" DesignTimeRectangle="1454, 313, 474, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Bettinelli, Brianna | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Bettinelli, Brianna | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='Your current work location: Set work location' role='menu item' /&gt;" Guid="ff709014-9e9c-40dd-b1d4-c97619509bab" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Bettinelli, Brianna | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6a6b991-e3e2-493f-bfb1-efd6fd0aa7bd" CvTextArea="1602, 327, 162, 21" CvTextArgument="Set work location" CvType="Text" DesignTimeRectangle="1602, 329, 162, 19" ElementType="Text" Guid="20e6918e-f94a-44ce-a54b-ed83e44145c7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b39e63fffa73043d6d5f126446895b69.png" xmlns="">0Fhuh7aWK2EKmMSeJkV4Hug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

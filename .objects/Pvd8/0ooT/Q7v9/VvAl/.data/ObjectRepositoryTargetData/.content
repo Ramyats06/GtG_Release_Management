@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="354vN8QjGkKnG7wMB4PVCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6f75ad2f-9abb-45d4-89a6-3628e27efd36" CvElementArea="1539, 211, 20, 20" CvType="ArrowButton" DesignTimeRectangle="1539, 211, 20, 20" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="d1773903-d033-40e8-9692-679fbfbc6afc" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1480, 131, 95, 144" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIAnchor' name='iManage Work' role='Menu Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='File&amp;#xA;Save Attachments&amp;#xA;Work Panel&amp;#xA;Filing Details&amp;#xA;1 eu-active.cooley.com&amp;#x9;Choose...&amp;#x9;&amp;#xA;Work Offline&amp;#x9;&amp;#xA;&amp;#x9;&amp;#xA;More' /&gt;" Guid="5216c5a7-3729-447a-883b-5ad9c4801b88" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="81f33cce86c8d64a4e258ccb98c88f86.png" xmlns="">0u6S8kedL0kK8fAOfXglldg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

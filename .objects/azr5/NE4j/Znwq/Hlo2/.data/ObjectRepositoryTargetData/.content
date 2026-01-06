@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hdTK3tB_rUyxE9DkE61sRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a4c6faa0-da7e-4576-86d5-850623a3edc6" CvElementArea="434, 574, 112, 38" CvTextArea="462, 585, 52, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="435, 576, 112, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='btnCancel' /&gt;" Guid="b0450445-61a8-49d1-9770-f407a755dd15" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='SegmentForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2fc76b5a11dfaf5e4752e66e62b1b81d.png" xmlns="">0o9fTwsyVFECAM_Ve5MJsEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

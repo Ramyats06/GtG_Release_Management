@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nReVH7_KGkqtOVWZa9zYPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="766cc54c-b9b7-4b00-b132-0d775c1bfc1b" CvTextArea="201, 60, 39, 16" CvTextArgument="Work" CvType="Text" DesignTimeRectangle="201, 60, 39, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="29e7448b-db27-46f1-a0c3-223767da080a" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="191, 3, 62, 114" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl automationid='' name='Work Panel' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='Work Panel' /&gt;" Guid="8ee31c3e-5632-43fe-b628-bc56001ceadf" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f933e2103c9bdc0e684c0b9b2523903.png" xmlns="">0yvXlNIwqL0-KCbHZM1kE0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M0Cm1i-yAk-v-JxxJgA3Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="006a54ef-477f-45c6-aead-31ab6b82b7a2" CvTextArea="545, 446, 76, 25" CvTextArgument="Desktop" CvType="Text" DesignTimeRectangle="545, 442, 78, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Opening file picker' role='document' /&gt;&lt;ctrl name='My files - OneDrive' role='document' /&gt;&lt;ctrl name='My files' role='table' /&gt;&lt;ctrl name='Desktop, Folder, Folder has 4 items, Private, Modified 16/10/202*' role='row' /&gt;&lt;ctrl name='Desktop 4 items' role='cell' /&gt;&lt;ctrl name='Desktop' role='link' /&gt;" Guid="fadaa996-1d02-4773-a554-dd7705d81d17" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9df598aa6d59531a5373c89f6d799d84.png" xmlns="">08nV4bGIY_UOtWtKxR41TFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

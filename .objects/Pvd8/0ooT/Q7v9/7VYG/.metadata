@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New Email",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7VYGgH9x2UeNo-07jNyniQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/7VYGgH9x2UeNo-07jNyniQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2025-11-07T17:28:41.5063838Z",
+  "Updated": "2025-11-07T17:28:41.5063838Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

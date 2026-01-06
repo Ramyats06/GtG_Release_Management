@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Available, change status(1)",
+  "Type": "Element",
+  "Id": "GpHskcLun02M3qiD7fan4Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/GpHskcLun02M3qiD7fan4Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/u9BN9aR2-E6PwgujQUs1JQ",
+  "Created": "2025-11-24T11:04:16.1207825Z",
+  "Updated": "2025-11-24T11:04:16.1207825Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

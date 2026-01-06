@@ -1,0 +1,891 @@
+{
+  "name": "GtG_Release Management",
+  "projectId": "7da6a9c1-23ae-4987-bee1-968b72579d8b",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[25.10.3]",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.21]",
+    "UiPath.Word.Activities": "[2.3.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.16.0",
+  "projectVersion": "1.0.221393824",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession",
+    "robotVersion": "24.10.0"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f0d0e048-daa9-48bd-9e40-ccb2d103f38b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Quick_SanityCheck\\SA_01.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0e668f9d-0dfc-47bc-8e32-fd275f270568",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\E2E\\E2E-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0aa4a8ba-d73d-46b2-938a-93dd912ae53c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "94f643b9-93d0-4536-a7ca-06484867cd56",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6355ca8b-d51e-47f2-810f-0b492dbf9d8d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cb94cf21-7ccf-447f-ae43-e69ef0047442",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cfa39537-2ab7-4e32-aac5-dfdcb0e9f97d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9b423a1c-1d5d-4213-9f3f-80f69e046533",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-006.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5d23bfef-5cf2-49d2-a971-b566a5bf6c6a",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "af040e34-827c-4ada-9082-dcb48c110aae",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-008.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ef8f86c3-ff86-4002-b7a3-a9407feec9fb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "85c76fd5-2238-46f2-9099-f4c6a906453d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c98851a0-6aac-44e7-b028-c02138483a36",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "181c5c2f-71ca-44b0-9646-4c620994b07e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5a4e1a6b-46f1-461e-a336-c1d8043d01a0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "44d912d0-55b7-4d02-ac4a-9e65609a85fa",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9b591451-6ca9-43e3-8fe7-7737a3c1a07e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "34029d2e-281f-4a9b-b52d-e2762bb94ff5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5db9057a-9d1e-44b0-bb65-9a60c9fb325c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4833f408-f41f-4692-9f23-b74fb1c416fc",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "524b7c9a-f1b1-49eb-b1ef-13000e13f1b7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b526022c-2882-42db-963a-d45a7104711d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dd4239d1-3e80-4b77-8a75-0f25f2b8b463",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "49e1cfc0-09c8-401f-92bd-c6294a531ce7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e83a0b79-7577-4830-a191-ccb5f095ff9f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c0289d3d-55fb-43c3-a56c-186d0bcd0692",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "041a02cd-c312-42e4-ac93-2f4991f08d55",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a4df129e-133f-4c9a-892c-a4f96cd92949",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "543f7f1b-3e08-4f9c-9671-b230593da1fb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "af585182-c987-473e-b1b8-dddcaf8ae5b2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "03f93347-f270-4ac2-8544-d3c2667b548d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "732bc5dd-25c2-4524-8465-53ccc180a2a1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2974654c-62cf-4ca6-a244-663406003f99",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9bd8886e-1492-4271-b590-58ebdc82eb79",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-010.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c5cc36c2-bc53-4ce0-b78d-32b120f83658",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4a8a7d64-ef10-444a-951a-92f58d2dc328",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\E2E\\E2E-001.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cde94431-3695-4d59-9367-907136cd7da3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-003.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9006d73b-9db5-4520-8509-7eb4f012acde",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c11dcaeb-ab5f-4a31-8bfe-1afbf4b566d9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "35724404-b87a-47a5-b1df-5e99ee4f4fa5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-006.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a317f88f-baf2-45c1-93a1-d1a4013c4277",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cfee2882-d13f-45cc-b53d-9bfc4ed474f6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "56d90a73-845e-4c78-9b44-fb69c099a28f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-008.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4ea93664-2512-467e-bb0c-1502b0101eda",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-010.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ec18f4fa-f9d4-4264-b414-cd5f989e62ca",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-011.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1c5cd9c7-f66e-488c-ae4f-f47e27e9becf",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-006.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "43f22099-8d19-4df7-93d0-ab2ea68e38bd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e0554b92-0492-49b1-b77b-d79c729af2af",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-008.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "43d65846-5525-45e9-81ff-a282174de2e9",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f9ea647e-4c3e-4ea2-a21d-9a62d5143537",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-010.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b2155d74-dd06-4a4d-a57c-6cb3f2f09c74",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-004.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1e572ab4-2549-4fcd-9688-0b2200f9036e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "aaaf8633-2fcd-48cf-a57c-b13e9f46f6cf",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c0e28153-e6c2-4757-b2a2-3bef009ecb93",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e0093223-4232-4df0-89da-a2a014a991c4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-006.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "03a4ce94-ad59-45ca-aded-030ab8d0368f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a56a9f57-5617-4ef6-bf5b-ff654033e2d5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-008.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ef780eb3-0667-42cf-aa07-4e9be88d9609",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-010.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8a8d7123-8cef-4007-8655-15bc43a03bc0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-008.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bcd41128-6d44-40b7-a2d6-7d6eb775b19e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-005.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ab25a623-2cb8-4d52-9df0-553537bedc2f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-006.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "67114e92-e2d9-489b-add8-b957a89182b0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2ab44062-9e38-40db-870e-d25f7c4faea8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8b3ca13d-5263-40ec-ba15-d32d51023f98",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-010.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Tests\\Quick_SanityCheck\\SA_01.xaml",
+      "uniqueId": "f0d0e048-daa9-48bd-9e40-ccb2d103f38b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\E2E\\E2E-005.xaml",
+      "uniqueId": "0e668f9d-0dfc-47bc-8e32-fd275f270568",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-001.xaml",
+      "uniqueId": "0aa4a8ba-d73d-46b2-938a-93dd912ae53c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-002.xaml",
+      "uniqueId": "94f643b9-93d0-4536-a7ca-06484867cd56",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-003.xaml",
+      "uniqueId": "6355ca8b-d51e-47f2-810f-0b492dbf9d8d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-004.xaml",
+      "uniqueId": "cb94cf21-7ccf-447f-ae43-e69ef0047442",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-005.xaml",
+      "uniqueId": "cfa39537-2ab7-4e32-aac5-dfdcb0e9f97d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-006.xaml",
+      "uniqueId": "9b423a1c-1d5d-4213-9f3f-80f69e046533",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-007.xaml",
+      "uniqueId": "5d23bfef-5cf2-49d2-a971-b566a5bf6c6a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-008.xaml",
+      "uniqueId": "af040e34-827c-4ada-9082-dcb48c110aae",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-009.xaml",
+      "uniqueId": "ef8f86c3-ff86-4002-b7a3-a9407feec9fb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-001.xaml",
+      "uniqueId": "85c76fd5-2238-46f2-9099-f4c6a906453d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-002.xaml",
+      "uniqueId": "c98851a0-6aac-44e7-b028-c02138483a36",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-003.xaml",
+      "uniqueId": "181c5c2f-71ca-44b0-9646-4c620994b07e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-001.xaml",
+      "uniqueId": "5a4e1a6b-46f1-461e-a336-c1d8043d01a0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-004.xaml",
+      "uniqueId": "44d912d0-55b7-4d02-ac4a-9e65609a85fa",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-005.xaml",
+      "uniqueId": "9b591451-6ca9-43e3-8fe7-7737a3c1a07e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-002.xaml",
+      "uniqueId": "34029d2e-281f-4a9b-b52d-e2762bb94ff5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-003.xaml",
+      "uniqueId": "5db9057a-9d1e-44b0-bb65-9a60c9fb325c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-001.xaml",
+      "uniqueId": "4833f408-f41f-4692-9f23-b74fb1c416fc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-002.xaml",
+      "uniqueId": "524b7c9a-f1b1-49eb-b1ef-13000e13f1b7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-003.xaml",
+      "uniqueId": "b526022c-2882-42db-963a-d45a7104711d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-001.xaml",
+      "uniqueId": "dd4239d1-3e80-4b77-8a75-0f25f2b8b463",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-002.xaml",
+      "uniqueId": "49e1cfc0-09c8-401f-92bd-c6294a531ce7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-003.xaml",
+      "uniqueId": "e83a0b79-7577-4830-a191-ccb5f095ff9f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-004.xaml",
+      "uniqueId": "c0289d3d-55fb-43c3-a56c-186d0bcd0692",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-005.xaml",
+      "uniqueId": "041a02cd-c312-42e4-ac93-2f4991f08d55",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-001.xaml",
+      "uniqueId": "a4df129e-133f-4c9a-892c-a4f96cd92949",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-002.xaml",
+      "uniqueId": "543f7f1b-3e08-4f9c-9671-b230593da1fb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-001.xaml",
+      "uniqueId": "af585182-c987-473e-b1b8-dddcaf8ae5b2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-002.xaml",
+      "uniqueId": "03f93347-f270-4ac2-8544-d3c2667b548d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-003.xaml",
+      "uniqueId": "732bc5dd-25c2-4524-8465-53ccc180a2a1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-004.xaml",
+      "uniqueId": "2974654c-62cf-4ca6-a244-663406003f99",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-010.xaml",
+      "uniqueId": "9bd8886e-1492-4271-b590-58ebdc82eb79",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-004.xaml",
+      "uniqueId": "c5cc36c2-bc53-4ce0-b78d-32b120f83658",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\E2E\\E2E-001.xaml",
+      "uniqueId": "4a8a7d64-ef10-444a-951a-92f58d2dc328",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-003.xaml",
+      "uniqueId": "cde94431-3695-4d59-9367-907136cd7da3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-004.xaml",
+      "uniqueId": "9006d73b-9db5-4520-8509-7eb4f012acde",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-005.xaml",
+      "uniqueId": "c11dcaeb-ab5f-4a31-8bfe-1afbf4b566d9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-006.xaml",
+      "uniqueId": "35724404-b87a-47a5-b1df-5e99ee4f4fa5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-007.xaml",
+      "uniqueId": "a317f88f-baf2-45c1-93a1-d1a4013c4277",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-009.xaml",
+      "uniqueId": "cfee2882-d13f-45cc-b53d-9bfc4ed474f6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-008.xaml",
+      "uniqueId": "56d90a73-845e-4c78-9b44-fb69c099a28f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-010.xaml",
+      "uniqueId": "4ea93664-2512-467e-bb0c-1502b0101eda",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-011.xaml",
+      "uniqueId": "ec18f4fa-f9d4-4264-b414-cd5f989e62ca",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-006.xaml",
+      "uniqueId": "1c5cd9c7-f66e-488c-ae4f-f47e27e9becf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-007.xaml",
+      "uniqueId": "43f22099-8d19-4df7-93d0-ab2ea68e38bd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-008.xaml",
+      "uniqueId": "e0554b92-0492-49b1-b77b-d79c729af2af",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-009.xaml",
+      "uniqueId": "43d65846-5525-45e9-81ff-a282174de2e9",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-010.xaml",
+      "uniqueId": "f9ea647e-4c3e-4ea2-a21d-9a62d5143537",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-004.xaml",
+      "uniqueId": "b2155d74-dd06-4a4d-a57c-6cb3f2f09c74",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-005.xaml",
+      "uniqueId": "1e572ab4-2549-4fcd-9688-0b2200f9036e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-007.xaml",
+      "uniqueId": "aaaf8633-2fcd-48cf-a57c-b13e9f46f6cf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-009.xaml",
+      "uniqueId": "c0e28153-e6c2-4757-b2a2-3bef009ecb93",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-006.xaml",
+      "uniqueId": "e0093223-4232-4df0-89da-a2a014a991c4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-007.xaml",
+      "uniqueId": "03a4ce94-ad59-45ca-aded-030ab8d0368f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-008.xaml",
+      "uniqueId": "a56a9f57-5617-4ef6-bf5b-ff654033e2d5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-010.xaml",
+      "uniqueId": "ef780eb3-0667-42cf-aa07-4e9be88d9609",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-008.xaml",
+      "uniqueId": "8a8d7123-8cef-4007-8655-15bc43a03bc0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-005.xaml",
+      "uniqueId": "bcd41128-6d44-40b7-a2d6-7d6eb775b19e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-006.xaml",
+      "uniqueId": "ab25a623-2cb8-4d52-9df0-553537bedc2f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-007.xaml",
+      "uniqueId": "67114e92-e2d9-489b-add8-b957a89182b0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-009.xaml",
+      "uniqueId": "2ab44062-9e38-40db-870e-d25f7c4faea8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-010.xaml",
+      "uniqueId": "8b3ca13d-5263-40ec-ba15-d32d51023f98",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows",
+  "coverageMergeWorkflowPath": "CoverageMergeHelperWorkflow.xaml",
+  "performanceTestingBootloaderPath": "PerformanceTestingBootloaderWorkflow.cs"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "O&K",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "vfVnqpV5vUCz6QVcYoXO8Q",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/vfVnqpV5vUCz6QVcYoXO8Q",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/4yV9dDFfrUWdoe0lvM0mdw",
+  "Created": "2025-12-12T10:33:49.9576269Z",
+  "Updated": "2025-12-12T10:33:49.9576269Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

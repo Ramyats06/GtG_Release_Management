@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fh0GvzQhME6g5sIQ5EHvcg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ece7cfe2-d302-4370-88a1-4aa1a26239c3" CvElementArea="694, 34, 26, 23" CvType="ArrowButton" DesignTimeRectangle="420, 11, 316, 72" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIAnchor' role='Menu Item' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="427bc6da-1d1a-4002-ad33-c1aab5e7abe8" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='TestingWordDoc1.docx - Word' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ece7cfe2-d302-4370-88a1-4aa1a26239c3" CvTextArea="438, 38, 200, 21" CvTextArgument="TestingWordDoc1.docx ." CvType="Text" DesignTimeRectangle="438, 38, 200, 21" ElementType="Text" Guid="97d5fc7a-4e08-4701-bf5c-04f3c51f5f6a" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c58800b0866b2a909f0322274017e7f7.png" xmlns="">0_vE78yyrAEWENEXrejIWYw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

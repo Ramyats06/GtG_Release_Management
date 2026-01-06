@@ -1,0 +1,14 @@
+﻿{
+  "Name": ".EmailCorrespondence...",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "KDSaABGz4U2yFxlFT73vtw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/KDSaABGz4U2yFxlFT73vtw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/XuyHYm2jiUCFEucRTpfMjQ",
+  "Created": "2026-01-05T13:51:33.5901039Z",
+  "Updated": "2026-01-05T13:51:33.5901039Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

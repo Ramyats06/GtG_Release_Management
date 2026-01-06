@@ -1,0 +1,14 @@
+﻿{
+  "Name": "PrintPrintCopies1 More …",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Id": "HvKV2rSzgE6DkBDelW9DSg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/HvKV2rSzgE6DkBDelW9DSg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/GLlFHos8t0CZWWGtBPmQgQ",
+  "Created": "2025-12-18T10:51:54.8069736Z",
+  "Updated": "2025-12-18T10:51:54.8069736Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

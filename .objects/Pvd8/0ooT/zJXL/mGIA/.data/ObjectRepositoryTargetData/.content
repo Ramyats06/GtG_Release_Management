@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rGiOuloEGkCrNP_w_he-Pg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="308, 419, 1075, 55" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='4117' cls='RichEdit20WPT' name='To' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4117' cls='RichEdit20WPT' name='To' role='edit' /&gt;" Guid="702f1513-b1a4-4971-9a49-b15e28dda5b8" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f28f296d-8cc8-4d8c-9942-f2ca18872575" CvElementArea="168, 416, 123, 52" CvTextArea="217, 433, 22, 18" CvTextArgument="To" CvType="Button" DesignTimeRectangle="170, 419, 120, 48" ElementType="Button" FullSelectorArgument="&lt;uia automationid='4352' cls='Button' name='To' /&gt;" FuzzySelectorArgument="&lt;uia automationid='4352' cls='Button' name='To' role='button' check:fulltext='To' /&gt;" Guid="04cadced-56ce-45ac-a065-17d948e5776b" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c1d14ef378162ef02ba107dfdb9697ff.png" xmlns="">0PHom9fMUw0OOe1bG6kkDjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

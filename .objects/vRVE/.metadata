@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Intapp - Work - Microsoft​ Edge",
+  "Type": "App",
+  "Id": "vRVEqHF7gUe8uFquAuUiFA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/vRVEqHF7gUe8uFquAuUiFA",
+  "Created": "2025-11-11T17:56:16.6077518Z",
+  "Updated": "2025-11-11T17:56:16.6077518Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

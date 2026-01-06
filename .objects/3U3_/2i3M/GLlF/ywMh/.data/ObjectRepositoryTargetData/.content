@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vVohFIIseEa9wFf6Y4bN0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2e1f9c42-302a-45f8-a559-657d3b2a33b5" CvElementArea="303, 165, 128, 133" CvTextArea="345, 249, 43, 18" CvTextArgument="Print" CvType="Button" DesignTimeRectangle="306, 169, 123, 127" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Print' /&gt;&lt;uia automationid='GroupPrintSettings' cls='NetUISlabContainer' name='Print' /&gt;&lt;uia cls='NetUISimpleButton' name='Print' /&gt;" Guid="059f3cee-4955-457c-a707-cdcf04670173" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c7a21a6fc3137cd553ff121aaadae3c4.png" xmlns="">0go6Y3E9PeEOcQZ2Vb6fJpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

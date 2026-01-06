@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Busy, Menu item",
+  "Type": "Element",
+  "Id": "KbibyTyIqkW93FmbK1ajcQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/KbibyTyIqkW93FmbK1ajcQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T11:37:23.6577086Z",
+  "Updated": "2025-11-28T11:37:23.6577086Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

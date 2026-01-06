@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jFrD9ueXwUiEj35arg_tKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="61465309-399c-4996-98ec-49c309679390" CvTextArea="30, 229, 249, 24" CvTextArgument="This is a Test Status Message" CvType="Text" DesignTimeRectangle="8, 215, 383, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Status message: This is a Test Status Message' role='menu item' /&gt;" Guid="43ce0e90-024c-48a7-bf52-b4ab8d7ea9a6" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5a2fc30cc80cd6b0fe5716e3c082d95b.png" xmlns="">0Foc5bHQiVESj-f8Ph5uJRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

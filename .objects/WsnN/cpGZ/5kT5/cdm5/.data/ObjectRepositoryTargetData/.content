@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pZo1Y1sL4kKhKH0OW2PZOg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" DesignTimeRectangle="315, 616, 19, 20" DesignTimeScaleFactor="1.5" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl class='' name='18d629946da-46f-846534baac' tag='INPUT' type='radio' aaname='' /&gt;" Guid="4c480709-491e-4a7b-acfe-4e5bd4751a55" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8dd1d1b3-d47f-457a-b69f-caea43f6623b" CvTextArea="336, 615, 30, 19" CvTextArgument="UK" CvType="Text" DesignTimeRectangle="339, 611, 79, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='UK' class='question-label-value' tag='DIV' type='' check:innerText='UK' /&gt;" Guid="8f966f8c-6657-429b-9ace-6479514d4358" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a253353fd6277a72dee4ca9a06dc890.png" xmlns="">02VoNc4E-PU2N0vm-TtGGvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

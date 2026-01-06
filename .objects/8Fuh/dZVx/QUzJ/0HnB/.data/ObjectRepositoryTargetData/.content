@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z6HXS-GrjUaYvIUfMvKBkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5d2276ce-ee1b-4875-bd76-db2e1bbe077a" CvTextArea="54, 31, 82, 19" CvTextArgument="Available" CvType="Text" DesignTimeRectangle="8, 15, 314, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Available, Menu item' role='menu item' /&gt;" Guid="d932d348-20eb-40cc-bc86-d123db003c6a" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTPresenceSubMenuWndClass' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5d2276ce-ee1b-4875-bd76-db2e1bbe077a" CvTextArea="54, 31, 82, 19" CvTextArgument="Available" CvType="Text" DesignTimeRectangle="54, 31, 82, 19" ElementType="Text" Guid="cf868ded-791c-452a-ba96-650369f5d305" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1861dca7474fb9bcb9d7a5b2394374c2.png" xmlns="">0-TeLVNPT7E6Rcz2QnjumwA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

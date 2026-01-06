@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XWks5ZN9PEmOlVmhpcAaBA" Reference="m1hPtSXhEE-MN2DzQb4wOA/i5g3XgxFZUmMO23QoOiFWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="97caad64-23f1-4ede-9630-7f13262edd51" CvElementArea="12, 975, 226, 62" CvTextArea="75, 998, 54, 16" CvTextArgument="More..." CvType="Button" DesignTimeRectangle="11, 976, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIStickyButton' name='More options' /&gt;" Guid="8eab1494-4cdc-478b-a179-a9abace8eb45" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b2096e490e53a25e99e5848f453eb6e3.png" xmlns="">0ApM2sONDQ0OBBkXYcOaBAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

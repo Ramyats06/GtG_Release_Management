@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CJy4Dy47OUiFIjtUT64kLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="41ab421a-8f2d-4493-aca4-8030dd78dc6e" CvTextArea="1602, 377, 178, 24" CvTextArgument="Set status message" CvType="Text" DesignTimeRectangle="1454, 361, 474, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Rezaei, Ali | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Rezaei, Ali | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='Set status message' role='menu item' /&gt;" Guid="586165de-3e71-4d59-9e96-4c7700a83b86" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Rezaei, Ali | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0cf4ae5a5a730b150b26776b782c61fc.png" xmlns="">0oXgDkWJ9d0GG_0v5axB4AQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7M-aUmfjqkeSCmwGenq96Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="devbic.cooley.com/Open/app/index.html" CVScreenId="96ce9a19-ff42-4ddf-8284-7da38b3683ae" CvTextArea="1460, 606, 63, 19" CvTextArgument="Cancel" CvType="Text" DesignTimeRectangle="1446, 595, 233, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Cancel' class='action-menu-action' tag='BUTTON' type='button' /&gt;" Guid="21e23362-26e3-42b0-a260-bd630223cd60" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intapp' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2987ba176908bcb6ec3b8871d0e480fc.png" xmlns="">0Vfaxg0nydk2UkfxXcz54IA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

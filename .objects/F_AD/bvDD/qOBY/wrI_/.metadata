@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Downloads (pinned)",
+  "Type": "Element",
+  "Id": "wrI_1euWuUCwkMtT6lZXfQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/wrI_1euWuUCwkMtT6lZXfQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/qOBYjfN5nkK_UGbuyYltLQ",
+  "Created": "2025-11-11T18:23:41.5279625Z",
+  "Updated": "2025-11-11T18:23:41.5279625Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

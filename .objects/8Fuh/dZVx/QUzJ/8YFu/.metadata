@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Activated itemAvailabl…",
+  "Type": "Element",
+  "Id": "8YFuRLRrSkOPxM_XQLAJGg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/8YFuRLRrSkOPxM_XQLAJGg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA",
+  "Created": "2025-11-28T11:36:26.1590761Z",
+  "Updated": "2025-11-28T11:36:26.1590761Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

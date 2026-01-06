@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NkH-PXc3lUuzHgQkNd4iKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1aea2150-d87b-4743-a07c-7390e133a03b" CvTextArea="289, 91, 39, 13" CvTextArgument="More" CvType="Text" DesignTimeRectangle="289, 91, 39, 13" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' idx='11' /&gt;&lt;ctrl idx='3' name='More' role='drop down button' /&gt;" Guid="0546647e-40bd-4d4a-b2e1-c6ea505d3dd0" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="933695bf9176ef414bd0bf73ee003c7f.png" xmlns="">091pQCCi7WUi6sbVlXyeWgg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

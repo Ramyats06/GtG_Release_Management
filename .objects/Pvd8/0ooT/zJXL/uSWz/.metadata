@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Browse This PC...",
+  "Type": "Element",
+  "Id": "uSWz4uFPG0GBICU-IbV5Xg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/uSWz4uFPG0GBICU-IbV5Xg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q",
+  "Created": "2026-01-05T14:12:02.5263838Z",
+  "Updated": "2026-01-05T14:12:02.5263838Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

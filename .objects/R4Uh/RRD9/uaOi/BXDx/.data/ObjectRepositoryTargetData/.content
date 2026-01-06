@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4Zay74scHkGqUZ5GFyag_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="cbeb7db5-d8f0-46a2-b484-e7610e000be0" CvTextArea="1430, 297, 91, 25" CvTextArgument="Designer" CvType="Text" DesignTimeRectangle="1430, 297, 91, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIElement' /&gt;" Guid="e0f958c9-6260-4a74-bd86-ac739549b208" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation2 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cbeb7db5-d8f0-46a2-b484-e7610e000be0" CvTextArea="1430, 297, 91, 25" CvTextArgument="Designer" CvType="Text" DesignTimeRectangle="1422, 284, 501, 42" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="a7a5a2cd-4658-461c-b67c-1af030beb9e7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3bb8094a6d519603ce02ba9fe889494a.png" xmlns="">0UVoKVCUWNES1BHAS_Z40Tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

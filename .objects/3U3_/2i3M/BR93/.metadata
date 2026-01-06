@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TestXls.xlsx - Excel",
+  "Type": "Screen",
+  "Id": "BR93sdX2_ki7-VNZ8pQ7mA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/BR93sdX2_ki7-VNZ8pQ7mA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/2i3Mz_Y1ak6IdU0odAUAIQ",
+  "Created": "2025-12-18T10:24:08.182325Z",
+  "Updated": "2025-12-18T10:24:08.182325Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

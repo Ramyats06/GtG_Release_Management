@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o2zPMrcAw0S7Lq_aBhJT6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a00a89b5-7b5e-4d8a-bf85-dcf16735b3de" CvTextArea="201, 60, 39, 16" CvTextArgument="Work" CvType="Text" DesignTimeRectangle="201, 60, 39, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8884cdba-860e-45d8-9dde-e47a4c63eb57" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a00a89b5-7b5e-4d8a-bf85-dcf16735b3de" CvTextArea="201, 82, 39, 15" CvTextArgument="Panel" CvType="Text" DesignTimeRectangle="201, 82, 39, 15" ElementType="Text" Guid="0dac8ca1-40d5-4a8b-a8e8-7a7ac2390677" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="334720083c2f2858c7f9d1e618c97c3b.png" xmlns="">0DDQ9pHg23UuIu-1IGh9BKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

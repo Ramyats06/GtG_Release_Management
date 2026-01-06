@@ -1,0 +1,14 @@
+﻿{
+  "Name": "RS",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "gJa026j640uILVL1BeJUtw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/gJa026j640uILVL1BeJUtw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/R-J2dTT1VkOtMzgezbQ9kQ",
+  "Created": "2025-12-12T09:40:30.2286296Z",
+  "Updated": "2025-12-12T09:40:30.2286296Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EXmXFKHMDEeXXTqCZo53Uw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4e4df994-2725-429a-be53-5ec7e44d08bb" CvElementArea="824, 567, 130, 55" CvTextArea="864, 585, 48, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="825, 567, 127, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='iManage Work - Web content' cls='Chrome_WidgetWin_1' title='iManage Work' /&gt;&lt;ctrl name='iManage Work' role='document' /&gt;&lt;ctrl name='Save' role='push button' /&gt;" Guid="06387c99-d81a-45fe-ab09-7f276637c338" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="52c2bdab345d0ea0d9b5885957df7aa9.png" xmlns="">06p3myhgwVkK4arjqKeNpIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
