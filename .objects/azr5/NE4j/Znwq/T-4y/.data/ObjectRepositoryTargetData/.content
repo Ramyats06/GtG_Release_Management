@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ayfVWt3elkq6yZZjoQ7LFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a7ec5b88-7a0b-4002-80b8-ca585404c672" CvTextArea="1625, 192, 75, 16" CvTextArgument="Combine" CvType="Text" DesignTimeRectangle="1623, 134, 80, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Compare...' /&gt;&lt;uia cls='NetUIRibbonButton' name='Combine' /&gt;" Guid="b12a58f2-225e-4d8f-9412-d4ef43f30c2c" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="25d8c3b2125451d424913450d8172d9a.png" xmlns="">0gInc8q1UW0GPqdscZ6mfGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

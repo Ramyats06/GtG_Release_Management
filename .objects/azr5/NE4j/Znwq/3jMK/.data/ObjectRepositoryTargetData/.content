@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YegLBrVYtk2eFszjGPl1wg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="61056842-37a2-455a-90f4-08859bfbcc03" CvTextArea="144, 192, 46, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' /&gt;" Guid="c918d7e3-b6e6-4f51-9a11-3e7af07b29b8" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4f6062b0c5c97037e4718ab97ad47043.png" xmlns="">0aBI9NCVv_kGk4bgTSHKoUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

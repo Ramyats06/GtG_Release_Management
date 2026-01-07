@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5dC-xb_Ly0-RRD56cepdCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8a223fb4-3023-49ae-8490-b538faaead26" CvTextArea="54, 108, 103, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 96, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="5eea3ca5-4535-44c6-8206-21c2f5ef0eae" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e988a57e0e2d02cb3345e5f69ae32276.png" xmlns="">0LPdbuRBlVE-NXtipVy4noQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

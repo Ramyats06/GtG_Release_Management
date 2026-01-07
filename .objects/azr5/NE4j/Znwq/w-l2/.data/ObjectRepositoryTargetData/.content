@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QhNzhkPIVEaZgck6Oe5FtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="725cb7c0-67e0-4888-a42e-6b4f95827890" CvTextArea="208, 247, 636, 24" CvTextArgument="Projects [268889.PMO0361] - GtG Release Management - phase 1" CvType="Text" DesignTimeRectangle="203, 242, 787, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Matter Projects [268889.PMO0361] - GtG Release Management - phas*' role='link' /&gt;" Guid="e024d3bd-56e2-4d8f-abc3-7fa3aa90c65b" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f3be098b5319b152a37703afee0df34c.png" xmlns="">0yTmAkjvbfUqlNV2RG2SpHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z-iK7wmdRUW_LjP2ijf99g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 45, 1087, 677" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Compare iManage Documents' role='client' /&gt;" Guid="8f356587-655a-48a9-8182-74004fa6402d" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='LocalizableWAddinCompareForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="643e69c7ae1189110a9d793d54eee9ab.png" xmlns="">0mvbKQxusKkKXOy51FbxRSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

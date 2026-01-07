@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.221393824",
+  "projectVersion": "1.0.221494461",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -491,6 +491,69 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-010.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "43cf870f-ef7f-4ddc-bde6-a4188ef916e4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-013.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f7f40969-ae05-4f8f-be9f-befe96660f3d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-014.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e5e2dde9-21af-452d-bae3-99dd6d73cd0c",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-016.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "50cb095b-e3f8-4dbd-aad7-dff948ae9900",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-013.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "93620289-9a68-42cb-ad1f-d121078c93a5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-014.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8fe1450d-2dea-482c-83df-9071a173b914",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-015.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "50c1cc92-6908-40a6-b89b-fd1e2982c971",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-016.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "11168449-75db-41dd-923f-02448b2f6de2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-018.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fa68b127-3575-42bb-a4b8-ea9684bf6827",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-019.xaml"
       }
     ],
     "saveToCloud": false
@@ -878,6 +941,60 @@
     {
       "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-010.xaml",
       "uniqueId": "8b3ca13d-5263-40ec-ba15-d32d51023f98",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-013.xaml",
+      "uniqueId": "43cf870f-ef7f-4ddc-bde6-a4188ef916e4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-014.xaml",
+      "uniqueId": "f7f40969-ae05-4f8f-be9f-befe96660f3d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-016.xaml",
+      "uniqueId": "e5e2dde9-21af-452d-bae3-99dd6d73cd0c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-013.xaml",
+      "uniqueId": "50cb095b-e3f8-4dbd-aad7-dff948ae9900",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-014.xaml",
+      "uniqueId": "93620289-9a68-42cb-ad1f-d121078c93a5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-015.xaml",
+      "uniqueId": "8fe1450d-2dea-482c-83df-9071a173b914",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-016.xaml",
+      "uniqueId": "50c1cc92-6908-40a6-b89b-fd1e2982c971",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-018.xaml",
+      "uniqueId": "11168449-75db-41dd-923f-02448b2f6de2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-019.xaml",
+      "uniqueId": "fa68b127-3575-42bb-a4b8-ea9684bf6827",
       "input": [],
       "output": []
     }

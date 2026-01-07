@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qxezhvdqVEms2qH2E728nQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="701460a9-ddec-4a7d-9a92-cced10d8f2a7" CvElementArea="303, 64, 866, 54" CvType="InputBox" DesignTimeRectangle="310, 65, 859, 53" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl name='Search' role='combo box' /&gt;" Guid="fe70181d-3477-48b9-bb8c-1df6204e69ab" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="228, 72, 81, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' fuzzylevel:aaname='0.0' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Search type: Folders' role='menu button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Search type: Folders' role='grouping' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Search type: Folders' /&gt;" Guid="a3781692-e934-4b74-9cd2-4e2c127ee520" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7add9f91384235184e5e6874cd2e6bee.png" xmlns="">0NRorHG11t0Sn0EkyDMCG0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

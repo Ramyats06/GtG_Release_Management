@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HmmVmzDXlUaFX4O4Uvoa3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ae3b2511-006f-4fac-8568-2b5db26476ac" CvTextArea="123, 606, 279, 21" CvTextArgument="Drafts [1]" CvType="Text" DesignTimeRectangle="101, 600, 313, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUITreeView' name='Mail Folders' /&gt;&lt;uia cls='NetUIWBTreeDisplayNode' name='Drafts: 1 item' /&gt;" Guid="17affc51-0826-4d65-803c-906824edc7fb" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f0f56729ff4c40001b5dfbf41d54c452.png" xmlns="">04sn-4P3RLUK5vIxAAV6ZLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

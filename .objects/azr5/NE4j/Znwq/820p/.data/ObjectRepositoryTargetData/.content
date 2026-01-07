@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TzrNF--IKUmyDWoix322tg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fcbbb131-afd4-4ab4-9c5c-5e564d678a4e" CvElementArea="1792, 1074, 131, 58" CvTextArea="1824, 1092, 67, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1796, 1077, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Recent Documents - iManage Work' /&gt;&lt;ctrl name='Recent Documents - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="2bdd2128-b617-4f4c-b5ec-312f58878b24" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="af6a5e68e80b531c56bdd42b00b3334a.png" xmlns="">03Z3jbMvFdkOkGqmLt6EaGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

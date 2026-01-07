@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Start of Quick Access -…",
+  "Type": "Element",
+  "Id": "rqo3HouvsUCu0-DlK6BtCA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/rqo3HouvsUCu0-DlK6BtCA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J9WE4FPo40abmHSOy-I7mA",
+  "Created": "2026-01-07T09:24:26.4948519Z",
+  "Updated": "2026-01-07T09:24:26.4948519Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

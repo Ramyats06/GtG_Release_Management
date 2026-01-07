@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Testing by Saving in Draft - Message (HTML) ",
+  "Type": "Screen",
+  "Id": "f0E3FQZjnk2rzQHKHvexhw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/f0E3FQZjnk2rzQHKHvexhw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/3EJhKbSeBkGSbYJOIMdtWQ",
+  "Created": "2026-01-06T14:06:39.8598665Z",
+  "Updated": "2026-01-06T14:06:39.8598665Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

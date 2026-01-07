@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Gz3xdJ3QQkav-H47iceO8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 969, 541" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='treeListView1' /&gt;" Guid="7b672c39-cd72-4630-a210-beb1301e4c72" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='WorkspaceSearchView' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="382770ae295fd6c954ff4764e4781377.png" xmlns="">0CJS3N4VgYUKsWnDYXyugfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

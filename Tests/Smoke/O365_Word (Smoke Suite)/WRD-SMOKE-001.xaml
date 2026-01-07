@@ -93,7 +93,7 @@
       <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_001" sap:VirtualizedContainerService.HintSize="624.6666666666666,1888.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_001" sap:VirtualizedContainerService.HintSize="1034,1888.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Name="endTime" />
       <Variable x:TypeArguments="x:Double" Name="launchTimeSeconds" />
@@ -118,7 +118,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" DisplayName="Document1 - Word" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.RecommendationOnly]" sap:VirtualizedContainerService.HintSize="552,1748.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="029e1fcf-e080-4dec-97bb-e5d1e5455d3d" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="Never" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Document1 - Word" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.RecommendationOnly]" sap:VirtualizedContainerService.HintSize="552,1748.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="Always" OutUiElement="{x:Null}" ScopeGuid="029e1fcf-e080-4dec-97bb-e5d1e5455d3d" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -133,7 +133,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check Word Opened" Exists="[ribbonVisible]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,1027.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_1" IsLoose="True" Version="V4">
+            <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check Word Opened" Exists="[ribbonVisible]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,1027.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_1" InUiElement="{x:Null}" IsLoose="True" OutUiElement="{x:Null}" Result="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,351.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
@@ -141,7 +141,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Word Ribbon is visible as expected" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" KeepScreenshots="{x:Null}" OutputMessageFormat="Word Ribbon is visible as expected" Result="{x:Null}" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Word Opened Successfully&quot;]" />
                 </Sequence>
               </uix:NCheckState.IfExists>
@@ -152,7 +152,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Ribbon did not appear after opening Word" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" KeepScreenshots="{x:Null}" OutputMessageFormat="Ribbon did not appear after opening Word" Result="{x:Null}" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Word did not open correctly&quot;]" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
@@ -165,7 +165,10 @@
                   </uix:TargetAnchorable.Anchors>
                   <uix:TargetAnchorable.FuzzySelectorArgument>
                     <InArgument x:TypeArguments="x:String">
-                      <Literal x:TypeArguments="x:String" Value="" />
+                      <Literal x:TypeArguments="x:String">
+                        <Literal.Result>
+                          <OutArgument x:TypeArguments="x:String" />
+                        </Literal.Result></Literal>
                     </InArgument>
                   </uix:TargetAnchorable.FuzzySelectorArgument>
                 </uix:TargetAnchorable>

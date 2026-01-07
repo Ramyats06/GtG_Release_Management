@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="iu0bRT-Jkk2o1yeB1UWPtw" Reference="m1hPtSXhEE-MN2DzQb4wOA/58VNqvtBpkaoK--ON-w9kA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="tpS1UV01jEiYsDz2Y4nTxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d4e777eb-ea68-40e6-87b6-6e9ae4db402d" CvTextArea="306, 288, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="305, 280, 405, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='2' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="27880f4f-89ee-4fc3-be81-710fd0e88982" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="d4e777eb-ea68-40e6-87b6-6e9ae4db402d" CvTextArea="306, 288, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="306, 289, 69, 16" ElementType="Text" Guid="b761ae92-04f9-48c2-a508-140b1f49075c" SearchSteps="CV" TargetType="ComputerVisionBased" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="1def53cfd8e8ea9626a78fa343225ca2.png" xmlns="">0BNqRGyzA50K8g8xqGTTYtQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="46dc8e81-5cd1-4db5-9ba6-d34c3bcb210e" CvTextArea="306, 319, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="306, 319, 69, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="fd6084c6-97a5-43ca-a21e-dc3adb56dabd" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="453ddc6c6f08d8de3f0ec22d986f5aac.png" xmlns="">0hs9LlDNlOEmEIns3cSe3UQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

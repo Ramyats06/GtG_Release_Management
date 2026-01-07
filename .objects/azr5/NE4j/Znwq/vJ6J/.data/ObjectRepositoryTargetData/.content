@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VXRR4fZV2kCs6_9Q6hBf1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6bf570db-ac9a-4205-8f26-713b1d494ce4" CvElementArea="1099, 605, 108, 56" CvTextArea="1119, 622, 67, 21" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1101, 608, 105, 52" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl idx='2' name='Advanced Search' role='grouping' /&gt;&lt;ctrl name='Search (use Ctrl + Enter key)' role='push button' /&gt;" Guid="d2cdf8a9-5d07-4d51-b1d9-1193367a1537" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8ec1e163ad0fa491fc9fbd2275c8c087.png" xmlns="">0EHim_Hqo3kyZFl3b3DnKQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ePBavlhM0EqVR4ha-ezGwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d0e2dae6-1e6d-40b2-89e7-e8e5f43d3364" CvTextArea="55, 15, 181, 21" CvTextArgument="1 .eu-active.cooley.com" CvType="Text" DesignTimeRectangle="2, 2, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='1 eu-active.cooley.com' role='menu item' /&gt;" Guid="4f1f05e7-1f6c-481a-af32-38880dc46d55" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a0fcb98ec46da9c869434a8f81f459b2.png" xmlns="">0adR-PqjVrEObf6fSheNKqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

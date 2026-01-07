@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="OKGWkbkq2kW5Q47RaifBow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="tEgZKdzmSk-3TDv_nMaHKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 11, 1920, 267" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="0a584f77-c1e8-44ae-8187-f24637d9f542" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='TestingWordDoc.docx  -  Last saved by user - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="02695e8997b0d39eb8a844155011b98c.png" xmlns="">0V7FyxKnMHEqVd76vMRxokQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 11, 1920, 267" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' role='Pane' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="8494a8ee-4f4b-425d-9c17-bec385bb38bc" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='TestingWordDoc.docx - Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f30adf4a7a2a2db9367cc318021e8ed2.png" xmlns="">0H7tLCahA1E69lxFvD7f7lA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

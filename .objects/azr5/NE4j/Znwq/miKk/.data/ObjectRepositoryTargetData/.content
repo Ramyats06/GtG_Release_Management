@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1s9YxjbkOUG3OL3t6ayjqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="61056842-37a2-455a-90f4-08859bfbcc03" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" Guid="7b31d829-5878-4c47-9a76-269cb7447533" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="64e679c6b749f0543fe519875146924a.png" xmlns="">0O0FtltTNr0uWs7PkBSxsjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

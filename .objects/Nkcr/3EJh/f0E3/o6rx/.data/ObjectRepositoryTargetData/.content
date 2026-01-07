@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5WiQwK_g1E6Wxjv99CkW7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="19, 324, 1904, 61" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='iManage Work toolbar' /&gt;&lt;uia automationid='ControlAxSourcingSite' cls='WindowsForms10.Window.8.app.0.f8e161_r65_ad3' /&gt;" Guid="a9ef58fe-cee0-424d-a91e-0d1d6b4d838e" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Saving in Draft - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bb57b23cda434e4ee036e191bf27c497.png" xmlns="">0a9vnsw2eZkS1vfCQCqSITw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

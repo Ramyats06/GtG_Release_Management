@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Work Offline",
+  "Type": "Element",
+  "Id": "I0z4df5-G0yY0cw66rp7UQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/I0z4df5-G0yY0cw66rp7UQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2026-01-07T09:49:23.2747819Z",
+  "Updated": "2026-01-07T09:49:23.2747819Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

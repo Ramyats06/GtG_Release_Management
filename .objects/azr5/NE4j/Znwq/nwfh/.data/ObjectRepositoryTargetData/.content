@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9zEhQW-NtkOau8N7KZ4S1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e1fb7f93-9262-495b-9f72-b8c08e6cf1ad" CvElementArea="64, 213, 23, 21" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="ArrowButton" DesignTimeRectangle="44, 192, 66, 42" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="1c9ba542-da8c-41d5-ac91-bc87658b0d8c" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e1fb7f93-9262-495b-9f72-b8c08e6cf1ad" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="44, 192, 66, 16" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Connect' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' role='Menu Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Connect' /&gt;" Guid="a5d8973c-d0b8-4f21-8f19-abf71bf2f41e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2fee9ca3197a96dfa7a54ffc0ac2266.png" xmlns="">0vy3adWcpH0SYWyieWQlNqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

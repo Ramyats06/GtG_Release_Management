@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dyCot1fqGUqZmZAguoGTlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3516d706-c6dd-40b5-bb7b-40a49c651f96" CvElementArea="1880, 32, 29, 28" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="8447f31f-9475-40ea-8bd5-fced32d2476f" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Saving in Draft - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1bc184bfdc670be54cf5eab1304d69ea.png" xmlns="">0MJ0UHzbNWkGORrmBvP_Kvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

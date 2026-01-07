@@ -1,0 +1,13 @@
+﻿{
+  "Name": "#252633855v1EUACTIVE - SavinDocasPDF - Adobe ",
+  "Type": "Screen",
+  "Id": "RGDTJTxUpkmWOQBSDR-gQQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/RGDTJTxUpkmWOQBSDR-gQQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/iKEh35JZGk2KAfIlGuif4Q",
+  "Created": "2026-01-07T12:59:09.4626856Z",
+  "Updated": "2026-01-07T12:59:09.4626856Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mRonx3h0gkuejtBR-bDFCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c95fa53d-524e-49b6-b62c-76190c386ffe" CvTextArea="55, 867, 51, 18" CvTextArgument="Delete" CvType="Text" DesignTimeRectangle="2, 856, 240, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Delete' role='menu item' /&gt;" Guid="e20a2489-b114-42bf-89f1-8db6985dc985" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc595667013c0dc9b23b5ec2e00a41e9.png" xmlns="">0fT6ICi9Bv0yHrnm2Crn6lw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

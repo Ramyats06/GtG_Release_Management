@@ -87,7 +87,7 @@
       <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_009" sap:VirtualizedContainerService.HintSize="1270,3420" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_009" sap:VirtualizedContainerService.HintSize="1034,3420" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -208,7 +208,7 @@
                 <uix:TargetAnchorable CVScreenId="ae11b111-08f1-419e-b088-2cede65cfc9c" ContentHash="SCMGg4S5KUSmBB-wlUWWmQ" CvTextArea="1701, 212, 87, 18" CvTextArgument="Versions" CvType="Text" DesignTimeRectangle="1681, 195, 130, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Versions' role='push button' /&gt;" Guid="b6b63eee-b1a6-46d6-8514-4c99818058b4" InformativeScreenshot="1799450da8e24eed5ba60a2511338986.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/VVLr9v9GoEiWiOpuQLc-EQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestDociManageto iManag…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e7ce65cb-760a-40fd-b4a0-8040457a059a" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'TestDociManageto iManag…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e7ce65cb-760a-40fd-b4a0-8040457a059a" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="ccaa346d-526e-4a8f-977e-63007417acc7" ContentHash="m-3i632SG0uGT942vhnoRA" CvTextArea="1437, 350, 126, 21" CvTextArgument="VERSION 2" CvType="Text" DesignTimeRectangle="1433, 341, 130, 37" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='86' role='grouping' /&gt;" Guid="d841a442-09af-4e05-b2bd-7a345cee8291" InformativeScreenshot="b3aa0465fff45d83c25ee2bb9abd49fb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/BYDCh9HJEk26MKPF_VC8Ag" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>

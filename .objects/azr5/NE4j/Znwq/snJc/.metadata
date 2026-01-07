@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Combine iManage Documen…",
+  "Type": "Element",
+  "Id": "snJcsVfAKU6y_gY1f5GHLQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/snJcsVfAKU6y_gY1f5GHLQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2026-01-07T12:43:29.6003344Z",
+  "Updated": "2026-01-07T12:43:29.6003344Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

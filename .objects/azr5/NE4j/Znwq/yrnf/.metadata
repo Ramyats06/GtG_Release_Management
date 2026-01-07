@@ -1,0 +1,13 @@
+﻿{
+  "Name": "268889 Departments",
+  "Type": "Element",
+  "Id": "yrnftOKnlEGoWlE4kuMF8A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/yrnftOKnlEGoWlE4kuMF8A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2026-01-07T11:48:34.2930489Z",
+  "Updated": "2026-01-07T11:48:34.2930489Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

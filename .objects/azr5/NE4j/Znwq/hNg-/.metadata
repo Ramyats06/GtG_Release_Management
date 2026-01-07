@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Save as PDF",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "hNg-2PCua0KM7CyrRPe5lw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/hNg-2PCua0KM7CyrRPe5lw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2026-01-07T12:50:48.2810922Z",
+  "Updated": "2026-01-07T12:50:48.2810922Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

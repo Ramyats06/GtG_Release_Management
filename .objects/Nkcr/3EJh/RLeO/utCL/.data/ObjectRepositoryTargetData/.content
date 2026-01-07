@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2KAIa1LJcUSC3OsB3VIb8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="449, 358, 414, 109" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4704' cls='SuperGrid' name='Table View' /&gt;&lt;uia cls='LeafRow' name='To Get to Green Release Management, Subject Testing by Saving in Draft, Sent None, Size 51 KB, Preview Ramya Sundararajan  NESP– Technology Office Operations      Cooley (UK) LLP      22 Bishopsgate   London EC2N 4BQ, UK      +44 (0) 20 7556 4177 office  +44 (0) 20 7785 9355 fax      www.cooley.com &amp;lt;http://www.cooley.com/&amp;gt;       Cooley is committed to raci, ' tableRow='0' /&gt;" Guid="b0efd181-b912-4c85-a086-b7038b494c21" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7481bca69f5900cc9968f5c44f2c29cd.png" xmlns="">0Err0BOEo_EGskMGYC9DsZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

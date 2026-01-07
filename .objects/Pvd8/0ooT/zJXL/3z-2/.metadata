@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TestExcel.xlsx(1)",
+  "Type": "Element",
+  "Id": "3z-2aONBcUeTcyRvIsVIdw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/3z-2aONBcUeTcyRvIsVIdw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q",
+  "Created": "2026-01-06T14:17:36.5677215Z",
+  "Updated": "2026-01-06T14:17:36.5677215Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

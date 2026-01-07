@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q2qMGvomqEmir0aRhrvL3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvElementArea="310, 441, 29, 28" CvType="CheckBox" DesignTimeRectangle="313, 443, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestExcel.xls*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="3c7dc33d-2640-4f5f-b509-b52dbb35afb0" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvTextArea="441, 430, 145, 22" CvTextArgument="TestExcel.xlsx" CvType="Text" DesignTimeRectangle="443, 419, 1224, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestExcel.xls*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='TestExcel.xlsx' /&gt;" Guid="0dbfd73e-d67c-4c57-9d38-a44c2ee9e8ca" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="03962f6c4c1a99b561fe4ae15d0d6768.png" xmlns="">0S6EyknRwz0uN1vGEEBFFcA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

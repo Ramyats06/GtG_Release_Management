@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="pA4CsnX0ikyxzShWn_j2Hg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="WEfG71UbD0CaAVCVF0NnqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6fce7af5-18db-4754-839c-a504c40b1b2a" CvElementArea="307, 70, 1139, 53" CvType="InputBox" DesignTimeRectangle="410, 79, 991, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' idx='2' /&gt;&lt;ctrl automationid='PART_BreadcrumbBar' /&gt;" Guid="6cea64c8-0903-4b15-b533-26168ab666e5" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Home - File Explorer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="b79209f6a877a4335245eb5896491763.png" xmlns="">0VTr5A83DKE-NvB7-MUCa_g</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="57495fc5-1b1b-4755-a0e1-09cb0b8ef9c1" CvElementArea="307, 71, 1122, 51" CvType="InputBox" DesignTimeRectangle="410, 79, 975, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' idx='2' /&gt;&lt;ctrl automationid='PART_BreadcrumbBar' /&gt;" Guid="0280bbce-30db-43ba-a2c5-51b325bfec79" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Home - File Explorer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="57495fc5-1b1b-4755-a0e1-09cb0b8ef9c1" CvTextArea="423, 87, 57, 19" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="423, 87, 57, 19" ElementType="InputBox" Guid="d994df90-2592-4723-93c2-61fec317b6f0" SearchSteps="CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="957382e143196952bbc6c354771db830.png" xmlns="">0X8K6QZTZ0kGBo0up-E2_Og</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "#252633855v1EUACTIVE - SavinDocasPDF - Adobe Acrobat",
+  "Type": "App",
+  "Id": "fw4RSYAFuE2XEGPiAWC7EA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/fw4RSYAFuE2XEGPiAWC7EA",
+  "Created": "2026-01-07T12:59:09.4360526Z",
+  "Updated": "2026-01-07T12:59:09.4360526Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

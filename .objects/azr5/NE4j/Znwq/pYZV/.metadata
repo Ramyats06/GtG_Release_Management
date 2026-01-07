@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Connect(3)",
+  "Type": "Element",
+  "Id": "pYZVGwYUxU68CqLsyx8Hvg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/pYZVGwYUxU68CqLsyx8Hvg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg",
+  "Created": "2026-01-07T09:58:10.8779241Z",
+  "Updated": "2026-01-07T09:58:10.8779241Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

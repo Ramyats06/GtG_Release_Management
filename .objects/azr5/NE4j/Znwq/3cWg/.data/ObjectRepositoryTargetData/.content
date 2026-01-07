@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a05FPDuyF0eqk_i-OG5sUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="73ff3d5f-143b-44ef-a963-0a81997aaaff" CvTextArea="248, 881, 397, 27" CvTextArgument="Quality Assurance [268889.PMO0361]" CvType="Text" DesignTimeRectangle="248, 881, 397, 27" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="cc2683b5-ebc5-4ff9-a634-d335d26d0a09" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0cceb8817ea4abc83778f61befa4de83.png" xmlns="">00tag6z326kGGAn16kTQqww</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YEaORXe1-Ui1cVNWm4cgEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7320b5fb-1f96-4e52-8dfa-14f72c4c8754" CvElementArea="49, 317, 1826, 790" CvType="InputBox" DesignTimeRectangle="57, 316, 1802, 790" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='UIA_AutomationId_Word_Page_1' name='Page 1' role='page' /&gt;" Guid="baca46ab-ba55-4237-9f4e-eab37af98153" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b71ac0fa1d0660e350344c2749b6da63.png" xmlns="">0tCUJzvofbkSVLVhy_mUMBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

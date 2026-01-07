@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LuIsx6JkrUipo4Uydt6Dog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="96e3594b-3e39-4ee7-ab50-de58fefb94eb" CvTextArea="318, 81, 698, 24" CvTextArgument="Keyword: Search for terms within Documents in Quality Assurance [268" CvType="Text" DesignTimeRectangle="11, 57, 1164, 61" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='13' role='grouping' /&gt;" Guid="48f4ddd5-6813-4e1a-a718-fdb6238e1d01" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="96e3594b-3e39-4ee7-ab50-de58fefb94eb" CvTextArea="24, 12, 119, 18" CvTextArgument="'m Select a File" CvType="Text" DesignTimeRectangle="24, 12, 119, 18" ElementType="Text" Guid="d80a27f8-c7b5-4a76-acd7-8e75fda0f7a7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d1a1e626d98f8c04fbc0b746ccfdc75d.png" xmlns="">0mvJBxQBk1U25VogdsM2zFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

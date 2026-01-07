@@ -1,0 +1,318 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="WRD_SMOKE_018" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="WRD_SMOKE_018_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="WRD_SMOKE_018" sap:VirtualizedContainerService.HintSize="1034,5807.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,5784.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,5525.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c80bab5e-a199-433f-b38b-b3a7eca3f28a" ContentHash="2MXTvwxAY0aJQbK_md3CFw" CvTextArea="1131, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1119, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="a85480d9-9446-417f-90a1-fd6ac04bf765" InformativeScreenshot="0e5fdc455fff5be1400a69cdf9943f39.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/YH6EAPnxbEKu8hrJ2WqxKA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="61056842-37a2-455a-90f4-08859bfbcc03" ContentHash="YegLBrVYtk2eFszjGPl1wg" CvTextArea="144, 192, 46, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' /&gt;" Guid="c918d7e3-b6e6-4f51-9a11-3e7af07b29b8" InformativeScreenshot="4f6062b0c5c97037e4718ab97ad47043.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3jMKjDFYO0eQmkotMYi4yA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Documents Folders Recen…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASS: iManage Open is verfied" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAIL: iManage Open has failed to Open" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="2XiOQvRMJ0OoFO3I23glHg" DesignTimeRectangle="9, 129, 94, 519" ElementVisibilityArgument="Interactive" Guid="14881b8c-f8b3-461f-8668-06ff1818fcaa" ImageBase64="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" InformativeScreenshot="d0536de49f4076eb74244d38d2c143cb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/SAavQy9ag0qcNkVQubRu-g" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c4e5cc8f-fbd1-4749-a009-44c2b352de07" ContentHash="kzdpOorUWk-poNZvURfGZw" CvElementArea="1037, 655, 131, 59" CvTextArea="1069, 673, 66, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1040, 658, 126, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="0e2c4fcf-6839-4ae3-b5e1-02574554acf3" InformativeScreenshot="778f89f31a92972980b729962978bbb3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/s8JgNlHRaUaIPiCA-LixbQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="C39YhdueNU-rBcKxo-BC-Q" DesignTimeRectangle="203, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Save As' /&gt;" Guid="15106b89-8014-4fb0-b764-d12cffd2685e" InformativeScreenshot="80bb8325377b4a703f1d742c2b54112a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/7y4j9SCe5kq7uJEgMaYjrQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Save As(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASS: iManage Save as has opened" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAIL: iManage has Failed to open Save as" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="g94z51pH3EC6XEWIVynXpw" DesignTimeRectangle="0, 0, 1284, 1009" ElementVisibilityArgument="Interactive" Guid="2c611559-8436-4b66-b398-81ea53eb82d3" InformativeScreenshot="065cc43001f9b4ee2639899d5bc65bfa.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QXjIdwh1A0iIttmgk4TkyA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="4b6ca436-861d-4075-88d5-349a6fd2dd9a" ContentHash="Cr4CDPy0xkW1IMiJ63NUsg" CvElementArea="1136, 932, 130, 57" CvTextArea="1168, 949, 66, 21" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1139, 934, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="8757f223-bac5-481d-af5d-6b8ccdbeae7e" InformativeScreenshot="9e367a4cf418322d59486c8ddc2584bd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Jm3b8VP0Y0aE6wj3y8I6ZA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As New Version'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="YMOTT_56OUC42L_dLvVQXw" DesignTimeRectangle="350, 134, 106, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Save As New Version' /&gt;" Guid="556a7807-5853-4f8a-9fac-18d0f1c4a925" InformativeScreenshot="7308a2fac6dd5c6895cbaa13a36a3128.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZIFJ2QHVFEGt6Yy3m5hvdQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State ''m Select a File'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASS: Save as New version has opened in iManage" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAIL: Save as New version has NOT opened in iManage" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="96e3594b-3e39-4ee7-ab50-de58fefb94eb" ContentHash="LuIsx6JkrUipo4Uydt6Dog" CvTextArea="318, 81, 698, 24" CvTextArgument="Keyword: Search for terms within Documents in Quality Assurance [268" CvType="Text" DesignTimeRectangle="11, 57, 1164, 61" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='13' role='grouping' /&gt;" Guid="48f4ddd5-6813-4e1a-a718-fdb6238e1d01" InformativeScreenshot="d1a1e626d98f8c04fbc0b746ccfdc75d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CqSK3tw1WUixekXJe_5nXw" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="96e3594b-3e39-4ee7-ab50-de58fefb94eb" CvTextArea="24, 12, 119, 18" CvTextArgument="'m Select a File" CvType="Text" DesignTimeRectangle="24, 12, 119, 18" ElementType="Text" Guid="d80a27f8-c7b5-4a76-acd7-8e75fda0f7a7" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="4b6ca436-861d-4075-88d5-349a6fd2dd9a" ContentHash="Cr4CDPy0xkW1IMiJ63NUsg" CvElementArea="1136, 932, 130, 57" CvTextArea="1168, 949, 66, 21" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1139, 934, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="8757f223-bac5-481d-af5d-6b8ccdbeae7e" InformativeScreenshot="9e367a4cf418322d59486c8ddc2584bd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Jm3b8VP0Y0aE6wj3y8I6ZA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Compare...'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="b9231361-ff93-482d-bc85-4e63c183bce5" ContentHash="p9UtRjepakab48spp4fRVA" CvTextArea="1541, 192, 76, 21" CvTextArgument="Compare" CvType="Text" DesignTimeRectangle="1539, 134, 81, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Compare...' /&gt;&lt;uia cls='NetUIRibbonButton' name='Compare...' /&gt;" Guid="67684f11-c992-4867-91ce-38c55fcdac95" InformativeScreenshot="e440c287b3064ff02ab7a55a346f1ffc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/RF57UhWDekGOtUWP7BAxeQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Compare iManage Documen…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" OutputMessageFormat="PASS: Compare iManage icon is working as expected" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" OutputMessageFormat="FAIL: Compare iManage icon is NOT working as expected" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="Z-iK7wmdRUW_LjP2ijf99g" DesignTimeRectangle="11, 45, 1087, 677" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Compare iManage Documents' role='client' /&gt;" Guid="8f356587-655a-48a9-8182-74004fa6402d" InformativeScreenshot="643e69c7ae1189110a9d793d54eee9ab.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZGX8JJLtq02Ke8uJuFXuOg" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='LocalizableWAddinCompareForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(5)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="2b51f392-2758-427d-8438-2a4980925a3d" ContentHash="k0PyHDJNSEezsY2Kbox1xQ" CvElementArea="959, 659, 125, 45" CvTextArea="993, 672, 54, 16" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="960, 660, 124, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='buttonCancel' /&gt;" Guid="94925b5f-baa1-43af-9aac-48950539c75f" InformativeScreenshot="e1e628b95686121d082b01597e27968d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/VGoMX4Nrqkms_1_8C5FpHA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='LocalizableWAddinCompareForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Combine'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="a7ec5b88-7a0b-4002-80b8-ca585404c672" ContentHash="ayfVWt3elkq6yZZjoQ7LFw" CvTextArea="1625, 192, 75, 16" CvTextArgument="Combine" CvType="Text" DesignTimeRectangle="1623, 134, 80, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Compare...' /&gt;&lt;uia cls='NetUIRibbonButton' name='Combine' /&gt;" Guid="b12a58f2-225e-4d8f-9412-d4ef43f30c2c" InformativeScreenshot="25d8c3b2125451d424913450d8172d9a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/T-4yKc6KZUKWfIjTxsTgWw" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Combine iManage Documen…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_9" OutputMessageFormat="PASS: Combine iManage icon is working as Expected" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_10" OutputMessageFormat="FAIL: Combine iManage icon is NOT working as Expected" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="EQ_E2SHB3ki_LvtwGJBmLw" DesignTimeRectangle="0, 0, 1109, 733" ElementVisibilityArgument="Interactive" Guid="25d889b5-a16a-436e-839d-b2c289e4f869" InformativeScreenshot="6939a20bc39fd49c434430e3fa9d6d33.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/snJcsVfAKU6y_gY1f5GHLQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='LocalizableWAddinCompareForm' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(6)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d07eea06-5e1f-44ef-8781-7a4a43cc0e9f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="28dcb6a5-b283-4d5a-a7d0-b29d80cfdb26" ContentHash="ktsONL1Tekut2-Yt0Jh5OQ" CvElementArea="959, 659, 125, 45" CvTextArea="993, 672, 54, 16" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="960, 660, 124, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='buttonCancel' /&gt;" Guid="b707eab2-c7e3-46a8-8702-58be4e3a420c" InformativeScreenshot="e69c1d0c375227012c50fef74103fd12.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/xpxAj8o6j0W_V__y_4kL-A" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='LocalizableWAddinCompareForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="307, 185, 1440, 818" ContentHash="26um-EaUYkK0lNYh5T9lTA" FilePath="C:\Program Files\Microsoft Office\root\Office16\winword.exe" IconBase64="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" InformativeScreenshot="46b0528ef666360d59bb5d5cffeaa12c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg" Selector="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

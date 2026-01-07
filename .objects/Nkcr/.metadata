@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Drafts - rsundararajan@cooley.com - Outlook",
+  "Type": "App",
+  "Id": "Nkcrvr-qTE-SXlo23rO7kQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/Nkcrvr-qTE-SXlo23rO7kQ",
+  "Created": "2026-01-06T14:05:55.6807308Z",
+  "Updated": "2026-01-06T14:05:55.6807308Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

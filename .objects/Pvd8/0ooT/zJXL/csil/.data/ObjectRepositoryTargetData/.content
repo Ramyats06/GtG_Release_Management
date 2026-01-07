@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XkbaCmKjtU6uyqJxAznRKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvElementArea="310, 351, 28, 28" CvType="CheckBox" DesignTimeRectangle="313, 353, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open PPT_Test.pptx*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="9d4c9450-0e23-40e1-82e3-8f7149214047" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvTextArea="442, 340, 147, 27" CvTextArgument="PPT_Test.pptx" CvType="Text" DesignTimeRectangle="443, 329, 1224, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open PPT_Test.pptx*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='PPT_Test.pptx' /&gt;" Guid="7ed95b44-3e49-4a8d-a88c-5681c0a12c80" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f503230092415400762bdc1f6105a7bd.png" xmlns="">0nv3lTzfwZkCB8ATw3yV5Rg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

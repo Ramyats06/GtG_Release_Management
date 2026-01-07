@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Message Unread",
+  "Type": "Element",
+  "Id": "utCLnns4PEqLIY-ZXZQoPw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/utCLnns4PEqLIY-ZXZQoPw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/RLeODuJMZEmkDpo0igaUvQ",
+  "Created": "2026-01-06T14:06:20.034513Z",
+  "Updated": "2026-01-06T14:06:20.034513Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

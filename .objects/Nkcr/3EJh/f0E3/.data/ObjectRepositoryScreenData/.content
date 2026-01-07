@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="9rcyKpfsXEelQ5WZm1q2Rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1150" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Saving in Draft - Message (HTML) ' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="08735da03102acbd8a22e6b3e7dc56d6.png" xmlns="">0PxSuWRzb-0-bhHaQA7w33Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

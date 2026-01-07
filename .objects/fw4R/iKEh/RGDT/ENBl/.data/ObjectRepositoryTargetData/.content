@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ko7rkbIlRECISoJHqhkH3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="597e45b4-6076-4531-b44a-7d38c96ac6d3" CvElementArea="190, 1, 318, 52" CvTextArea="243, 16, 214, 24" CvTextArgument="SavinDocasPDF(252633.." CvType="Button" DesignTimeRectangle="191, 3, 315, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Top Bar' cls='AVL_AVView' title='TopTabBarContainerViewForDocs' /&gt;&lt;ctrl name='SavinDocasPDF(252633855.1).pdf' role='push button' /&gt;" Guid="6bf59c22-6972-4f5b-a6dd-dbe1c9c40ee7" ScopeSelectorArgument="&lt;wnd app='acrobat.exe' cls='AcrobatSDIWindow' title='#252633855v1&amp;lt;EUACTIVE&amp;gt; - SavinDocasPDF - Adobe Acrobat' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b3faf581d5e801c0fda1b4c233232f9.png" xmlns="">0PUCrRh-4NUmfjsdotR1y3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hj6kzzLKDkCkLnW76k2Xbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d6a82cff-70a2-48d0-89b9-b0aa8ba4edd9" CvElementArea="58, 128, 95, 37" CvTextArea="91, 139, 25, 15" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="58, 129, 95, 37" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='6' title='&amp;amp;Yes' /&gt;" Guid="72bc7afb-5a52-433e-8dec-a9b50caabe28" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='#32770' title='Microsoft Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d6a82cff-70a2-48d0-89b9-b0aa8ba4edd9" CvTextArea="90, 81, 196, 19" CvTextArgument="Want to save your changes?" CvType="Text" DesignTimeRectangle="92, 79, 196, 24" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='4001' title='Want to save your changes?' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Want to save your changes?' /&gt;" Guid="0d996c6e-035a-4daa-9262-285f20e7dd46" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3c1fd8db5c018c80ca01d738c95262e4.png" xmlns="">0sf_tMh-ZBU2Axu630eR-WQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

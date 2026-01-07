@@ -1,0 +1,255 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="WRD_SMOKE_012" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="WRD_SMOKE_012_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="WRD_SMOKE_012" sap:VirtualizedContainerService.HintSize="1034,4076.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,4054" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3794.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c80bab5e-a199-433f-b38b-b3a7eca3f28a" ContentHash="2MXTvwxAY0aJQbK_md3CFw" CvTextArea="1131, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1119, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="a85480d9-9446-417f-90a1-fd6ac04bf765" InformativeScreenshot="0e5fdc455fff5be1400a69cdf9943f39.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/YH6EAPnxbEKu8hrJ2WqxKA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="e1fb7f93-9262-495b-9f72-b8c08e6cf1ad" ContentHash="9zEhQW-NtkOau8N7KZ4S1Q" CvElementArea="64, 213, 23, 21" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="ArrowButton" DesignTimeRectangle="44, 192, 66, 42" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="1c9ba542-da8c-41d5-ac91-bc87658b0d8c" InformativeScreenshot="b2fee9ca3197a96dfa7a54ffc0ac2266.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nwfhT9xwS0m9uxLUP1LdaA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="e1fb7f93-9262-495b-9f72-b8c08e6cf1ad" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="44, 192, 66, 16" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Connect' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' role='Menu Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Connect' /&gt;" Guid="a5d8973c-d0b8-4f21-8f19-abf71bf2f41e" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work Offline'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="8a223fb4-3023-49ae-8490-b538faaead26" ContentHash="5dC-xb_Ly0-RRD56cepdCA" CvTextArea="54, 108, 103, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 96, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="5eea3ca5-4535-44c6-8206-21c2f5ef0eae" InformativeScreenshot="e988a57e0e2d02cb3345e5f69ae32276.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/I0z4df5-G0yY0cw66rp7UQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Connect(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASS: iManage is offline" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAIL: iManage has not changed to offline" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="b86769e1-2605-490d-8b59-411a58237584" ContentHash="e3IVgE8-LEG8Pc4zQpUxlw" DesignTimeRectangle="39, 132, 77, 118" ElementVisibilityArgument="Interactive" Guid="94a9e59e-dc61-45a5-84b1-4855bc46f229" ImageBase64="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" InformativeScreenshot="ec8d3470ec42f9221eb313d6409f211c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/c4di1bgGC0GLe8FNnYiN1Q" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="61056842-37a2-455a-90f4-08859bfbcc03" ContentHash="YegLBrVYtk2eFszjGPl1wg" CvTextArea="144, 192, 46, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' /&gt;" Guid="c918d7e3-b6e6-4f51-9a11-3e7af07b29b8" InformativeScreenshot="4f6062b0c5c97037e4718ab97ad47043.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3jMKjDFYO0eQmkotMYi4yA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'You are not connected t…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASS: Error message is displayed when iManage is offline" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAIL: Error message is NOT displayed when iManage is offline" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="1b20e676-d87c-449d-b233-79a108d8c001" ContentHash="DIxW9JcvWUCpAS8ZaIRqEw" CvTextArea="30, 141, 715, 21" CvTextArgument="You are not connected to DMS. Please check your internet connection and reopen the dialog." CvType="Text" DesignTimeRectangle="30, 141, 715, 21" ElementVisibilityArgument="Interactive" Guid="bfd766c4-38a9-4741-b88a-80d6f72b4be3" ImageBase64="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" InformativeScreenshot="8abb61e3ef22beadd40ff8e076017e8b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/tiKYhyHCMESUTQRIK1M5KQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="e778625e-4833-4e0f-a1cb-3e4018cfbf58" ContentHash="obVC4KFDLE-uymKf25Syrw" CvElementArea="1792, 1074, 131, 58" CvTextArea="1824, 1092, 67, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1796, 1077, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Recent Documents - iManage Work' /&gt;&lt;ctrl name='Recent Documents - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="adfbd755-a71d-4970-a163-d8defaad1b04" InformativeScreenshot="af6a5e68e80b531c56bdd42b00b3334a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/9WO4RR53RU61_vXu9S8AmA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="95dfa308-45d5-4591-8ac9-20dea8f76376" ContentHash="MRYMPOe_nU-kqJ1OAtigbg" CvTextArea="44, 192, 66, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' /&gt;" Guid="05df341d-9f6e-4e22-a5a0-27fe1f7e7921" InformativeScreenshot="fd186303885d29b62afcb21237f9ccab.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/pYZVGwYUxU68CqLsyx8Hvg" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1 eu-active.cooley.com'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="d0e2dae6-1e6d-40b2-89e7-e8e5f43d3364" ContentHash="ePBavlhM0EqVR4ha-ezGwQ" CvTextArea="55, 15, 181, 21" CvTextArgument="1 .eu-active.cooley.com" CvType="Text" DesignTimeRectangle="2, 2, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='1 eu-active.cooley.com' role='menu item' /&gt;" Guid="4f1f05e7-1f6c-481a-af32-38880dc46d55" InformativeScreenshot="a0fcb98ec46da9c869434a8f81f459b2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/RkDk2llNdUa9ARqbSDBSfw" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="408f6f5d-7cbd-4274-8274-3146225d47aa" ContentHash="_VYTAQLyGUeRfmKvrk2xnw" CvTextArea="146, 192, 45, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' /&gt;" Guid="1ca39a3d-06d9-486f-878a-ae69af81c723" InformativeScreenshot="a913404089ef68dae2d9550ef29eb8a2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/5HsRtfmpRUyeCvDzqcYwOQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'You are not connected t…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_3" Mode="WaitDisappear" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASS: iManage is back online and Error message has disappeared" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAIL: iManage is back online and BUT Error message has NOT disappeared" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="fcbbb131-afd4-4ab4-9c5c-5e564d678a4e" ContentHash="2HPIsfdz1UOEd8pPm0hc_A" DesignTimeRectangle="30, 141, 715, 21" ElementVisibilityArgument="Interactive" Guid="c87705be-8850-44f2-9682-9b7f3ad0fdce" ImageBase64="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" InformativeScreenshot="b05a19050df23ffd36886f2cfcc95d20.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/qfAOWG8gd0WfPgKxcFiVjg" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="fcbbb131-afd4-4ab4-9c5c-5e564d678a4e" ContentHash="TzrNF--IKUmyDWoix322tg" CvElementArea="1792, 1074, 131, 58" CvTextArea="1824, 1092, 67, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1796, 1077, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Recent Documents - iManage Work' /&gt;&lt;ctrl name='Recent Documents - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="2bdd2128-b617-4f4c-b5ec-312f58878b24" InformativeScreenshot="af6a5e68e80b531c56bdd42b00b3334a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/820pyWp9kkeiLwL5SN8kGA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="307, 185, 1440, 818" ContentHash="26um-EaUYkK0lNYh5T9lTA" FilePath="C:\Program Files\Microsoft Office\root\Office16\winword.exe" IconBase64="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" InformativeScreenshot="46b0528ef666360d59bb5d5cffeaa12c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg" Selector="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
