@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P_w75-WmREKiKtoIues81g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="532ce4e1-8995-404f-9a57-ba6df8f6338d" CvTextArea="830, 585, 547, 65" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="602, 411, 1005, 266" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="7d4b0b8d-65e1-4a64-9da7-375878c75f76" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f7ba922cb3cb8d03632136517c98d8f.png" xmlns="">0D0u5zZCLmU6Bh-E2qViCgw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
