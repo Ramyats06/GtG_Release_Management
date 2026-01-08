@@ -556,7 +556,7 @@
         "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-019.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "ab887eb5-1fe5-4244-829d-e9d658521250",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
