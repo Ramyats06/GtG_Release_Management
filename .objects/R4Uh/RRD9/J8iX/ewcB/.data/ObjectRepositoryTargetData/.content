@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HLVKjmXOjEWdBkG8Vf0t2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="605, 414, 1000, 261" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="9f0db832-9c5e-4d28-9b2e-7dd8855fe0f9" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c5ff0eac553acc7289d34bdd7fdce5a5.png" xmlns="">0REoMI2_VH06cetdhF5zqSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

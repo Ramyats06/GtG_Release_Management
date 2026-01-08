@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nmo2Eg4MDk6o8uKWVxl34w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="16d25eba-565c-4ebf-af0b-6d58ee3c4554" CvElementArea="853, 813, 125, 46" CvTextArea="901, 828, 28, 16" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="855, 815, 124, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='btnnOk' /&gt;" Guid="830fbf40-4de7-4da1-b50f-a17bdfdb594f" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='LocalizableSaveAsFixedFormatDocumentForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b56fb50d8c5700600c71f9bf06cdacf9.png" xmlns="">0SK0_0C0_MEejRcZnIFzNIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
