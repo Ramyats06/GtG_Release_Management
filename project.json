@@ -561,6 +561,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-011.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "dd72fb5f-4078-43b5-a97f-52541d2e40a5",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-012.xaml"
       }
     ],
     "saveToCloud": false
