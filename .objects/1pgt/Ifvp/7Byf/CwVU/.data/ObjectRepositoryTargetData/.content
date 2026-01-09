@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="mqkwNwXTgkCjkA4gxE345A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="Uez1jd30tEGntnmTFDd2zg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 83, 102, 1056" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Bettinelli, Brianna | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Bettinelli, Brianna | Microsoft Teams' role='document' /&gt;&lt;ctrl idx='44' role='grouping' /&gt;" Guid="f07506ce-9be1-40d1-910a-683f66cf04ec" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Bettinelli, Brianna | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="b4f4cd662220ac21c141cfacc73c28b7.png" xmlns="">0SBtmpNEs30-X4ZZAS_LP9w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 83, 102, 1056" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl idx='49' role='grouping' /&gt;" Guid="0b65655d-0fc1-40bd-bc8e-4ee0ead4bb74" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d2eba2769c5e405e7e343bd8adf38e7f.png" xmlns="">0kgpg0XWUrEueQB_cOfy3Cw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>
