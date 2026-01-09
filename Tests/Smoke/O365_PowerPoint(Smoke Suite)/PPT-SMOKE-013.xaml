@@ -1,0 +1,347 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="PPT_SMOKE_013" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PPT_SMOKE_013_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="PPT_SMOKE_013" sap:VirtualizedContainerService.HintSize="1916.6666666666667,5024" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.6666666666666,5001.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554.6666666666666,4742" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="NavigationScreenVisible" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'textbox Title TextBox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="bfcf2302-186c-48be-98ab-7c154def46e7" ContentHash="VMuWCPXp7kahczz0LJ7hJA" CvTextArea="830, 585, 547, 66" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="602, 411, 1005, 266" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="4586a472-030e-4d01-a4d2-c1f43fbb6f63" InformativeScreenshot="1f7ba922cb3cb8d03632136517c98d8f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/AkVjjuQ360qA18M9k22gKQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'textbox Title TextBox(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Text="Slide 1" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="K-jIbzyMR0GVMnyB_zjOvA" DesignTimeRectangle="605, 414, 1000, 261" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="4f25296f-ca2b-4ca5-b3b0-af5e5d10c32e" InformativeScreenshot="f66e2443f021127ef185578fcf83aaae.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/s2R9KjoSVUSgUaHCf3Nriw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="b753ae10-222e-44e2-a739-4383a3c20f7a" ContentHash="NurZBXul4EGeJVVRnN5-3g" CvElementArea="204, 138, 48, 41" CvType="Icon" DesignTimeRectangle="202, 136, 52, 45" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="f63025a0-87a1-4246-ad00-72fc53f0ff3b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAtCAYAAADhoUi4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADFSURBVGhD7dDBDcMgEETRtENzNEELHCiMfmxNJCSEvChhJWdw5vBOidH8fYUQjidREDsFsfufoJzzFsbdZlCtdQvj7mnQ1QVYYNtyUIyRCja5gkopVLDJHdQu80vYoKBGQTdQUO/xQUywyR2UUnpfaAW+xRtXv32jvYNN7iA8OP7nU/i2DfHo31GQgiYUZFBQT0ETCjIoqKegCQUZFNRT0ARlEBNscgXhMkywyRXEaCloB+NuMwgX2MG42wzalYLYKYhbOE5ivbnQShuSIQAAAABJRU5ErkJggg==" InformativeScreenshot="f234cf56d32a07a14b04fafbfccf5a4e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nFrOIiZIYUCI1kqc8WFS0A" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Slide'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="e4f71a62-1c7d-4680-b709-c0a071b4e04c" ContentHash="bVh9JQ2d9EqoH0bA0lUQBA" CvElementArea="15, 5, 51, 45" CvType="Icon" DesignTimeRectangle="10, 1, 66, 59" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl idx='2' name='New Slide' role='split button' /&gt;" Guid="da5b5ac3-843c-4e39-be8e-6fd0e84e3f3c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAA7CAYAAADPeVzhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF5SURBVGhD7dUxasMwGMXxXscH6dStUAyF0KVDMdQEegSvGV3wCXqFXsRrz6LywlMo4auQcGQpzht+kCLiT/pHSe+apnHSOIUghSCFIIUghaCLhnj6fHEfP4O7f38w12umEKQQpBCkEKQQpBBUNETXdW4cxyyseSFFQ2DD8zxnYc0L2dxXw8e11kKiQuCAMV6/98cQu683c93iZ/R9vxiekzUEDpeLnzFN02J4TtYQuOoxcBNwuMfDs7lusealwm1YJUQsXHWEuNQBYxUJgUH4t4fX2EDbtqe1mwqBIRiG1xjuf6RAIbimEFy76RAe/j4P4Te4FswsFmIYhtOtOA+BH1Ks/QfvxTOstRT+OZhZLAQ24tdSvxp4rz/AEn+foxAKUWGIVApBCkEKQQpBCkEKQQpBCkEKQQpBCkEKQZsKURPsqUgIfBI1wZ6KhKjRqiGugbX3kOQQKH4NrL2HJIfYKoUghSCFIIUghSCFIIUghSCFIIUghThq3C+Yx5yGtDZdMgAAAABJRU5ErkJggg==" InformativeScreenshot="272fdd61301906ae7f835d059257db24.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OfyxrKI4KESTDEmOyS3lNA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Input'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="95432142-939d-41ba-84a5-8697f34f1d45" ContentHash="Wuca1LHNg02O4BQP7B0nNA" CvTextArea="537, 375, 402, 48" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="527, 328, 1155, 150" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="0bb1d6f2-cb6e-4faa-8487-3a18f6699bf2" InformativeScreenshot="c26c4a1e02e9398fe85f474c0ed1863a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/31cSL8B28UGnBnFFl2BlLA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into textbox" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,244" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Text="Slide 2" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="9EGsiogOhEau8l4BiFFkAw" DesignTimeRectangle="530, 336, 1150, 145" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="b71d0d19-76fd-4e9b-98d0-ed63519f81c4" InformativeScreenshot="b1bbe92a0b8daa93fb5a8b3729da0ad1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/eOnHQs6Rp0Wi6gtsO_ks2Q" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Slide Show'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="1f80d6b9-a063-4d4d-8d2c-81fdf3b1dfa2" ContentHash="MxMYWTDMkkyB6fOUtZe52g" CvTextArea="698, 96, 98, 19" CvTextArgument="Slide Show" CvType="Text" DesignTimeRectangle="684, 83, 127, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia automationid='TabSlideShow' cls='NetUIRibbonTab' name='Slide Show' /&gt;" Guid="0e071df4-4a51-4a78-b78b-461f3276d3b8" InformativeScreenshot="3d8fabd78d822153f70810ced75bc5f6.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/jtMXMrfEXU628pV1GwTU0w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'From Beginning'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="wXZpZESKFkeJHhBwpzjMLQ" DesignTimeRectangle="41, 134, 87, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Slide Show' /&gt;&lt;uia cls='NetUIChunk' name='Start Slide Show' /&gt;&lt;uia automationid='SlideShowFromBeginning' cls='NetUIRibbonButton' name='From Beginning' /&gt;" Guid="ec206ad6-0ec7-4dc1-b8c6-65fbf8d64399" InformativeScreenshot="0ac3b30f0ac1b2315966b5b910f262e4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Q6ECh7Xs6kS5t4aIXMd23g" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:UiElementExists sap2010:Annotation.AnnotationText="Check if navigation screen is visible" DisplayName="Element Exists 'screenClass'" Exists="[NavigationScreenVisible]" sap:VirtualizedContainerService.HintSize="520.6666666666666,170" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="67309960-086a-4165-a954-e756a714d359" InformativeScreenshot="1b58c7da45fc938ccc4fa3f2e26c295b" Selector="&lt;wnd app='powerpnt.exe' cls='PodiumParent' title='Presentation1 - PowerPoint Presenter View' /&gt;&lt;wnd cls='screenClass' title='Presentation1 - PowerPoint Presenter View' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:UiElementExists>
+            <If Condition="[NavigationScreenVisible]" sap:VirtualizedContainerService.HintSize="520.6666666666666,653.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,242" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="ea807c5a-6861-450f-bdaf-ffdec6343653" ContentHash="Kb0DNzvZkUeaLibDA6W_LA" CvElementArea="743, 1075, 85, 83" CvType="Icon" DesignTimeRectangle="741, 1073, 89, 87" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="703cad2c-6e71-4035-a69d-866fcd7ceffb" ImageBase64="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" InformativeScreenshot="288c6519cc885d501a2cb5565401c8e6.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/BpZoCPSKLEuqoQoTk5CDag" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PodiumParent' title='Presentation1 - PowerPoint Presenter View' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,239.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'client PowerPoint'" sap:VirtualizedContainerService.HintSize="382,179.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="right" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ec47c48e-ea5f-4542-82bd-b2cbdf3b714d" InformativeScreenshot="6dae0754f1489dcb5dd9aa6455d749bb" Selector="&lt;wnd app='powerpnt.exe' cls='screenClass' title='PowerPoint Slide Show  -  Presentation1' /&gt;&lt;ctrl name='PowerPoint Slide Show  -  Presentation1' role='client' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                </Sequence>
+              </If.Else>
+            </If>
+            <uix:NCheckState DisplayName="Check App State 'Slide 2'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="520.6666666666666,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Successful navigation to slide 2" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion failed: Unsuccessful navigation to slide 2" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="389ada8e-c35b-432a-8073-d15569ccf83f" ContentHash="hvFyDaJywEulqCHGgqfTxQ" CvTextArea="144, 180, 243, 70" CvTextArgument="Slide 2" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="142, 180, 246, 70" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="363c8b1e-dfca-4619-93b5-8f0832bbe4ee" InformativeScreenshot="254563cec3ae916855c800d6eeeb8cff.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CNxMyK3VI0eaTWFNcapsaw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='screenClass' title='PowerPoint Slide Show  -  Presentation1' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'client PowerPoint'" sap:VirtualizedContainerService.HintSize="520.6666666666666,188.66666666666666" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="esc" KeyModifiers="None" SpecialKey="True">
+              <ui:SendHotkey.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b3223088-169a-4597-ab7c-fb058573cc75" InformativeScreenshot="2c90087ecd0d178673422b1706377df4" Selector="&lt;wnd app='powerpnt.exe' cls='screenClass' title='PowerPoint Slide Show  -  Presentation1' /&gt;&lt;ctrl name='PowerPoint Slide Show  -  Presentation1' role='client' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:SendHotkey.Target>
+            </ui:SendHotkey>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="520.6666666666666,695.3333333333334" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,583.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <If Condition="[NavigationScreenVisible]" sap:VirtualizedContainerService.HintSize="450,523.3333333333334" sap2010:WorkflowViewState.IdRef="If_4">
+                    <If.Then>
+                      <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'screenClass'" sap:VirtualizedContainerService.HintSize="382,179.33333333333334" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="esc" KeyModifiers="None" SpecialKey="True">
+                          <ui:SendHotkey.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ed121531-46e7-42dd-ad4f-197469b59d9e" InformativeScreenshot="7f7aef7eff9d9cfbabe96ef41751b917" Selector="&lt;wnd app='powerpnt.exe' cls='PodiumParent' title='Presentation1 - PowerPoint Presenter View' /&gt;&lt;wnd cls='screenClass' title='Presentation1 - PowerPoint Presenter View' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:SendHotkey.Target>
+                        </ui:SendHotkey>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
+            <uix:NCheckState DisplayName="Check App State 'Slide Slide 1'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="520.6666666666666,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion passed: Slideshow ended successfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion failed: slideshow did not end successfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="5b23c635-0125-4fa1-a9aa-4b94ad648216" ContentHash="Xd4lctpUvEGxm3cpvWONig" CvTextArea="146, 348, 37, 12" CvTextArgument="Slide 1" CvType="Text" DesignTimeRectangle="65, 307, 202, 113" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Slide256Image' name='Slide Slide 1' role='list item' /&gt;" Guid="1c607c49-f058-422f-a2ea-b997040f6009" InformativeScreenshot="90e160257589ea210a75ed86fc5f8afa.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ozZQHBiqC0Sqrg83ud9r1w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="65, 453, 202, 113" ElementType="ListItem" FuzzySelectorArgument="&lt;uia automationid='Slide257Image' name='Slide Slide 2' role='list item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Slide Slide 2' /&gt;" Guid="8feca5fe-eebf-422f-9f8d-94a136f5a84b" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="0KTY_ZlmTUqNwP8oTC1zVg" FilePath="C:\Program Files\Microsoft Office\root\Office16\powerpnt.exe" IconBase64="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" InformativeScreenshot="99c495db88d891348e6bf24098732569.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
