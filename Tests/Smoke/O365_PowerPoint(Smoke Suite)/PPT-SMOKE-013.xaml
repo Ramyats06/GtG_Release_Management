@@ -95,19 +95,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_013" sap:VirtualizedContainerService.HintSize="1916.6666666666667,5024" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_013" sap:VirtualizedContainerService.HintSize="1916.6666666666667,5215.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.6666666666666,5001.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.6666666666666,5192.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554.6666666666666,4742" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554.6666666666666,4933.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="NavigationScreenVisible" />
             </Sequence.Variables>
@@ -146,6 +146,11 @@
                 <uix:TargetAnchorable ContentHash="9EGsiogOhEau8l4BiFFkAw" DesignTimeRectangle="530, 336, 1150, 145" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="b71d0d19-76fd-4e9b-98d0-ed63519f81c4" InformativeScreenshot="b1bbe92a0b8daa93fb5a8b3729da0ad1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/eOnHQs6Rp0Wi6gtsO_ks2Q" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Input'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="95432142-939d-41ba-84a5-8697f34f1d45" ContentHash="Wuca1LHNg02O4BQP7B0nNA" CvTextArea="537, 375, 402, 48" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="527, 328, 1155, 150" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="0bb1d6f2-cb6e-4faa-8487-3a18f6699bf2" InformativeScreenshot="c26c4a1e02e9398fe85f474c0ed1863a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/31cSL8B28UGnBnFFl2BlLA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Slide Show'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b426ca34-2bc4-4f31-85fa-d86150db8c0e" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="1f80d6b9-a063-4d4d-8d2c-81fdf3b1dfa2" ContentHash="MxMYWTDMkkyB6fOUtZe52g" CvTextArea="698, 96, 98, 19" CvTextArgument="Slide Show" CvType="Text" DesignTimeRectangle="684, 83, 127, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia automationid='TabSlideShow' cls='NetUIRibbonTab' name='Slide Show' /&gt;" Guid="0e071df4-4a51-4a78-b78b-461f3276d3b8" InformativeScreenshot="3d8fabd78d822153f70810ced75bc5f6.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/jtMXMrfEXU628pV1GwTU0w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
@@ -315,7 +320,7 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable CVScreenId="5b23c635-0125-4fa1-a9aa-4b94ad648216" ContentHash="Xd4lctpUvEGxm3cpvWONig" CvTextArea="146, 348, 37, 12" CvTextArgument="Slide 1" CvType="Text" DesignTimeRectangle="65, 307, 202, 113" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Slide256Image' name='Slide Slide 1' role='list item' /&gt;" Guid="1c607c49-f058-422f-a2ea-b997040f6009" InformativeScreenshot="90e160257589ea210a75ed86fc5f8afa.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ozZQHBiqC0Sqrg83ud9r1w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="65, 453, 202, 113" ElementType="ListItem" FuzzySelectorArgument="&lt;uia automationid='Slide257Image' name='Slide Slide 2' role='list item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Slide Slide 2' /&gt;" Guid="8feca5fe-eebf-422f-9f8d-94a136f5a84b" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
