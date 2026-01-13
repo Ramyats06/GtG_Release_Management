@@ -577,11 +577,25 @@
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-013.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "a85d4629-81a1-4734-ac3c-fdc293a16196",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-014.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "36d3f221-95dd-4167-a0a3-cee8a4fc80f4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-015.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6d0859a6-f083-4c08-920b-950faa5c319b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-016.xaml"
       }
     ],
     "saveToCloud": false
