@@ -1,0 +1,199 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="PPT_SMOKE_018" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PPT_SMOKE_018_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="PPT_SMOKE_018" sap:VirtualizedContainerService.HintSize="1916.6666666666667,2781.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2758.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2499.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'textbox Title TextBox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="bfcf2302-186c-48be-98ab-7c154def46e7" ContentHash="VMuWCPXp7kahczz0LJ7hJA" CvTextArea="830, 585, 547, 66" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="602, 411, 1005, 266" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="4586a472-030e-4d01-a4d2-c1f43fbb6f63" InformativeScreenshot="1f7ba922cb3cb8d03632136517c98d8f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/AkVjjuQ360qA18M9k22gKQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'textbox Title TextBox(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Text="Slide 1" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="K-jIbzyMR0GVMnyB_zjOvA" DesignTimeRectangle="605, 414, 1000, 261" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="4f25296f-ca2b-4ca5-b3b0-af5e5d10c32e" InformativeScreenshot="f66e2443f021127ef185578fcf83aaae.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/s2R9KjoSVUSgUaHCf3Nriw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="8e878883-b298-4aff-9ca1-6b6a35ed3b90" ContentHash="s4vCLWAo7US7pyjlwRreHQ" CvTextArea="1077, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1065, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="786e0b84-9435-41f1-901c-776f50b54160" InformativeScreenshot="435d43c1bd6898f4173c68208901523a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4sYlk_Aho0i5tBnLmUiu9g" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="4a402f95-f766-4242-a118-e494c4dd54eb" ContentHash="BTglDwf9FEe5PHu1I7BcqA" CvTextArea="42, 192, 67, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' /&gt;" Guid="a03745ab-f362-4f5e-8f5b-abca85e9657b" ImageBase64="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" InformativeScreenshot="bfe52b58e08a4fb211801778d3e386bd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZUI01X4T70OAxnchmgcVeA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work Offline'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="6b530be6-3a48-4b62-828b-e4686eeb2f4c" ContentHash="tHBXQipxVEGXM5htR-qByw" CvTextArea="54, 240, 105, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 228, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="149395fb-5bc0-4bb0-9070-4e0693855442" InformativeScreenshot="2b0d82d9571ab0f05c0ea989b8a6abc3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/-9oK8oNhrkexsk3BLYzsZA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="Ov4uv0AjjkCy4AfIIplkGA" DesignTimeRectangle="203, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Save As' /&gt;" Guid="6cbd4e9b-a651-434c-bc62-d71164daf0a8" InformativeScreenshot="9d93412c78f55846743db4b3413045e5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Ir9W38AUzEieptvEXjPMWw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'You are not connected t…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Offline warning message displayed" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion failed: Offline warning message not found" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="69ce61dd-9b28-4e8e-a0c9-5166a90f0576" ContentHash="AJks8xK57Ei9w4NlPBw72g" CvTextArea="30, 141, 717, 21" CvTextArgument="You are not connected to DMS. Please check your internet connection and reopen the dialog." CvType="Text" DesignTimeRectangle="11, 131, 1164, 38" ElementVisibilityArgument="Interactive" Guid="d33a08db-16f8-416d-8137-35ea1deb0fea" InformativeScreenshot="b3d48be44a0ae0bec51653d698bca6dc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/VcsnqYaYdEOG85ybEuARbw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="49fb7653-4270-47e1-8855-1da80996880e" ContentHash="yMzJfP4BFUi2g2jwuABJBQ" CvElementArea="1037, 1061, 129, 57" CvTextArea="1068, 1080, 66, 19" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1040, 1063, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Recent Matters - undefined - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Recent Matters - undefined - iManage Work' /&gt;&lt;ctrl name='Recent Matters - undefined - iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="988062ea-05d0-4662-8eb8-26c7afc5c59b" InformativeScreenshot="dd7e9a71cb1a59c95de5220ce4606a22.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/gkKs5-HVvUGBrh-ugUEYJA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="4a402f95-f766-4242-a118-e494c4dd54eb" ContentHash="BTglDwf9FEe5PHu1I7BcqA" CvTextArea="42, 192, 67, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' /&gt;" Guid="a03745ab-f362-4f5e-8f5b-abca85e9657b" ImageBase64="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" InformativeScreenshot="bfe52b58e08a4fb211801778d3e386bd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZUI01X4T70OAxnchmgcVeA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1 eu-active.cooley.com(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8addc3f6-fbe0-4ebc-b07b-fbac7a4d6641" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="817a34e0-3290-462d-b32b-cd98d32e1e87" ContentHash="OmD5oTqM2UqTMEn_tx5X5A" CvTextArea="55, 15, 183, 21" CvTextArgument="1 eu-active.cooley.com" CvType="Text" DesignTimeRectangle="2, 2, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='1 eu-active.cooley.com' role='menu item' /&gt;" Guid="f5551258-8805-481c-92ad-9a1dbd4a5be9" InformativeScreenshot="d15ee9046ac02d5d7d8f37f8d80bf066.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DzQxbYikW0e0fzgc-0DcJw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="0KTY_ZlmTUqNwP8oTC1zVg" FilePath="C:\Program Files\Microsoft Office\root\Office16\powerpnt.exe" IconBase64="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" InformativeScreenshot="99c495db88d891348e6bf24098732569.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
