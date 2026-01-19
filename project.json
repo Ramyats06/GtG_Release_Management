@@ -620,7 +620,7 @@
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-020.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "37fb24ed-54b1-4127-a7f7-6a888231b8a3",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,

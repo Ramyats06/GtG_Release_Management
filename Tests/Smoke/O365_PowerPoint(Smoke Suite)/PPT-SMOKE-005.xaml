@@ -37,6 +37,7 @@
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
       <x:String>System.Security</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -85,14 +86,42 @@
       <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
       <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_003" sap:VirtualizedContainerService.HintSize="1916.6666666666667,2962.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_003" sap:VirtualizedContainerService.HintSize="1916.6666666666667,3197.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
+      <Variable x:TypeArguments="x:String" Name="localFilename" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[filenameTimestamp]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[DateString + " " + TimeString.Replace(":", "-")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[localFilename]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">["PPT-SMOKE-005 Test Local " + filenameTimestamp]</InArgument>
+      </Assign.Value>
+    </Assign>
     <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Presentation2 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2940" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
@@ -214,7 +243,7 @@
                 <uix:TargetAnchorable CVScreenId="41526205-fe05-4d1a-901e-5ad6675a398b" ContentHash="c0xqxh0Yj0WlKKP--yF7Cw" CvTextArea="306, 319, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="305, 311, 405, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='3' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="78e976f1-904d-4926-8f40-21914e044ae7" InformativeScreenshot="8ca71f149c1a7e3b5ec16a0567c635ca.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/FnM4Z3EKwkeAPJT1vO4T6w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Text="PPT_Test" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Text="[localFilename]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="74d78d33-e23f-4385-924f-1e5b85eb1319" ContentHash="4bQVTYzANUqurW3X8JK-dQ" CvElementArea="198, 476, 742, 36" CvType="InputBox" DesignTimeRectangle="202, 481, 710, 27" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="bcd9c29e-2c5a-466b-a58b-31a3cab51b44" InformativeScreenshot="be0e833047407aa24620f8d91d5cebe2.png" IsResponsive="True" Reference="m1hPtSXhEE-MN2DzQb4wOA/GIcEW18TOU6cfNAlzy4YTA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
