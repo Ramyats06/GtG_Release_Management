@@ -1,0 +1,120 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "IUEdcMfCsRLK2/8uU4L7ctEVwNrEobuOrxFA8cZ8RyB25C7obDq5GgritC/pAVRXaz18GtWNF+176bztb215+A==",
+        "bundleName": "C47196EC9C5_imageminus_signcomparison_Create",
+        "entitiesBundle": {
+          "Types": {
+            "output": {
+              "name": "output",
+              "properties": [
+                {
+                  "name": "comparisonDescription",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"comparisonDescription\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "comparisonObject",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"comparisonObject\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            },
+            "imageminus_signcomparison_Create": {
+              "name": "imageminus_signcomparison_Create",
+              "properties": [
+                {
+                  "name": "output",
+                  "type": {
+                    "definitionName": "output"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Name",
+                            "value": {
+                              "Value": "\"output\"",
+                              "type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": null
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C47196EC9C5_imageminus_signcomparison_Create",
+        "hash": "SVVFZGNNZkNzUkxLMi84dVU0TDdjdEVWd05yRW9idU9yeEZBOGNaOFJ5QjI1QzdvYkRxNUdncml0Qy9wQVZSWGF6MThHdFdORisxNzZienRiMjE1K0E9PQ",
+        "assemblyName": "C47196EC9C5_imagemin.UAbnr22UWER10LlMf1QA8Vq3"
+      }
+    }
+  ]
+}

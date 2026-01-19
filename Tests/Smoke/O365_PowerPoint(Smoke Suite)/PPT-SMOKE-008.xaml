@@ -85,7 +85,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_008" sap:VirtualizedContainerService.HintSize="1034,2020.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_008" sap:VirtualizedContainerService.HintSize="1916.6666666666667,2020.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -115,7 +115,7 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work Offline'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0ab5bb39-2984-4b7a-b6fb-e60139f377c6" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="2fe74cec-4b43-4392-9757-d3fdd3e87050" ContentHash="-FiEvrDCOEyeZdCc8tUpDw" CvTextArea="54, 108, 103, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 96, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="0d515e83-7aa1-4162-b9f8-1910df53e114" InformativeScreenshot="8a47d728ce9e6228eb1e8a1e663106cc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/-9oK8oNhrkexsk3BLYzsZA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="6b530be6-3a48-4b62-828b-e4686eeb2f4c" ContentHash="tHBXQipxVEGXM5htR-qByw" CvTextArea="54, 240, 105, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 228, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="149395fb-5bc0-4bb0-9070-4e0693855442" InformativeScreenshot="2b0d82d9571ab0f05c0ea989b8a6abc3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/-9oK8oNhrkexsk3BLYzsZA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NCheckState DisplayName="Check App State 'Connect'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="0ab5bb39-2984-4b7a-b6fb-e60139f377c6" Version="V5">

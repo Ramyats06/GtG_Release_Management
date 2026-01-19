@@ -4,6 +4,7 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.IntegrationService.Activities": "[1.22.0]",
     "UiPath.System.Activities": "[25.10.3]",
     "UiPath.Testing.Activities": "[25.10.0]",
     "UiPath.UIAutomation.Activities": "[25.10.21]",
@@ -617,6 +618,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-020.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "37fb24ed-54b1-4127-a7f7-6a888231b8a3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-017.xaml"
       }
     ],
     "saveToCloud": false
