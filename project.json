@@ -1,5 +1,5 @@
 {
-  "name": "GtG_Release Management",
+  "name": "GtG_Release.Management",
   "projectId": "7da6a9c1-23ae-4987-bee1-968b72579d8b",
   "description": "Test Automation Project",
   "main": "Main.xaml",
@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.221588681",
+  "projectVersion": "1.0.222692197",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -1066,6 +1066,66 @@
     {
       "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-019.xaml",
       "uniqueId": "fa68b127-3575-42bb-a4b8-ea9684bf6827",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-011.xaml",
+      "uniqueId": "ab887eb5-1fe5-4244-829d-e9d658521250",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-012.xaml",
+      "uniqueId": "dd72fb5f-4078-43b5-a97f-52541d2e40a5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-013.xaml",
+      "uniqueId": "2aaf625d-bfdc-4ee9-82f9-c82a5725dec4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-014.xaml",
+      "uniqueId": "a85d4629-81a1-4734-ac3c-fdc293a16196",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-015.xaml",
+      "uniqueId": "36d3f221-95dd-4167-a0a3-cee8a4fc80f4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-016.xaml",
+      "uniqueId": "6d0859a6-f083-4c08-920b-950faa5c319b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-018.xaml",
+      "uniqueId": "b7f201e5-9644-42cb-be31-8544712c16af",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-019.xaml",
+      "uniqueId": "569fd478-baaf-47fb-8897-a4a8f6d60c2f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-020.xaml",
+      "uniqueId": "47e091a1-4d62-4f4d-b40f-22e3634918a5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-017.xaml",
+      "uniqueId": "37fb24ed-54b1-4127-a7f7-6a888231b8a3",
       "input": [],
       "output": []
     }
