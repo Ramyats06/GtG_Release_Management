@@ -1,0 +1,218 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_224" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_224_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="OUT_SMOKE_224" sap:VirtualizedContainerService.HintSize="1270,964" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,941.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="2e12ab90-c15a-45f1-9695-36b36c2002cd" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,682" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestDociManage.docx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="[UiPath.UIAutomationNext.Enums.NMouseButton.Right]" ScopeIdentifier="2e12ab90-c15a-45f1-9695-36b36c2002cd" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="4ac691ef-46e8-41d1-89b4-e004a347f967" ContentHash="cU8LDuOcFUSiU_1H17fotw" CvTextArea="1464, 708, 186, 21" CvTextArgument="TestDociManage.docx" CvType="Text" DesignTimeRectangle="1464, 708, 186, 21" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="6320aef9-2f31-4320-bf2a-f0cce4b4b69a" InformativeScreenshot="d46c04ff79d7a9f954cebada1d15a8af.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vAnSjVFgt0q3OzXXS18blg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Download'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e12ab90-c15a-45f1-9695-36b36c2002cd" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="690c4777-ddf1-49cf-b700-1bc22dabbdb5" ContentHash="nsCDmD0vi0CF5Dpn7_L_aw" CvTextArea="1523, 516, 66, 15" CvTextArgument="Download" CvType="Text" DesignTimeRectangle="1489, 508, 206, 37" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Download' role='menu item' /&gt;" Guid="68007364-fa08-433a-9f79-3421203f3f17" InformativeScreenshot="d7e893ace2ad921b49a7b3e2f7a4f8fe.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/IMdSJlIpaUypiPUJdckrYg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="36291729-31bf-4a44-bc81-ea8a147bc417" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,299.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheckState DisplayName="Check App State 'TestDociManage.docx Tes…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="36291729-31bf-4a44-bc81-ea8a147bc417" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: File has Downloaded Successfully in work panel" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: File has NOT Downloaded Successfully in work panel" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable ContentHash="q3Lru4-KkUeELDBMNtQFew" DesignTimeRectangle="44, 26, 540, 318" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='dialog' /&gt;&lt;ctrl idx='5' role='pane' /&gt;" Guid="62e85556-7971-4201-ac01-b2f12b4a7664" InformativeScreenshot="8021d257fa27ed19054f38fb33818643.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/W-JZ7W5GaEqUFNrNrLDJWA" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NCheckState.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NCheckState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close downloads'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="36291729-31bf-4a44-bc81-ea8a147bc417" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="a2f8e8a9-95e3-4c90-8e98-05a207873148" ContentHash="kkqFc8bLukaYeY1Oj_LHMg" CvElementArea="534, 45, 33, 33" CvType="CloseButton" DesignTimeRectangle="530, 40, 42, 43" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads toolbar' role='tool bar' /&gt;&lt;ctrl name='Close downloads' role='push button' /&gt;" Guid="1cfe7818-4441-47a0-9cda-04f58b04165e" InformativeScreenshot="575f6ce3e7cb7a829d1a1913d6614a89.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/H3USRpduekmqHLRalPiZ8w" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="1284, 306, 627, 405" ContentHash="MSY-O4iNQ0C3eXXRFUFuDA" FilePath="C:\Program Files (x86)\Microsoft\EdgeWebView\Application\144.0.3719.82\msedgewebview2.exe" IconBase64="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" InformativeScreenshot="5f6f5a4dfd9ed32ffcb62ac573d9926d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QC5awZXx5E2r9-NMh4U7LA" Selector="&lt;wnd app='msedgewebview2.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" Version="V2">
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close pane'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e12ab90-c15a-45f1-9695-36b36c2002cd" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="52542b20-f309-41a6-90f9-89d4247b1644" ContentHash="vzdz76PSr0CUlZWRL2XAAQ" CvElementArea="1884, 294, 28, 27" CvType="CloseButton" DesignTimeRectangle="1881, 291, 36, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Work Panel toolbar' /&gt;&lt;uia cls='NetUISimpleButton' name='Close pane' /&gt;" Guid="a897bbd5-6d9d-4e3f-80bb-10fcfb332d57" InformativeScreenshot="40b8fda3388a640dd2dcd0a6ab46df2b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/oFaovO9UYUqFkuLvXw98mA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="52542b20-f309-41a6-90f9-89d4247b1644" CvTextArea="1355, 297, 114, 21" CvTextArgument="Work Panel" CvType="Text" DesignTimeRectangle="1348, 285, 575, 42" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Work Panel toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="f55a072a-e4d5-4f9e-acdf-b3e4e0b4e153" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="3ScqkDE_c0augEj73x9Ctw" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="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" InformativeScreenshot="80aa1ebf31061bdc55632065a76d60e4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" Version="V2">
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
