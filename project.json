@@ -625,6 +625,33 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-017.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "98b0d129-9628-435a-a9bd-74cf98d1cce6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-013.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3a5b0557-c990-486f-91fd-3d59b6582426",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-012.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "93e4d20e-2965-4348-af63-943e731fb069",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-014.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "318cb5cf-7140-47e2-a15e-5b6c486817a3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-015.xaml"
       }
     ],
     "saveToCloud": false
