@@ -1,0 +1,178 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TEAMS_SMOKE_015" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TEAMS_SMOKE_015_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TEAMS_SMOKE_015" sap:VirtualizedContainerService.HintSize="1270,1580.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Calendar  Calendar  Microsoft Teams" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1558" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a27547bc-8063-49f9-ba41-72c447e0faa5" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1298.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Testing a meeting by Ui…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a27547bc-8063-49f9-ba41-72c447e0faa5" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c9a53dbe-8df5-4a31-8072-0d6cd9090a28" ContentHash="odN8lUZY40CRLDW-lrnrzg" CvTextArea="1373, 324, 232, 23" CvTextArgument="R Testing a meeting by Uip" CvType="Text" DesignTimeRectangle="1357, 317, 253, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='calendar view, current time: Thu 11:42' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Testing a meeting by Uipath, 12:00 to 12:30, Thursday, January 2*' role='push button' automationid='' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Testing a meeting by Uipath, 12:00 to 12:30, Thursday, January 22, 2026, Busy' /&gt;" Guid="a317025d-b337-4897-9506-d84ac5a98a9d" InformativeScreenshot="ce630f8c208236393ba2e570936ef897.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/X5tRkdxaGU2An2ShzQ1nSg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="c9a53dbe-8df5-4a31-8072-0d6cd9090a28" CvTextArea="1400, 326, 205, 21" CvTextArgument="Testing a meeting by Uip" CvType="Text" DesignTimeRectangle="1399, 323, 230, 24" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='calendar view, current time: Thu 11:42' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Testing a meeting by Uipath, 12:00 to 12:30, Thursday, January 2*' role='push button' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Testing a meeting by Uipath' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Testing a meeting by Uipath' /&gt;" Guid="6218aa65-2fa4-4b09-af54-215b769967fd" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a27547bc-8063-49f9-ba41-72c447e0faa5" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="af938872-1cfd-43fe-a301-ecc8c0e19410" ContentHash="yRpfAc4K3UaB_0A1EeviPg" CvElementArea="923, 402, 127, 52" CvTextArea="972, 419, 61, 19" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="924, 404, 123, 49" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete' /&gt;" Guid="af3df496-ed18-44ba-8aed-070ab16dfd03" InformativeScreenshot="ba896325214721129d8eb612eb41679a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/40LpXL1tx0ydyL9cdmtHYw" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="af938872-1cfd-43fe-a301-ecc8c0e19410" CvElementArea="923, 402, 127, 52" CvTextArea="972, 419, 61, 19" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="973, 414, 61, 29" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Delete' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete' /&gt;" Guid="e47116ce-8d9d-4116-b175-070d59b3c994" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a27547bc-8063-49f9-ba41-72c447e0faa5" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="e17e886e-4b2d-4f9a-914a-da0f7c846e06" ContentHash="wcUzU9cleEiXQNG4bDKKCA" CvElementArea="1083, 648, 127, 51" CvTextArea="1115, 663, 64, 21" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="1083, 648, 127, 51" ElementVisibilityArgument="Interactive" Guid="1616c0e0-7183-463b-8427-7affa6669715" InformativeScreenshot="f59f65496a4d9058e93d52ea7061a037.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/1TfFtWw_Q0mM5ZXvWcYqYA" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Testing a meeting by Ui…(2)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" Mode="WaitDisappear" ScopeIdentifier="a27547bc-8063-49f9-ba41-72c447e0faa5" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASS: Meeting deleted succesfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAIL: Meeting has not deleted" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="90fef711-a79a-45f9-a9f8-3e6070aeea24" ContentHash="VYxGEd-jfUOIGY7ywKmxZQ" CvTextArea="1373, 324, 230, 23" CvTextArgument="R Testing a meeting by Uip" CvType="Text" DesignTimeRectangle="1375, 323, 229, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Calendar' role='document' /&gt;&lt;ctrl name='Calendar - Sundararajan, Ramya - Outlook' role='document' /&gt;&lt;ctrl name='calendar view, current time: Thu 11:43' role='grouping' /&gt;&lt;ctrl name='Testing a meeting by Uipath, 12:00 to 12:30, Thursday, January 2*' role='push button' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="fb3f2ce1-a168-40a0-b28e-b975b7a0e57e" InformativeScreenshot="8460fadf30e0c556bc4b34aaf7093d7d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/yfR9yFXSRU64H4b6-i7O3Q" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="Fux5zIvC10CsbTJoVBH3NA" FilePath="MSTeams_8wekyb3d8bbwe!MSTeams" IconBase64="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" InformativeScreenshot="e883864b7ffdd93aa96bccf78369f58c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ID8H8PpeF0CStOfduy7Mbg" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
