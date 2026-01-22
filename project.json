@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.222692197",
+  "projectVersion": "1.0.222776103",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -1153,6 +1153,30 @@
     {
       "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-017.xaml",
       "uniqueId": "37fb24ed-54b1-4127-a7f7-6a888231b8a3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-013.xaml",
+      "uniqueId": "98b0d129-9628-435a-a9bd-74cf98d1cce6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-012.xaml",
+      "uniqueId": "3a5b0557-c990-486f-91fd-3d59b6582426",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-014.xaml",
+      "uniqueId": "93e4d20e-2965-4348-af63-943e731fb069",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-015.xaml",
+      "uniqueId": "318cb5cf-7140-47e2-a15e-5b6c486817a3",
       "input": [],
       "output": []
     }
