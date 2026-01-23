@@ -1,13 +1,17 @@
 ﻿{
-  "Name": "Connect(1)",
+  "Name": "Connect icon (Red)",
   "Type": "Element",
+  "TaxonomyType": "Element",
   "Id": "cVVSncKDPUqEqMQU_-VZvg",
   "Reference": "m1hPtSXhEE-MN2DzQb4wOA/cVVSncKDPUqEqMQU_-VZvg",
   "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J8iXvC_I7kOLCUZIXcM3mA",
   "Created": "2025-12-18T11:58:52.0912257Z",
-  "Updated": "2025-12-18T11:58:52.0912257Z",
+  "Updated": "2026-01-23T15:54:17.6837314Z",
   "CreatedBy": [
     "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }

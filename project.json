@@ -652,6 +652,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-015.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "424fc0ea-4b09-414d-b078-d1b843fe8cd2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-010.xaml"
       }
     ],
     "saveToCloud": false
