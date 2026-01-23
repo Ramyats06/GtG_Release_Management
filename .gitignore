@@ -7,3 +7,7 @@
 .templates/
 packages/
 .storage/
+
+# UiPath temp workflow backups
+~*.xaml
+*.user
