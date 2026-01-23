@@ -112,7 +112,7 @@
       <AssemblyReference>C47196EC9C5_imagemin.UAbnr22UWER10LlMf1QA8Vq3</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_017" sap:VirtualizedContainerService.HintSize="1916.6666666666667,9408.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_017" sap:VirtualizedContainerService.HintSize="1904.6666666666667,9408.666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -211,7 +211,7 @@
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="29a70575-6ffe-4fa7-8bb8-38489ab6d56f" ContentHash="7Wkh9J1Xz0-tlxEIjJhEQg" CvElementArea="445, 295, 26, 26" CvType="CloseButton" DesignTimeRectangle="441, 291, 36, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUISimpleButton' name='Close pane' /&gt;" Guid="45e57cc8-244e-415e-a92c-7d91eb1b0f90" InformativeScreenshot="b41d5121e5753eb74f97b716a6203f3d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/9b9JH-pCH0GWvMJOjtxjCg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="29a70575-6ffe-4fa7-8bb8-38489ab6d56f" CvTextArea="26, 297, 163, 25" CvTextArgument="iManage Offline" CvType="Text" DesignTimeRectangle="19, 285, 464, 42" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="6cc28c53-33b4-4e3f-a7ad-fb28c2075e1f" SearchSteps="FuzzySelector, CV" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -420,7 +420,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="dc877cf7-122f-43b9-8f7e-a28f09bdeffe" ContentHash="vbjud0qAxUOrkw7V907c8w" CvElementArea="1880, 32, 29, 27" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="36bde9fd-e4ad-4c6b-a1a0-18f7d07a3e11" InformativeScreenshot="c1e1ba5bd63a9b13838f8df3a1fcc336.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/gbK3UA9VREK10a1bmVsuyQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="dc877cf7-122f-43b9-8f7e-a28f09bdeffe" CvElementArea="1809, 33, 26, 26" CvType="MaximizeButton" DesignTimeRectangle="1787, 11, 72, 72" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Restore Down' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Restore Down' /&gt;" Guid="36b07ec2-a9ef-47f3-911c-a75431a6a7ef" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

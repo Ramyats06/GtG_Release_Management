@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="PPT_SMOKE_015" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PPT_SMOKE_015_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="PPT_SMOKE_015" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PPT_SMOKE_015_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -98,7 +98,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_015" sap:VirtualizedContainerService.HintSize="1916.6666666666667,7353.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_015" sap:VirtualizedContainerService.HintSize="1904.6666666666667,6799.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -124,21 +124,21 @@
         <InArgument x:TypeArguments="x:String">["PPT-SMOKE-015 Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="656.6666666666666,3150" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="656.6666666666666,3118" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2881.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2849.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Task Pane Options Close…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,1040" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Task Pane Options Close…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,1008" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,624.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,592.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -279,13 +279,13 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="656.6666666666666,3946" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="c1d4a388-0b72-4d3f-b452-b611312e80a5" Version="V2">
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="656.6666666666666,3424" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="c1d4a388-0b72-4d3f-b452-b611312e80a5" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622.6666666666666,3686.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622.6666666666666,3164.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -312,13 +312,13 @@
                 <uix:TargetAnchorable CVScreenId="8771d159-3ae3-4ef3-bbe1-60672eeecf0b" ContentHash="toz9jD4TDUK-4QhbjE8m4A" CvElementArea="1627, 1061, 165, 59" CvTextArea="1664, 1079, 55, 25" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="1629, 1064, 127, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" Guid="2768de9e-071a-441e-ba16-c87e7a9cd526" InformativeScreenshot="6c799f3ef1170c7e9510f87585b13a00.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Yn_jYaVso0aClWh47slwLg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="#252643891v1EUACTIVE - PPT_Test - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.6666666666666,3052.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="6a51c48d-ba7e-4527-951e-59d56c7051ea" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="#252643891v1EUACTIVE - PPT_Test - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="588.6666666666666,2530.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="6a51c48d-ba7e-4527-951e-59d56c7051ea" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554.6666666666666,2793.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554.6666666666666,2271.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -359,7 +359,7 @@
                               <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Current version is v2" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Current version is v2" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
@@ -369,7 +369,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion failed: Current version is not v2" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion failed: Current version is not v2" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
@@ -387,7 +387,7 @@
                         <uix:TargetAnchorable CVScreenId="7e28cb38-fb4b-4465-b5d2-a483a26e3ca0" ContentHash="i4OAcfJnmE-gaKjLPt-64Q" CvElementArea="961, 566, 130, 57" CvTextArea="993, 583, 66, 21" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="963, 569, 127, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='iManage Work - Web content' cls='Chrome_WidgetWin_1' title='iManage Work' /&gt;&lt;ctrl name='iManage Work' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="2031f307-9f2a-42d6-9171-ac0aaf4af4ca" InformativeScreenshot="cf5dfb5f36c639837c75a7e2546854ec.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/YN6nDkfMv0mxETY5vGBuXg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6a51c48d-ba7e-4527-951e-59d56c7051ea" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520.6666666666666,182" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6a51c48d-ba7e-4527-951e-59d56c7051ea" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable CVScreenId="dc877cf7-122f-43b9-8f7e-a28f09bdeffe" ContentHash="vbjud0qAxUOrkw7V907c8w" CvElementArea="1880, 32, 29, 27" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="36bde9fd-e4ad-4c6b-a1a0-18f7d07a3e11" InformativeScreenshot="c1e1ba5bd63a9b13838f8df3a1fcc336.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/gbK3UA9VREK10a1bmVsuyQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -398,50 +398,6 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="520.6666666666666,512.6666666666666" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-                      <ui:CommentOut.Body>
-                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,410" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="#252644004v2EUACTIVE - PPT_Test - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,350" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="2713e37d-b751-41f1-b5a0-3f4660e507ee" Version="V2">
-                            <uix:NApplicationCard.Body>
-                              <ActivityAction x:TypeArguments="x:Object">
-                                <ActivityAction.Argument>
-                                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                                </ActivityAction.Argument>
-                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                </Sequence>
-                              </ActivityAction>
-                            </uix:NApplicationCard.Body>
-                            <uix:NApplicationCard.OCREngine>
-                              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
-                                <ActivityFunc.Argument>
-                                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
-                                </ActivityFunc.Argument>
-                              </ActivityFunc>
-                            </uix:NApplicationCard.OCREngine>
-                            <uix:NApplicationCard.TargetApp>
-                              <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="DPIxLzWm2UOkP9uXTRlxrA" FilePath="C:\Program Files\Microsoft Office\root\Office16\powerpnt.exe" IconBase64="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" InformativeScreenshot="0a4cc87f37feaa88a923afe35599af08.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/VJ2jqNI06k-GTEzidVWDeQ" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='#252644114v4&amp;lt;EUACTIVE&amp;gt; - PPT_Test - PowerPoint' /&gt;" Version="V2">
-                                <uix:TargetApp.Arguments>
-                                  <InArgument x:TypeArguments="x:String" />
-                                </uix:TargetApp.Arguments>
-                                <uix:TargetApp.WorkingDirectory>
-                                  <InArgument x:TypeArguments="x:String" />
-                                </uix:TargetApp.WorkingDirectory>
-                              </uix:TargetApp>
-                            </uix:NApplicationCard.TargetApp>
-                          </uix:NApplicationCard>
-                        </Sequence>
-                      </ui:CommentOut.Body>
-                    </ui:CommentOut>
                   </Sequence>
                 </ActivityAction>
               </uix:NApplicationCard.Body>

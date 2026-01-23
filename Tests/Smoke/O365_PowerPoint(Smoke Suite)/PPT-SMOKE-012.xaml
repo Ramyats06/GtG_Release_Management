@@ -239,7 +239,7 @@
       <AssemblyReference>Microsoft.CodeAnalysis.Workspaces</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="PPT_SMOKE_012" sap:VirtualizedContainerService.HintSize="1916.6666666666667,2673.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="PPT_SMOKE_012" sap:VirtualizedContainerService.HintSize="1904.6666666666667,2673.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -306,7 +306,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Presentation started on Slide 1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Presentation started on Slide 1" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
@@ -316,11 +316,11 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion failed: Presentation Slide 1 not visible" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion failed: Presentation Slide 1 not visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable CVScreenId="8a6b824f-544f-448b-90eb-fb5346164c4a" ContentHash="aYGukGo1GE-z0YhM9yrNfg" CvTextArea="793, 486, 315, 91" CvTextArgument="Slide 1" CvType="Text" DesignTimeRectangle="793, 486, 315, 91" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="5d32f60d-f2c4-4089-a777-68ff607811cc" InformativeScreenshot="20619d152814a1a299ddf5ad503ed293.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CNxMyK3VI0eaTWFNcapsaw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='screenClass' title='PowerPoint Slide Show  -  Presentation1' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="389ada8e-c35b-432a-8073-d15569ccf83f" ContentHash="hvFyDaJywEulqCHGgqfTxQ" CvTextArea="144, 180, 243, 70" CvTextArgument="Slide 2" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="142, 180, 246, 70" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="363c8b1e-dfca-4619-93b5-8f0832bbe4ee" InformativeScreenshot="254563cec3ae916855c800d6eeeb8cff.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CNxMyK3VI0eaTWFNcapsaw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='screenClass' title='PowerPoint Slide Show  -  Presentation1' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NCheckState.Target>
             </uix:NCheckState>
           </Sequence>
