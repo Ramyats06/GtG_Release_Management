@@ -1,0 +1,167 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ZM_SMOKE_010" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ZM_SMOKE_010_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ZM_SMOKE_010" sap:VirtualizedContainerService.HintSize="1270,772.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Zoom Workplace" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,750" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="0ae11d6a-ce4a-4c2a-b5a0-248bfe55527a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,490.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Join Join'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0ae11d6a-ce4a-4c2a-b5a0-248bfe55527a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="f2c7857d-fc1e-4c79-b4bc-7300aa63814d" ContentHash="Rs626upu20SZe7OVEc9clw" CvElementArea="678, 399, 145, 144" CvType="Icon" DesignTimeRectangle="661, 395, 180, 219" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl idx='407' role='pane' /&gt;" Guid="12b31f59-a26f-4987-a994-b6eef1efa4fa" ImageBase64="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" InformativeScreenshot="5b21f052acd71ea2a48db5f0fd20dac6.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/scowaDIXh061BW4KzT0luw" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Zoom Workplace(2)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="0ae11d6a-ce4a-4c2a-b5a0-248bfe55527a" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: Join Meeting window opens successfully asking meeting ID" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: Join Meeting window does not opens successfully asking meeting ID" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="eK0YxGWSZ0SR8a8q9w8zMg" DesignTimeRectangle="0, 0, 600, 548" ElementVisibilityArgument="Interactive" Guid="2b7a8a20-c382-45f5-8161-757cfdb53d7d" InformativeScreenshot="d2ff19f11fff10ceba7caceec67b0594.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/L9-d7n9gdEahKmOFiJB1ag" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zWaitingMeetingIDWndClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0ae11d6a-ce4a-4c2a-b5a0-248bfe55527a" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="89ad4ded-3596-46ed-935a-47636a65a472" ContentHash="3IL5-DCYpE-Rrr1Izd4wxQ" CvElementArea="426, 447, 125, 51" CvTextArea="455, 462, 63, 21" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="429, 449, 120, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="6a887cd8-355e-4855-a25a-3a1044033ca4" InformativeScreenshot="da1c7bd823f40a35ede8ec8422d490bb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Eccg3QFuA068iazUsguE6Q" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zWaitingMeetingIDWndClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="afR0jwdgUUCHyjH9E3BZaA" FilePath="C:\Program Files\Zoom\bin\zoom.exe" IconBase64="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" InformativeScreenshot="65adc3f84b0ec2b75c6ac1043fc5d0cf.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
