@@ -1,14 +1,17 @@
 ﻿{
-  "Name": "Open",
+  "Name": "Open (iManage ribbon)",
   "Type": "Element",
   "TaxonomyType": "Button",
   "Id": "DfrvKIaFGUCW6jsG6L7I5Q",
   "Reference": "m1hPtSXhEE-MN2DzQb4wOA/DfrvKIaFGUCW6jsG6L7I5Q",
   "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg",
   "Created": "2025-12-18T11:20:17.4978261Z",
-  "Updated": "2025-12-18T11:20:17.4978261Z",
+  "Updated": "2026-01-26T10:03:05.6224288Z",
   "CreatedBy": [
     "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="XLS_SMOKE_005" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="XLS_SMOKE_005_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="XLS_SMOKE_005" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="XLS_SMOKE_005_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -38,6 +38,8 @@
       <x:String>UiPath.Platform.SyncObjects</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -83,120 +85,110 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="XLS_SMOKE_005" sap:VirtualizedContainerService.HintSize="1034,950" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="XLS_SMOKE_005" sap:VirtualizedContainerService.HintSize="1904.6666666666667,3842" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
+      <Variable x:TypeArguments="x:String" Name="localFilename" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" ContinueOnError="True" DisplayName="Start Process" FileName="C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData" sap:VirtualizedContainerService.HintSize="450,120" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="CUsersSundararajaOneDrive - Cooley LLPDesktop(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,807.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="4c2abeee-9146-46a1-9ae6-9567a51b9a48" Version="V2">
+    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[filenameTimestamp]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[DateString + " " + TimeString.Replace(":", "-")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[localFilename]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">["XLS-SMOKE-005 Test Local " + filenameTimestamp]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1835.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,548" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1566.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'TestXls.xlsx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4c2abeee-9146-46a1-9ae6-9567a51b9a48" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="73be6a96-cfd9-4ed6-a574-a1ceb537f26a" ContentHash="MMgUfv9fa0itPDJZPr8JJQ" CvTextArea="328, 294, 88, 18" CvTextArgument="TestXls.xlsx" CvType="Text" DesignTimeRectangle="328, 286, 382, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='1' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="9f49d598-2847-417a-a5ca-7dfa202935a7" InformativeScreenshot="7e447b035a4e8a6ed477ecc8df248c85.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/7eWB0I-W9EGmZJJtX59RNA" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData - Fi*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="c0946a7f-480a-463f-ba3f-746406770bfd" ContentHash="bby4Ah-UhECLsKiNsOmKGw" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="17, 83, 81, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="7b2c206a-4ae9-428f-a60f-155b01864faa" InformativeScreenshot="e943b51b80267c049b77dc13c589bb27.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fNod1YQW0UaFqRaei7xtLg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="40ab0563-cef0-42e5-af88-956e67ada7ca" ContentHash="19mlw3Mz4kydMfhjvueLHw" CvTextArea="74, 852, 64, 18" CvTextArgument="Save As" CvType="Text" DesignTimeRectangle="11, 831, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIRibbonTab' name='Save As' /&gt;" Guid="c563675a-51d1-4736-8a77-096449d06610" InformativeScreenshot="3b193c53c52ee4a678f8a4ee592a431d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ALVuFFLj90WixKzVZxj63g" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'This PC'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="7c26cdd5-5f8e-42d4-bb7c-b9e75620c8f2" ContentHash="Zs028QB8JU-1DwlxjQukbQ" CvTextArea="377, 681, 73, 21" CvTextArgument="This PC" CvType="Text" DesignTimeRectangle="300, 658, 475, 66" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Save As' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Saving Features' /&gt;&lt;uia cls='NetUIElement' idx='2' /&gt;&lt;uia cls='NetUISimpleButton' name='This PC' /&gt;" Guid="972d370d-11a1-4d37-bc7b-41fe1fd720f7" InformativeScreenshot="632c0240162bf78cb4a393def7f4819e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/sbrKVH2FtES_3k7m-aRPWw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start of Quick Access -…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="5501eb46-6543-4354-93ae-518a3d0cf2d1" ContentHash="e5qt-R70hU2xRWQwLVVdbQ" CvTextArea="78, 285, 69, 21" CvTextArgument="Desktop" CvType="Text" DesignTimeRectangle="77, 276, 71, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd ctrlid='100' title='Navigation Pane' /&gt;&lt;ctrl name='Start of Quick Access - Desktop (pinned)' role='outline item' /&gt;" Guid="f2e31bf6-8af1-4184-b23c-65703e2f4faf" InformativeScreenshot="12084aab79f1580cb666ea890fe3e41e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/hDCXQdF1xEqyaOIg_Gar-Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="73be6a96-cfd9-4ed6-a574-a1ceb537f26a" CvTextArea="960, 294, 180, 16" CvTextArgument="Microsoft Excel Work..." CvType="Text" DesignTimeRectangle="953, 286, 203, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='1' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemTypeText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft Excel Worksheet' /&gt;" Guid="9c68b286-37b6-48aa-a46b-95ee76a3af1a" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="5501eb46-6543-4354-93ae-518a3d0cf2d1" CvElementArea="45, 281, 31, 28" CvType="Icon" DesignTimeRectangle="43, 279, 35, 32" ElementType="Icon" Guid="327ca83d-8ca1-445d-b21c-8ae7565df3a6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAYAAACYTcH3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUvSURBVFhH7dX7T5V1HAfwMLykKSKCHBS5iVwOcA6aeStj/dCPrbWVm5szcG3OudZFRVJRyczMOloeBSMB9UipQF5KkTsoiIJcDgc4gBCCoCj2J7x7f7/PcxD3wEP2Q6uNs312dhjs89r7/TkPLzidTvxXZhwz2oxjRpv/D+ZyTw/2PxpEyuM/sWfgCXY/fIJd/YPYdX8Qyb2PsfPeI+zofoTtXZzOAXx+dwBJ7Q+xzfkA21ofILG5H1sdHHsftjRw6u9jc919JNX04ry9U7NPF7OxfwBvdvfjtY5erGzvxfLWHixv7sFSezdebejGkro/8EpNFxbf7sKiqruIvdEBc0U7Yko5xW2ILnQi6poTkVdaEflbC8IuOhD2qwPGPAdWF7Zp9uli4rr6JML1WtZERKOCWFIrEJ1YdLMTsZWEEGEqH4bIb4XxSgsiiIi41CwRoblNCD1vx4JfGhH+c6Nmny5mhZNJtPSoFDANBSHTqCZEpnEXZoFgGtFFhFwjgpDI34m4TMQFBxbmEZHDOduIkOxGBNsaEHSqQbNPF7PMcU9WYsy+hEjbpSFELBHm6x0wiTRK29Q02mQakWoa4RebiSAkx47Qc0yDSQhEMBGBWXUIyKjT7NPFKHfBJGQlnJtqEhUdTEIg2hHFSowijautCoKVLByqpAkhrESkEXSaiJP1CMisw/yf7mD+8VrNPl2MchddakmQx2kuYxolTIKVRBERebWFx9ms3AUrCRu6CzsRTEKtRCACiPD/kZN2B/OO1mj26WIWqZW4XvJbUsTjLGAarkp4F+GuuxCIswLBSs6IStQkTjCJdALSajHvWC38jtyG4ftbmn26GPFVFXcRejwPodb9CEvfgGDLYgRYzPC3xCAgLZ5LM3gXhPAuQsRdECEryapHIO9CIPxZydxjNZhrvQ2/Hwg5dAtzvqvW7NPFmFhJdEE9jOkbEWE1w5g7G9H5k3m0bnyfhLAcT/hZF8BwdC0RVQg+XY8g9S6USphEKhGsRCKYhq+lGj7fVsP7QJVmny5GVpKRCGOqCaZCd5iK3WCWM0EdN8Tw54bUQPgcWYNAWQmHCH9WItIwqJUYXIhvbsL7q0p47avU7NPFROVdQIx1iYRIRBEBhWJeVN7FZ6Ki+dnbGgi/1FSJmEeEHysxMA1ftRKfg4R8XYXZRHjtrYRnynXNPv1k0j6CKXeOkohYXEDEtaeT7IjHhb5MCV2QMwNeh1bLSgTCcNiFYBKsRKbxZSVmfUHInuvwSK7Q7NPFmC2rYMqfoqQikiAgNt8dsVfdkWxPkN+w6ZYgCTXmT4SHJQS+RPhaCGElPgfUSoYhZu4iZEc5pieVa/aNjeGxiipEAslNCQqkcf0QJCJDqctU4iYxEiHuYr9Syay9N4YhKuCxnZBtZZi2pVSzTxdjOvSWmswEuVi8LvZmyXcJOcG6RHXDkhm6C6bhmaJAPHZWYAYRM5LK8HJiKaZtLsXUT0o0+/Qx1k0w5cyRNUVkPgU9AxH1EStuZubB9yTCSyB2Mw3ehYJgGolMY3MJXvqU83ExvD8r1uzTxWxI26d+mybKhS6QrMYFYSqub9PUNW9jSlwCpryRgMmr4jHpdc7KeExc8QGy86vgvnSdfPeM+xA7Dp/S7NPFiFlv2zT0nJHPlcsKQI74rD5n3rGtHfHvn2fGxNxpqsOmc1uVJ3CON2LEE5jHKp7Erifwu7Z1qGnS/hd+3hkT45qs8jNYa3v2f9P7tgSkl58c8ff/yfxtzL8x45jRZhwz8jjxF5DJmD7elHOzAAAAAElFTkSuQmCC" SearchSteps="CV" TargetType="ComputerVisionBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TestXls.xlsx - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="1b4fffc3-df98-41f7-80f1-7bb57e5bd814" Version="V2">
-              <uix:NApplicationCard.Body>
-                <ActivityAction x:TypeArguments="x:Object">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'Pane Ribbon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="1b4fffc3-df98-41f7-80f1-7bb57e5bd814" Version="V5">
-                      <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Passed: Saved Excel has opened without any issues" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfExists>
-                      <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Failed: Saved Excel has Not opened Successfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfNotExists>
-                      <uix:NCheckState.Target>
-                        <uix:TargetAnchorable ContentHash="yxfNlSBcA0-E9XAUsED-4Q" DesignTimeRectangle="11, 11, 1920, 267" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="cf34f2e1-4984-42b3-9076-c1a9574d6a30" InformativeScreenshot="099952648a7f5ae346336fe2d0d7dfa2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/tbA7IJRvSEaA-AHtP4ZKTQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='TestXls.xlsx - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NCheckState.Target>
-                    </uix:NCheckState>
-                  </Sequence>
-                </ActivityAction>
-              </uix:NApplicationCard.Body>
-              <uix:NApplicationCard.OCREngine>
-                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
-                  <ActivityFunc.Argument>
-                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
-                  </ActivityFunc.Argument>
-                </ActivityFunc>
-              </uix:NApplicationCard.OCREngine>
-              <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="-11, -11, 1942, 1150" Arguments="c:\users\sundararaja\onedrive - cooley llp\desktop\testdata\testxls.xlsx" ContentHash="_nz87IWU6kaPQ2mYzD4-hw" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAA/FSURBVGhD7Zl5cBXXmcX9f1jMon17WhBaAO0yeOwJm0ACJEACJKGFJ6F9fZLQggRilVgESICIARsw+xjigB0n3nAwcahxnLIdGzwGBAiIY0CeGTIzlan565453+37HiIyKUyqpmqqcqtO3e5+lOt3vj7f193yM39f/x/WoX7Hsy/frnf03Ko639lf8aC9vxQr+0vQeqsUbbfL0XarTK3sL1XNfcVqxdeFqP0yD5WfZqHk4wzYf5OG5t8txmu3yvGrgRV4b6ABb3+3Am9y/9lAPU4P1Kl/4n6c++GBOhyiXrnvwP6BWrVvoO7z3nt18w3G061T37RGH7vd3L//Vh16+quwqb8c7TdL0NJfbAyUoVUM3ShB09XlqP/Kjprf56KM0IUXF2DNZ1n4iODnCS3wv6TeHKhXrxP6FKFPUkepQ4R+hfD7uL9E7Rmoxa77tdhJdd91TDU4P2y9fXet7ew37Q+O326CGOjur0TnzTKsulmsWm4Wu+7CSjHUV4zGK4XKcTlfVX2+FCW/zcCyj1Jx9g/V+PC7RrxPExa8VflT1AnqCKEPUvsFfEDAHQSvUd0E3zFQo7ru16BroPa8Qfph64NvO/vP/mE1jmkDDkUDquNmKQ0UqeabRXIXVMutYiXVb+4rQsOVAiXxqWB8lv/zQuR+OAe/ZuXPEf4dgr9FnfmuXklsBF4ic4DAUvWfEHg3jwV8O6u/leCbqE6qY6BaGaQnXxfvbrfTACtoGdh3q1btuFmJjTcYmxvLLQO8C6Lm68VouibxWYaaLyQ+Sxif+cj+1Wyd+3cpgT9L6NPUye/qlFTeCb+H2kXoHYRnxdVmgaY2UOvuV2PNvWoYrCdfH9/rPn/u246HBvodsAyUqLbry9F4o5AmtBE2bxFWXC1UdV/lq2rGp/STRbAzPpnnZuIc74BE5w3qp4SXhmXmcYDQuvJs1p3UdsJuoaTi6wm9llpNtd2vUq3cDdaTr08Guh+IgTNi4JYYqFHbb1aIAbReL1SN1wvRRDXfKEJT33IdH8elfFR+lq3zn//reVj83gxWvwE/pyT3r1GcNniVelnDS+X532X1BV6qvo7VHgy+8n4V9TQG7nfj3B9p4M4qHL3ViL1i4EY51rNZWwm8oq9A34XG6wWqsa9QNXxdgNrLeUoMFH+cjrwLc7Ho3Wmm+vW6+icpyb2Myb0DDrVb8k654Am6imolvEC3yH6vSu8G68nXJ/d74IyQGPjJjWpsuy4GmP1rBWjos1sm+goZnwLU/4sdtZekgTNRZBo4452pOvvO6h8j/EGJDivfS3Bp2K1UB2HX0YAFz6oTWgxYeuo7QAOD7oBloAzrWH1t4JrdZcIywAb+MgflTgMXLAPO6p8gvK4+4V8i9E4Cb6Nk0kizSmxY+UHgxogxY7CefA02cKR/hTbQ1VeKtdeY+6vLUH9tGU0s0wYartjBBtYGXHfAGJDJwweWzr48rGTe95qJI9HZSK0hYNtgcKeRQXfCYD35cvbAz+60uQxsHWSg7mq+y0T9FZ6LgS+cBtK1AekBZ3z05GH199KAPF2lcaX66031B1e7xXnsMlD1txk4TAN7rle5DDRdyYfjSh7qxYSIBhyDDbCJ89nEMoX23Chm89bpJ640rzyweig+XXXjyrh0RkeDD4qRdV6N0k/znjZCGy0DNxuMgRK0My6N2kCuy0Td1zz/Ks9loJgvccs4RjPPJaH0o7n6lUFG537TvM74bCDcameV/3KnETEgTR2/MeHp7sB7NPD67VZjoBJbrhZjDRu28es81BoDdZRDzi/nsgdyUfEZDfA5YP9NKrI/mIX0t6ei/OI8vgiW6AdXL03I6LTiY41NC9iSs+oi+8VsTGqNVm5LfJ9mjHbjfbkDt9vwcp8DVR/mYO6JZEw7MA3TD07TuxaP5Vw04+B017FT0w5MRVxnInzsgRiT4Y0xi7wFCGMp90w/uGX6KndLcM/yc12jZIfAy783WE++nAY2/74G884uRtLJuZh5OAkzX52BGYem6/37Jb85f5+O+E2JGL2Q4Bk+GLuIWuxDMIJm+SkB9lzqr+VhSXlki/yM/F3/zmA9+RIDXZeakPKLXCSfWYzkU2mYfWw2Zh2Z+URKOjwDSdx97UEYna4rb+BZ6WwaWOoHjxx/5ZUboLzyRDZwp6zdk9c9+btIjBmsJ1/v/7ELGRfKMPedfKS8QQOn05DMCM0+mqSVfGyW2R8eP/yNu76epOFHMzpuSxiNLBe8IiA8Ce69LBDejJfIp4DSxzZet8FSILzybT/cQPvl1Ui7UI7U9+yY91YW5ry+ACk0kHJ8llay2QVUn9OEJYLrc7k+26o+Kz92iY+iAammrrIGW0ZQwvoWBirf5UHwKwqGb1EQ5Ni30JJPoWXMYH3/mvq2w/bCz2vPTzlT9SDhdBniThYj6mghJr1qR+SBfETuz0XE3hxE7FmKiN5sRO7OxsTdSxHdm4vY3jy8sD+TlZ+jjcw5MfsR6egsYXQI7y45z2Xm8xkZO00UEJ7AfkVBKqAkBP5awWa3xN8Vf3+8gclnHLYpbxL8p2WIPlmECccKVMShfIx/OQfj9mYheE8mgnYtRlDPIgTtyEDQtnQEd6UjZGsGxnctQnjXYkzcloX4nqWPmEg5wTtEjebU0dWXpiQ8qy4R0ZX1ZcX9CBlQNo4KUbYK7uVGPKdk1zK4Q9dzZyrOxJ0uxaQThQg/vAyhB3IRvC8btt4lCNi1CH470uG/bSH8tsyH76Y0+HWkwXfDPPhtSEXA+lQErk9DyIYFCO/IQEJ3uoYefAdM9aVhJfOwKh+o/IoZF1Zb4GwVobBVhqrAqlBQj+xiinp8D0S/VozIY3aEHspF0P5sBL6UiYDdi+HbvRA+2xbAa0savDpT4bVhLjzXzYFHezK82ufAe1UyvNuS4duWAv9VcxC0OhVh6+e7wJ1G9Gxn47L6Sle/wKZz7idRYeUFUEBDasMRXBumgmrHI9gRhqAa7rXWLjK4Q1fEMbsKOZijAvdnqYA9S5j1PPzH//wZzpV+bCU8NhB8rQV/58E98wsQ25EDjxVJ8G6cBd+m2bC1zHlowETJnbPc5F6qb2We8H5lwcpWSfhqAR2vQurCVEh9uAhOBdeFWTsNGdyhK+RADgL3ZsKvdxF8dqUr7+0L0P7BKwYRuHjrS8KnwJ3wWz84aq4CW955FWMc0zC2ZqqWp2MGvOtmugw4JSPTw0THRyYLo+OvY8PqV4dCKi6Q41ZEILQxEuMaI1RoY4Scmz1cyW8Gd+gK2peFgF5GZmc6BN5rW5ry3JKqLt+/YVCBhQebELct31X9O/92F0Et8zC65scYXfmPGF3+IsZW/BjulVMfgZ+2d6qOjlRfN20xJ0ppsAow8IFSeQM/vnkCwlomYDxl7ZG8Zim0KfLxBgTep2eh8t6xQHl1pSmvzanw7JyH9CMtGlbWxZtf4OSn75ozoPL4Zhf8qLIXMarkH/Bs0fMYU/LCIwbGE8zKvYYH4aHhq8ZJ1lVIA+FZZcKr8NaJCG8zch5zD2ulIcrgDl1+PRms/EJ4bWWzCnzHXCvz61Jwsf8Lg/xwXfqm75HKjyL0s8ufx7MFUzCq8HkN/uLuFzCOTelsWh+Z5SXByr+co1Jiw0zrygs8qx3eOkFFrJqEiNVG7bJPVDwWQX4zuEOXzw6Bnw/PTanw6JyrPDX8HJ35uK58g/1wRa/NNJUnOCs/ysCPzH8Oo/KnWA0r7zYCr2e9mTjlzD0rH1gTythEIKQxHKESkZWRKnzVRBXZHoXINVT7pMHHlOxRjzegK094z4558Fgv04YNu3o23NpmIXZLrsF+uFJ7akzlGRvCjzTwI3ISMCI7QVfdali+ApjKB1QIPDNP+OB6Vn8F4ZsilOSc8LrqkWujMMFIjiPXRSnrWrS+ZnCHLs9N85TnRsaG8O4aPhlurbPg1pKES99e19DStH/67//Sx7f/9S4CHMkYKfD2yQY+EcOz4jEiM96KjG5YjkpX5q1pY+AVm1JJrq3YsPqEnbCOoOuj1cT10RgsfZ0yuEOX50Zn5WlAKt86S7k1J6nqU1s1sKzNvzyELb84ZM6ATWcPDKo84Vn54UviMCwjFj7LrYZ1jcoqzno27MPKR6rQQZXXVdewMZi4YbB4TSsGEzZEP/5JTHjFvCu3VQKfpKTysZ05uPPvdzWsVF8yb6tPwZ/+bN0F2f3LZmJE7qPww9Jj9OuBzrs8pORpOqhhZRyGtkRI5hG+eqKOh640ISeJNsZSslMdMWpSRyyiKDk3uEMXM6/cNfwsjG2eqcY2zlAnfzdoZB7pdI3KzW8cMFeB4xfe0rGx4GMwbGE0hi+MeQTe9ZCShxMbNmwlx2Ibo8PmtOANrAYmaGesiuoktGiTOTa7wR26PFaz+gLfpOERs3GpQbTyLvAybaRh/SuTWP3/NL8CKWtLMFwqT/AfpUVhxIIYK+81fIdxmIeUHpWEl8wzMqy8bk4nvFRYIKM3xUHEY0Rv5jEVtZnX5ZjXDe7Q5bU65YF7cxLGrpiBMfXT9OvB6OrBc95MG7vJPGMj08YVG1Z+GOFFIxfGyhNWMTaED9OvAgae8zxKKs9mjVLMtjIxcVZbQ0ZviVOimK2ieETLviUecmxwhy6fVSnnxYBbw3SMqaUBwo+qeFHpOV8s8ATntBmR93DaaPhFFrxUflhatK6+29JJAq9jo8fkSnlIsVmZeZnrzsw7I+OqvFRZwAkbS9iYrnhFIXZbAmK7Ev66AdvaZJtXc9ID93reAb6Uja4wDymB55PVOSpH6mnjzLwVG2flh8+Pxij2QWAVH1D18hImebfgrQcRH04yKtfr6uvK67w746KrblU6Zlu8EvC47YnaQNx2irvB/f7l2ZJs82iYeca9lneBBkbz9UCesCOXEV5X3npICbxkXpp12AI2LTUyPRpjM6M4MsNk4qhxfL+RaROmK69fDawHEme5c+Lo3DM6ztjoig8C19CiHQmI38Hz7oQf/lEvy22J7+fyRyWn9N9xcgL0XwvkQ1u+V/UXVaU0Lmc939/FgLxBStPKK4JMHG1Aqm/i48q9ZJ45j9VxiVcu+O5EFdeTqOJ7EpHQ8xw/VxP/+h143PLMstncl/j1uwzIlxU/Db3zbYoG5GPbMsBPPv1hIndAvxr/xR2Q/Ov4WJNnUmeMK/tSfTFgVT0R8d2Uhn4OCTudSvzcIP3w5ZnlaXPPtEzInwCNAX0HxIA/3+/lias/AR8xwFdk85Km32ckQi4DJj5iwJn7HQlKw1Maehe1e7JK2DUZibunLDA4T7/csvzs/Dg/TwMPvMSAXe4A33VKrVeGILkD8gnYEK4euQM6Qnp8ugxYEXpoIHZ7ghUfxkYiQ3iV2Ev43ZPPT949+en+L/3f1//JeuaZ/wWcg5nLBk6pIgAAAABJRU5ErkJggg==" InformativeScreenshot="23ed0ec13059d2e6d2aad01666a8b420.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/BR93sdX2_ki7-VNZ8pQ7mA" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='TestXls.xlsx - Excel' /&gt;" Version="V2">
-                  <uix:TargetApp.WorkingDirectory>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.WorkingDirectory>
-                </uix:TargetApp>
-              </uix:NApplicationCard.TargetApp>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </uix:NApplicationCard>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestXls.xlsx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4c2abeee-9146-46a1-9ae6-9567a51b9a48" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'TestData'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="73be6a96-cfd9-4ed6-a574-a1ceb537f26a" ContentHash="MMgUfv9fa0itPDJZPr8JJQ" CvTextArea="328, 294, 88, 18" CvTextArgument="TestXls.xlsx" CvType="Text" DesignTimeRectangle="328, 286, 382, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='1' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="9f49d598-2847-417a-a5ca-7dfa202935a7" InformativeScreenshot="7e447b035a4e8a6ed477ecc8df248c85.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/7eWB0I-W9EGmZJJtX59RNA" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData - Fi*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="8a874323-1e67-40f7-935a-d0989b838fe8" ContentHash="R17ifGBZbUKUMHf-NW-QdQ" CvTextArea="462, 226, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="461, 218, 405, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="eb77a1ef-b8de-475d-a375-c4b978ad633a" InformativeScreenshot="dd45cc172b89366bc114721cad2f8e59.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/cZxc_nZVZE60C0ah--GqLw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="73be6a96-cfd9-4ed6-a574-a1ceb537f26a" CvTextArea="960, 294, 180, 16" CvTextArgument="Microsoft Excel Work..." CvType="Text" DesignTimeRectangle="953, 286, 203, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='1' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemTypeText' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft Excel Worksheet' /&gt;" Guid="9c68b286-37b6-48aa-a46b-95ee76a3af1a" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="8a874323-1e67-40f7-935a-d0989b838fe8" CvTextArea="462, 226, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="462, 227, 69, 16" ElementType="Text" Guid="bf898267-cecb-4274-932b-0001c2122ccd" SearchSteps="CV" TargetType="ComputerVisionBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="4c2abeee-9146-46a1-9ae6-9567a51b9a48" Shortcuts="[d(hk)][k(Del)][u(hk)]" Version="V5">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </uix:NKeyboardShortcuts>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Text="[localFilename]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="c1eb89fb-aad5-43ad-b692-d4864b728740" ContentHash="IWJIp8JyH0OkjSDH0xtkfg" CvElementArea="196, 566, 1221, 35" CvType="InputBox" DesignTimeRectangle="202, 571, 1190, 27" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="2b4b6750-47f5-48af-a16c-e0dacf174b28" InformativeScreenshot="02dfaf0c0d62e744fe10ea54c6db6061.png" IsResponsive="True" Reference="m1hPtSXhEE-MN2DzQb4wOA/Mn65eJAq00qLX8GzIl622Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="c1eb89fb-aad5-43ad-b692-d4864b728740" CvTextArea="111, 576, 81, 16" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="26, 568, 173, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Explorer Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Details Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='File name:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='File name:' /&gt;" Guid="31ca2bd7-414d-4dce-86ac-00cdabf865e4" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f3f4988b-0d47-4acc-970b-da23ae32d116" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="2d1d24ae-b9ab-4090-bf38-9ce57c28f379" ContentHash="eT3LsyAAeECphiJ_sC_3Tg" CvElementArea="1121, 784, 133, 40" CvTextArea="1167, 796, 39, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1121, 785, 132, 39" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" Guid="67ba109d-362f-4dfb-869a-e34ec278a5cd" InformativeScreenshot="04b7b214b1f0dbb27d15969cd714a3e1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/mlfdW-j1yEaYyrdqaBIp4g" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="382,114.66666666666667" sap2010:WorkflowViewState.IdRef="Delay_1" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -208,7 +200,103 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="0, 29, 1920, 1053" ContentHash="S9fBoQuTgkWA_y7tR-57DA" FilePath="C:\Windows\explorer.exe" IconBase64="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" InformativeScreenshot="2414a22e3c8765a61d216dccf2e5ba2e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/30-WIVUGhkuXxghX45hNlw" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\Sundararaja\OneDrive - Cooley LLP\Desktop\TestData - Fi*' /&gt;" Version="V2">
+        <uix:TargetApp Area="329, 110, 1434, 815" ContentHash="BmFaEA7m4kyPFqGfNKDQyw" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAToSURBVGhD7ZpdTFtlGMfRacykPe2g0HJhA2rUbBmTlg8HdJOJg3XAWIjZ0u0CP4Yoc07GxoDNtcpoi5u7YHJhkI2yxUtiDJlG41TmpR/xQi80S+aFeqVLNHr5+Lxf55y2b+GcdqfFhCf5BQ5Nyu//9N/3XLRFa/M/nLuQu5F1BYL8b+JgfqoSfeGq+T7IFf+NSO58GY5wLcOzTiaTDVKhLECne5iasVkvk8kGmUw2oJPC1IyNTSaTDTKZbEAnN1MzNqsxgIepGZu1AAKZTDagk8kACRQwgkRaj0wmG9DJXIDK954Dw8w+D1Vzh6SBZDLZgE6eoorJveGK+F6oiHdDRawbPLE9jGgXxU2Y6KSUn+1gjO+mlI0HoexNwi5wvUFoR9qgNMKoON+jBbEsABFHVPHYMuJnJeJUnogjXLw0vJNScuZp8E4dhMpLGCKhhZDJZAMN4EnZOhWPMnH3hBBnW9fEg3LxiCbOaAWlvwEcw9vAOfYkOE+1UPSvRi7wACvXhYovW5d08Q2vP0Wxv1AHjqEAOEetCpBJXFYXSc9ZXfTiXP70DnAi9mf94DjWDM6R7dYEEOKpdemeH4bJL64iVyipdem6PATxzxMQv56AgYVJbesoTeVPEVrA1usDx6ClAZLFRV18U71w+9+/QczhD84l1eWXP3/njwB0zg5qW+fitPOI5QGEeLmk52TzYoiw6PnotWn+V4DFH26odWHiTN6BnXeMbs9DgBV6rt/0wMJbUBXtxlfmL3pNflafD6GUbutc3IHCBMsDMPEMxyJunHRdzC0ME7s+x68AYp9d1sTp1lFayJ/cRo/PPATQbV2IpxyLiz9+xZW1+f7Xn9LqoopT+QAoJwLWB9DXRX6et8KWt0NqbcR0zBxNqYsm7kBx5UQzKMeb8xBAV5dM53ngnUNcW5vQlTEuzrdOxOnWmbhyvAmUoSYobdsE5c/4wROqB8/BBooIkis0QPLWW7k8EdeOxaWb33Ft9sYlc+uP38AbCdKei7owcQTFlWOERusDJNcFpcV5zo/FkcWLVJjM1a+vQfTTS/wKIPrJLBMXWyfiVL4RlMFGsA9uzUeA5Lqo5zlSfW5/0pG5Ob4PvOFg0vuh6UKvVNz+GnL0CesDCHFRF/ogPxaXbn7LNdm2RV3I72KWfv6GiSN6ccqrDXkIIBEnx2Jofowrsu17z+xSe/7A6Xa4/Y/2KvS/P87EhTyKU47UWx+AXkjO85MfTtFNE0JzI2k9D04PwMTHMzDx0QwML1xIE7e9ghyuy0MAsvWU27/0WFym56q8Ks7kbQO11geg4vq7aMZjMXPP7UcQIs63TsQpL/vzEECI862vdCzKeq6KC3kUt73kh+J+Xx4CiLrcEXEh70P5Gih+sQZK29MD3ClYgOFAWBXnt//l6yLEubyuLmLrRLy4rwaUnk3g6qi2NoCJsSm1lWCI+kpwND0MJTs3Qtmex8G9r3Z1BNjQ8igYYsdjUNK2EVyduP0eH7j314HnwCoI4Nq9GVakA0Fxsnkqb9H2CehkLgDpslGION08kT8gF8gVdDIXgMqYwYLa6EEnkwEkT1JI0GktQEFBJ1Mf8t3v6toyLXuiQoA3yHfRycnUjM19yENIA7K1wBCHR5D1iOEh30+wI17kwQJDHMiH3OR7E6aGhCAf799bYIgDuhQV/QdKx+9+xO860AAAAABJRU5ErkJggg==" InformativeScreenshot="54101dcc5c60acc84608380242347ab2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1749.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="3bb91af3-bc45-4f2e-be60-758744ac2711" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1490" sap2010:WorkflowViewState.IdRef="Sequence_12">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bb91af3-bc45-4f2e-be60-758744ac2711" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="c0946a7f-480a-463f-ba3f-746406770bfd" ContentHash="bby4Ah-UhECLsKiNsOmKGw" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="17, 83, 81, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="7b2c206a-4ae9-428f-a60f-155b01864faa" InformativeScreenshot="e943b51b80267c049b77dc13c589bb27.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fNod1YQW0UaFqRaei7xtLg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open (in File tab)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bb91af3-bc45-4f2e-be60-758744ac2711" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="7cccd48f-8987-40e1-82ba-d8d3147b4871" ContentHash="Z5plTs_jjUC-AzjEgbKgmA" CvTextArea="74, 294, 46, 22" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="11, 273, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIRibbonTab' name='Open' /&gt;" Guid="7ff4cd39-84bf-4f6a-8e94-1fc912841553" InformativeScreenshot="ed823b8c9ab49c35512b856a070befca.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZpGXW6q-YUqnLJn88wZgsw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="7cccd48f-8987-40e1-82ba-d8d3147b4871" CvTextArea="74, 234, 37, 16" CvTextArgument="New" CvType="Text" DesignTimeRectangle="11, 212, 228, 61" ElementType="ListItem" FuzzySelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIRibbonTab' name='New' role='List Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='New' /&gt;" Guid="ad85f1a4-19c8-419c-b0ef-1e0b3f5501dd" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File - localFilename'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bb91af3-bc45-4f2e-be60-758744ac2711" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="a358518c-c9c4-48ab-b98f-baf0e777174d" ContentHash="8pRDo69b8kCcrTaW4S-6LQ" CvTextArea="906, 507, 519, 21" CvTextArgument="[string.Format(&quot;{0}&quot;, localFilename)]" CvType="Text" DesignTimeRectangle="906, 507, 519, 21" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="ca1fe590-6b8d-443b-b384-b89cb2e61f01" InformativeScreenshot="5e9e2317c17411f2b48794d8e3592c76.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/1VlAquneaE2D1lOJUfhisA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="aadbd997-af1a-4e1d-8e36-c1b881adcfdc" CvTextArea="824, 449, 61, 25" CvTextArgument="Today" CvType="Text" DesignTimeRectangle="824, 449, 61, 25" ElementType="Container" FuzzySelectorArgument="&lt;uia cls='NetUIElement' name='Open' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='GroupRecentDocuments' cls='NetUISlabContainer' name='Recent Workbooks' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUICoreListView' /&gt;&lt;uia cls='NetUIVirtualListElement' name='Today' role='Group' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='XLS-SMOKE-004 Test Local 01-26-2026 09-58-41.xlsx&amp;#x9;XLS-SMOKE-004 Test Local 01-26-2026 09-57-48.xlsx' /&gt;" Guid="cdfe5305-fdd6-4012-a038-8efef8222917" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'A1'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="3bb91af3-bc45-4f2e-be60-758744ac2711" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion passed: File opened successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="Assertion failed: Local file not opened successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="mO72KZZn6UOlwuMGAoQ6YQ" DesignTimeRectangle="51, 363, 96, 29" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='A1' cls='XLSpreadsheetCell' name='A1' tableRow='1' /&gt;" Guid="1ae772c3-569c-4a11-8c8f-10c29285429e" InformativeScreenshot="ac7c63fc697ac4afb6de0f4510580af5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/x5aCHcXlIEighUiBoV14kQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bb91af3-bc45-4f2e-be60-758744ac2711" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="1f219624-d9a9-4d57-9b9d-aedd2c0fc2d4" ContentHash="B26IZbABZEG_bX8ei2J3rw" CvElementArea="1880, 32, 28, 27" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="f8d1671b-ae2e-4839-92ef-b189cafaaf99" InformativeScreenshot="592c235e66a18fdd4a7312d04fc39812.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/-gkZ5Z1fvkacE3qZ1mD1DA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1f219624-d9a9-4d57-9b9d-aedd2c0fc2d4" CvElementArea="1809, 33, 26, 26" CvType="MaximizeButton" DesignTimeRectangle="1787, 11, 72, 72" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Restore Down' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Restore Down' /&gt;" Guid="7c430495-4271-459c-b0ea-14635494a625" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="329, 110, 1434, 815" ContentHash="BmFaEA7m4kyPFqGfNKDQyw" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAToSURBVGhD7ZpdTFtlGMfRacykPe2g0HJhA2rUbBmTlg8HdJOJg3XAWIjZ0u0CP4Yoc07GxoDNtcpoi5u7YHJhkI2yxUtiDJlG41TmpR/xQi80S+aFeqVLNHr5+Lxf55y2b+GcdqfFhCf5BQ5Nyu//9N/3XLRFa/M/nLuQu5F1BYL8b+JgfqoSfeGq+T7IFf+NSO58GY5wLcOzTiaTDVKhLECne5iasVkvk8kGmUw2oJPC1IyNTSaTDTKZbEAnN1MzNqsxgIepGZu1AAKZTDagk8kACRQwgkRaj0wmG9DJXIDK954Dw8w+D1Vzh6SBZDLZgE6eoorJveGK+F6oiHdDRawbPLE9jGgXxU2Y6KSUn+1gjO+mlI0HoexNwi5wvUFoR9qgNMKoON+jBbEsABFHVPHYMuJnJeJUnogjXLw0vJNScuZp8E4dhMpLGCKhhZDJZAMN4EnZOhWPMnH3hBBnW9fEg3LxiCbOaAWlvwEcw9vAOfYkOE+1UPSvRi7wACvXhYovW5d08Q2vP0Wxv1AHjqEAOEetCpBJXFYXSc9ZXfTiXP70DnAi9mf94DjWDM6R7dYEEOKpdemeH4bJL64iVyipdem6PATxzxMQv56AgYVJbesoTeVPEVrA1usDx6ClAZLFRV18U71w+9+/QczhD84l1eWXP3/njwB0zg5qW+fitPOI5QGEeLmk52TzYoiw6PnotWn+V4DFH26odWHiTN6BnXeMbs9DgBV6rt/0wMJbUBXtxlfmL3pNflafD6GUbutc3IHCBMsDMPEMxyJunHRdzC0ME7s+x68AYp9d1sTp1lFayJ/cRo/PPATQbV2IpxyLiz9+xZW1+f7Xn9LqoopT+QAoJwLWB9DXRX6et8KWt0NqbcR0zBxNqYsm7kBx5UQzKMeb8xBAV5dM53ngnUNcW5vQlTEuzrdOxOnWmbhyvAmUoSYobdsE5c/4wROqB8/BBooIkis0QPLWW7k8EdeOxaWb33Ft9sYlc+uP38AbCdKei7owcQTFlWOERusDJNcFpcV5zo/FkcWLVJjM1a+vQfTTS/wKIPrJLBMXWyfiVL4RlMFGsA9uzUeA5Lqo5zlSfW5/0pG5Ob4PvOFg0vuh6UKvVNz+GnL0CesDCHFRF/ogPxaXbn7LNdm2RV3I72KWfv6GiSN6ccqrDXkIIBEnx2Jofowrsu17z+xSe/7A6Xa4/Y/2KvS/P87EhTyKU47UWx+AXkjO85MfTtFNE0JzI2k9D04PwMTHMzDx0QwML1xIE7e9ghyuy0MAsvWU27/0WFym56q8Ks7kbQO11geg4vq7aMZjMXPP7UcQIs63TsQpL/vzEECI862vdCzKeq6KC3kUt73kh+J+Xx4CiLrcEXEh70P5Gih+sQZK29MD3ClYgOFAWBXnt//l6yLEubyuLmLrRLy4rwaUnk3g6qi2NoCJsSm1lWCI+kpwND0MJTs3Qtmex8G9r3Z1BNjQ8igYYsdjUNK2EVyduP0eH7j314HnwCoI4Nq9GVakA0Fxsnkqb9H2CehkLgDpslGION08kT8gF8gVdDIXgMqYwYLa6EEnkwEkT1JI0GktQEFBJ1Mf8t3v6toyLXuiQoA3yHfRycnUjM19yENIA7K1wBCHR5D1iOEh30+wI17kwQJDHMiH3OR7E6aGhCAf799bYIgDuhQV/QdKx+9+xO860AAAAABJRU5ErkJggg==" InformativeScreenshot="54101dcc5c60acc84608380242347ab2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" Version="V1">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>

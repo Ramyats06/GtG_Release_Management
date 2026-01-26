@@ -83,30 +83,30 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="XLS_SMOKE_006" sap:VirtualizedContainerService.HintSize="1034,1671.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="XLS_SMOKE_006" sap:VirtualizedContainerService.HintSize="1904.6666666666667,2288" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,1648.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2265.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1389.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2006" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Conditional Formatting'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Conditional Formatting'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="ec2901d0-35da-4075-8290-923d639824b5" ContentHash="2aU2vyjXAEauZG7GYdJg2A" CvTextArea="849, 143, 185, 21" CvTextArgument="Conditional Formatting" CvType="Text" DesignTimeRectangle="815, 134, 251, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia automationid='ConditionalFormattingMenu' cls='NetUIAnchor' name='Conditional Formatting' /&gt;" Guid="0289c1af-6076-4114-b00c-6ff8a2bdef96" InformativeScreenshot="27b6413930c524e29d5bc281560bca9d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/kf47gVC-bU2LGuiOwYT7mA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Highlight Cells Rules T…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Highlight Cells Rules T…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
@@ -114,7 +114,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Conditional Formatting is present and drop down is visible" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Conditional Formatting is present and drop down is visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
@@ -124,7 +124,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Conditional Formatting is Not present and drop down is Not visible" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Conditional Formatting is Not present and drop down is Not visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
@@ -132,12 +132,12 @@
               </uix:NCheckState.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NHover ContinueOnError="True" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Hover 'Highlight Cells Rules'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,312" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="SameAsCard" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
+            <uix:NHover ContinueOnError="True" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DisplayName="Hover 'Highlight Cells Rules'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,312" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="SameAsCard" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
               <uix:NHover.Target>
                 <uix:TargetAnchorable ContentHash="XR-8oz4R5EuUvua2CyPEMw" DesignTimeRectangle="817, 172, 282, 62" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUIAnchor' name='Highlight Cells Rules' /&gt;" Guid="ca36f23f-ff61-45cf-aea4-b79996f64248" InformativeScreenshot="ba726cec5ef360d7e4a1065f1784f704.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/znZz9-joWk61LOm2ATI2OQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NHover.Target>
@@ -152,12 +152,15 @@
                 </uix:VerifyExecutionOptions>
               </uix:NHover.VerifyOptions>
             </uix:NHover>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Top 10 Items... Top 10 …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,259.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Top 10 Items... Top 10 …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,259.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="b8269339-abd3-41bd-8126-e96378b43477" ContentHash="YrKM-CelwUmaH8_TeRuuSQ" CvTextArea="917, 254, 42, 19" CvTextArgument="Styles" CvType="Text" DesignTimeRectangle="817, 234, 282, 62" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUIAnchor' name='Top/Bottom Rules' /&gt;" Guid="54fdf2aa-bfe0-4bf3-890b-63897ee0a8d4" InformativeScreenshot="14a2fda9e818be7875fe4d8058ec6c32.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/1FuAscgwLk6ZkiSXZ-XFkw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
                   <uix:VerifyExecutionOptions.Target>
                     <uix:TargetAnchorable ContentHash="NmjMF2HVV0C__Y03pD9QWg" DesignTimeRectangle="1099, 234, 267, 423" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUIToolWindow' name='Top/Bottom Rules' /&gt;" Guid="a0be1177-9e50-45c6-b8b9-df2c503498aa" InformativeScreenshot="b23570a5af6e5954790942b36c164396.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/BJdFvzNKX0-34aKIQb3uCQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:VerifyExecutionOptions.Target>
@@ -167,14 +170,14 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Data Bars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,259.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Data Bars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,259.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="8c155680-bab0-40bc-96d0-121da72584b4" ContentHash="JBQ_MaGPmEahYarIeULhoQ" CvTextArea="861, 341, 204, 18" CvTextArgument="I J K" CvType="Text" DesignTimeRectangle="817, 299, 282, 62" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='4' name=' ' /&gt;&lt;uia cls='NetUIAnchor' name='Data Bars' /&gt;" Guid="79c8a72c-edde-4660-b1b9-deab2f154cd5" InformativeScreenshot="a513c538bdcc877aebd9813b69b37563.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4oDg_8bwG0yg_jxM2luU0Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears" Retry="True">
                   <uix:VerifyExecutionOptions.Target>
-                    <uix:TargetAnchorable CVScreenId="77cc80ff-40e2-4d07-860d-8f4fbd0a47e6" ContentHash="IotDUZCnaUWDUnacexLPqA" CvTextArea="1148, 341, 112, 18" CvTextArgument="L M" CvType="Text" DesignTimeRectangle="1099, 299, 194, 340" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='2' name=' ' /&gt;&lt;uia cls='NetUIGalleryContainer' name='Data Bars' /&gt;" Guid="fe062a2d-3c66-4e3a-836a-cb0ee15b3a54" InformativeScreenshot="0b6e91d57621e613f3a7415f60366598.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/GyhH_Om5qUO1QI_kFbkAUQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    <uix:TargetAnchorable CVScreenId="2d062601-0da0-485e-a119-aa93cf4a1761" ContentHash="YsW9jbtCsU-70to_nfbkaA" CvTextArea="1148, 341, 112, 18" CvTextArgument="L M" CvType="Text" DesignTimeRectangle="1099, 299, 194, 340" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='2' name=' ' /&gt;&lt;uia cls='NetUIGalleryContainer' name='Data Bars' /&gt;" Guid="a7516399-bef9-403e-b888-97deb01e8bc5" InformativeScreenshot="67a6401c3eade4650d772040b2430079.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/GyhH_Om5qUO1QI_kFbkAUQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:VerifyExecutionOptions.Target>
                   <uix:VerifyExecutionOptions.Timeout>
                     <InArgument x:TypeArguments="x:Double" />
@@ -182,12 +185,15 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear Rules'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,250" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear Rules'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,250" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a2576bc5-26cc-46eb-bc5b-b64ee2b28a75" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="1Edw8tFILUmT_gkeBJVXRg" DesignTimeRectangle="817, 532, 282, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='4' name=' ' /&gt;&lt;uia cls='NetUIAnchor' name='Clear Rules' /&gt;" Guid="4db3e25e-a72c-42fb-83da-6564e50b5aee" InformativeScreenshot="311a17bb3ca57a6071f0d55037873dfb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/2xuQRWDTSkCofdyti5Gc1g" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
                   <uix:VerifyExecutionOptions.Target>
                     <uix:TargetAnchorable ContentHash="e2wIYakfNkqgU8p7Zwa16g" DesignTimeRectangle="1099, 532, 346, 180" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia cls='NetUITWMenuItemGroup' idx='3' name=' ' /&gt;&lt;uia cls='NetUIToolWindow' name='Clear Rules' /&gt;" Guid="cc101460-4c16-4afa-9d37-2786891f8a3d" InformativeScreenshot="d460b66eccdd532c6a4b122bbaa01471.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4-Sc9sXecEa3VgpLCl4qdA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:VerifyExecutionOptions.Target>
