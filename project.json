@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.222776103",
+  "projectVersion": "1.0.223131336",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -1219,6 +1219,42 @@
     {
       "filePath": "Tests\\Smoke\\O365_Excel(Smoke Suite)\\XLS-SMOKE-015.xaml",
       "uniqueId": "318cb5cf-7140-47e2-a15e-5b6c486817a3",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_OneNote(Smoke Suite)\\ON-SMOKE-010.xaml",
+      "uniqueId": "424fc0ea-4b09-414d-b078-d1b843fe8cd2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-015.xaml",
+      "uniqueId": "d0ab332b-9625-4f98-b917-5d83c325fd05",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-011.xaml",
+      "uniqueId": "d7944e7a-fb33-483c-b816-e50a5d912d1e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-009.xaml",
+      "uniqueId": "1d88a692-5dea-4b0d-bda9-532407920266",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-011.xaml",
+      "uniqueId": "b0995cf7-ead3-484f-9543-8120c6c69aa7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-012.xaml",
+      "uniqueId": "848a5120-3254-4c67-b212-a5423b992115",
       "input": [],
       "output": []
     }
