@@ -673,6 +673,27 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_Outlook(Smoke Suite)\\OUT-SMOKE-011.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1d88a692-5dea-4b0d-bda9-532407920266",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b0995cf7-ead3-484f-9543-8120c6c69aa7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-011.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "848a5120-3254-4c67-b212-a5423b992115",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-012.xaml"
       }
     ],
     "saveToCloud": false

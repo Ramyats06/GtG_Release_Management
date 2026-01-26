@@ -86,7 +86,7 @@
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TEAMS_SMOKE_007" sap:VirtualizedContainerService.HintSize="1270,1442" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TEAMS_SMOKE_007" sap:VirtualizedContainerService.HintSize="1904.6666666666667,1442" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -106,7 +106,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Type a message(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="bc0d14a5-d85c-4367-a374-484fe101775f" Text="This is a Test Message from Uipath" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable CVScreenId="f5ab51e9-1c1a-4444-8216-e2052627d544" ContentHash="G0k7lzNjAE-kEUrhi_n3YA" CvElementArea="695, 1033, 1127, 68" CvType="InputBox" DesignTimeRectangle="695, 1033, 1127, 68" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="081ced43-1c1e-4e4d-bfdf-b8e57d8f9def" InformativeScreenshot="264e2e5f8e5b495a267b0d9c5a7da498.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/oFU5zwdbN0WsNhN3yK7-vg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="f5ab51e9-1c1a-4444-8216-e2052627d544" ContentHash="v1-5l8FDTE2mogn4owwGTg" CvElementArea="695, 1033, 1127, 68" CvType="InputBox" DesignTimeRectangle="695, 1033, 1127, 68" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="081ced43-1c1e-4e4d-bfdf-b8e57d8f9def" InformativeScreenshot="0xeLiPUZ_tkuyNZnZsj2Esw" Reference="m1hPtSXhEE-MN2DzQb4wOA/oFU5zwdbN0WsNhN3yK7-vg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="f5ab51e9-1c1a-4444-8216-e2052627d544" CvTextArea="719, 1059, 148, 24" CvTextArgument="Type a message" CvType="Text" DesignTimeRectangle="719, 1059, 148, 24" ElementType="Text" Guid="15d8e61b-93d8-4d2f-b241-28410f62f744" SearchSteps="CV" TargetType="ComputerVisionBased" />
@@ -128,7 +128,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Message has been sent to self Successfully" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion passed: Message has been sent to self Successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
@@ -138,7 +138,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Message has Not been sent to self" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Message has Not been sent to self" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
