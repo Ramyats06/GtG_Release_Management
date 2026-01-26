@@ -85,13 +85,13 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_010" sap:VirtualizedContainerService.HintSize="1034,4671.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_010" sap:VirtualizedContainerService.HintSize="1270,4671.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1014" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1014" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

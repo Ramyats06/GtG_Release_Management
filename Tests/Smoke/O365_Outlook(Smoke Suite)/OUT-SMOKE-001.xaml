@@ -99,7 +99,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_001" sap:VirtualizedContainerService.HintSize="1034,1535.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_001" sap:VirtualizedContainerService.HintSize="1270,1535.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Name="startTime" />
       <Variable x:TypeArguments="s:DateTime" Name="endTime" />
@@ -130,9 +130,9 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'New Email New Items Ign…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" Mode="WaitDisappear" ScopeIdentifier="10769cf8-1532-439f-90d9-db8f23e45115" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'New Email New Items Ign…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="10769cf8-1532-439f-90d9-db8f23e45115" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -142,7 +142,7 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
