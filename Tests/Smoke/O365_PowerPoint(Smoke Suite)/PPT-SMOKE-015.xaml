@@ -98,7 +98,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_015" sap:VirtualizedContainerService.HintSize="1904.6666666666667,6799.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_015" sap:VirtualizedContainerService.HintSize="1904.6666666666667,6764" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -124,21 +124,21 @@
         <InArgument x:TypeArguments="x:String">["PPT-SMOKE-015 Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="656.6666666666666,3118" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="656.6666666666666,3082.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2849.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2814" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Task Pane Options Close…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,1008" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Task Pane Options Close…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,972.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,592.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,557.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -149,17 +149,7 @@
                       <uix:TargetAnchorable ContentHash="Ohq82uoxDU-SZt67EYk3oA" DesignTimeRectangle="266, 1017, 200, 58" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoWorkPane' title='iManage Offline' /&gt;&lt;wnd aaname='iManage Offline' cls='NetUIHWND' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd ctrlname='wSyncOfflineControl1' /&gt;&lt;wnd ctrlname='panelBottom' /&gt;&lt;wnd ctrlname='buttonSyncAll' /&gt;&lt;ctrl name='Upload All' role='push button' /&gt;" Guid="5ab24e46-1a46-4089-8c8e-7ed22927171c" InformativeScreenshot="8a664da2904b87b14f9aba2ecc48b90c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/9ECBRjdlUkSCxpBrC5bC0g" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="334,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V5">
-                    <uix:NClick.Target>
-                      <uix:TargetAnchorable CVScreenId="29a70575-6ffe-4fa7-8bb8-38489ab6d56f" ContentHash="EiPDWxwTRkOa5dvakaCBww" CvElementArea="264, 1016, 202, 60" CvTextArea="323, 1035, 87, 21" CvTextArgument="Upload All" CvType="Button" DesignTimeRectangle="264, 1016, 202, 60" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="79ba8e78-ffb9-4b83-9a6f-96a44c43fbe6" InformativeScreenshot="8a7d9b980109407fc5604a11871ac083.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Y9nGsQV-90OXnHgQJwLMxg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6">
-                        <uix:TargetAnchorable.WaitForReadyArgument>
-                          <InArgument x:TypeArguments="uix:NWaitForReady">
-                            <Literal x:TypeArguments="uix:NWaitForReady" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="Interactive" />
-                          </InArgument>
-                        </uix:TargetAnchorable.WaitForReadyArgument>
-                      </uix:TargetAnchorable>
-                    </uix:NClick.Target>
-                  </uix:NClick>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="Delay_3" />
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close pane'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c7e108-d1a8-4dfa-9859-ef58275dd159" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="29a70575-6ffe-4fa7-8bb8-38489ab6d56f" ContentHash="7Wkh9J1Xz0-tlxEIjJhEQg" CvElementArea="445, 295, 26, 26" CvType="CloseButton" DesignTimeRectangle="441, 291, 36, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUISimpleButton' name='Close pane' /&gt;" Guid="45e57cc8-244e-415e-a92c-7d91eb1b0f90" InformativeScreenshot="b41d5121e5753eb74f97b716a6203f3d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/9b9JH-pCH0GWvMJOjtxjCg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
