@@ -83,7 +83,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ON_SMOKE_006" sap:VirtualizedContainerService.HintSize="1034,1776.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ON_SMOKE_006" sap:VirtualizedContainerService.HintSize="1904.6666666666667,1776.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -145,7 +145,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Compose Email open Successfully after clicking on 'Email Page' " TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Compose Email open Successfully after clicking on 'Email Page' " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
@@ -155,7 +155,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Compose Email has Not opened Successfully after clicking on 'Email Page' " TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: Compose Email has Not opened Successfully after clicking on 'Email Page' " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
@@ -173,7 +173,11 @@
                 </ActivityFunc>
               </uix:NApplicationCard.OCREngine>
               <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="B1qL4874tEW0g1UwrClneA" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" InformativeScreenshot="636a315d7a755b87437aeee65e5a6020.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vufU387jnkaHnDRb6UV_vg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled page - Message (HTML) ' /&gt;" Version="V2" />
+                <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="B1qL4874tEW0g1UwrClneA" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" InformativeScreenshot="636a315d7a755b87437aeee65e5a6020.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vufU387jnkaHnDRb6UV_vg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled page - Message (HTML) ' /&gt;" Version="V2">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                </uix:TargetApp>
               </uix:NApplicationCard.TargetApp>
             </uix:NApplicationCard>
           </Sequence>
