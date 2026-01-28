@@ -1,0 +1,211 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="WRD_SMOKE_023" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="WRD_SMOKE_023_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="WRD_SMOKE_023" sap:VirtualizedContainerService.HintSize="1260.6666666666667,2277.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="fileName" />
+      <Variable x:TypeArguments="ui:QueueItem" Name="transactionItem" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item" FolderPath="Desktop_Automation" sap:VirtualizedContainerService.HintSize="502,176.66666666666666" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="TestDocumentQueue" TransactionItem="[transactionItem]" />
+    <If Condition="[transactionItem is Nothing]" sap:VirtualizedContainerService.HintSize="502,567.3333333333334" sap2010:WorkflowViewState.IdRef="If_2">
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,227.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Queue returned Nothing (empty Or wrong folder/queue).&quot;]" />
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,168" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_1">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[fileName]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[transactionItem.SpecificContent("FortefileName").ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+        </Sequence>
+      </If.Else>
+    </If>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="502,1510.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1251.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="beeb4c27-25a4-43d1-86f6-451cb94c9eef" ContentHash="72nCoChGDEy9Y17PfrMycQ" CvTextArea="1130, 96, 79, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1119, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="ea9393de-d8ec-49ec-8047-565215e38e2e" InformativeScreenshot="e46f6ff3943a58ce5e4ebf77adb59392.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/E8OnuUfQb0q7TbmwB3yOYQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="beeb4c27-25a4-43d1-86f6-451cb94c9eef" ContentHash="Ye2t3ocAh0-yNU0j2iAhFw" CvTextArea="144, 192, 46, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' /&gt;" Guid="6ed7a829-16a4-4e4a-8ecd-8643b70401e6" InformativeScreenshot="9706194e64087d02fd3e89989384b1d3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nVV2zmJWPUKkxLMYYE7gJw" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'combo box Search(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Text="[fileName]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="c3ef8d37-5220-4891-9efe-41a7ab9b5465" ContentHash="R_X6uSSLgUCe_Q0GTPg4ug" CvElementArea="299, 64, 772, 54" CvType="InputBox" DesignTimeRectangle="310, 65, 760, 53" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Search' role='combo box' /&gt;" Guid="97fc6a64-1844-4997-8053-f6b225952c66" InformativeScreenshot="e030bcb77cba31941fe74c18167275d3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/8QxoFl8BfEWtgeJ78M7jmw" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="91aaf790-03d7-46b9-9094-7b6907aa281f" ContentHash="-vggnkn5Q0qkTSILCqMJNA" CvElementArea="999, 452, 109, 56" CvTextArea="1020, 469, 67, 19" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1002, 455, 105, 52" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='2' name='Advanced Search' role='grouping' /&gt;&lt;ctrl name='Search (use Ctrl + Enter key)' role='push button' /&gt;" Guid="016f7e47-5a51-4951-957d-52249fe3e039" InformativeScreenshot="1a9eaf94a3c6aafc56e71a94da768c29.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZtciFhEqTEaMOtW-2j2slA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File docx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="b403ea98-b3b7-4fbd-bd13-fd92ab52f72b" ContentHash="SUylK2yOoUalGPl0vwEX6w" CvElementArea="310, 416, 29, 28" CvType="CheckBox" DesignTimeRectangle="313, 419, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Search Results: Keyword: Contains Testforte125944 - iManage Work' /&gt;&lt;ctrl name='Search Results: Keyword: Contains Testforte125944 - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Testforte1259*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="f5fd64ff-4269-4610-aa91-355b8cb9087f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAYAAAC5UQwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACTSURBVEhL7ZY7CsQwDET3/jdwZ7uOlcLg48TZavO7g8K4CDikCSheCBqYSui9dj7LunHL/k+Yxy93IbAxRrRggl0Jf9PMRP3lg0SJqDgO4ZAzW2vL0XvPKSWRggUm2HBUQudcOcYYWSpggQm2CkWiQhXejgpVeDsqfLnw0YlxFmLghEDl+ETBrkYU2nQmtuzbhRvvtaNaEdtvabUAAAAASUVORK5CYII=" InformativeScreenshot="be01226ac6197f62fb9f19895f201a72.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/iUw3JFnPhEWp5eIl-WOciA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="b403ea98-b3b7-4fbd-bd13-fd92ab52f72b" CvElementArea="362, 407, 51, 53" CvType="Icon" DesignTimeRectangle="365, 411, 49, 49" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Search Results: Keyword: Contains Testforte125944 - iManage Work' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Search Results: Keyword: Contains Testforte125944 - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Testforte1259*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='File docx ' role='grouping' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='File docx' /&gt;" Guid="b9d42174-0dfc-4c8c-9ce6-7d8374947411" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAYAAADh5qNwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAPmSURBVGhD7ZrpTxNBFMD9r/ymYjSRGDkMUTAKalRMUImJGg1i1A+CyheIMVETTYhHYkS+IMYbbEupATHcBOTq3dJre9HzuW+6Q7t0ii3tlpbsS34JM/uy8347s7PThB0W6wpsN2SpYiEjKZPZAkNDw9DX15c3VCoV6A1GZj2pyEhqYXGJDDQxMQZzszOSo1QqyHhKpRJ0ej2zJhYZSf2dnyeD2FZMsOrnJGdwUE0eoHpgABQKRdpiBS81NzcDnMsGarWaiGm1OmZtiRSFFP7t5uyknY5Y4Uvx7xZto5hGMwj9/f1k02LViBS01MjIbxgYUIk2j8nJcVKDwWhi1ogUtJTVaiTLDcdcj9FkZtaIFLQUC6fDujkpt8cDgUAQgkExfr8fnE4nhEJBiEbCkhLhCYcCvIg7eyksvvMtB+W1eth5YHnLKDmshTttNvB4IyKxjKVcHAeqX37mIFtF+1MHhMPBzUt5vT5o7bAzb54JZSf0cP6qmVBao2PmUPZVaeHUJRPsLtcyr1fU6SEaDW9eyufzw637K0k3XtSGIDGcrgi86uJgT4W4ECzg0w+vkBWP9x/cUFotlrvcbIGFZfF9dYYQHDwmXvZ7+WUYjeISzEKquTVZalknHpzGsj5EBqV580tB4UpyaIbjy/roWYPQKw58eDSHgu9W1lKsmcLiMRSDPjIIitPo6nGTnGt3rUIPkPey8qQeahuMYDCHhV6A6nNGktv7LTabDmcEGq6bSV9NvREu3rCsjUmRfKZQivZ97osVZucLw/bz1y7Sxqi/EisUefjILvQC2c2wz+ONknY3vyxpXipyMlM3W5KlloR3KlHqSaeT9GHgy46fARp0RpDGJovQC9D22A67yrRCC+DFG9daXipKKvM4U7jsaGC745lDaAHZ9Wje7QfxpUpnikZ3r2ctLxU5mal0pE438sek1dgSon11F4ykjfFdGZcfmwoIvQBHzhhI39RsbEOxOSKAux0WjrthS3tMOhHJpdaHnxejhSL9ap9wJTm+/vSu5TXdi89eYuA4NIeSE6mNdj8a4/zT/zO+SnasxDz8bvV88QhZ8Xj5jhPlIS38R341EJttGh/5XXF9Xk52P9aJApcWPSHgB3b9dRZVpw0kf3/VxieK/3HoOJ4ospByujhQagrr7Ic7Zuy0vkkpBE/puNXi+Y01SL7Adwl3S7cHZymLUzrF4/Vur99TG1HUv3xTIUtJhCyVDrKURMhS6SBLSYQslQ6ylETIUukgS0mEZFJ2m5k5YD6QZyodtqXU/MIiuWG+/o2HxfT0ZG6lEI1GQ266lYyOjjJro2QsVQzIUsXCNpRagX+QDT9nITllPgAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(5)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="b2aa54c7-07fd-49df-a0f6-c279aabfe3f8" ContentHash="cNBPKxx6QUK_mQJdCV1QiA" CvElementArea="1627, 1073, 164, 58" CvTextArea="1664, 1091, 55, 25" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="1629, 1076, 127, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='Chrome_WidgetWin_1' title='Search Results: Keyword: Contains Testforte125944 - iManage Work' /&gt;&lt;ctrl name='Search Results: Keyword: Contains Testforte125944 - iManage Work' role='document' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" Guid="9ca66ac7-8197-4b32-81a5-4d61199a26ac" InformativeScreenshot="f7f74961915577f75b9bbafd208b2b60.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/oMKMymKnSkmcRqBbLFkLaA" ScopeSelectorArgument="&lt;wnd app='winword.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="307, 185, 1440, 818" ContentHash="26um-EaUYkK0lNYh5T9lTA" FilePath="C:\Program Files\Microsoft Office\root\Office16\winword.exe" IconBase64="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" InformativeScreenshot="46b0528ef666360d59bb5d5cffeaa12c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Znwqs_cIik-ldeLwLT_hpg" Selector="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
