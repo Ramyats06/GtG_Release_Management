@@ -1,0 +1,175 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="PERF_POC_WORD" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PERF_POC_WORD_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Management.Automation</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Web.Activities.JSON.Models</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>UiPath.Web.Activities</x:String>
+      <x:String>System.Text.Json.Nodes</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Management.Automation</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="PERF-POC-WORD-001" sap:VirtualizedContainerService.HintSize="1156.6666666666667,1699.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="WINWORD" Name="processName" />
+      <Variable x:TypeArguments="x:Double" Name="avgCPU" />
+      <Variable x:TypeArguments="x:Double" Name="avgMemory" />
+      <Variable x:TypeArguments="x:Double" Name="maxMemory" />
+      <Variable x:TypeArguments="njl:JObject" Name="resultObject" />
+      <Variable x:TypeArguments="sco:Collection(x:String)" Name="performanceResults" />
+      <Variable x:TypeArguments="x:String" Default="Word" Name="appName" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_PerformanceMetrics" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BuildDataTable DataTable="[dt_PerformanceMetrics]" DisplayName="Build Data Table - Performance Metrics" sap:VirtualizedContainerService.HintSize="452.6666666666667,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;TestRunId&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;ApplicationName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;MetricCategory&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;MetricName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;MetricValue&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Unit&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Timestamp&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Phase&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="452.6666666666667,168.66666666666666" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="[processName]" />
+    <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE" sap:VirtualizedContainerService.HintSize="452.6666666666667,120" sap2010:WorkflowViewState.IdRef="StartProcess_1" />
+    <ui:InvokePowerShell x:TypeArguments="x:String" ContinueOnError="{x:Null}" CommandText="param(&#xA;    [string]$ProcessName,&#xA;    [int]$DurationSeconds = 30,&#xA;    [int]$SampleIntervalSeconds = 2,&#xA;    [int]$StartupTimeoutSeconds = 60&#xA;)&#xA;&#xA;$results = @{&#xA;    ProcessName = $ProcessName&#xA;    StartupTime = 0&#xA;    StartupSuccess = $false&#xA;    AverageCPU = 0&#xA;    MaxCPU = 0&#xA;    StartupPeakCPU = 0&#xA;    AverageMemoryMB = 0&#xA;    MaxMemoryMB = 0&#xA;    StartupPeakMemoryMB = 0&#xA;    SampleCount = 0&#xA;    Error = $null&#xA;}&#xA;&#xA;# Phase 1: Wait for process to start and measure startup time&#xA;$startupStartTime = Get-Date&#xA;$processFound = $false&#xA;$startupElapsed = 0&#xA;&#xA;&#xA;&#xA;While ($startupElapsed -lt $StartupTimeoutSeconds -And -Not $processFound) {&#xA;    $process = Get-Process -Name $ProcessName -ErrorAction SilentlyContinue&#xA;   &#xA;    If ($process) {&#xA;        $processFound = $True&#xA;        $startupEndTime = Get-Date&#xA;        $results.StartupTime = [math]::Round(($startupEndTime - $startupStartTime).TotalSeconds, 2)&#xA;        $results.StartupSuccess = $True&#xA;        Write-Host 'Process found! Startup time: $($results.StartupTime) seconds'&#xA;        break&#xA;    }&#xA;   &#xA;    Start-Sleep -Milliseconds 100&#xA;    $startupElapsed = ((Get-Date) - $startupStartTime).TotalSeconds&#xA;}&#xA;&#xA;If (-Not $processFound) {&#xA;    $results.Error = 'Process did not start within $StartupTimeoutSeconds seconds'&#xA;    $results.StartupTime = $StartupTimeoutSeconds&#xA;    Write-Output ($results | ConvertTo-Json)&#xA;    Exit&#xA;}&#xA;&#xA;# Phase 2: Monitor startup stabilization (first 10 seconds after process starts)&#xA;Write-Host 'Monitoring startup phase...'&#xA;$startupSamples = @()&#xA;$startupMonitorEnd = (Get-Date).AddSeconds(10)&#xA;&#xA;While ((Get-Date) -lt $startupMonitorEnd) {&#xA;    $process = Get-Process -Name $ProcessName -ErrorAction SilentlyContinue&#xA;   &#xA;    If ($process) {&#xA;        $cpuBefore = $process.CPU&#xA;        $timeBefore = Get-Date&#xA;       &#xA;        Start-Sleep -Milliseconds 500&#xA;       &#xA;        $process = Get-Process -Name $ProcessName -ErrorAction SilentlyContinue&#xA;        If ($process) {&#xA;            $cpuAfter = $process.CPU&#xA;            $timeAfter = Get-Date&#xA;           &#xA;            $cpuDelta = $cpuAfter - $cpuBefore&#xA;            $timeDelta = ($timeAfter - $timeBefore).TotalSeconds&#xA;           &#xA;            $cpuPercent = If ($timeDelta -gt 0) {&#xA;                ($cpuDelta / $timeDelta)&#xA;            } Else {&#xA;                0&#xA;            }&#xA;           &#xA;            $memoryMB = [math]::Round($process.WorkingSet64 / 1MB, 2)&#xA;           &#xA;            $startupSamples += [PSCustomObject]@{&#xA;                Timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm:ss.fff'&#xA;                CPU = [math]::Round($cpuPercent, 2)&#xA;                MemoryMB = $memoryMB&#xA;                Phase = 'Startup'&#xA;            }&#xA;        }&#xA;    }&#xA;}&#xA;&#xA;# Calculate startup phase peaks&#xA;If ($startupSamples.Count -gt 0) {&#xA;    $results.StartupPeakCPU = [math]::Round(($startupSamples | Measure-Object -Property CPU -Maximum).Maximum, 2)&#xA;    $results.StartupPeakMemoryMB = [math]::Round(($startupSamples | Measure-Object -Property MemoryMB -Maximum).Maximum, 2)&#xA;}&#xA;&#xA;# Phase 3: Monitor steady-state performance&#xA;Write-Host 'Monitoring steady-state performance...'&#xA;$steadyStateSamples = @()&#xA;$endTime = (Get-Date).AddSeconds($DurationSeconds)&#xA;&#xA;While ((Get-Date) -lt $endTime) {&#xA;    $process = Get-Process -Name $ProcessName -ErrorAction SilentlyContinue&#xA;   &#xA;    If ($process) {&#xA;        $cpuBefore = $process.CPU&#xA;        $timeBefore = Get-Date&#xA;       &#xA;        Start-Sleep -Seconds $SampleIntervalSeconds&#xA;       &#xA;        $process = Get-Process -Name $ProcessName -ErrorAction SilentlyContinue&#xA;        If ($process) {&#xA;            $cpuAfter = $process.CPU&#xA;            $timeAfter = Get-Date&#xA;           &#xA;            $cpuDelta = $cpuAfter - $cpuBefore&#xA;            $timeDelta = ($timeAfter - $timeBefore).TotalSeconds&#xA;           &#xA;            $cpuPercent = If ($timeDelta -gt 0) {&#xA;                ($cpuDelta / $timeDelta)&#xA;            } Else {&#xA;                0&#xA;            }&#xA;           &#xA;            $memoryMB = [math]::Round($process.WorkingSet64 / 1MB, 2)&#xA;           &#xA;            $steadyStateSamples += [PSCustomObject]@{&#xA;                Timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'&#xA;                CPU = [math]::Round($cpuPercent, 2)&#xA;                MemoryMB = $memoryMB&#xA;                Phase = 'SteadyState'&#xA;            }&#xA;        }&#xA;    } Else {&#xA;        Write-Host 'Process terminated during monitoring'&#xA;        break&#xA;    }&#xA;}&#xA;&#xA;# Combine all samples&#xA;$allSamples = $startupSamples + $steadyStateSamples&#xA;&#xA;# Calculate overall statistics&#xA;If ($allSamples.Count -gt 0) {&#xA;    $results.AverageCPU = [math]::Round(($allSamples | Measure-Object -Property CPU -Average).Average, 2)&#xA;    $results.MaxCPU = [math]::Round(($allSamples | Measure-Object -Property CPU -Maximum).Maximum, 2)&#xA;    $results.AverageMemoryMB = [math]::Round(($allSamples | Measure-Object -Property MemoryMB -Average).Average, 2)&#xA;    $results.MaxMemoryMB = [math]::Round(($allSamples | Measure-Object -Property MemoryMB -Maximum).Maximum, 2)&#xA;    $results.SampleCount = $allSamples.Count&#xA;}&#xA;&#xA;# Calculate steady-state only statistics&#xA;$steadyStateStats = @{&#xA;    AverageCPU = 0&#xA;    AverageMemoryMB = 0&#xA;}&#xA;&#xA;If ($steadyStateSamples.Count -gt 0) {&#xA;    $steadyStateStats.AverageCPU = [math]::Round(($steadyStateSamples | Measure-Object -Property CPU -Average).Average, 2)&#xA;    $steadyStateStats.AverageMemoryMB = [math]::Round(($steadyStateSamples | Measure-Object -Property MemoryMB -Average).Average, 2)&#xA;}&#xA;&#xA;$results.SteadyStateAverageCPU = $steadyStateStats.AverageCPU&#xA;$results.SteadyStateAverageMemoryMB = $steadyStateStats.AverageMemoryMB&#xA;&#xA;Write-Host 'Monitoring complete. Total samples: $($allSamples.Count)'&#xA;&#xA;# Return comprehensive results&#xA;$results | ConvertTo-Json&#xA;&#xA;" DisplayName="Invoke Power Shell" sap:VirtualizedContainerService.HintSize="452.6666666666667,112.66666666666667" sap2010:WorkflowViewState.IdRef="InvokePowerShell`1_4" IsScript="True" Output="[performanceResults]" PowerShellProcess="WindowsPowerShell64">
+      <ui:InvokePowerShell.Parameters>
+        <InArgument x:TypeArguments="x:String" x:Key="ProcessName">[processName]</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="DurationSeconds">30</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="SampleIntervalSeconds">2</InArgument>
+      </ui:InvokePowerShell.Parameters>
+      <ui:InvokePowerShell.PowerShellVariables>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokePowerShell.PowerShellVariables>
+    </ui:InvokePowerShell>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452.6666666666667,339.3333333333333" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,227.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[performanceResults.First.AsText]" />
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="452.6666666666667,176" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_2" JsonObject="[resultObject]" JsonString="[performanceResults.First.AsText]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452.6666666666667,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[resultObject.ToString]" />
+    <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="452.6666666666667,124.66666666666667" sap2010:WorkflowViewState.IdRef="AddLogFields_2">
+      <ui:AddLogFields.Fields>
+        <InArgument x:TypeArguments="x:String" x:Key="MetricType">Performance</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="ApplicationName">[appName]</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="CPU_Average">[Cdbl(resultObject("AverageCPU").ToString)]</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="CPU_Max">[CDbl(resultObject("MaxCPU").ToString)]</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="Memory_Average_MB">[CDbl(resultObject("AverageMemoryMB").ToString)]</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="Memory_Max_MB">[CDbl(resultObject("MaxMemoryMB").ToString)]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="Timestamp">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
+        <InArgument x:TypeArguments="x:Double" x:Key="Startup_Time">[CDbl(resultObject("StartupTime").ToString)]</InArgument>
+      </ui:AddLogFields.Fields>
+    </ui:AddLogFields>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452.6666666666667,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Count: &quot; + performanceResults.Count.AsText]" />
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="452.6666666666667,159.33333333333334" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="[processName]" />
+  </Sequence>
+</Activity>

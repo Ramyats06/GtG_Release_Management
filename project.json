@@ -1,19 +1,22 @@
 {
-  "name": "GtG_Release Management",
+  "name": "GtG_Release.Management",
   "projectId": "7da6a9c1-23ae-4987-bee1-968b72579d8b",
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[3.3.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.6.2-preview]",
     "UiPath.System.Activities": "[25.10.3]",
     "UiPath.Testing.Activities": "[25.10.0]",
     "UiPath.UIAutomation.Activities": "[25.10.21]",
+    "UiPath.WebAPI.Activities": "[2.3.2]",
     "UiPath.Word.Activities": "[2.3.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.221588681",
+  "projectVersion": "1.0.223403061",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -575,6 +578,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-013.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "eccd0177-d73b-42ba-8676-749232522f77",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Performance\\PERF-POC-WORD-001.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "58856c41-0bad-40f8-aee9-432e538378b8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Performance\\PERF-POC-FULL.xaml"
       }
     ],
     "saveToCloud": false
@@ -1016,6 +1033,24 @@
     {
       "filePath": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-019.xaml",
       "uniqueId": "fa68b127-3575-42bb-a4b8-ea9684bf6827",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-011.xaml",
+      "uniqueId": "ab887eb5-1fe5-4244-829d-e9d658521250",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Smoke\\O365_PowerPoint(Smoke Suite)\\PPT-SMOKE-012.xaml",
+      "uniqueId": "dd72fb5f-4078-43b5-a97f-52541d2e40a5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Tests\\Performance\\PERF-POC-WORD-001.xaml",
+      "uniqueId": "eccd0177-d73b-42ba-8676-749232522f77",
       "input": [],
       "output": []
     }
