@@ -116,6 +116,16 @@
       "Url": null,
       "Arguments": null,
       "Version": null
+    },
+    {
+      "ApplicationType": "WindowsApplication",
+      "ExecutablePath": {
+        "Value": "notepad.exe",
+        "IsExpression": false
+      },
+      "Url": null,
+      "Arguments": null,
+      "Version": null
     }
   ]
 }

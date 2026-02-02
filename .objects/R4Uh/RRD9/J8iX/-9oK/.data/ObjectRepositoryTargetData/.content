@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="-FiEvrDCOEyeZdCc8tUpDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="tHBXQipxVEGXM5htR-qByw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2fe74cec-4b43-4392-9757-d3fdd3e87050" CvTextArea="54, 108, 103, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 96, 270, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="0d515e83-7aa1-4162-b9f8-1910df53e114" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="8a47d728ce9e6228eb1e8a1e663106cc.png" xmlns="">0A4H4pwgLsE-rChIrWcAgmA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6b530be6-3a48-4b62-828b-e4686eeb2f4c" CvTextArea="54, 240, 105, 18" CvTextArgument="Work Offline" CvType="Text" DesignTimeRectangle="2, 228, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Work Offline' role='menu item' /&gt;" Guid="149395fb-5bc0-4bb0-9070-4e0693855442" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2b0d82d9571ab0f05c0ea989b8a6abc3.png" xmlns="">0clHE9IRVDEKRCeICEI1pVg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

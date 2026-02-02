@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="s4vCLWAo7US7pyjlwRreHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="5GEZ35khqE-flBZjHW2Cxg" Reference="m1hPtSXhEE-MN2DzQb4wOA/4sYlk_Aho0i5tBnLmUiu9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8e878883-b298-4aff-9ca1-6b6a35ed3b90" CvTextArea="1077, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1065, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="786e0b84-9435-41f1-901c-776f50b54160" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="435d43c1bd6898f4173c68208901523a.png" xmlns="">06Kth65tJYk-a_ZHoHIL5hQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8e878883-b298-4aff-9ca1-6b6a35ed3b90" CvTextArea="1077, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1078, 97, 78, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="786e0b84-9435-41f1-901c-776f50b54160" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c32cbd5-31f3-46d6-af83-1054d7b4adce" CvTextArea="1184, 96, 49, 19" CvTextArgument="Litera" CvType="Text" DesignTimeRectangle="1184, 97, 49, 18" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIRibbonTab' name='Litera' role='Tab Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Litera' /&gt;" Guid="83b68795-b403-43e6-b17b-13c0b6da0d6c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14bff990ee6d9072032e5adb6e1a3ae3.png" xmlns="">0pwSpALhYjEigf-GU9ZLs_A</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,14 +1,17 @@
 ﻿{
-  "Name": "Open(1)",
+  "Name": "Open (in iManage)",
   "Type": "Element",
   "TaxonomyType": "Button",
   "Id": "5JBqs333lki1FNy1lmkRNw",
   "Reference": "m1hPtSXhEE-MN2DzQb4wOA/5JBqs333lki1FNy1lmkRNw",
   "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/asQO22vbg0GzDqsKJHjjwg",
   "Created": "2025-12-18T11:25:33.7726415Z",
-  "Updated": "2025-12-18T11:25:33.7726415Z",
+  "Updated": "2026-01-26T10:02:09.0564404Z",
   "CreatedBy": [
     "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }
