@@ -243,7 +243,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Launch Time" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Launch Time" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_LaunchTime"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(startupData("LaunchTime").ToString)]</InArgument>
@@ -266,7 +266,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Process Start Time" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Process Start Time" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_ProcessStartTime"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(startupData("ProcessStartTime").ToString)]</InArgument>
@@ -308,7 +308,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Startup Time" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Startup Time" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_TotalStartupTime"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(startupData("TotalStartupTime").ToString)]</InArgument>
@@ -329,7 +329,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Initial Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Initial Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "InitialMemory"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(startupData("InitialMemoryMB").ToString)]</InArgument>
@@ -380,7 +380,7 @@
                   </ui:InvokePowerShell>
                   <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON - performance data" sap:VirtualizedContainerService.HintSize="452.6666666666667,176" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_3" JsonObject="[performanceData]" JsonString="[performanceResultJson.First.AsText]" />
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452.6666666666667,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[performanceResultJson.First.AsText]" />
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Average CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Average CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_CPU_Average"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("AverageCPU").ToString)]</InArgument>
@@ -403,7 +403,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Max CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Max CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_CPU_Max"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("MaxCPU").ToString)]</InArgument>
@@ -424,7 +424,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Startup Peak CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Startup Peak CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_CPU_StartupPeak"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("StartupPeakCPU").ToString)]</InArgument>
@@ -445,7 +445,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Steady State Average CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Steady State Average CPU" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_CPU_SteadyStateAverage"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("SteadyStateAverageCPU").ToString)]</InArgument>
@@ -466,7 +466,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Average Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Average Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_Memory_Average"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("AverageMemoryMB").ToString)]</InArgument>
@@ -487,7 +487,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Max Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Max Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_Memory_Max"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("MaxMemoryMB").ToString)]</InArgument>
@@ -508,7 +508,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Startup Peak Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_13" LogExit="WithArguments" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
+                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Startup Peak Memory" DisplayName="Helper_Log-Performance-Metric - Invoke Workflow File (Tests\Performance\Helper_Log-Performance-Metric.xaml)" sap:VirtualizedContainerService.HintSize="452.6666666666667,208" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_13" UnSafe="False" WorkflowFileName="Tests\Performance\Helper_Log-Performance-Metric.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
                       <InArgument x:TypeArguments="x:String" x:Key="in_MetricName">[appName + "_Memory_StartupPeak"]</InArgument>
                       <InArgument x:TypeArguments="x:Double" x:Key="in_MetricValue">[CDbl(performanceData("StartupPeakMemoryMB").ToString)]</InArgument>
@@ -580,7 +580,7 @@
         </ActivityAction>
       </ui:ForEachRow.Body>
     </ui:ForEachRow>
-    <ui:WriteCsvFile AddHeaders="True" DataTable="[dt_PerformanceMetrics]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[&quot;C:\PerformanceReports\DetailedMetrics_&quot; + testRunId + &quot; &quot; + DateTime.Now.ToString(&quot;yyyyMMdd_HHmmss&quot;)  + &quot;.csv&quot;]" sap:VirtualizedContainerService.HintSize="588.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" ShouldQuote="True" />
+    <ui:WriteCsvFile AddHeaders="True" DataTable="[dt_PerformanceMetrics]" Delimitator="Comma" DisplayName="Write CSV" FilePath="[&quot;C:\PerformanceReports\DetailedMetrics_&quot; + testRunId + &quot;_&quot; + DateTime.Now.ToString(&quot;yyyyMMdd_HHmmss&quot;)  + &quot;.csv&quot;]" sap:VirtualizedContainerService.HintSize="588.6666666666666,191.33333333333334" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" ShouldQuote="True" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="588.6666666666666,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[dt_PerformanceMetrics.ToCsv]" />
   </Sequence>
 </Activity>
