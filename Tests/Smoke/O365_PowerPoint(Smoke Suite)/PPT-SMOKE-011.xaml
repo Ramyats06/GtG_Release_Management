@@ -97,7 +97,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_011" sap:VirtualizedContainerService.HintSize="1904.6666666666667,2810" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_011" sap:VirtualizedContainerService.HintSize="1916,3796" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -107,7 +107,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="552,114" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[filenameTimestamp]</OutArgument>
       </Assign.To>
@@ -115,7 +115,7 @@
         <InArgument x:TypeArguments="x:String">[DateString + " " + TimeString.Replace(":", "-")]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap:VirtualizedContainerService.HintSize="552,114" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[cloudFilename]</OutArgument>
       </Assign.To>
@@ -123,29 +123,19 @@
         <InArgument x:TypeArguments="x:String">["PPT-SMOKE-011 PDF Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2552.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3545" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2293.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3289" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'textbox Title TextBox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="532ce4e1-8995-404f-9a57-ba6df8f6338d" ContentHash="P_w75-WmREKiKtoIues81g" CvTextArea="830, 585, 547, 65" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="602, 411, 1005, 266" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="7d4b0b8d-65e1-4a64-9da7-375878c75f76" InformativeScreenshot="1f7ba922cb3cb8d03632136517c98d8f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/K0AWRhrfzEG7OjYsJDN22w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'textbox Title TextBox(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Text="Save as PDF test" Version="V5">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable ContentHash="HLVKjmXOjEWdBkG8Vf0t2Q" DesignTimeRectangle="605, 414, 1000, 261" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="9f0db832-9c5e-4d28-9b2e-7dd8855fe0f9" InformativeScreenshot="c5ff0eac553acc7289d34bdd7fdce5a5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ewcBvCrsIE2JloKxTDNllA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="8e878883-b298-4aff-9ca1-6b6a35ed3b90" ContentHash="5GEZ35khqE-flBZjHW2Cxg" CvTextArea="1077, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1078, 97, 78, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="786e0b84-9435-41f1-901c-776f50b54160" InformativeScreenshot="14bff990ee6d9072032e5adb6e1a3ae3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4sYlk_Aho0i5tBnLmUiu9g" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -156,46 +146,112 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save as PDF'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Connected' (icon is green)" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,837" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,429" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="4a402f95-f766-4242-a118-e494c4dd54eb" ContentHash="5JTAWDyCd0Se0zKjUGGwcg" CvTextArea="42, 192, 67, 16" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="41, 134, 73, 114" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' /&gt;" Guid="a03745ab-f362-4f5e-8f5b-abca85e9657b" ImageBase64="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" InformativeScreenshot="753b0b490553c2a41dcbfe2a0d28271d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZUI01X4T70OAxnchmgcVeA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="2ad3479f-9d43-4029-90a5-43ab3e5bc595" CvTextArea="144, 192, 46, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='File' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Open' /&gt;" Guid="2e4937d3-8a60-4e51-9407-c6e7edb55191" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1 eu-active.cooley.com(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="22394d82-5e12-463a-95ad-d511bab5f802" ContentHash="HtnzMg__V0q-vO7FkOnAHA" CvTextArea="38, 37, 124, 15" CvTextArgument="2 eu-active.cooley.com" CvType="Text" DesignTimeRectangle="2, 30, 183, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='2 eu-active.cooley.com' role='menu item' /&gt;" Guid="0c2c673c-bb0d-473b-9980-67319c42e183" InformativeScreenshot="6d2193df322fe41e3588c97352980ac5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3fGSzf4mJUa4dtStyONxyQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="adc4e828-23e5-4996-9d13-8eb21fe2e57f" CvTextArea="29, 129, 47, 12" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="28, 90, 50, 76" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Connect' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIAnchor' name='Connect' role='Menu Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='1 na-active.cooley.com&amp;#x9;2 eu-active.cooley.com&amp;#x9;&amp;#xA;Choose...&amp;#x9;&amp;#xA;Work Offline' /&gt;" Guid="d5a620ea-aeb8-45d2-a5a7-c7e678eb8038" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="77e1ed96-2b15-4c51-af7c-6eea4970b6f7" ContentHash="t873E5dwgE2EwUClI3sKIw" DesignTimeRectangle="39, 132, 77, 118" ElementVisibilityArgument="Interactive" Guid="aa55e8b9-57c0-4f36-84e2-d6b856d378c1" ImageAccuracyArgument="0.9" ImageBase64="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" InformativeScreenshot="5e726e55da251075abd92ee9ffe4328c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/cs9FElpOrEuestZue2J8Cg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'textbox Title TextBox'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="532ce4e1-8995-404f-9a57-ba6df8f6338d" ContentHash="P_w75-WmREKiKtoIues81g" CvTextArea="830, 585, 547, 65" CvTextArgument="Click to add title" CvType="Text" DesignTimeRectangle="602, 411, 1005, 266" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="7d4b0b8d-65e1-4a64-9da7-375878c75f76" InformativeScreenshot="1f7ba922cb3cb8d03632136517c98d8f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/K0AWRhrfzEG7OjYsJDN22w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'textbox Title TextBox(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Text="Save as PDF test" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="HLVKjmXOjEWdBkG8Vf0t2Q" DesignTimeRectangle="605, 414, 1000, 261" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia name='Title TextBox' role='textbox' /&gt;" Guid="9f0db832-9c5e-4d28-9b2e-7dd8855fe0f9" InformativeScreenshot="c5ff0eac553acc7289d34bdd7fdce5a5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ewcBvCrsIE2JloKxTDNllA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="8e878883-b298-4aff-9ca1-6b6a35ed3b90" ContentHash="5GEZ35khqE-flBZjHW2Cxg" CvTextArea="1077, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1078, 97, 78, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="786e0b84-9435-41f1-901c-776f50b54160" InformativeScreenshot="14bff990ee6d9072032e5adb6e1a3ae3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4sYlk_Aho0i5tBnLmUiu9g" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1c32cbd5-31f3-46d6-af83-1054d7b4adce" CvTextArea="1184, 96, 49, 19" CvTextArgument="Litera" CvType="Text" DesignTimeRectangle="1184, 97, 49, 18" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIRibbonTab' name='Litera' role='Tab Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Litera' /&gt;" Guid="83b68795-b403-43e6-b17b-13c0b6da0d6c" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save as PDF'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="4maEC-LQXEmOsa9tJ7SE2g" DesignTimeRectangle="377, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Save as PDF' /&gt;" Guid="604963b2-c1d5-4eec-9df2-b14e02bf333f" InformativeScreenshot="015ddf52a91eb6fb6c2f0d9aefacf284.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/7LEXrvZZUEG2qXDp5pQTug" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="16d25eba-565c-4ebf-af0b-6d58ee3c4554" ContentHash="Nmo2Eg4MDk6o8uKWVxl34w" CvElementArea="853, 813, 125, 46" CvTextArea="901, 828, 28, 16" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="855, 815, 124, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='btnnOk' /&gt;" Guid="830fbf40-4de7-4da1-b50f-a17bdfdb594f" InformativeScreenshot="b56fb50d8c5700600c71f9bf06cdacf9.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/MT08H5DVs0ubS8fnEWq-xw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='LocalizableSaveAsFixedFormatDocumentForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="484,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'Presentation1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Text="[cloudFilename]" Version="V5">
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'Presentation1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Text="[cloudFilename]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="9daecdfd-f09e-420e-85aa-4e3354a9ff82" ContentHash="yjXPcEqZHkSOBk9nyOWrNA" CvElementArea="685, 342, 451, 56" CvType="InputBox" DesignTimeRectangle="684, 344, 450, 54" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Title' role='grouping' /&gt;&lt;ctrl role='editable text' /&gt;" Guid="96f635d6-689b-498a-8ee2-17051580321b" InformativeScreenshot="699e0f9b74d9d3235130d3aaba06f782.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZO_o1QGwT0OmEvcIGHHq_A" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="9daecdfd-f09e-420e-85aa-4e3354a9ff82" ContentHash="UqM32343uEKehUH3y_6ZEg" CvElementArea="887, 657, 130, 56" CvTextArea="927, 675, 48, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="890, 658, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Save' role='push button' /&gt;" Guid="4c9c96ae-ce1d-4e16-b775-2b4fd1cf7403" InformativeScreenshot="4d63e395bcccb519d490ce32d8a54d79.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/jYHEgHVgEEiPFGqwvWYa7A" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State '#252602587v1EUACTIVE …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
+            <uix:NCheckState DisplayName="Check App State '#252602587v1EUACTIVE …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,656" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="f236c4a4-3167-446f-8d55-04e95799abc4" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: PPT PDF has successfully saved in iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: PPT PDF has successfully saved in iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: PPT PDF has Not successfully saved in iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="False" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="Assertion Failed: PPT PDF has Not successfully saved in iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
