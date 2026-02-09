@@ -595,7 +595,7 @@
         "fileName": "Tests\\Performance\\PERF-POC-FULL.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "4010d8a3-b705-4c49-a4db-e68af278aee0",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
