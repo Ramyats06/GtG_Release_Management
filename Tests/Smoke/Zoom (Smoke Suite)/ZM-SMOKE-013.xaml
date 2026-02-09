@@ -36,6 +36,8 @@
       <x:String>System.Reflection</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -83,9 +85,9 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ZM_SMOKE_013" sap:VirtualizedContainerService.HintSize="1904.6666666666667,4084.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ZM_SMOKE_013" sap:VirtualizedContainerService.HintSize="1138,7762" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Boolean" Name="result">
+      <Variable x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="Variable`1_1" Name="result">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:String x:Key="SourceIdRef">VerifyExpression_8</x:String>
@@ -99,46 +101,78 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Zoom Workplace" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,4062" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Zoom Workplace" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="688,7739" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="f160dcae-d3ff-4547-8f66-781158f91b5a" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3802.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,7483" sap2010:WorkflowViewState.IdRef="Sequence_20">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start QA Daily Stand up'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Schedule Schedule'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="620,189" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f160dcae-d3ff-4547-8f66-781158f91b5a" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="aa250393-bc8f-405c-84c2-ae45e1519b2d" ContentHash="HAN7qTTaLkWPvysLe18juw" CvElementArea="610, 363, 112, 52" CvTextArea="641, 381, 51, 19" CvTextArgument="Start" CvType="Button" DesignTimeRectangle="613, 366, 107, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Start QA Daily Stand up' role='push button' /&gt;" Guid="8578fc85-658f-4aa1-9cce-74bf96a89028" InformativeScreenshot="443ce9d5e3649817d52ac223558d03fe.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/U2Gja9phuE6exZNjYafPGg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="04e32300-d927-411a-bcec-bda9498214e3" CvElementArea="664, 559, 98, 97" CvType="Icon" DesignTimeRectangle="652, 555, 120, 146" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl idx='418' role='pane' /&gt;" Guid="edcd661f-c099-4bbd-92fc-d1af023d8b55" ImageBase64="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" InformativeScreenshot="7abd066402a521a01928d4732fdc82a3.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="04e32300-d927-411a-bcec-bda9498214e3" CvTextArea="685, 661, 54, 13" CvTextArgument="Schedule" CvType="Text" DesignTimeRectangle="652, 659, 120, 40" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Schedule' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Schedule' /&gt;" Guid="0014a07a-da0e-4868-bc37-71868a664089" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'QA Daily Stand up'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Security'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="620,1044" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="f160dcae-d3ff-4547-8f66-781158f91b5a" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,552" sap2010:WorkflowViewState.IdRef="Sequence_15">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: When clicked on start, Its working as exoected" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="VerifyExpression_9" OutputMessageFormat="PASSED: When clicked on Schedule Meeting a pop up opens successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f160dcae-d3ff-4547-8f66-781158f91b5a" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="f820a85a-8baf-4a4f-9ae4-b6bab3adfff5" ContentHash="O1ZzSW17UUG7bxuCs5QH6g" CvElementArea="581, 729, 59, 34" CvTextArea="592, 739, 35, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="582, 730, 56, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' /&gt;&lt;ctrl name='Zoom Calendar' role='document' /&gt;&lt;ctrl name='Save, opens calendar invite window' role='push button' /&gt;" Guid="55cd0701-f2c8-436f-83e4-3d3daee4f6d6" InformativeScreenshot="333f57a7aa49203ecf53f57ba1ea5482.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/e3OTACEHy0mqB87VcXI-Sg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='BubblePopupContainerWnd' title='New event' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable CVScreenId="f820a85a-8baf-4a4f-9ae4-b6bab3adfff5" ContentHash="O1ZzSW17UUG7bxuCs5QH6g" CvElementArea="581, 729, 59, 34" CvTextArea="592, 739, 35, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="582, 730, 56, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' /&gt;&lt;ctrl name='Zoom Calendar' role='document' /&gt;&lt;ctrl name='Save, opens calendar invite window' role='push button' /&gt;" Guid="55cd0701-f2c8-436f-83e4-3d3daee4f6d6" InformativeScreenshot="333f57a7aa49203ecf53f57ba1ea5482.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/e3OTACEHy0mqB87VcXI-Sg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='BubblePopupContainerWnd' title='New event' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_16">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: When clicked on start, Its NOT working as exoected" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_10" OutputMessageFormat="FAILED: When clicked on Schedule Meeting a pop up does NOT opens successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="Erc300hGlkOSMwcUkOJfSA" DesignTimeRectangle="0, 0, 969, 786" ElementVisibilityArgument="Interactive" Guid="971083be-7619-4319-b1a7-e8c7f994051b" InformativeScreenshot="b6a358fc0ddb15d74790b00a6cbd3352.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/p7HBw9-UcU6t4g8UHyaZvg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='VideoPreviewWndClass' title='QA Daily Stand up' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="d738f1b2-3a0d-4308-aeb8-299d97a85dc9" CvTextArea="34, 38, 205, 27" CvTextArgument="Schedule Meeting" CvType="Text" DesignTimeRectangle="36, 32, 560, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' /&gt;&lt;ctrl name='Zoom Calendar' role='document' /&gt;&lt;ctrl idx='12' role='grouping' /&gt;" Guid="f34dc916-d30f-4e1d-a522-812e91c118aa" InformativeScreenshot="d1988ad91b29bec70cadd14a57d4494e.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='BubblePopupContainerWnd' title='New event' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d738f1b2-3a0d-4308-aeb8-299d97a85dc9" CvTextArea="35, 199, 81, 13" CvTextArgument="Date &amp; Time" CvType="Text" DesignTimeRectangle="36, 196, 592, 19" FuzzySelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Zoom Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Date &amp;amp; Time' /&gt;" Guid="a78e2abc-6dba-4438-a4f8-46aea9f0733a" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NCheckState.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -147,143 +181,339 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="3a8d0a56-391b-46af-b7cd-05f3a58ac430" ContentHash="TonbLusl7kGQdPQscjtkTQ" CvElementArea="926, 5, 27, 26" CvType="CloseButton" DesignTimeRectangle="915, 1, 52, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="b5a8931b-e6e0-4603-a1f1-e0bbffd25cbf" InformativeScreenshot="46c929d7cf46d22f8983633dd3ded649.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/roz3BoWbz0SAsPV6uIZ_5g" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='VideoPreviewWndClass' title='QA Daily Stand up' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="3a8d0a56-391b-46af-b7cd-05f3a58ac430" CvElementArea="742, 694, 199, 51" CvTextArea="817, 711, 49, 19" CvTextArgument="Start" CvType="Button" DesignTimeRectangle="745, 696, 195, 48" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Start' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Start' /&gt;" Guid="ab14f794-28f8-4b27-b8d3-b659070302df" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit meeting QA Daily S…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="61da00da-f889-4008-86f5-0179bb9870d3" ContentHash="Iq11YmDqW0awVa1Q4dod8g" CvElementArea="995, 362, 133, 53" CvTextArea="1059, 379, 37, 21" CvTextArgument="Edit" CvType="Button" DesignTimeRectangle="999, 366, 127, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Edit meeting QA Daily Stand up' role='push button' /&gt;" Guid="49a7b3ab-4ac2-4c2d-9ed4-ca0229eb836b" InformativeScreenshot="e68e014eac51cc8340a70369a3d974f5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/k2rtzRowi0mEusv2J-nCQQ" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Zoom Workplace(3)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,524.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASSED: When clicked on Edit meeting, a pop up window is visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25.333333333333332" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAILED: When clicked on Edit meeting, a pop up window is NOT visible" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="s3Hyoo2b_0GmOUMhRTg3Cg" DesignTimeRectangle="0, 0, 840, 311" ElementVisibilityArgument="Interactive" Guid="8998f646-53bb-4ce1-ab17-86198213bd5a" InformativeScreenshot="a7bc3a86069dc9c576badc03872af8bb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fb3LlUfUWUKu2gXeUG5CjQ" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zSimpleMessageDialogClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NCheckState.Target>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Ramya Sundararajan's Zoom Meeting - Meeting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,6190" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="c85ecf52-fb7a-468d-9d2a-7d59770453d4" Version="V2" WindowResize="Maximize">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,5934" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheckState DisplayName="Check App State 'pane Form Regions'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="552,665" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="c85ecf52-fb7a-468d-9d2a-7d59770453d4" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_11" OutputMessageFormat="PASSED: Outlook opens a new email/calendar invite with full Zoom meeting details auto-filled. " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_12" OutputMessageFormat="FAILED: Outlook failed to open a new email/calendar invite with full Zoom meeting details auto-filled. " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable CVScreenId="3bf260bc-cf4d-4855-bf97-3a036eae0e3b" CvTextArea="228, 19, 221, 15" CvTextArgument="GreenUl Path's Zoom Meeting - Meeting" CvType="Text" DesignTimeRectangle="224, 1, 1056, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOfficeCaption' name='‪GreenUI Path&amp;apos;s Zoom Meeting‬  -  Meeting  ' /&gt;" Guid="e2ae24c2-7a6d-4de9-9674-2caa781e31a1" InformativeScreenshot="421e9a29a5bdc2759e3396c3e274ae19.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='GreenUI Path&amp;apos;s Zoom Meeting - Meeting  ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="3bf260bc-cf4d-4855-bf97-3a036eae0e3b" CvTextArea="205, 280, 254, 20" CvTextArgument="GreenUI Path's Zo Meeting" CvType="Text" DesignTimeRectangle="206, 271, 1196, 39" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='4100' cls='RichEdit20WPT' name='Title' /&gt;" Guid="d5318fb8-2865-4c1b-ab03-d702c7cc4cb5" SearchSteps="Selector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheckState.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NCheckState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c85ecf52-fb7a-468d-9d2a-7d59770453d4" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="214464fe-271a-4d04-b20f-8c7fa0c411d1" ContentHash="6EyAdwCtq0miAGVb0fIlXg" CvElementArea="1880, 32, 29, 28" CvType="CloseButton" DesignTimeRectangle="1859, 11, 72, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="f8f3bbdf-fda7-4e45-8623-3262659b9176" InformativeScreenshot="942f2ad63d2337c1d36dbd4645ee83ce.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/i56PiSfIE0uXoFV-X5sCkA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Ramya Sundararajan&amp;apos;s Zoom Meeting - Meeting  ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="214464fe-271a-4d04-b20f-8c7fa0c411d1" CvTextArea="339, 38, 390, 22" CvTextArgument="Ramya Sundararajan's Zoom Meeting - Meeting" CvType="Text" DesignTimeRectangle="333, 11, 1370, 72" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOfficeCaption' name='‪Ramya Sundararajan&amp;apos;s Zoom Meeting‬  -  Meeting  ' role='Title Bar' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='‪Ramya Sundararajan&amp;apos;s Zoom Meeting‬  -  Meeting' /&gt;" Guid="aab508cc-aeb0-4f3c-841d-d5d383509acb" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;No'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c85ecf52-fb7a-468d-9d2a-7d59770453d4" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="6a8bf37a-9589-4544-9b78-edfbe2d0eb79" CvElementArea="131, 85, 67, 23" CvTextArea="155, 91, 16, 11" CvTextArgument="No" CvType="Button" DesignTimeRectangle="130, 85, 68, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='7' title='&amp;amp;No' /&gt;" Guid="5bcfc13c-ce62-4a91-9b57-32fd0cf9080b" InformativeScreenshot="0bc17cd49bd317823b5a40b0ea97385d.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='#32770' title='Microsoft Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Zoom Workplace" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,4831" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V2" WindowResize="Maximize">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,4575" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DisplayName="Click 'Meetings 2 of 6'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="758e7cdd-b4a2-47a5-b4c1-f5c1dbdaf375" ContentHash="1IkKkT_hoEy9yZ2Hy4TpOQ" CvTextArea="25, 143, 49, 13" CvTextArgument="Meetings" CvType="Text" DesignTimeRectangle="14, 108, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' /&gt;&lt;ctrl name='Meetings 2 of 6' role='page tab' /&gt;" Guid="baa79885-46c0-492d-bb3f-bffb7d16ab74" InformativeScreenshot="e12e358ef3b67af934c259e18e8bcc93.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/RP5Zfox4Q0urduMQxLi-Ug" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="14f16240-c7a0-4c40-9f10-a3ea1476c683" CvElementArea="14, 49, 74, 58" CvTextArea="34, 85, 31, 11" CvTextArgument="Home" CvType="Button" DesignTimeRectangle="14, 50, 72, 56" ElementType="TabPage" FuzzySelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Home 1 of 6' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Home 1 of 6' /&gt;" Guid="d3410459-f20a-4223-8091-9bbe038e20af" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start QA Daily Stand up'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="24248106-1f54-4e94-9eeb-4a95750ffc22" CvElementArea="495, 236, 76, 35" CvTextArea="515, 247, 36, 13" CvTextArgument="Start" CvType="Button" DesignTimeRectangle="497, 238, 72, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Start GreenUI Path&amp;apos;s Zoom Meeting' role='push button' /&gt;" Guid="851b6f48-4c78-44d1-a2cf-b6a404712288" InformativeScreenshot="092829463947acaae0cb229e628f3cd6.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NCheckState DisplayName="Check App State 'QA Daily Stand up'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: When clicked on start, Its working as expected" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: When clicked on start, Its NOT working as exoected" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 646, 524" ElementVisibilityArgument="Interactive" Guid="c92203f1-69bd-4c2d-9492-eade255245e1" InformativeScreenshot="c9a465d484b5a19438d292238d1a3b41.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='VideoPreviewWndClass' title='GreenUI Path&amp;apos;s Zoom Meeting' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NCheckState.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NCheckState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="a49fc6c3-c569-4e92-9ece-8b7c05fd8b4d" CvElementArea="619, 4, 19, 18" CvType="CloseButton" DesignTimeRectangle="610, 1, 34, 25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="85c02fa5-2132-4fc6-b366-e958f49807a0" InformativeScreenshot="30296a790571ed5ecb6c378f8d17695c.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='VideoPreviewWndClass' title='GreenUI Path&amp;apos;s Zoom Meeting' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="a49fc6c3-c569-4e92-9ece-8b7c05fd8b4d" CvTextArea="27, 7, 160, 15" CvTextArgument="GreenUl Path's Zoom Meeting" CvType="Text" DesignTimeRectangle="27, 7, 160, 15" ElementType="Text" Guid="30b5e142-decf-4a1f-829c-cea90eb2d4bc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit meeting QA Daily S…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="d02f4e2b-7486-41b8-bc8a-4a0836531ce2" CvElementArea="753, 236, 89, 36" CvTextArea="795, 247, 24, 13" CvTextArgument="Edit" CvType="Button" DesignTimeRectangle="755, 238, 84, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Edit meeting GreenUI Path&amp;apos;s Zoom Meeting' role='push button' /&gt;" Guid="5c9eeaa9-1ed3-4694-8b62-d020c6b8e900" InformativeScreenshot="4d15de1694a550bd79f0a8192307fcfb.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                            <uix:NCheckState DisplayName="Check App State 'Zoom Workplace(3)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,517" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASSED: When clicked on Edit meeting, a pop up window is visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAILED: When clicked on Edit meeting, a pop up window is NOT visible" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable CVScreenId="4d680aeb-7009-421e-a62d-21d878b20ed8" CvTextArea="35, 38, 146, 27" CvTextArgument="Edit Meeting" CvType="Text" DesignTimeRectangle="36, 32, 560, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' /&gt;&lt;ctrl name='Zoom Calendar' role='document' /&gt;&lt;ctrl idx='12' role='grouping' /&gt;" Guid="4327b4fb-cda5-40c1-a15b-bd0d9e1ee96c" InformativeScreenshot="2a771bb72e6592576da073ff60e82e93.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='BubblePopupContainerWnd' title='New event' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="57d875c5-837b-4f2f-83fc-ba77d1cf74e4" CvTextArea="35, 199, 81, 13" CvTextArgument="Date &amp; Time" CvType="Text" DesignTimeRectangle="36, 196, 592, 19" FuzzySelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Zoom Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Date &amp;amp; Time' /&gt;" Guid="b94e09ce-44a3-4148-88cf-9b94019dfd0d" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NCheckState.Target>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </uix:NCheckState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="596e7cc7-82bb-4f6c-9f7d-b76adc32a5ec" CvElementArea="507, 730, 70, 33" CvTextArea="518, 739, 46, 13" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="508, 731, 67, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' /&gt;&lt;ctrl name='Zoom Calendar' role='document' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="aef5bc68-55bb-4ccf-9dfa-a404505a9da6" InformativeScreenshot="3b05e2852c11d559ba4dff128cbb3f68.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='BubblePopupContainerWnd' title='New event' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete meeting QA Daily…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="61da00da-f889-4008-86f5-0179bb9870d3" ContentHash="3TZOjMriAkOCTmVBqy0-Hg" CvElementArea="1147, 363, 157, 52" CvTextArea="1211, 379, 61, 21" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="853, 236, 104, 35" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Delete meeting QA Daily Stand up' role='push button' /&gt;" Guid="9e7e4194-98c1-41e7-a40d-0d8a7da49530" InformativeScreenshot="68f54a785cadd7e48d845d4aaacaef14.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/J2vmmkwevUy-uXxBvCf_Sw" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NCheckState DisplayName="Check App State 'Zoom Workplace(4)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASSED: When cliked on delete meeting link, a pop up opens and is visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAILED: When cliked on delete meeting link, a pop up does NOT opens and is NOT visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable ContentHash="smde1sy6hUSsLmBkp59hRQ" DesignTimeRectangle="0, 0, 560, 209" ElementVisibilityArgument="Interactive" Guid="bd59d478-b68c-43ee-9177-0d4bb0524db6" InformativeScreenshot="cfdd2c9fc0d9968924889cd66c3dcbb9.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Ogv3pUcogk-mESv4HLDcbA" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zSimpleMessageDialogClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NCheckState.Target>
+                            </uix:NCheckState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="520008cf-e01b-403f-8e97-9907047c45ef" ContentHash="4KG540YebE-mTAyJxp_BOg" CvElementArea="797, 5, 27, 25" CvType="CloseButton" DesignTimeRectangle="524, 1, 34, 25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="cca9f4b3-4519-4de7-b2a6-fae6c36c1c73" InformativeScreenshot="ea94cdeb736561019091f8f53d41a615.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/q7xPDyRkF0q0XB1PWkVebg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zSimpleMessageDialogClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target DesignTimeRectangle="0, 0, 560, 209" Guid="92d175fb-9a94-473c-a2e2-84b5a8e119e9" SearchSteps="FuzzySelector" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Join from a room QA Dai…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="61da00da-f889-4008-86f5-0179bb9870d3" ContentHash="q0K-_Jm4OE2rqNpGcYg_Qw" CvElementArea="1323, 364, 223, 51" CvTextArea="1353, 379, 162, 21" CvTextArgument="Join from a room" CvType="Button" DesignTimeRectangle="969, 237, 149, 35" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Join from a room QA Daily Stand up' role='push button' /&gt;" Guid="ded95b44-9697-43fd-9a08-e8d37beb6c3f" InformativeScreenshot="2d5ed3f09131e404f59d250c8c8ac8e3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/MMbHE0NPHk660ODceLAqAA" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NCheckState DisplayName="Check App State 'Pair with room Pair Con…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NCheckState.IfExists>
+                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" OutputMessageFormat="PASSED: When clicked on Join from a room, pop up window opens asking for the sharing key " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfExists>
+                              <uix:NCheckState.IfNotExists>
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" OutputMessageFormat="FAILED: When clicked on Join from a room, pop up window does NOT opens asking for the sharing key " Result="[result]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                                </Sequence>
+                              </uix:NCheckState.IfNotExists>
+                              <uix:NCheckState.Target>
+                                <uix:TargetAnchorable CVScreenId="62532805-47f0-4274-bef0-cba7219bc7cd" CvElementArea="31, 123, 385, 34" CvType="InputBox" DesignTimeRectangle="32, 124, 384, 32" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Zoom Workplace' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='zspacesui.dll/transfer.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/transfer.html' /&gt;&lt;ctrl name='Please enter the room code shown on the room device to continue.' role='editable text' /&gt;" Guid="71629f83-7100-4b5d-9f29-97eec7873bc1" InformativeScreenshot="6d93459f0ac5bc5ef15a41b0125676a1.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='CSpacesUIWebviewWnd' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="62532805-47f0-4274-bef0-cba7219bc7cd" CvElementArea="259, 179, 71, 34" CvTextArea="271, 189, 45, 13" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="260, 180, 68, 32" ElementType="Button" FuzzySelectorArgument="&lt;wnd aaname='Zoom Workplace' cls='UnifyWebViewAdaptWnd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='zspacesui.dll/transfer.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/transfer.html' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Cancel' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Cancel' /&gt;" Guid="fb501940-51c5-4a2c-8572-b685ab3594e7" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NCheckState.Target>
+                            </uix:NCheckState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="9c86935e-71e6-4fed-8665-5ca3490b3358" ContentHash="SHxrtZhE-Umoq7KME019Dw" CvElementArea="259, 179, 71, 34" CvTextArea="271, 189, 45, 13" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="260, 180, 68, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Zoom Workplace' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='zspacesui.dll/transfer.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/transfer.html' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="b3f13ec6-577a-4f2f-93c9-4c9ff6911acb" InformativeScreenshot="c46733d8f4e1819327f6aab416b8bb6d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/lMvIWHVs4U-oi066rVAxkQ" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='CSpacesUIWebviewWnd' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                      <uix:Target CVScreenId="9c86935e-71e6-4fed-8665-5ca3490b3358" CvTextArea="32, 35, 175, 18" CvTextArgument="Room not detected" CvType="Text" DesignTimeRectangle="32, 32, 175, 24" FuzzySelectorArgument="&lt;wnd aaname='Zoom Workplace' cls='UnifyWebViewAdaptWnd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='zspacesui.dll/transfer.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/transfer.html' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Room not detected' role='grouping' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Room not detected' /&gt;" Guid="f6902358-1a96-4b7e-8f42-c3db625b4df5" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home 1 of 6(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable CVScreenId="3f06fc08-75dd-4189-a148-0d631e361a42" ContentHash="1mTr5x_YUEmmE9_TRIZ1cw" CvTextArea="34, 85, 31, 11" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="14, 50, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' /&gt;&lt;ctrl name='Home 1 of 6' role='page tab' /&gt;" Guid="cc69ae8f-f8cc-4bbf-aab3-743c04ca27ac" InformativeScreenshot="c39af0968a75cf7755fb8a02a180746f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/2VIVsqae9EqNLBw_Ed5QMA" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.OCREngine>
+                        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                          <ActivityFunc.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                          </ActivityFunc.Argument>
+                        </ActivityFunc>
+                      </uix:NApplicationCard.OCREngine>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="352, 119, 1062, 793" ContentHash="lVBiByWM50OpzAchVhldZA" FilePath="C:\Users\GreenUIPATH\AppData\Roaming\Zoom\bin\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="12e98f1b5fe4a1dc58cc6863ae65b269.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" Version="V2">
+                          <uix:TargetApp.Arguments>
+                            <InArgument x:TypeArguments="x:String" />
+                          </uix:TargetApp.Arguments>
+                          <uix:TargetApp.WorkingDirectory>
+                            <InArgument x:TypeArguments="x:String" />
+                          </uix:TargetApp.WorkingDirectory>
+                        </uix:TargetApp>
+                      </uix:NApplicationCard.TargetApp>
+                    </uix:NApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="104, 104, 1440, 774" ContentHash="R6gvIldK10WJWv39W8vD3g" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACJSURBVFhH7ZDRCcAgEEOdrnM5QZdxqI7RNnCl0jtQKRE/8iAgZzThkhA1OedzhizOE5kZsjhPZGbI4jyRmSGL8+DySynFTi9/ZipAK9BLswA+HxU49i0UqL20DTxhNdFMBdYvgM9HBRAWCdRe2gZ6oRXonalAswAeMbX+Br6owPQCM2RxQtykdAHdaENZpMHO5QAAAABJRU5ErkJggg==" InformativeScreenshot="8432876ca2c1a8e0a9c13eae3a87ac1c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/I7gUcfvhWkmBwJ-BYGBpCg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='GreenUI Path&amp;apos;s Zoom Meeting - Meeting  ' /&gt;" Version="V2">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-            </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="1368c81e-cae3-4d1f-9ecd-20e99edebddd" ContentHash="gcqc7cWPykapUXhDGzkGng" CvElementArea="797, 5, 28, 26" CvType="CloseButton" DesignTimeRectangle="786, 1, 52, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="36cf0665-7f66-4a12-b10c-1381ae9d6d4c" InformativeScreenshot="c73ec536c0a2a762d7ed37d5e6687e76.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/V3V_75tNYkyFvXTHn8DPOg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zSimpleMessageDialogClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="1368c81e-cae3-4d1f-9ecd-20e99edebddd" CvElementArea="154, 221, 245, 52" CvTextArea="178, 237, 196, 21" CvTextArgument="Edit this occurrence" CvType="Button" DesignTimeRectangle="156, 224, 241, 48" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Edit this occurrence' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Edit this occurrence' /&gt;" Guid="ef1ac5f4-50ad-45d8-afaf-aa5c79e59ab7" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete meeting QA Daily…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="61da00da-f889-4008-86f5-0179bb9870d3" ContentHash="3TZOjMriAkOCTmVBqy0-Hg" CvElementArea="1147, 363, 157, 52" CvTextArea="1211, 379, 61, 21" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="1150, 366, 152, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Delete meeting QA Daily Stand up' role='push button' /&gt;" Guid="9e7e4194-98c1-41e7-a40d-0d8a7da49530" InformativeScreenshot="cc7040a83180b3041861d2eb24a92514.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/J2vmmkwevUy-uXxBvCf_Sw" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Zoom Workplace(4)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASSED: When cliked on delete meeting link, a pop up opens and is visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAILED: When cliked on delete meeting link, a pop up does NOT opens and is NOT visible" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="smde1sy6hUSsLmBkp59hRQ" DesignTimeRectangle="0, 0, 840, 311" ElementVisibilityArgument="Interactive" Guid="bd59d478-b68c-43ee-9177-0d4bb0524db6" InformativeScreenshot="4749a6fec86aec1fa24c2f6bb21949fc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Ogv3pUcogk-mESv4HLDcbA" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zSimpleMessageDialogClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NCheckState.Target>
-            </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="520008cf-e01b-403f-8e97-9907047c45ef" ContentHash="4KG540YebE-mTAyJxp_BOg" CvElementArea="797, 5, 27, 25" CvType="CloseButton" DesignTimeRectangle="786, 1, 52, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="cca9f4b3-4519-4de7-b2a6-fae6c36c1c73" InformativeScreenshot="ec3ea5963f618fe00064ea6ed664e9d0.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/q7xPDyRkF0q0XB1PWkVebg" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zSimpleMessageDialogClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="520008cf-e01b-403f-8e97-9907047c45ef" CvElementArea="105, 221, 269, 52" CvTextArea="130, 237, 218, 21" CvTextArgument="Delete this occurrence" CvType="Button" DesignTimeRectangle="107, 224, 265, 48" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Delete this occurrence' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Delete this occurrence' /&gt;" Guid="afdbb82e-022c-44eb-ba70-1f2f68254cde" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Join from a room QA Dai…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="61da00da-f889-4008-86f5-0179bb9870d3" ContentHash="q0K-_Jm4OE2rqNpGcYg_Qw" CvElementArea="1323, 364, 223, 51" CvTextArea="1353, 379, 162, 21" CvTextArgument="Join from a room" CvType="Button" DesignTimeRectangle="1326, 366, 219, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Join from a room QA Daily Stand up' role='push button' /&gt;" Guid="ded95b44-9697-43fd-9a08-e8d37beb6c3f" InformativeScreenshot="a2640197d24b135ce84935940be042dd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/MMbHE0NPHk660ODceLAqAA" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Pair with room Pair Con…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="b4885fce-b25d-4e55-adf4-cbbea40f78ed" Version="V5">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" OutputMessageFormat="PASSED: When clicked on Join from a room, pop up window opens asking for the sharing key " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" OutputMessageFormat="FAILED: When clicked on Join from a room, pop up window does NOT opens asking for the sharing key " Result="[result]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="3zr8UgvR0ESd_YkOt-aBdw" DesignTimeRectangle="12, 13, 495, 191" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Pair with room' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='zspacesui.dll/pair.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/pair.html' /&gt;&lt;ctrl idx='4' role='grouping' /&gt;" Guid="ad484a3d-0b93-4fcd-bcea-ce0909085806" InformativeScreenshot="a2d3f17237c7dae4641ab2348e263dc1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/iMCfmJ4QdESf-L_IoqCbiA" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZRCompanionWebview' title='Pair with room' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NCheckState.Target>
-            </uix:NCheckState>
+            </uix:NApplicationCard>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -295,7 +525,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="barqdbNXe0Cy2NksSwiPgw" FilePath="C:\Program Files\Zoom\bin\zoom.exe" IconBase64="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" InformativeScreenshot="65adc3f84b0ec2b75c6ac1043fc5d0cf.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" Version="V2">
+        <uix:TargetApp Area="352, 119, 1062, 793" ContentHash="lVBiByWM50OpzAchVhldZA" FilePath="C:\Users\GreenUIPATH\AppData\Roaming\Zoom\bin\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="12e98f1b5fe4a1dc58cc6863ae65b269.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" Version="V2">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>
@@ -304,6 +534,12 @@
           </uix:TargetApp.WorkingDirectory>
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
   </Sequence>
 </Activity>

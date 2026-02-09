@@ -36,6 +36,8 @@
       <x:String>System.Reflection</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -83,177 +85,108 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TEAMS_SMOKE_017" sap:VirtualizedContainerService.HintSize="1904.6666666666667,3439.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TEAMS_SMOKE_017" sap:VirtualizedContainerService.HintSize="1138,2227" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chat  Elmer, James  Microsoft Teams" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3416.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="2004da81-0232-4c77-92cb-9a4bddb8ce6a" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chat  Discover  Microsoft Teams" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2204" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,3157.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1948" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Discover'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2004da81-0232-4c77-92cb-9a4bddb8ce6a" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mentions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="115fabee-a679-420a-b78d-eb32d393d0f7" ContentHash="1IAirwDOyk6u9d1g2G3Qbw" CvTextArea="207, 257, 82, 19" CvTextArgument="Discover" CvType="Text" DesignTimeRectangle="207, 257, 82, 19" ElementVisibilityArgument="Interactive" Guid="72e0c330-c425-4967-88dc-0b6e2d6540de" InformativeScreenshot="cbb1e3202e8e12a9cbcd38fc3464cf7c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/0fpopeKsLEqawheJvTaa7Q" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="12af98aa-99ee-4954-8ee0-8605cba68387" ContentHash="qn_4_JmSVkGUCZfyTTdBjg" CvTextArea="207, 305, 88, 19" CvTextArgument="Mentions" CvType="Text" DesignTimeRectangle="209, 299, 88, 29" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Filter active' role='outline' /&gt;&lt;ctrl name='Mentions' role='outline item' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="3a9713fa-37b8-4a06-9bd1-8cce4438160f" InformativeScreenshot="77b7e74e0f9f20a0f20f0d3289bc2695.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/SrvyRfvw-0O4U8tCPqqL_Q" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chat  Discover  Microsoft Teams" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2906" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V2">
-              <uix:NApplicationCard.Body>
-                <ActivityAction x:TypeArguments="x:Object">
-                  <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-                  </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2646.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_6">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'Discover'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
-                      <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASS: Discover has opened into the view" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfExists>
-                      <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAIL: Discover has NOT opened into the view" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfNotExists>
-                      <uix:NCheckState.Target>
-                        <uix:TargetAnchorable CVScreenId="12af98aa-99ee-4954-8ee0-8605cba68387" ContentHash="JtYWlxf1tkWZXUAHpnlrTQ" CvTextArea="639, 116, 111, 24" CvTextArgument="Discover" CvType="Text" DesignTimeRectangle="641, 108, 109, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Discover' role='grouping' /&gt;" Guid="da92cf0e-9b21-4b15-81d3-d674ceaf55a7" InformativeScreenshot="6d776dbbdaf734c83fdb6f2b5fe84093.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/mn5ADN4jSUabyrjO5kEWog" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NCheckState.Target>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NCheckState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Mentions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable CVScreenId="12af98aa-99ee-4954-8ee0-8605cba68387" ContentHash="qn_4_JmSVkGUCZfyTTdBjg" CvTextArea="207, 305, 88, 19" CvTextArgument="Mentions" CvType="Text" DesignTimeRectangle="209, 299, 88, 29" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Filter active' role='outline' /&gt;&lt;ctrl name='Mentions' role='outline item' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="3a9713fa-37b8-4a06-9bd1-8cce4438160f" InformativeScreenshot="77b7e74e0f9f20a0f20f0d3289bc2695.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/SrvyRfvw-0O4U8tCPqqL_Q" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <uix:NCheckState DisplayName="Check App State 'Mentions(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
-                      <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASS: Mentions has Opened into the View" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfExists>
-                      <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAIL: Mentions has NOT Opened into the View" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfNotExists>
-                      <uix:NCheckState.Target>
-                        <uix:TargetAnchorable CVScreenId="ee6f37fb-e1e7-4f65-9df3-dfbd119e8fad" ContentHash="xc-5CWC7TUiOHFp-JHBZxg" CvTextArea="639, 116, 121, 24" CvTextArgument="Mentions" CvType="Text" DesignTimeRectangle="641, 111, 120, 34" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Mentions' role='grouping' /&gt;" Guid="4bb21e62-786d-460b-a9e5-bed5af512670" InformativeScreenshot="202e04bf51c0ed60fcff117123db00d1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/q_8z1T_6L0eE3VNszBbzxw" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NCheckState.Target>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NCheckState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Followed threads'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable CVScreenId="ee6f37fb-e1e7-4f65-9df3-dfbd119e8fad" ContentHash="WVl9RzFe8UKY1x6wLpkbQQ" CvTextArea="207, 353, 161, 19" CvTextArgument="Followed threads" CvType="Text" DesignTimeRectangle="209, 347, 159, 29" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Filter active' role='outline' /&gt;&lt;ctrl name='Followed threads' role='outline item' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="e620ba5d-7d41-4fde-9dd7-0d0db7d12cfa" InformativeScreenshot="c6b97aad3add89d81e9a2be77cc74c2b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CNd4yL61lECSfhSXDglgPg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                    <uix:NCheckState DisplayName="Check App State 'Followed threads(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,674" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
-                      <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASS: Followed Threads Has opened into the view " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfExists>
-                      <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAIL: Followed Threads Has NOTN opened into the view " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                        </Sequence>
-                      </uix:NCheckState.IfNotExists>
-                      <uix:NCheckState.Target>
-                        <uix:TargetAnchorable CVScreenId="9595a0b2-872c-42bc-b338-e9e85d335190" ContentHash="LvRONrBahkaT8QQe-bm3pQ" CvTextArea="639, 116, 221, 24" CvTextArgument="Followed threads" CvType="Text" DesignTimeRectangle="641, 111, 218, 34" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Followed threads' role='grouping' /&gt;" Guid="494d1d91-b0e0-417c-be00-853f26627e86" InformativeScreenshot="b460579258da3eb10670cbca11d4fbaa.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nCzxyk-qkESoLjlcxQ_VDg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NCheckState.Target>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NCheckState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sundararajan, Ramya (Yo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable CVScreenId="db4ec87c-0a05-4901-95c9-4c6dc12f7a21" ContentHash="_ru9iPHRDUCi5CSLzRgQrQ" CvTextArea="207, 461, 248, 24" CvTextArgument="Sundararajan, Ramya (You)" CvType="Text" DesignTimeRectangle="209, 456, 247, 29" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Filter active' role='outline' /&gt;&lt;ctrl name='Favourites' role='outline item' /&gt;&lt;ctrl name='Chat Sundararajan, Ramya (You)' role='outline item' /&gt;&lt;ctrl idx='3' role='grouping' /&gt;" Guid="f06f81c4-d773-4f12-accf-1c6c28b5c367" InformativeScreenshot="91705111ac3ea40cce0e36a7316c26f0.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/KJ3CbV3KOkyIAVEqAOOt6w" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-                      </uix:NClick.Target>
-                    </uix:NClick>
-                  </Sequence>
-                </ActivityAction>
-              </uix:NApplicationCard.Body>
-              <uix:NApplicationCard.OCREngine>
-                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
-                  <ActivityFunc.Argument>
-                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
-                  </ActivityFunc.Argument>
-                </ActivityFunc>
-              </uix:NApplicationCard.OCREngine>
-              <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="47uMJkrxa0G-JpHD3xW5Qg" FilePath="MSTeams_8wekyb3d8bbwe!MSTeams" IconBase64="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" InformativeScreenshot="f47286122c957047974cc94fff70803c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/2EclF4vX50-BwE8ckyPu0w" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" Version="V2">
-                  <uix:TargetApp.Arguments>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.Arguments>
-                  <uix:TargetApp.WorkingDirectory>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.WorkingDirectory>
-                </uix:TargetApp>
-              </uix:NApplicationCard.TargetApp>
+            <uix:NCheckState DisplayName="Check App State 'Mentions(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASS: Mentions has Opened into the View" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAIL: Mentions has NOT Opened into the View" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="cff4ce29-bd42-4289-9630-1568379975bb" CvTextArea="467, 77, 82, 17" CvTextArgument="Mentions" CvType="Text" DesignTimeRectangle="468, 75, 80, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | GreenUI Path (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Mentions' role='grouping' /&gt;" Guid="a0d6f6f6-024c-4505-b7d0-e70ca8c3bda8" InformativeScreenshot="e437df52fe3f6b03fb5ff13af7ed4c3e.png" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-            </uix:NApplicationCard>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Followed threads'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="ee6f37fb-e1e7-4f65-9df3-dfbd119e8fad" ContentHash="WVl9RzFe8UKY1x6wLpkbQQ" CvTextArea="207, 353, 161, 19" CvTextArgument="Followed threads" CvType="Text" DesignTimeRectangle="209, 347, 159, 29" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Discover | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Discover | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Filter active' role='outline' /&gt;&lt;ctrl name='Followed threads' role='outline item' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="e620ba5d-7d41-4fde-9dd7-0d0db7d12cfa" InformativeScreenshot="c6b97aad3add89d81e9a2be77cc74c2b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CNd4yL61lECSfhSXDglgPg" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Discover | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Followed threads(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASS: Followed Threads Has opened into the view " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAIL: Followed Threads Has NOTN opened into the view " TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="29bf3083-ffee-4be3-80e0-f4209a09f26d" CvTextArea="467, 77, 147, 17" CvTextArgument="Followed threads" CvType="Text" DesignTimeRectangle="468, 75, 146, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | GreenUI Path (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Followed threads' role='grouping' /&gt;" Guid="e7e64756-839f-4aa0-9f5d-5d9992ba492b" InformativeScreenshot="bd1dd65b9890f922b444b0cb8b0b2822.png" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="29bf3083-ffee-4be3-80e0-f4209a09f26d" CvElementArea="90, 192, 333, 36" CvType="InputBox" DesignTimeRectangle="140, 200, 106, 19" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | GreenUI Path (You) | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Chat | GreenUI Path (You) | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Followed threads' role='outline item' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Followed threads' /&gt;" Guid="daf637d7-db2e-4f18-9c19-bad83b463d43" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sundararajan, Ramya (Yo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a36e4671-04fd-4f20-97ae-299a355a8278" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="29bf3083-ffee-4be3-80e0-f4209a09f26d" CvTextArea="139, 276, 117, 15" CvTextArgument="GreenUI Path (You)" CvType="Text" DesignTimeRectangle="140, 273, 117, 19" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | GreenUI Path (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Favorites' role='outline item' /&gt;&lt;ctrl name='Chat GreenUI Path (You)' role='outline item' /&gt;&lt;ctrl idx='3' role='grouping' /&gt;" Guid="a6761614-892e-4e0a-93fd-44584edfd7c7" InformativeScreenshot="cd80ce5bfe6706a14b0be3e335785d17.png" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -265,15 +198,14 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="L0qBvzNtCkCjPNIm_GbQEA" FilePath="MSTeams_8wekyb3d8bbwe!MSTeams" IconBase64="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" InformativeScreenshot="ba5dca48e87eed0ddda84bd5c21effdc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4QC-fajuHE2_R0gkyuyBRA" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" Version="V2">
-          <uix:TargetApp.Arguments>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.Arguments>
-          <uix:TargetApp.WorkingDirectory>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.WorkingDirectory>
-        </uix:TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="8Vr8ExaoYU-k45pTrwnCHQ" FilePath="MSTeams_8wekyb3d8bbwe!MSTeams" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAlASURBVFhHzVeLU5N3Fs2f4D+wW7ftdHa3VfFVLYqAKFAEjDwihFcghDcJrxDCM4RolIdRQFB8UC2WVmu1dmtrbZttq1XXVbS1i7baKCigDVAgAkngnr3fRyrT7bSDs9uZvTN3GIYfnHPPvffcIJlLtB5z++0/Stb2Dho6dGAKHa1T1iMWl8Lz4983Wk9MV+09QTjwDnDwDeBQO6ijDfRWM9GxJneV59nvE43HXYrmk9PYcxJoOw7s6wD27wdeayEcaSIca5rCMcuEn+f5/z4aT7itze8SWphAy1ucrwF79jCZRqB9J5NonEanxWX1PBfD0I55dXudVbWNTltDwyQs2yZtlsqJKkve8DzPk7nHzuNuNJ0kNB4DGl8Hdu7lr01A8w7Q3h3AgR3TOFg3Oex5LjFYhueZ9ji7tu9zo65liuosbmowu7DT6ERT5XjXU5OoPzI5vKNjihoOERr2geqbQA31gKUW1Fg7jebtLtq9ZZw8zyXVuyeqTG0umNvcMDe5aWuti7aZXFRbMYldVZNMYszgeTq3MLWMWU1Nj7Fl1yRM9W4ybXVjS80UzDVTtK16EturHKirGH3Sgqrd47aavS7UtLjJUO9CJYMbyp1UUzqJ2jInNZQ6bJ6ncwu9cdi3pHIQJeXD0OlGoCscRUnRGJVqR1Be9CNVFA5RZaE9yfNcUtH4mCqZbHm9i/Q1TuhKnVRSzN9zVuvGYSoafaLWnEOd88CQlXofWco+ylH1IzdtAOq0AdJk9KEgo/9na6g1DtsKjWNUWPEY+SXj0ORPUr56grQaB3TqUdKrB59OgZ9CGXs7KTnmtjUl5jaSY+8MK+O+t2YobL9Yv6yCh1WZ6kdIz7JDlToIVcoQ0pVDlJVqR27qIxSk9T/dDDxtKBS2efHyu13y6Hskj+qBPKqXEjbfJ0VMD5Tye115/HPP09+Omo+gMX4IW/X7gOEU5wnAeBQwdwK1h3kd24EmNqSWfehqa8XPLFnq1zUvKqTbEBly0xYVcgvCV1n4LYNU2jU3cAZuN34ACODV7zH4u5xswzVsRGa24rrDIAvbsUCglS25jY3pwG60e379vwvD+1AYT8+CV58CcfVU9TYr8Caw9YioAO04COzaD2pmY2ptBfbuBlTybvh5fYIQ74uIXHcD8WF3KU3Wh7zEQSpNG4NJ7exq0E798oCVmDFfv23KqjU5kVc1juzSUaQXDUKpeYjk7D4o0nuhUN1DcupdqNLuQVthx7ZWNyxMoJEJNO8B7WYCtVvH4S8SuCQSSAi3IU3WLxCAPs1BJrULFh2rZfwPtbTmqfb8GhdyGDxdP4oUBk9UD0Ce0YvNShuiE79DVNxNRMd0Iya2G3Hym8hW96J+H7CD5d/ZwtnM7sj3YUaBnwjcfUJAUKBG7YSlGNRu5Iu6BRoPvESiYUfL5L1N1Y8gSTsIuWYAsqweRCrvIDy+G6Gyr7EhogshG69gQ9gVSDdehSzyOrZz9XVMoJ6rr28G1e4C/Bd/gleftEBQQGyBSMCY60SDltBWxS2rxKwfpJWOUUrJj0gosiM2rx+/FmuDziFg3RdYv+4cNgRdwBYGN7eAzFy9mavfutND4JWLiAi4QQlMQMUE1AmDpFeNojqH7biQ74eeW1cKeOAlkiQGji98hJi8PshyevHmqSF0nrTD8XgaDscUDnc+wKGOHvgG/B2rfc7CZ9VZ+K/+FAYePiODG/k6Ghm8mq+j76KPmcAFbFr7FeJCv4cq+gHU8XboUkdgyJ6AOX8K9axCfTHNEojN6SNZdg+iMu9RZNr32JTyLcIT/oWHj1wYeOjE+rCL8A/8Amv8PoW39xmsXPY3eC87jXKuvoIrr2DpKyxAGV/JNQvPImjll0zgOmJD7pAyso9y436ANuVHVGQ+5k1wYVvBtJgeeIkkKs2GCNVtbFJ+h42KWwiL/wYbYr5iAk4mMIm1wefhu3am+ldWnMZyr5NYvuAE9Fx5CVdewpXrGwBdrUDgIwStOA+p/zUm8B1SIu4jW/4IhYohlGU4uA0TMGlc2KJ2zx4ladJNhCd2i8Bh8hsIkV1DcOQVEbx/YAJ+AZ/BZ83H8F75AV5eegpLF7yDxX8+Ct0ukI7Bi+tBxQyuNQM+C84g8OVzFO57jTYHf0vJEb3IjHmI/KRBbsMoVWSOk9AKYR488BJJKFcbsvkaQqK7GPgqgqSXRdlFAv0T8PH9BKs80i9feAKL/3IUC59/AzoLE2DZi7cL4ISiGmD1S2do/fLPEb7mCmRB3Uja2COuojrBjqKUEdGQhFaUZ8x+iJEESa9Q4MbLCAy/hPWhFxEQ8qXY8/6BGQLe3h9i5XIGZ+mX/PUYFj3fiQV/6hAqx0+VF5mAAoNA4EMELP2MQldfRtT6b8RVTI3qI24D5ScNU7FyhE1pDHrV2KwCgaGXGPQ89/qcCOzH0y4MXB+D9/WNY4VQuQD+4tvweoHB57+OBc90QCtWDhSaQAxO+eVM4MUz5L/YSoIZRQR8DfmG2+IcZMTwZwhWoUAxLA6koIYHngkEX5gB9f9U7LUwbKuEql9+HyuWvIdlLLtYuQf8xT8cwpLnOqHdyuA1hAI2lvwyQFMyQ8DPa2YVpf7XKebVb5Ek7eF17EMWq6BhUxLmIT9paFaBoKALVj+/z2iV90ckDJoIvPQ9seqlLx0Xe76Iey6Av/THw1g0/whCg/+BwmqWvZIrZ/A8BlcXsQ8wOK8i8SDyHFyl6MCbJNyElMj7SN/cL2wE5cb/AM4nn6QlwcEX5gf4fd7u432WB+00icA86ULVXi+8iYXPzYAvfOZ1eD3biYBVVmQVOJBXRlw1CcCUm0+UqyFIg7pJ2IR1yz5H6Op/kmDJsSG3KVF6j2fhgUgiM/ahoMZvn++8MpdVU+aCppRT74K6hFPnQq6Wj1YRZ4EL2XkuZLGxZOW4kJHJme5CcsKI6IZrl1jFsyz4gSzoFgmuqNjUC8GYVNH9lCG1zfdA/Xpk5o1bMnIcEDI9mzOLM5OTDUWV5kCqilPpgDKFU+FASuIYkuPHEBF8B/5MQDCkMJ+rrMI3EGZBuI5JTIKHcu7/1CoUw/MVCvtriqShrkSe4kT29cQ4OxLknLGcMXxHhJTZERfNGWWHPMIOWdgDhPleR9iaq6IK0YHdQ7wR7XKpzcvzp/9fQiL5N+NPZ6DfWbeVAAAAAElFTkSuQmCC" InformativeScreenshot="3c6a07c68efbed31b9f38c881c8a071e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/hlUmYIcwaUeDL6BHqbsEWQ" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | GreenUI Path (You) | Microsoft Teams' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
   </Sequence>
 </Activity>
