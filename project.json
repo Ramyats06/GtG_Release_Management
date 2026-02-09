@@ -5,6 +5,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.3.1]",
+    "UiPath.Mail.Activities": "[2.6.0-preview]",
     "UiPath.MicrosoftOffice365.Activities": "[3.6.2-preview]",
     "UiPath.System.Activities": "[25.10.3]",
     "UiPath.Testing.Activities": "[25.10.0]",
@@ -592,6 +593,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Performance\\PERF-POC-FULL.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4010d8a3-b705-4c49-a4db-e68af278aee0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Performance\\BACKGROUND-PROCESSES.xaml"
       }
     ],
     "saveToCloud": false
