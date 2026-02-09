@@ -103,15 +103,19 @@
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
       <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Helper_Log_Performance_Metric" sap:VirtualizedContainerService.HintSize="1156.6666666666667,1688" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Helper_Log_Performance_Metric" sap:VirtualizedContainerService.HintSize="636,1522" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="506.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Boolean">[out_RowAdded]</OutArgument>
       </Assign.To>
@@ -119,7 +123,7 @@
         <InArgument x:TypeArguments="x:Boolean">False</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="506.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[out_Timestamp]</OutArgument>
       </Assign.To>
@@ -127,7 +131,7 @@
         <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="506.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Int32">[out_RowIndex]</OutArgument>
       </Assign.To>
@@ -135,7 +139,7 @@
         <InArgument x:TypeArguments="x:Int32">-1</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="506.6666666666667,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_4">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[out_FormattedMessage]</OutArgument>
       </Assign.To>
@@ -143,7 +147,7 @@
         <InArgument x:TypeArguments="x:String">[String.Format("[{0}] [{1}] {2}: {3} {4}", in_Category, in_Phase, in_MetricName, in_MetricValue, in_Unit)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="506.6666666666667,124.66666666666667" sap2010:WorkflowViewState.IdRef="AddLogFields_1">
+    <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="506,122" sap2010:WorkflowViewState.IdRef="AddLogFields_1">
       <ui:AddLogFields.Fields>
         <InArgument x:TypeArguments="x:Double" x:Key="&quot;Metric_&quot; + in_MetricName">[in_MetricValue]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="&quot;Unit_&quot; + in_MetricName">[in_Unit]</InArgument>
@@ -152,17 +156,16 @@
         <InArgument x:TypeArguments="x:String" x:Key="&quot;Timestamp_&quot; + in_MetricName">[DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff")]</InArgument>
       </ui:AddLogFields.Fields>
     </ui:AddLogFields>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506.6666666666667,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[out_FormattedMessage]" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="506.6666666666667,780" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="506,757" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="468,508.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence sap:VirtualizedContainerService.HintSize="468,497" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object(){in_TestRunID,&#xD;&#xA;in_AppName, &#xD;&#xA;in_Category, &#xD;&#xA;in_MetricName, &#xD;&#xA;in_MetricValue, &#xD;&#xA;in_Unit, &#xD;&#xA;out_TimeStamp,&#xD;&#xA;in_Phase}]" DataTable="[io_DataTable]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,223.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
-          <Assign sap:VirtualizedContainerService.HintSize="434,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_5">
+          <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object(){in_TestRunID,&#xA;in_AppName, &#xA;in_Category, &#xA;in_MetricName, &#xA;in_MetricValue, &#xA;in_Unit, &#xA;out_TimeStamp,&#xA;in_Phase}]" DataTable="[io_DataTable]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,218" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_5">
             <Assign.To>
               <OutArgument x:TypeArguments="x:Int32">[out_RowIndex]</OutArgument>
             </Assign.To>
@@ -170,7 +173,7 @@
               <InArgument x:TypeArguments="x:Int32">[io_DataTable.RowCount - 1]</InArgument>
             </Assign.Value>
           </Assign>
-          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_6">
+          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_6">
             <Assign.To>
               <OutArgument x:TypeArguments="x:Boolean">[out_RowAdded]</OutArgument>
             </Assign.To>
@@ -181,7 +184,7 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="472.6666666666667,23.333333333333332" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="472,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -192,11 +195,11 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="466.6666666666667,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Failed to add metric to data table: &quot; + exception.Message]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="467,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Failed to add metric to data table: &quot; + exception.Message]" />
           </ActivityAction>
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="506.6666666666667,114.66666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[String.Format(&quot;[METRIC] {0} | Row: {1} | Added: {2}&quot;,&#xA;out_FormattedMessage,&#xA;out_RowIndex,&#xA;out_RowAdded)]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506,164" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[String.Format(&quot;[METRIC] {0} | Row: {1} | Added: {2}&quot;,&#xD;&#xA;out_FormattedMessage,&#xD;&#xA;out_RowIndex,&#xD;&#xA;out_RowAdded)]" />
   </Sequence>
 </Activity>

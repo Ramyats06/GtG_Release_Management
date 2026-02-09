@@ -587,7 +587,7 @@
         "fileName": "Tests\\Performance\\PERF-POC-WORD-001.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "58856c41-0bad-40f8-aee9-432e538378b8",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
