@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TDIgwx_Qx0-Ln58YQHeDGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b9df9196-4ed0-4b6f-aa28-56384e96d6de" CvTextArea="674, 79, 30, 13" CvTextArgument="Chat" CvType="Text" DesignTimeRectangle="674, 76, 30, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Chat' role='page tab' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="d77a6b7b-7620-45e9-b37b-c06b940ee284" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b9df9196-4ed0-4b6f-aa28-56384e96d6de" CvTextArea="499, 77, 163, 18" CvTextArgument="GreenUI Path (You)" CvType="Text" DesignTimeRectangle="500, 73, 162, 24" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Chat | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Chat participants' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Chat participants' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='GreenUI Path (You) Available' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='grouping' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='GreenUI Path (You)' /&gt;" Guid="47b819ad-dba4-482d-b9a5-512dbb45ff03" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ef3dae9d0720e7d483ba805d868b2e92.png" xmlns="">0Z2KVf0Nl6UeDme92DoIGSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

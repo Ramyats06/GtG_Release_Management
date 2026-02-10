@@ -1,0 +1,12 @@
+﻿{
+  "Name": "TestDociManage.docx - Message (HTML)",
+  "Type": "App",
+  "Id": "1r_IBaRVwE254jUZuXLcog",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/1r_IBaRVwE254jUZuXLcog",
+  "Created": "2026-02-09T10:50:11.6069237Z",
+  "Updated": "2026-02-09T10:50:11.6069237Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

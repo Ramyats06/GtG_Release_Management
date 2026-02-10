@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LxJkHK_gJEO2eYwiW279rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="67e4205c-dfd5-49a8-aba6-22ff95548608" CvTextArea="22, 54, 22, 12" CvTextArgument="Edit" CvType="Text" DesignTimeRectangle="9, 45, 137, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Edit' role='menu item' /&gt;" Guid="656283f4-cb6e-40a0-bc3c-2a83d37dec28" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPMenuClass' title='ZPFloatControlPanelMgrWnd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6ee3e2506ed40d02e08395a6c3a9688.png" xmlns="">06pipcB4J4EK3Tj-W6p_52A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

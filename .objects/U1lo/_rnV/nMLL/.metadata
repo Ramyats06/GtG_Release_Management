@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Deleted Items - rsundararajan@cooley.com - Ou",
+  "Type": "Screen",
+  "Id": "nMLLjTFH80W8Kkg-L36nxQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/nMLLjTFH80W8Kkg-L36nxQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/_rnVsJ8BFkqTIhG3zlIEhg",
+  "Created": "2026-02-09T11:49:18.075028Z",
+  "Updated": "2026-02-09T11:49:18.075028Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

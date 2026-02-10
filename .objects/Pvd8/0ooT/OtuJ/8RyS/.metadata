@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Press SPACE to select t…",
+  "Type": "Element",
+  "Id": "8RySvsbPUEqv7v2xu5aDyQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/8RySvsbPUEqv7v2xu5aDyQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg",
+  "Created": "2026-02-09T08:57:13.9104313Z",
+  "Updated": "2026-02-09T08:57:13.9104313Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

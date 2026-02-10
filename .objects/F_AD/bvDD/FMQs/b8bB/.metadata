@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Microsoft Word Document",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "b8bBr2E1YEON8Jucti1fLQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/b8bBr2E1YEON8Jucti1fLQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/FMQskWtzcUqmKaMhqp_SAg",
+  "Created": "2026-02-04T13:27:45.0518107Z",
+  "Updated": "2026-02-04T13:27:45.0518107Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

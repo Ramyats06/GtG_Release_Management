@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EJ7QicPsN0qHxufgbpqZDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ff625824-da01-4ba1-b551-7325b3718f32" CvTextArea="344, 188, 60, 18" CvTextArgument="Include" CvType="Text" DesignTimeRectangle="330, 131, 91, 144" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='Include' /&gt;&lt;uia cls='NetUIAnchor' name='Include' /&gt;" Guid="379ffc4b-1fd4-4657-8291-2d4da8b5da52" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Sending a large file - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ff625824-da01-4ba1-b551-7325b3718f32" CvElementArea="363, 210, 22, 20" CvType="ArrowButton" DesignTimeRectangle="363, 210, 22, 20" ElementType="ArrowButton" Guid="6c6fb809-5658-4a7b-a844-62f70e0a7d75" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7a5c5f4a3c7b0759bcd2909116fbfea8.png" xmlns="">019sCWWbxRE26jzU1QA5dMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chat  GreenUI Path (You)  Microsoft Teams",
+  "Type": "Screen",
+  "Id": "GcRmJBOTYEa-YgpSGCWJig",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/GcRmJBOTYEa-YgpSGCWJig",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/x5Wa9rEQH0u7fLpX2DyiMQ",
+  "Created": "2026-02-04T09:53:47.9081989Z",
+  "Updated": "2026-02-04T09:53:47.9081989Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

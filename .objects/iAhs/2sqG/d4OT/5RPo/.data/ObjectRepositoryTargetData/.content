@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZX2ZLyNBc0CKxaQ6Udvs0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="development.iceland.co.uk" CVScreenId="3530dd24-a5e6-45af-97d4-4558519511cf" CvElementArea="84, 281, 725, 72" CvType="InputBox" DesignTimeRectangle="85, 285, 722, 66" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="deb9f9ed-d75a-4e18-ab31-438d37695036" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='usi_entry_url_1=https://development.iceland.co.uk/=1770405112806;usi_referrer_url=direct traffic=1770405112806;usi_pv_count=1=1770405112806;usi_item_count=0=1770387113816;usi_saving_cart=1=-1;usi_app.company_id=13361=-1;' title='Online Food Shopping | Iceland Groceries' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="399749d29ccf6006dc7672b706f1561f.png" xmlns="">0Hmazkeu_b06PLktAxvEVwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

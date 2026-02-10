@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Choose one of the audio conference options",
+  "Type": "Screen",
+  "Id": "LLwGjoY2CEWjJXnkkdT2zQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/LLwGjoY2CEWjJXnkkdT2zQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zltS94pxl0WCAM46xShZUA",
+  "Created": "2026-02-04T16:47:35.5799043Z",
+  "Updated": "2026-02-04T16:47:35.5799043Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

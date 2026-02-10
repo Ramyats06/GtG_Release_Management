@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e0gAAMPmU0qPFrn_VsOaMg" Reference="m1hPtSXhEE-MN2DzQb4wOA/t3uswTTYn0eHubuJr2ykwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c7e99b78-4733-4d83-8f2e-0cdfce8dd009" CvTextArea="1540, 446, 41, 11" CvTextArgument="Matters" CvType="Text" DesignTimeRectangle="1506, 438, 127, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Work Panel toolbar' /&gt;&lt;uia automationid='wrapper' cls='fixed-wrapper' /&gt;&lt;uia idx='2' role='group' /&gt;&lt;uia cls='ws-search-form-holder' /&gt;&lt;uia cls='btn-group open show' /&gt;&lt;uia automationid='dropdown-basic-1' cls='dropdown-menu ng-star-inserted show' /&gt;&lt;uia cls='dropdown-item' name='Matters' /&gt;" Guid="4cf8dff8-9bd7-4106-acc5-a46adc2e937d" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" SelectionStrategy="UIA" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="47988f60ef0cc1901c930badb51bedb2.png" xmlns="">0iXIA_6gjh0mYHHrNsJPWlg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

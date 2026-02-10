@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="R6gvIldK10WJWv39W8vD3g" Reference="m1hPtSXhEE-MN2DzQb4wOA/I7gUcfvhWkmBwJ-BYGBpCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="104, 104, 1440, 774" ContentHash="WUkB2hceMUS1g7dutNuTlg" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACJSURBVFhH7ZDRCcAgEEOdrnM5QZdxqI7RNnCl0jtQKRE/8iAgZzThkhA1OedzhizOE5kZsjhPZGbI4jyRmSGL8+DySynFTi9/ZipAK9BLswA+HxU49i0UqL20DTxhNdFMBdYvgM9HBRAWCdRe2gZ6oRXonalAswAeMbX+Br6owPQCM2RxQtykdAHdaENZpMHO5QAAAABJRU5ErkJggg==" Reference="m1hPtSXhEE-MN2DzQb4wOA/I7gUcfvhWkmBwJ-BYGBpCg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='GreenUI Path&amp;apos;s Zoom Meeting - Meeting  ' /&gt;" Version="V2">
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="8432876ca2c1a8e0a9c13eae3a87ac1c.png" xmlns="">0wTnBl3QE1UCtVZrxDhd0iA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

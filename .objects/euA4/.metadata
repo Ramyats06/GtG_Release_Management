@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Online Food Shopping  Iceland Groceries",
+  "Type": "App",
+  "Id": "euA4DTdymUeB7eQvhVaEng",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/euA4DTdymUeB7eQvhVaEng",
+  "Created": "2026-02-06T13:13:02.0027197Z",
+  "Updated": "2026-02-06T13:13:02.0027197Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

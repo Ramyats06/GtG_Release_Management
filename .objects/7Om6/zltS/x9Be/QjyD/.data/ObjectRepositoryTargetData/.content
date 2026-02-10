@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9ks8yBY6rEOC2E1LknnXrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2b6851c6-1578-4760-add2-15c011cd7cc5" CvElementArea="493, 4, 19, 18" CvType="CloseButton" DesignTimeRectangle="484, 1, 34, 25" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Close' role='push button' /&gt;" Guid="c8559ddb-ddce-42ed-8dd7-7db6687a807c" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='zJoinAudioWndClass' title='Choose one of the audio conference options' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2b6851c6-1578-4760-add2-15c011cd7cc5" CvTextArea="7, 7, 257, 15" CvTextArgument="zm Choose one of the audio conference options" CvType="Text" DesignTimeRectangle="7, 7, 257, 15" ElementType="Text" Guid="bbb43cb8-8c6b-4559-b625-91a188bcd895" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5d42b7a879da9bab56254ccf3c0f86ce.png" xmlns="">0vKSy9_UCeUW7Z9MboR-d-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

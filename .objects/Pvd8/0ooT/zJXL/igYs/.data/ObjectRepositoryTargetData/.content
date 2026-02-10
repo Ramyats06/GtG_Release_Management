@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hqS3vN47oUCU2AKWh53e4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="dedd3ca5-a6c7-411e-8eff-ab8a4fbbc3a4" CvElementArea="37, 411, 203, 45" CvType="InputBox" DesignTimeRectangle="86, 413, 129, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUILabel' name='100mb.doc' role='Text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='100mb.doc' /&gt;" Guid="0a5fa4ec-2869-4ee6-ac73-482f1c8d5abe" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dedd3ca5-a6c7-411e-8eff-ab8a4fbbc3a4" CvElementArea="37, 411, 203, 45" CvType="InputBox" DesignTimeRectangle="40, 413, 175, 40" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='100mb.doc 102 MB 1 of 1 attachments' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='100mb.doc&amp;#x9;102 MB' /&gt;" Guid="657be710-cc2e-4f96-a041-e399382a0f3f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf6b961768b2c00e918f15537b71dee7.png" xmlns="">0oA-rx8SCaUqMClNluRDhpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

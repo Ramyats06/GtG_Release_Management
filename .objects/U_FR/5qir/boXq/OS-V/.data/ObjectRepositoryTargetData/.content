@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dLR7WTDQ9UC43uofGx9qKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 8, 1920, 178" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="0ceaabc5-5559-4699-acc3-b450e663b7b7" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252636793v1&amp;lt;EUACTIVE&amp;gt; - WordTestDoc - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4042f3e4e5fb8c1f9a9bf1af53352b99.png" xmlns="">0xYhsjINQu0aR1sAAfM7uyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

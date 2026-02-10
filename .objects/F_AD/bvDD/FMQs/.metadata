@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Downloads - File Explorer(1)",
+  "Type": "Screen",
+  "Id": "FMQskWtzcUqmKaMhqp_SAg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/FMQskWtzcUqmKaMhqp_SAg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/bvDDduT0KE65OR-DtmnAXQ",
+  "Created": "2026-02-04T13:27:12.6557986Z",
+  "Updated": "2026-02-04T13:27:12.6557986Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

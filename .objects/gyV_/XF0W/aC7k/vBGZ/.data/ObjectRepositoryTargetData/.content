@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AtA5pk1IuU-ZBbZVkym-7A" Reference="m1hPtSXhEE-MN2DzQb4wOA/vBGZlJBDDky2H50dykYg0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c8da8ef5-405c-4a07-94eb-956bd2027f52" CvElementArea="1294, 218, 112, 31" CvTextArea="1320, 226, 76, 11" CvTextArgument="Browse and File" CvType="Button" DesignTimeRectangle="1295, 218, 111, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='              iManage Work toolbar' /&gt;&lt;uia automationid='m_idBrowseAndFile' cls='WindowsForms10.BUTTON.app.0.32906e6_r66_ad3' name='Browse and File' /&gt;" Guid="673ffa96-fc3f-4c76-943d-58f802004366" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9ca772a4e6885377f6fde3a82a8d7a47.png" xmlns="">0uGrfXCJnPEKz5Ei4EpQy2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

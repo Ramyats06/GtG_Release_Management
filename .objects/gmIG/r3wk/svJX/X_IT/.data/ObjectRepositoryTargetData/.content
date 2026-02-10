@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6gdPR6ngSkaiW31aM79xrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b1b6ccfc-a2b4-4f16-bd19-bdc8d44be930" CvElementArea="434, 49, 22, 21" CvType="CloseButton" DesignTimeRectangle="437, 54, 12, 12" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='close' role='push button' /&gt;" Guid="2496d725-a83c-4729-bc71-6bb22f432c15" ScopeSelectorArgument="&lt;wnd aaname='Zoom Workplace,Do you want to continue without audio?,You will n*' app='zoom.exe' cls='zChangeNameWndClass' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b1b6ccfc-a2b4-4f16-bd19-bdc8d44be930" CvTextArea="44, 50, 381, 18" CvTextArgument="Do you want to continue without audio?" CvType="Text" DesignTimeRectangle="42, 44, 385, 32" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Do you want to continue without audio?' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Do you want to continue without audio?' /&gt;" Guid="0e8687b8-e0a7-43b4-a00a-fd0bdba7be22" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e592a0554b70a0010f9794345985fbea.png" xmlns="">0041BvXMjAU2fB-o_K_-TDA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

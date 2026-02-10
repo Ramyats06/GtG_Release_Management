@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="POat1XNc2US4fANPrYN9dg" Reference="m1hPtSXhEE-MN2DzQb4wOA/Y9YO52edlkuHqaeccyaGAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" ContentHash="rITiogX41E2F2Co5twLnEg" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAISSURBVDhPxZLLa9RQFMYjFVyKf4ArN+5dqu1gwRc+UDtVERVh6FDjaxwxo7RSxXaU0jgJqAWp+NjY2Si+sOJjYVWwdFFF6kwns6gFKVNsczOTxEyT4zm3uaUDFlwIHvhxb5LzfefecyL9g4AlGQMSmgEvkQkknxqoZrclzA8HkuxjXDFfxJWZ7lhqZk0oqA2tAMf1IgCRyQfenkuV72tbGQg2yAyaEgxaFCRlDrQkp1aH0rnAip+EwfZz1uRC8UIa0ejgGW7kIeloNFvHDVA4ReJYnztKieoDBx4P/vqjCbHrFIN4ijCfRCJvl0q6AZNqPnAaZDZLCRvxuLvPW3DnuQuvhjzo6LPhzbAHvY/ceZMdJ0MTxbxIV3h/ot/NiY9E5z0b3o1U4fJdG3w/gLZbNgznqnD2RmU+Z+9pfgpDwglca+qsbdztpy6k7zt8X5r2+XrzoQtq/9w7ov4ogxhOiKawb+eF8g/xgfgrA9nyY3p5v3TFgOVHeh3eQMEW7Db1gvbRdouvm5MMNuGxad8gW9WOwdlxvH4jn0TPKGgoKAuDxVjXyoLmrsp499dgGsUlfQyWcYP0Z1ih5vyRw9edMTKql5kfioLIMcvbqlg/cczfrn4JSjRyrQi2WoT1XCyipwArcaRD4qei0WpGEIhnAVZ+hpVXhbLaiGahLlOAQ5SETFAlxEDj13oB2hYV/seQpN+stwlpROHBUgAAAABJRU5ErkJggg==" Reference="m1hPtSXhEE-MN2DzQb4wOA/Y9YO52edlkuHqaeccyaGAA" Selector="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="6005b0d887f385af1c91e84bc94bfe82.png" xmlns="">0RlGqSPQ1N0OdNBLYTNkPgQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

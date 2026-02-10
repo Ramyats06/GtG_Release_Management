@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Calendar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "oTZBYTXK5UaW3_J3IwHzUA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/oTZBYTXK5UaW3_J3IwHzUA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/6iE8G-sbbUC9TK2b1SCOGw",
+  "Created": "2026-02-04T15:09:36.0774826Z",
+  "Updated": "2026-02-04T15:09:36.0774826Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

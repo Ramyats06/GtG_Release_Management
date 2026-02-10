@@ -1,0 +1,14 @@
+﻿{
+  "Name": "R1-DEV Grocery",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8L5yHk5MEE2TUkk7AboLOQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/8L5yHk5MEE2TUkk7AboLOQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/0bqUX7rXVkak0PCKNZVn2g",
+  "Created": "2026-02-06T13:15:54.2917233Z",
+  "Updated": "2026-02-06T13:15:54.2917233Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

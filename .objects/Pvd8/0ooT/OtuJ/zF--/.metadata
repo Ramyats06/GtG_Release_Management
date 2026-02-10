@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Close pane",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "zF--hxC8MkKyKM7zrt8GBw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/zF--hxC8MkKyKM7zrt8GBw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg",
+  "Created": "2026-02-09T11:34:56.3826968Z",
+  "Updated": "2026-02-09T11:34:56.3826968Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

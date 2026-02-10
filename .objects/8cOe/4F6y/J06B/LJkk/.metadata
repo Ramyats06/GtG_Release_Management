@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Remove all",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "LJkkwMsGyki2-SszGQlcig",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/LJkkwMsGyki2-SszGQlcig",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J06B0eNXEkanlwOjdYPtaQ",
+  "Created": "2026-02-04T12:15:43.836213Z",
+  "Updated": "2026-02-04T12:15:43.836213Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

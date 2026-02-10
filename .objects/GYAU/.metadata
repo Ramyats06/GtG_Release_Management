@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Zoom Meeting(2)",
+  "Type": "App",
+  "Id": "GYAUXAN3UEmak3EvvU5ScA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/GYAUXAN3UEmak3EvvU5ScA",
+  "Created": "2026-02-04T16:37:14.5528855Z",
+  "Updated": "2026-02-04T16:37:14.5528855Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

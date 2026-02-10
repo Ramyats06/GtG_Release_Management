@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Profile picture of Gree…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "HZN1t8-YPE6k7joaRsh1ug",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/HZN1t8-YPE6k7joaRsh1ug",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/gNe5Ssue-UiowRf6SLyZIA",
+  "Created": "2026-02-04T11:18:02.1590931Z",
+  "Updated": "2026-02-04T11:18:02.1590931Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

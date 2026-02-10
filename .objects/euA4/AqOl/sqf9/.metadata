@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Online Food Shopping  Iceland Groceries",
+  "Type": "Screen",
+  "Id": "sqf9PzwkdE66B_K3VX8jQA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/sqf9PzwkdE66B_K3VX8jQA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/AqOlM19PBUuJKsaMWUlxdA",
+  "Created": "2026-02-06T13:13:02.0181363Z",
+  "Updated": "2026-02-06T13:13:02.0181363Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Essentials",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "KfjXFh2XJkm_Tt6JjmkIBA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/KfjXFh2XJkm_Tt6JjmkIBA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/0bqUX7rXVkak0PCKNZVn2g",
+  "Created": "2026-02-06T13:17:23.8672517Z",
+  "Updated": "2026-02-06T13:17:23.8672517Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

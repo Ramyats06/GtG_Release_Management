@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lUGq0zW8ukCCgNKE6xn5Eg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2ea62e57-0315-4613-82fd-2abf6e0bfd2c" CvTextArea="190, 51, 40, 12" CvTextArgument="This PC" CvType="Text" DesignTimeRectangle="152, 41, 505, 34" ElementType="Toolbar" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: This PC' /&gt;" Guid="d0f6321b-9046-46c3-a2ee-962ad1be8847" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2ea62e57-0315-4613-82fd-2abf6e0bfd2c" CvElementArea="143, 40, 583, 35" CvType="InputBox" DesignTimeRectangle="691, 41, 34, 34" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Refresh &amp;quot;This PC&amp;quot; (F5)' role='push button' /&gt;" Guid="7eced8ad-730e-4a53-aee5-568560d37ed9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVFhH7ZS9DoIwEIB9Z1ZYWVl5B1ZWVmYY4RmYWc98JxhDUHtpJY3plxQrIvflfnqTSIlXbJomiW2pmF4jIolZSWJWkpiVJGbl/8V4UdM0Ute1VFWl+2VZdLVtuz3lThAxJLIsU4FxHGWeZ+m6ToqieIpa8RZDpixLWdd1u/OATPV9r8KXixE8z3P9PIIwQqzLS0kJKdkv8BIjG/TTN8joMAzbNze8xGhsl4AEsfaZdyld+ody86wFLzH+zNQdJ/IVysixcTYgn/ASg/24OAuMML9dPpU7BObYoGS8kL7jHtm0lnAniBiQMSRocoaCvcvEviOYWGiSmJUkZiWJWUliVuIXYxPbUjG9RkikYiJ37F4OCpD28TcAAAAASUVORK5CYII=" SearchSteps="Selector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f7a75504f70d04abdc97fbdcc94f5f29.png" xmlns="">0Mqq-OL8qpEyEdMp5u1loOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

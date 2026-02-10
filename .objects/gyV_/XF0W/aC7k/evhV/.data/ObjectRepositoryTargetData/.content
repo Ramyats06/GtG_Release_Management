@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ED8hCYTpYky8oRAO6QDV0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="7RKF_bl38UGUjUQMYa5rRw" Reference="m1hPtSXhEE-MN2DzQb4wOA/evhVAuiyGUCSouGJSvzTiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="57ada101-1f31-428b-a23e-04fcb03d6a0d" CvTextArea="114, 61, 36, 13" CvTextArgument="Save" CvType="Text" DesignTimeRectangle="114, 61, 36, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="9f2b26e2-18f5-4bd5-8d20-f898484d51df" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="57ada101-1f31-428b-a23e-04fcb03d6a0d" CvTextArea="78, 82, 90, 15" CvTextArgument="Attachments" CvType="Text" DesignTimeRectangle="78, 82, 90, 15" ElementType="Text" Guid="887731eb-1897-495d-ba6e-2bfb0dd01dfc" SearchSteps="CV" TargetType="ComputerVisionBased" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="64c8210f950a493d2a8f3b18d06febb3.png" xmlns="">0o2g26UuMBUqpy6Xc_75sqw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1567, 93, 84, 76" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIAnchor' name='Save Attachments' /&gt;" Guid="5f140721-8937-4aa6-ab73-4334e64943eb" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="74d5ec5a3bd8b4e6a9a50ed5f1838fef.png" xmlns="">0YnRSlhUC90W268zzIRWGlg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

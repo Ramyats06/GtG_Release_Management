@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a6HCgmEiakSYEM_TYqGFfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="development.iceland.co.uk/everyday-essentials" CVScreenId="4411b468-3685-45d3-b689-06b4e9140dcc" CvTextArea="83, 560, 435, 50" CvTextArgument="Everyday Essentials" CvType="Text" DesignTimeRectangle="84, 555, 1752, 54" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="0f5759f8-b933-450a-9eca-2a3066f7aecc" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='usi_entry_url_1=https://development.iceland.co.uk/=1770405112806;usi_referrer_url=direct traffic=1770405112806;usi_pv_count=2=1770405436504;usi_item_count=0=1770387113816;usi_saving_cart=1=-1;usi_app.company_id=13361=-1;usi_last_url_1=https://development.i*' title='Everyday Essentials | Great Prices' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2a294f274385d42d3ef6744409f6a80e.png" xmlns="">0tWr0aOV_OEC-U30QkbGIpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

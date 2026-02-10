@@ -1,0 +1,14 @@
+﻿{
+  "Name": "F&ile",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "r_21zr-4xkaHFuNyP15o2A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/r_21zr-4xkaHFuNyP15o2A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Y9YO52edlkuHqaeccyaGAA",
+  "Created": "2026-02-05T15:08:34.8731426Z",
+  "Updated": "2026-02-05T15:08:34.8731426Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

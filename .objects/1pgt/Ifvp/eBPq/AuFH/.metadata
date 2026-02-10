@@ -1,0 +1,13 @@
+﻿{
+  "Name": "GreenUI Path (You)",
+  "Type": "Element",
+  "Id": "AuFHKrjWOU6UqpfyZXOZrQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/AuFHKrjWOU6UqpfyZXOZrQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/eBPqWmgHsEqwbJFXcMv7rw",
+  "Created": "2026-02-04T14:59:18.0026084Z",
+  "Updated": "2026-02-04T14:59:18.0026084Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

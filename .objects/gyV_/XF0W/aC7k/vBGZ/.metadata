@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Quick File",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "vBGZlJBDDky2H50dykYg0w",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/vBGZlJBDDky2H50dykYg0w",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/aC7kySkbd0qMHIq3n17YXg",
+  "Created": "2026-02-05T14:45:09.6569106Z",
+  "Updated": "2026-02-05T14:45:09.6569106Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
