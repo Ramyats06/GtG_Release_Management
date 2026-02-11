@@ -97,7 +97,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="XLS_SMOKE_011" sap:VirtualizedContainerService.HintSize="1904.6666666666667,4706.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="XLS_SMOKE_011" sap:VirtualizedContainerService.HintSize="1915.9999999999998,4864" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -107,7 +107,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="552,115" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[filenameTimestamp]</OutArgument>
       </Assign.To>
@@ -115,7 +115,7 @@
         <InArgument x:TypeArguments="x:String">[DateString + " " + TimeString.Replace(":", "-")]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="552,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap:VirtualizedContainerService.HintSize="552,115" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[cloudFilename]</OutArgument>
       </Assign.To>
@@ -123,26 +123,26 @@
         <InArgument x:TypeArguments="x:String">["XLS-SMOKE-011 Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2891.3333333333335" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2872" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2622.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2605" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="f8568e07-da52-4725-bf45-b7b49a3a238e" ContentHash="7-1FgKnMnUShmebFSNmCxw" CvTextArea="950, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="937, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="34db9fa2-45c5-4846-8406-e664dbba6b4d" InformativeScreenshot="e0fc39634446a8a10c709380fb6de184.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/flT0O_MejUSNquhMTfUXbg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Connected' (icon is green)" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,848.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Connected' (icon is green)" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,843" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -151,13 +151,13 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,433.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,431" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Connect'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="c40f9489-ab23-47b1-b92e-f4028f50ad95" ContentHash="IdwU5leCNkGGJbLMDCNt7A" CvElementArea="65, 215, 21, 18" CvTextArea="42, 192, 67, 18" CvTextArgument="Connect" CvType="ArrowButton" DesignTimeRectangle="42, 192, 67, 41" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="0fc832d4-1b43-4130-bfd4-478422995546" InformativeScreenshot="c1d5d15cb4faa3e0d55b0f35f795a8cc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CG0UJBNAo0W0wGCP4LgJYg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -168,32 +168,38 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1 eu-active.cooley.com(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1 eu-active.cooley.com(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
                     <uix:NClick.Target>
-                      <uix:TargetAnchorable CVScreenId="bf6bb706-c6d8-482c-99d9-dbaaf5f3ea8b" ContentHash="H7gauokbmk2ZjzZYny1EsQ" CvTextArea="45, 254, 60, 15" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="43, 250, 280, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUITWBtnMenuItem' name='1 eu-active.cooley.com' /&gt;" Guid="d1c9dcde-3a83-463d-9af0-65f6d5b99ac2" InformativeScreenshot="45569fa314a2082dc1bc80b9443a2a04.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/eQHMNgDg00ukX6PoyJr6DQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      <uix:TargetAnchorable ContentHash="NF-YMdx3REqzIhDHchf9Ew" DesignTimeRectangle="30, 196, 183, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='Connect' /&gt;&lt;uia cls='NetUITWMenuItemGroup' name=' ' /&gt;&lt;uia cls='NetUITWBtnMenuItem' name='2 eu-active.cooley.com' /&gt;" Guid="4b2d6a15-3281-4226-b13b-de59d9bee8ce" InformativeScreenshot="9150486c1f4920a89c4952f6ea4476aa.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZDVyUjn6zUatkE1z6-1WBg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NClick.Target>
                   </uix:NClick>
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable CVScreenId="bd93319e-01f4-4dcb-97c5-89710a8e771d" ContentHash="k7HcxWrgdUqQeJhnXemZ2g" DesignTimeRectangle="39, 132, 77, 118" ElementVisibilityArgument="Interactive" Guid="365db858-4726-4242-bf58-826250e1388e" ImageAccuracyArgument="0.95" ImageBase64="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" InformativeScreenshot="11b1befd355efe9007cfa6937eec18ca.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/4x4NRNn5a06KnP1gZZx1eQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="cb266c10-e75c-4d34-a5a8-4ec882502ae3" ContentHash="QmRu3S6CXU2S201y8LrtBw" DesignTimeRectangle="28, 90, 50, 76" ElementVisibilityArgument="Interactive" Guid="cff80852-ae08-4fda-bdcf-3dc0f5881dd4" ImageAccuracyArgument="0.9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAABQCAYAAABS6IaaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATFSURBVHhe7Zh/TxRHGMf7YngfvBD+ajVt0xZjxVwa29o2ao0RctY0orXVIiAXRa2m0Tvh5OCQoxQFFAscEhBoASnWGFB+T/c7t892bpldertzJ6PzSZ7c7szezPPZ+XG79w57QzFiumHEdMOI6caOEtvY2LCPwlNSsfX1dTY2N8X6p0fZ88UXdmmO1dVVdjxzmT226lVQMrHFl0vs644G9u6tqBOZ8UFeB6ljdy855SrkSiIGqc/azvGk96V+ZEd7m9mu+Hf8vDXb60h93HpKmVzRxF4sLbLllZU8qc/v1rPk3CBLzQ+xhtF2Rw6xL3WWxf8aYNX3rzlls//8bbdWOEURg1RV8iw7lG6QSlFAbrclF2k/x6WuT/7OPrJHra4vEWozUS729PkCl6K77iVF0TTWmZOaUicFlIpNLcxa0+sET+5gVyM7mL7AjmRinlIUyblHrKotdzO+bK9Tsu0rE8P029NS64xSVftP7PbMg22lKJpG086aS48N2K0GR4kYrSkkFek47yS435KTSXiFuKEMWL91YVAidnO4myfznjUNr038xuqyKSfBw51NUgmvqLfk8L0PE9+//s0DI7bLSgYJ1fRe5QmKctU9zVsE/II2kaVXL+0eCie0mNfvFAJyGEXUfdPZmJe8V9QOxvn1n7aeYZubm3YvhRNKzE+Kgsvdysltt+ZOP0o4N+LJ/IzdSzACi62srmwrRSFOyy86L0ivEaWGZibsXoITWOzXoQxP4oCV6P/Z0sWRc6851VIgsNi31m6HRJonuvOS9AtxzR3tivGyn0faLOHcxtM7OWy3Hp7AYvX9LTyZY/eubBHwC3FaYs3hR3xv2w/8/FD6In9nU0FgMbwovh8/yROq6ftFKuEV4rSsTNY6o/hg+rHdengCi4E/nz115E703ZBKyCJhjZI4cqqlQCgxEB/u4YlhnVwez0hFxDj18CarbK1l0f4bzkhdHEjarakjlNiwtYNxKSvBM3/c5ok3jHZskaEQdz+KbvvvAdUEFhOlkDASr753lZfV9F33larJXOGfqqefSCCxtbU1tv9O7mke/2Hgfeq48ErPkxc2FFEKNwSPStMLc3ZrxSHwiImvKpXJ0/zzg8RJ1jX+0NlQvso0siM9l/KkSkWoNSbKQWrm2Twvx275Sct//zhBdGT2Ca8rFaHEAOQOpM47UsSr5WX+snh/coQ/LJea0GJA5V/TqlAithMxYrphxHTDiOnG2ylWXl7OysrKeOBYJ6Ri2WyWy8RiMbskVyaev26QH3LyQipWUVGxoyRkFCxGo+UHXUMh3gQ6p7poNGrX+NeJbbqnvbgkUqmUc4yIRCL2VflsEcMXt1tPqCcZSojuHo4x4oCSIPzq0Ca1gbYpYVwvS17sU0bBI+ZOCIhT192heO5V5x4FBNr0ywXlYltupGtMHBE3xRKTzRLUufsi3G25kYohSXwRHRI4FpOnY+qcOnF3WEid7GZCWFyLBK4X83MjFQPoEF+moLUB3HViBzj3S96rDm3gnEJcV2I59YV693UinmK6Y8R0w4jphhHTDSOmG0YsCPSYRI9B7vNiUvQRIxk8yJZKCpRkKpZypAizxnTDiOmGEdMNI6YbRkw3jJhuGDHdeEPFGPsXLjed2q2cL/EAAAAASUVORK5CYII=" InformativeScreenshot="73ffbd1086b6dfa225fbd6cf168beeac.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ebrfxI25Q0KW9v29FMlrZw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="cb266c10-e75c-4d34-a5a8-4ec882502ae3" CvTextArea="29, 129, 47, 12" CvTextArgument="Connect" CvType="Text" DesignTimeRectangle="29, 129, 46, 12" ElementType="Text" Guid="e28a690b-e1cc-4c4d-826f-ee5ed3989c66" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="3u88rCImaEqmrZaei7tg6w" DesignTimeRectangle="203, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Save As' /&gt;" Guid="8524fa12-5ad4-4ab2-b862-86722f6da19c" InformativeScreenshot="dee7a201a7cae4c3ff7468192607acbb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fXjP50l9o0e_0GmOtk_0vw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="484,124" sap2010:WorkflowViewState.IdRef="Delay_2" />
-            <uix:NCheckState DisplayName="Check App State 'Next'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,657.3333333333334" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+            <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <uix:NCheckState DisplayName="Check App State 'Next'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,653" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,242" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,241" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="febe6a5d-dc04-4330-82b9-51a634740b49" ContentHash="l3mqK3Ld5E6vOXvG-5FhSA" CvElementArea="887, 644, 130, 57" CvTextArea="928, 661, 48, 21" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="890, 645, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Next' role='push button' /&gt;" Guid="5eeba806-cc40-42c2-a9ba-8c86ed4303df" InformativeScreenshot="5f94e0bb5f38bc1da76b70b5a9110e1b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/b2-HlDtvqUiguZUEHbWSMw" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -207,7 +213,7 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -225,17 +231,17 @@
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'Book1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Text="[cloudFilename]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'Book1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,242" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Text="[cloudFilename]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="309e6f2f-b2ec-4658-95d6-6b42450697d6" ContentHash="HeXVy-c9eUSvV5cjrB38vQ" CvElementArea="1288, 273, 451, 57" CvType="InputBox" DesignTimeRectangle="1287, 275, 450, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Title' role='grouping' /&gt;&lt;ctrl role='editable text' /&gt;" Guid="361c55b3-dc5d-4b10-adb5-05d8fef617dc" InformativeScreenshot="3c905ac2f0c194541ed621b05764771f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/creBTzbI7U-7SJ6mnBPeXQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6ec8509-50f4-475d-909b-52ab15a730eb" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="5e36e64a-b75d-4040-820d-4f6b701679c0" ContentHash="52ZOpN48fEOHJiXQWhQ1vA" CvElementArea="1490, 1047, 131, 56" CvTextArea="1531, 1065, 48, 19" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1493, 1049, 126, 54" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Save' role='push button' /&gt;" Guid="7568fb07-8acf-41d8-841a-9c5a65c0049d" InformativeScreenshot="953f10ba99a1294dce5f643cee159215.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/tqKCWrVEDUq6ResK6gO_jA" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="484,114.66666666666667" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="484,114" sap2010:WorkflowViewState.IdRef="Delay_3" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -257,52 +263,57 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1558" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1739" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1298.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1481" sap2010:WorkflowViewState.IdRef="Sequence_13">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="f8568e07-da52-4725-bf45-b7b49a3a238e" ContentHash="7-1FgKnMnUShmebFSNmCxw" CvTextArea="950, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="937, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="34db9fa2-45c5-4846-8406-e664dbba6b4d" InformativeScreenshot="e0fc39634446a8a10c709380fb6de184.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/flT0O_MejUSNquhMTfUXbg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="ec07b7f0-a47f-4224-9d8f-8164c9f36423" ContentHash="TpBlrfes6EmCeZ63hfE_pQ" CvTextArea="144, 192, 48, 21" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="138, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='iManage' /&gt;&lt;uia cls='NetUIChunk' name='File' /&gt;&lt;uia cls='NetUIRibbonButton' name='Open' /&gt;" Guid="5cb9ba9c-29a4-495b-a11f-db1f90f9d34d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAB2CAYAAAB8v0VTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAVTSURBVHhe7ZjbaxxVHMf9Y/IX5NVL7IuI5kEUXwwIIkhSa0XUBVv6IKnVQjAURKjxQa3SSPAefFBpY1W0DymKWnTrLTViu16zm+wleznud/L9sWdmzm7OTPcywd8HfmRz8puZcz7zO7+ZzXVGCVARREUQFUFUBFERREUQFUFUBEkk4tJa0Vw/05/AubJEIhH75zaci0oTOFeW8BbRz2qQyFJVeIuQavhurdGXuO/YZqaqwkuEXQ2uRaWJt8/VMlUVXiLs3uBaVNrIUlV4iRAJ/RYhVTGIuPdo0axfKXEFuzNSEQhUhX3+fsa+gyVvGSMXMciqQKAyfBi5iEGFPWcfVARRESS1iC++rYfGsxCY09BFLH5UDY1nITCnoYs4/mo5NJ6FwJyGLmJmLv78P/JiOSjP8xfr5ujLwxeFOQ1dxG2PdcYQx14pM7vDc29UQjmDDsxpqCJcjfLH3xrM7vDHv81Y3qBDGqY95kMqEa5GWfinyewOlVorljfokIZpj/mQSoSrUb7VflWOcmZ1O5Y36JCGaY/5kEqEq1He8kjRnPtym0eYoGHe/ngpljfokIZpj/mQSkS0Udpx66NoWmEBh06WzdkL2+bq302zXW8FveN8ey+jwU4cCB8PeSffqZqLPzfMxmbLVNvb6/LVpnnz45rXN1VpmPaYD4lFJHmjvPNQyXz9U7yJ2qxdaZr7n9lZ4FNtMaVyi3+J02q1zLuf1szND7mvJxGdow+JRfi+Ud59pGT+bN95H8rVlln+rLOtduPC9/VYJdkRnaMPiUX4vFHe9GDR/LDeuxKulaWz3f+PEZ2jD4lFuBplNOZOV3hkh782msHezz2/ZU4sVcwvv/cW9fk3dfP0qYo5/ELZLJ2pmXojvGUazZa550n3XKJz9CGxiF6NUuLSr+FFYtHRJ8i+g8WgYbpYeC++/R44vmlq22EZpz90V0V0jj4kFrFbTObi/yM88OyWM/eOJ0qxO51vS7xhfzwX8dL7VWbtgO3nyouGD30XgSeADR5/N3ZZGCJ/OVw9r33Qfe/PzG0xa4fN9hPGlRcNH/ou4uET4cmuF3p/3/jkq/D2mH+9+xe1uw7Hq82VFw0fVARREURFEBVBVARREURFEBVBVATpu4gshg8qgqgI4iXi/4CKICqCqAiiIoiKICqCqAiiIoiKICqCqAiSWkQ+nze5XM5MTEyYsbGxICYnJ83i4iIz9hapRKysrJjx8fFAwvz8fPA7BECMCCkUCszeGyQWgUqAhG6LXV1dDf4+OzvLkb1BYhG461horzuOKkFlQNpeIbEIn7sNSRCxsLDAkY4c/G16ejr4jMBnVFEUjPXKk/PZeddSiYlE4A7jgsvLyxzpjvQPQSY+NTUVfEZfwXmQF60w2V7IlTxsReRKnpxPGjTyZMy+ri+JROBiuBB+7oYsWJBJRo8VuXb14Fgs2iZaZd3Oh2MhJymJROBO+YroVhEuMHGUtxAVI2CR6FGg2/l6XacXiXsELuLbI+x3il4TxAIRAvK6heSNXESSp4ad02uCqB5bLvKQj8qLhjTMkYuQ7QEhLhmYrKt7ywRlIQLyMW434OhWcTFyEQAlj4tJH8Bi7DdL2cc2MkEcI10eP+XpYAMpyIUM5EmunZcJEUC+a2AhuDACE8WEXcgEURG44/gsleOqLHlkyrnxGecQMiMiKWknOCxUBFERREWQoYnIOiqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICqCqAiiIoiKICoiwJj/AEtYWJVcaafKAAAAAElFTkSuQmCC" InformativeScreenshot="49fc3baa7e86b616247d52393ff755b6.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DfrvKIaFGUCW6jsG6L7I5Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'XLS-SMOKE-011 Test iMan…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="a51314be-f97f-4bc3-ab21-0c7bb666452f" ContentHash="mfh6wgDmG0Cmk9QYzMweBg" CvTextArea="295, 350, 286, 14" CvTextArgument="[string.Format(&quot;{0}&quot;, cloudFilename)]" CvType="Text" DesignTimeRectangle="297, 342, 287, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open XLS-SMOKE-011*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="3df221a8-7110-4e2c-b328-639774bfc777" InformativeScreenshot="2a003f57e992c235549a27879d6394ae.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/rtJQz4RRfkKdMkvEPnKXaA" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,190" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="f1ead9fe-2aee-4d31-abe1-0ab5c396e65b" ContentHash="IfsDx5zw-EWpWTJKhwK9PQ" CvElementArea="871, 656, 164, 58" CvTextArea="906, 673, 57, 24" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="873, 657, 127, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" Guid="8a026d69-2727-42ef-90dc-74ce1932ff98" InformativeScreenshot="d88a981701f6330eefc505c84deee475.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/5JBqs333lki1FNy1lmkRNw" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Pane Ribbon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Pane Ribbon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,661" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_14">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Passed: Saved Excel in iManage has opened successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Passed: Saved Excel in iManage has opened successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_15">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion Failed: Saved Excel in iManage has NOT opened successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion Failed: Saved Excel in iManage has NOT opened successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
