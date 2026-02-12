@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SHxrtZhE-Umoq7KME019Dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9c86935e-71e6-4fed-8665-5ca3490b3358" CvElementArea="259, 179, 71, 34" CvTextArea="271, 189, 45, 13" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="260, 180, 68, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Zoom Workplace' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='zspacesui.dll/transfer.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/transfer.html' /&gt;&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="b3f13ec6-577a-4f2f-93c9-4c9ff6911acb" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='CSpacesUIWebviewWnd' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9c86935e-71e6-4fed-8665-5ca3490b3358" CvTextArea="32, 35, 175, 18" CvTextArgument="Room not detected" CvType="Text" DesignTimeRectangle="32, 32, 175, 24" FuzzySelectorArgument="&lt;wnd aaname='Zoom Workplace' cls='UnifyWebViewAdaptWnd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='zspacesui.dll/transfer.html - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='zspacesui.dll/transfer.html' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Room not detected' role='grouping' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Room not detected' /&gt;" Guid="f6902358-1a96-4b7e-8f42-c3db625b4df5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c46733d8f4e1819327f6aab416b8bb6d.png" xmlns="">0OPXbhkiBNE-a8p0TsLz3mg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IOuxwIw3ekueGQ_bjTtrtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5e45bb83-3598-463b-90f7-54b8b37aaa6a" CvTextArea="204, 194, 46, 12" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="204, 190, 236, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='2' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="ed940bd0-9504-4b0b-a7fa-9c1381515371" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5e45bb83-3598-463b-90f7-54b8b37aaa6a" CvTextArea="204, 194, 46, 12" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="204, 194, 46, 12" ElementType="Text" Guid="9822fe6d-7368-4fc1-bc3d-5d172f8df23b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b4dc4310adb129000f1954ab3b4122a1.png" xmlns="">0IKX8Pi6n80icC0pxcv7GIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

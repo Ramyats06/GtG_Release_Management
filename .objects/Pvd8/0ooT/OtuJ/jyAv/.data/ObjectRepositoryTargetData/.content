@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oK70_icM6E2Q0FKf4v8pow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b01900b1-a52f-464d-8785-a266053a788a" CvTextArea="1340, 660, 61, 15" CvTextArgument="Matters" CvType="Text" DesignTimeRectangle="1304, 651, 158, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Document Folders - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Document Folders - iManage Work' /&gt;&lt;ctrl name='Document Folders - iManage Work' role='document' /&gt;&lt;ctrl name='Matters' role='list item' /&gt;&lt;ctrl role='grouping' /&gt;" Guid="7c098985-29a4-43dc-9354-eff74bfebaf5" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="264d032ee6e22d8f5f46b141db402e93.png" xmlns="">06AjEH9OiN0Wtlp96TRkbSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

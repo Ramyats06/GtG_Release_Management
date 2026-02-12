@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Use Application",
+  "Type": "App",
+  "Id": "BREFPZfGfE6EFW2tOpA3Jw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/BREFPZfGfE6EFW2tOpA3Jw",
+  "Created": "2026-02-09T11:27:50.027852Z",
+  "Updated": "2026-02-09T11:27:50.027852Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

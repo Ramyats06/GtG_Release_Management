@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Open downloads folder",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "fTTQ1BufZU-P_8Wg7iACxQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/fTTQ1BufZU-P_8Wg7iACxQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zF8ofAAuPEKQmZivAPdF5g",
+  "Created": "2026-02-09T11:27:50.3062962Z",
+  "Updated": "2026-02-09T11:27:50.3062962Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

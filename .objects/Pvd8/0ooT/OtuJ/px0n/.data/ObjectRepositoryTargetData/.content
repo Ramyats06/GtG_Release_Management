@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="JynEsFmlFkKnTlzBSb9Urw" Reference="m1hPtSXhEE-MN2DzQb4wOA/px0nrcbwVU-jAsF1L6uxyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="yQO21uR36E6CbZaCytxWHA" Reference="m1hPtSXhEE-MN2DzQb4wOA/px0nrcbwVU-jAsF1L6uxyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1f2d83f7-905d-4f04-abf7-a14bd8b1df94" DesignTimeRectangle="101, 703, 313, 36" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia cls='NetUITreeView' name='Mail Folders' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIWBTreeDisplayNode' name='Inbox' role='Tree Item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Inbox' /&gt;" Guid="e7d306ec-d299-43b3-8789-f7b0f8752cd0" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="1f2d83f7-905d-4f04-abf7-a14bd8b1df94" CvTextArea="123, 672, 270, 21" CvTextArgument="Get to Green Release Man..." CvType="Text" DesignTimeRectangle="123, 672, 270, 21" ElementType="Text" Guid="697e89f8-ff9c-4ce8-b5be-0861ff1adee9" SearchSteps="CV" TargetType="ComputerVisionBased" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="a9cc77db7b631986aaed3e5d402a1c37.png" xmlns="">0Mxyx4M6fZke-NLMFloKPBA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ed2828bf-62bc-4e18-aec0-54d08fdf2995" DesignTimeRectangle="70, 796, 209, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIWBTreeDisplayNode' idx='3' name='Inbox*' /&gt;" Guid="231a63d4-4359-461f-befd-6e42ea461e45" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="db30fcf640d0f6e594489de7b4780c4a.png" xmlns="">04C2xb9AAdkeFgDjFPxc5kg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

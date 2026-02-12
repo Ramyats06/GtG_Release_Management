@@ -1,0 +1,14 @@
+﻿{
+  "Name": "My Favorites",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Jo-tJt10nkq2fOr_rRFKBg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/Jo-tJt10nkq2fOr_rRFKBg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Y9YO52edlkuHqaeccyaGAA",
+  "Created": "2026-02-05T14:59:24.1323007Z",
+  "Updated": "2026-02-05T14:59:24.1323007Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

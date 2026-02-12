@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Message (WorkSite Ems F…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "u-dIBLJyLk2ZgJNeKunTSA",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/u-dIBLJyLk2ZgJNeKunTSA",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/ZgeXoNuvcUaqXnzZyIIMJQ",
+  "Created": "2026-02-05T15:14:24.2506193Z",
+  "Updated": "2026-02-05T15:14:24.2506193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

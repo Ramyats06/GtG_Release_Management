@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l6hleFVwZkiwo2kYRg-tiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2f33e354-2a65-484f-9e4b-4a317464f9c0" CvElementArea="260, 31, 22, 19" CvType="Icon" DesignTimeRectangle="257, 26, 28, 29" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads toolbar' role='tool bar' /&gt;&lt;ctrl name='Open downloads folder' role='push button' /&gt;" Guid="60f88f5e-fadc-4106-9ac5-0a7994cfba39" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAYAAAC4JqlRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEESURBVFhH7ZQ9ioRAEEb3bIIiCGbGhoZGRoIgIugZTMzE0MTMa2gqiIEXMFD0G9qtaJ2mmxmWXXb7QQVf2z+PAusDP4wSUAJKQAn8foFpmpCmKXRdh6ZpV9m2jaZpaMd7CAXiOEZd15Q+WZYFnudd38qyvFVVVRiGAed50gk+QgHTNG8XresK3/cRRdFTgaIo4DiOVJeEAqzlXx9gj+d5juM4aNedcRzhui4lPi8JdF0n1V52VoSUwKsoASXwNwTYCN73nZI8bEZYlkWJj1AgDMPr39+2jVbkaNsWSZJQ4iMU6PseQRBcI5m1VKYMw0CWZZjnmW7hIxT4bpSAElAC/10AeAAxjPD0gEbNCQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2f33e354-2a65-484f-9e4b-4a317464f9c0" CvTextArea="45, 34, 71, 13" CvTextArgument="Downloads" CvType="Text" DesignTimeRectangle="45, 34, 71, 13" ElementType="Text" Guid="b2534b6f-23a5-473d-b88a-2bf9bdcbb556" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="df89b968164167ceb2ce805d82b2c094.png" xmlns="">0geypN6hu6E6wLD0Q6VAoaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

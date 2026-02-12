@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Pane Ribbon",
+  "Type": "Element",
+  "Id": "OS-VP6hbzEGDMdZQ5yPc6w",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/OS-VP6hbzEGDMdZQ5yPc6w",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/boXqI43-PE64ubxS8-XHvA",
+  "Created": "2026-02-09T09:23:58.7219117Z",
+  "Updated": "2026-02-09T09:23:58.7219117Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

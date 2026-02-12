@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Sent Items - rsundararajan@cooley.com - Outlo(1)",
+  "Type": "App",
+  "Id": "UNyFwXEW-UO6X64IK0UP8w",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/UNyFwXEW-UO6X64IK0UP8w",
+  "Created": "2026-02-09T11:48:10.2976079Z",
+  "Updated": "2026-02-09T11:48:10.2976079Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

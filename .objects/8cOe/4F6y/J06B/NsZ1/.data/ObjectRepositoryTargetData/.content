@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3TI1_89WS0aD6OejeWSI_A" Reference="m1hPtSXhEE-MN2DzQb4wOA/NsZ152B9jk-9AVXjejOdSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="385ef0af-1b37-4b98-84b7-9fdc438f273a" CvTextArea="52, 143, 61, 13" CvTextArgument="See more" CvType="Text" DesignTimeRectangle="35, 134, 96, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='See more' role='push button' /&gt;" Guid="1ffee4bf-189c-454e-b7e1-e2dc7f5ccaee" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="385ef0af-1b37-4b98-84b7-9fdc438f273a" CvTextArea="45, 34, 71, 13" CvTextArgument="Downloads" CvType="Text" DesignTimeRectangle="45, 34, 71, 13" ElementType="Text" Guid="099b83ef-f80b-4d52-bdac-c86ad779354b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b402829c6b9208e77f6af51e02b1adc2.png" xmlns="">05s95tLDIGUyPYajJsKS9sw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

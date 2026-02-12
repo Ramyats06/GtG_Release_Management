@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Zoom Meeting",
+  "Type": "Screen",
+  "Id": "u2Hka_-0J06XrPVbicvGBQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/u2Hka_-0J06XrPVbicvGBQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/ariiYYQFNkmXRwgAeqXNuQ",
+  "Created": "2026-02-04T16:37:14.6274032Z",
+  "Updated": "2026-02-04T16:37:14.6274032Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FBW_ipq0IEKIYCA7IzbZUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="facbb0fb-309e-456b-bf94-7f22bd20d980" CvElementArea="817, 567, 86, 38" CvTextArea="839, 578, 42, 14" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="818, 568, 84, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Select' role='push button' /&gt;" Guid="ce00bef6-db93-4326-bac8-b232ca6b7da8" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="80bd6449ec8d3c247049b8402de22d2e.png" xmlns="">099JgJv_WykO7CXVeDfOrkA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

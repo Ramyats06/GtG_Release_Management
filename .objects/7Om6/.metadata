@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Choose one of the audio conference options",
+  "Type": "App",
+  "Id": "7Om6yXLONUa6YcjATZwMcQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/7Om6yXLONUa6YcjATZwMcQ",
+  "Created": "2026-02-04T16:47:35.5513335Z",
+  "Updated": "2026-02-04T16:47:35.5513335Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

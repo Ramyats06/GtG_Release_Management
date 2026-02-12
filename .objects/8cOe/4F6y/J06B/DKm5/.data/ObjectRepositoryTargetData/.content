@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YzPWWxCGo02bUsGowqXrYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a4845310-23af-4b25-8ecf-0130496804c0" CvElementArea="28, 17, 240, 37" CvTextArea="70, 28, 162, 16" CvTextArgument="Clear all download history" CvType="Button" DesignTimeRectangle="29, 19, 237, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Clear all download history' role='menu item' /&gt;" Guid="5e13199a-6473-4b48-8700-758d035d1a4f" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="32600a7401bc3e6d0a76c4f3a3b28043.png" xmlns="">0-DpqbBPM40SMCYWF0ZYtJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xJFcVzjKmEq75wMF_Tigog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="75060190-7f9c-41d8-9670-7e7e3154c34c" CvTextArea="34, 85, 31, 11" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="14, 50, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' /&gt;&lt;ctrl name='Home 1 of 6' role='page tab' /&gt;" Guid="dd2679e8-ab15-457f-a2ff-7331466d056f" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d802e61758f023a33351be859e89e512.png" xmlns="">0WvL6pyFh9Eeh7NQUNDMwNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

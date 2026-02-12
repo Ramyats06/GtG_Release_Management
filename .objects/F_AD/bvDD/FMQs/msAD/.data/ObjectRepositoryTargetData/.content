@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SQQ-M-EPf0CdUWL7Gv1HjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9962df86-789f-4f51-a2ec-30d4773a98b3" CvElementArea="359, 102, 21, 23" CvType="Icon" DesignTimeRectangle="362, 105, 16, 16" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;&lt;ctrl name='Delete' role='push button' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="8c54c5d2-4667-48d4-ad64-4ae11ff257d2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVDhPvZS/y4JAGMfffzJwjgQJnG1TR0GnnKMxWgJxEkEQQWhoiGgIqSFIaHGSoOV5ea579X4V8b7xfuALh9z343F3+gUf5v+FSZLAcDgkieOYPn3OS+FutwPDMKCqKhJd18mzV3TC9XoNg8HgVzmdTtQirDDLMphOp3C/39/KbDaTtoETbrdbsG1bWVbF930oy5K2H3DCuq7BNE1lWRXLssjesnBCnKRpGldiVyyuHg+paRrafsAJEZx0vV67Em66aty2LXm5iCScTCaw3++VEnZ8Pp/J9ohIwiAIoCgKpYQdbzYbcByHtnok4Xw+h9VqpZSw4zRNIQxD2uqRhFEUkfv1U3x2KIvFApbLJW31SEK8V57ndcVnwQ8AVykiCQ+HA7lfKgkb13XJhyAiCW+3G4xGIzgej0oR5nK5kJ+GeAcRSYjgjwKvBB6CKuPxGPI8p7N5lMK/8GEhwDdZ6bU9we3HYAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Downloads - File Explorer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="23c292d1cf0b9b58415b9220b2cb7fba.png" xmlns="">0EyniSfuJV0-mFq5_hDsnPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

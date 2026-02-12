@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="A8Gh_kVZzUC9I3TJWq7ovQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1150" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGeSURBVFhH7Zc/L0NRGMbtvoBYxMLU+DcwEB2YGHwETBhsFqYulhpEDCaDDyCpMIuv0E01pUIqSIWm0Yj0kYfzHnr7niup3nsN95c823vO+eXm5t7zdCBi/qdAvVLBWzaL6mEGz7t7eNxIoTS/hOvpOVyNTSHfN4pc9wDOO/s/c9EzjEJiHMXkLO4WV1BOb+P19Az1Ws3s6MYKPG3toLSwjMuhpN34r8n3juBhPYX3m1tzSjNWQNugXeHTetk/MCc1EoqApLyZNqd9E6oAUz06MSd+EbpAYXCi4eVsWcCLNuNKNXNsVkUkcL+6ZlZFJFCcnDGrIhLIdSXMqogEGCEWiAVigVjACvDrpA264kWb8YtgBfh91gZd8aLN+EWwAvxDaYOueNFm/CJYAf6jtUFXvGgzfhGsAG8pvK1ow1q8aDN+EawA4X1NGw4iQoMA4c1VW9DuCE0ChHf4n80niAiqAGGbYathu9E2aCVsXWxfbGGCU0Dgy8mex77H3sf+xx7IPigb82mxL7I3sj+yR7JPsleyX7Jnsm9q/CoQLMAHF8vQoRYNzGAAAAAASUVORK5CYII=" Selector="&lt;html app='msedge.exe' htmlwindowname='usi_pv_count=9=1770405897606;usi_app.company_id=13361=-1;' title='Online Food Shopping | Iceland Groceries' /&gt;" Url="https://development.iceland.co.uk/" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="bd4945cddb2d25f6d4e56aa18a263272.png" xmlns="">0vzjFRUyiPEaX6CHxScaKqA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="9iui6CIw10q-rabpm5HARw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="8u4yvr7DKEmp1las-t7MWQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/-DrGiuXJQ0KMI9YTn-mGwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 207, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;" Guid="9d62bb64-e32b-44d0-8cda-3d0fa8ac84e0" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="23770d96d44b87a822fbab18856110ba.png" xmlns="">09KzaVlnj0UyGFYCsgOkMBg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 132, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;" Guid="9d62bb64-e32b-44d0-8cda-3d0fa8ac84e0" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fe1420cd5ab529d7a94f97a86a00c4b7.png" xmlns="">0BrMVmDU1Vk-dYZb2BxwDNQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

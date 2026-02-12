@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chat  Discover  Microsoft Teams",
+  "Type": "Screen",
+  "Id": "hlUmYIcwaUeDL6BHqbsEWQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/hlUmYIcwaUeDL6BHqbsEWQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/uNw6g-ODfE-CKZD_NYHu1Q",
+  "Created": "2026-02-04T15:32:21.7643214Z",
+  "Updated": "2026-02-04T15:32:21.7643214Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

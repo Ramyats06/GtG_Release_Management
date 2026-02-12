@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3wLFlNs-oEal87pyEOJ0QA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="79f5ac75-d9bf-42e7-8ea4-9d92f070f4b0" CvElementArea="534, 347, 19, 19" CvType="Icon" DesignTimeRectangle="532, 345, 23, 23" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="93b5c687-316d-4842-99cb-7ad4571a9d9b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADHSURBVEhL7ZK9DcMgEEazU3bKHKxB5yKDMABlylCwgTcgeZEvQuT4sR13/qwnkA3v4ORLjDEdxSlXGZIbY6po64WuHIFzLoUQVFoFmvKeGPheK1CVj4hztAJNOWiiEllbOppyNlprk/f+RyjIumH5zdsmclKgMNktt483i4wgRko2y6/LSNzTfUaJ/C27Ti49Zl7mPk3r5FyfhznXn+f5W0jLajlCICIGaUNJ6em2hVZQKH+n7dEY7nmOtkdDlf+LU65yoDymF84zLiokMvygAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="302, 336, 276, 58" FuzzySelectorArgument="&lt;uia automationid='4704' cls='SuperGrid' /&gt;&lt;uia cls='LeafRow' tableRow='1' check:text='Message (WorkSite Ems Filed) Read' /&gt;" Guid="3c9ee99f-4f07-49a0-854d-1fad0d75c459" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="773070496f31ef4d47c13786750f517a.png" xmlns="">0fkwoicHSgUqS3GnkKJM-Xg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

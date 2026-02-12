@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TestEmailAttachment",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "KTzhJDxAzUa40ZdjimD8pg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/KTzhJDxAzUa40ZdjimD8pg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg",
+  "Created": "2026-02-09T09:15:07.5845882Z",
+  "Updated": "2026-02-09T09:15:07.5845882Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

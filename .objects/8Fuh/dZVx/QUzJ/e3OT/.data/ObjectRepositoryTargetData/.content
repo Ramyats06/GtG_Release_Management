@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O1ZzSW17UUG7bxuCs5QH6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f820a85a-8baf-4a4f-9ae4-b6bab3adfff5" CvElementArea="581, 729, 59, 34" CvTextArea="592, 739, 35, 13" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="582, 730, 56, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='New event' cls='UnifyWebViewAdaptWnd' /&gt;&lt;wnd aaname='Zoom Calendar - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Zoom Calendar' /&gt;&lt;ctrl name='Zoom Calendar' role='document' /&gt;&lt;ctrl name='Save, opens calendar invite window' role='push button' /&gt;" Guid="55cd0701-f2c8-436f-83e4-3d3daee4f6d6" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='BubblePopupContainerWnd' title='New event' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="333f57a7aa49203ecf53f57ba1ea5482.png" xmlns="">0HlF6BRqdNk6U7Dc3SYb-wA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

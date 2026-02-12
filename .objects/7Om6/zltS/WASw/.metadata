@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Zoom Workplace",
+  "Type": "Screen",
+  "Id": "WASwXEKu4E-02FgIwk_lQg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/WASwXEKu4E-02FgIwk_lQg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/zltS94pxl0WCAM46xShZUA",
+  "Created": "2026-02-04T17:40:54.9406882Z",
+  "Updated": "2026-02-04T17:40:54.9406882Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

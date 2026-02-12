@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xd7M5s1AWk-DvKDl5e4bLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="development.iceland.co.uk" CVScreenId="bf12e809-62e6-4328-ba18-32507b2ea362" CvElementArea="58, 393, 261, 80" CvTextArea="83, 422, 184, 27" CvTextArgument="R1-DEV Grocery" CvType="Button" DesignTimeRectangle="61, 395, 258, 75" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='R1-DEV Grocery' tag='BUTTON' type='' class='_105qcvc303 _105qcvc36o _105qcvc2mx _105qcvc2ti _105qcvc5c8 _105qcvc13u _105qcvc296 _105qcvc16r _105qcvc17o _105qcvc8f _105qcvc2bu _105qcvc5hw _105qcvc55s fccxcl0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='R1-DEV Grocery' /&gt;" Guid="c059d438-28ad-4a7a-b47d-954748cae30f" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='usi_entry_url_1=https://development.iceland.co.uk/=1770405112806;usi_referrer_url=direct traffic=1770405112806;usi_pv_count=1=1770405112806;usi_item_count=0=1770387113816;usi_saving_cart=1=-1;usi_app.company_id=13361=-1;' title='Online Food Shopping | Iceland Groceries' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bf12e809-62e6-4328-ba18-32507b2ea362" CvElementArea="58, 393, 261, 80" CvTextArea="83, 422, 184, 27" CvTextArgument="R1-DEV Grocery" CvType="Button" DesignTimeRectangle="85, 415, 180, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='R1-DEV Grocery' tag='P' type='' class='_105qcvc4zu _105qcvc50c _105qcvc51f _105qcvc50l _105qcvc51o _105qcvc55s _105qcvc523 _105qcvc52f _105qcvc52o en3gmk0 en3gmkb' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='R1-DEV Grocery' /&gt;" Guid="0d1f4947-9448-4229-b894-5753c21e73c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1652a278424eeeefce928f76de298e27.png" xmlns="">0GrrVJMn34E6yp3l0IS3qmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

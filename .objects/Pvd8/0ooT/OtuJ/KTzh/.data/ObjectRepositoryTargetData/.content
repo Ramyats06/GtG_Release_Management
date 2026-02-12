@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bo-hAu4ApkKfk8HwuatsXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f4c68ebe-412a-4fd4-8512-b71373467a9d" CvTextArea="1295, 550, 121, 12" CvTextArgument="TestEmailAttachment" CvType="Text" DesignTimeRectangle="1295, 550, 121, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="52323c83-955f-4c96-a956-265d9a6334b5" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4ddc3a1da926447ab018bbe613828f82.png" xmlns="">0w7W1nU5moEKKKiHKwOi8Qw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

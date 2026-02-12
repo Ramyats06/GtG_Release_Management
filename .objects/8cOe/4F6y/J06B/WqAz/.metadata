@@ -1,0 +1,14 @@
+﻿{
+  "Name": "More options",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "WqAz1VLI4EudusW3MohHZw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/WqAz1VLI4EudusW3MohHZw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/J06B0eNXEkanlwOjdYPtaQ",
+  "Created": "2026-02-04T12:14:13.115529Z",
+  "Updated": "2026-02-04T12:14:13.115529Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

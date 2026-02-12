@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="67nNoo7m9kmz3tcZxNNSXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ecf549fe-b7c1-4bd0-a8c7-1c9855d1862a" CvElementArea="356, 30, 23, 22" CvType="CloseButton" DesignTimeRectangle="353, 26, 28, 29" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Downloads toolbar' role='tool bar' /&gt;&lt;ctrl name='Close downloads' role='push button' /&gt;" Guid="1c3bbe5b-9882-4e74-9e7a-4a663c6bef0a" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ecf549fe-b7c1-4bd0-a8c7-1c9855d1862a" CvTextArea="45, 34, 71, 13" CvTextArgument="Downloads" CvType="Text" DesignTimeRectangle="45, 34, 71, 13" ElementType="Text" Guid="924b56ba-71df-46b5-af19-55ff89d8ca80" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b16f4e9e728a20577c8299d6537f9a12.png" xmlns="">0-8ZYWAYCoE-tUYLTMBy1rg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

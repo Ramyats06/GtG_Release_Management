@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="TerdssSOZk-ozjL0XmYaFg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABhSURBVFhH7dIxCoAwDIXhXNA7JVlyoAzxVg66R8Q6iAidouL74C1d+lNKAPAKIjIzc1auXb0zsykL/Sdg0PG0AwIQUBZw51sBEZHu3r0eeAF8QgRcAlR12Q4r164GgKcRrdPoaBIEVCrqAAAAAElFTkSuQmCC" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='WordTestDoc.docx - Message (HTML) ' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="9d1657cf65d225d251eda8c7bd95cf68.png" xmlns="">0gWQU5aQGvE-47Dtl_Eo7nw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

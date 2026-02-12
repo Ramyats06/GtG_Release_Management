@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Anmi-sIs_06LMC2UaEr_xw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b1d9dddc-f971-410a-bbd9-1902a34584c8" CvElementArea="18, 112, 15, 17" CvType="ArrowButton" DesignTimeRectangle="18, 112, 15, 17" ElementType="ArrowButton" ElementVisibilityArgument="Interactive" Guid="3e34926e-d606-4775-8d45-8c7f9939674e" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b1d9dddc-f971-410a-bbd9-1902a34584c8" CvElementArea="35, 112, 20, 18" CvType="Icon" DesignTimeRectangle="33, 110, 24, 22" ElementType="Icon" Guid="58c1151d-2489-409a-afa3-073fa55b9c78" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADuSURBVEhLY/hPYzD0LKjd9QoF08SCDx8+wDGGBc0Z2f878/PJwiC9BC0AKVw+YxpZGKR3OFmw+n8CAwNpFkxraABjbHIgjGmBGWkW5Hv7gjE2ORCm2ILe0hIwXjp18v95PV3/53S0g2kQHyRPlAUVEZH/53R1YhgOwhOrq/43pqT87yoq/D8JyJ5SXwemQfz2nNz/VVHRhC0AKQQZ1JmfB3ZRZ34BlM4DyuX8n9HSjNVyEG5Oz6Askisio8AYmxwIExVE+CyoBAYBCGOTA2GKLSCEibKAkrKoJZOIsohSMGoBQQCyABlT3QJU8P8/AOWb7f9Iz496AAAAAElFTkSuQmCC" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ab51c1f2077a6697a0d992aae6797f48.png" xmlns="">0f5_o29ldq0G8jQyx2IC3uw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": ".EmailCorrespondence […",
+  "Type": "Element",
+  "Id": "h0e8CknIRE-FNB_hsU9T6w",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/h0e8CknIRE-FNB_hsU9T6w",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Y9YO52edlkuHqaeccyaGAA",
+  "Created": "2026-02-05T15:00:29.2602331Z",
+  "Updated": "2026-02-05T15:00:29.2602331Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "TestDociManage.docx - Message (HTML)",
+  "Type": "Screen",
+  "Id": "y0cCCmIzpEiik4dV51ukMw",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/y0cCCmIzpEiik4dV51ukMw",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/faBn3wTAoE6TFjzfOJO2Kw",
+  "Created": "2026-02-09T10:50:11.6193462Z",
+  "Updated": "2026-02-09T10:50:11.6193462Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

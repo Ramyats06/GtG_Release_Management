@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="Yfe0I7hXfkaBrXuMmR3R-g" Reference="m1hPtSXhEE-MN2DzQb4wOA/EPH-V8obi02H8KtxRO6-tg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="400, 205, 1139, 641" ContentHash="hLoIb89SekyF-q5_qvvo-w" FilePath="C:\Windows\explorer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKHSURBVFhH7VeLThpBFCU1jQ8s4AOhxQqK1qJNqRUrfGMpy7ML7C4sLC0UQVqpUrFGrVKLFf0D5k/2di4uJkSbxhfbND3JZDJDwjn3zJ07dzX/cRN4Gl4y/y1IlGX34Tn1gWM3Asqy+0ABs9thWVl2H+6GV57ZUlEAOjC9xap3BO4TH0xtqihgueGDyS8xNQUwMLHOqpcDr44ZGC9H1RTgB8taTD0BrrpPfviJUy8HFuuMbP7IqykgAGOrKgp4+SMAowXh7gS4G2+a7mMv8TReW5WtDrw4DMLISuJSAaYKaxsvx4jlM9dUtq6OJUqOV23xKECch4xN2T6HsxaEoZxw4RaYSqzt0VqcYIIaV/nrC0DShRol/x6E+f0gcdTCHU48PwiBPpfscADJzcU4MZUE6g5HZ/aC8CsBRczthcjTnQjMfA0TK7VW+UnzbD8EuvfiuQB9lrUh6eiKAMN5nuizyZuRtzG7w9rs1TCZ2oyCbYNttqOa2wvDYCbVEoBkSDr0IQkPcgLpK2QuzZtrAyNvJVU5DvRsiaHAW7Eb0qZFGckNOZHo3iVlbSbZvHXyNjByY4EjxuKZxfYqCwOSiC4QdKJfEpu9yVuy/Xc4i1YguqzYOn8tEqfScF9MkzsnbwNF9KdTpE+kxAkJeoRMs5ftEnkbGG0PJ5F7cYlo2Gx3yf990HabYMfbHu5Ths4MuE8YWKaNaGum7Rg2JDiWfjLgOvKDq+4HfCHxkVqg7wS+Fc6DgIwVE4uZ8vd/hmM3RJ5sv4XpakS2V6MwWWFlayUGExtxeLweB0uZw1oA5hIPY0VONhZ4eSTPy8P5BBhoIaJJ2rohgxKtC1IKBtJ0SCn1PuH+Ymg0vwCzBnTLMj3BegAAAABJRU5ErkJggg==" Reference="m1hPtSXhEE-MN2DzQb4wOA/EPH-V8obi02H8KtxRO6-tg" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='C:\Users\GreenUIPATH\Downloads - File Explorer' /&gt;" Version="V2">
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="54815d27046ebd0432a663c48ea85934.png" xmlns="">0zSTXNbv1wEixIh6Y8CyxrA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

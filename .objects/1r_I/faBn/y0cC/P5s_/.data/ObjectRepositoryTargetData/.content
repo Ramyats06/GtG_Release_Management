@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N7fGOeFQ5EKBUSKfsSs8LQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1e3e64b5-6c5e-4fae-b810-fbd07923294d" CvElementArea="131, 85, 67, 22" CvTextArea="155, 91, 16, 11" CvTextArgument="No" CvType="Button" DesignTimeRectangle="130, 85, 68, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='7' title='&amp;amp;No' /&gt;" Guid="c31bd147-bd3d-4ae0-9eaf-416a7c7f5d21" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='#32770' title='Microsoft Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0ea5c8add8f451cb131b884f34e12190.png" xmlns="">0HAUNxrfssEa6d-2J2wXd7A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8eOC03IAL0ax_rPQAvaGRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a3d66992-f098-4301-8d63-f420f7ff3e1b" CvElementArea="1895, 269, 19, 19" CvType="CloseButton" DesignTimeRectangle="1892, 267, 24, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Work Panel toolbar' /&gt;&lt;uia cls='NetUISimpleButton' name='Close pane' /&gt;" Guid="75ecbe27-0663-4cb9-a00a-814f2b0df434" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a3d66992-f098-4301-8d63-f420f7ff3e1b" CvTextArea="1221, 272, 81, 14" CvTextArgument="Work Panel" CvType="Text" DesignTimeRectangle="1217, 263, 703, 28" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Work Panel toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="491746ab-0f24-40ac-92d5-a582c558ab6b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ebd280e45f1afc3ce1554f8833a606e6.png" xmlns="">0-lPvBQc8G0Opo3BTBAHdZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

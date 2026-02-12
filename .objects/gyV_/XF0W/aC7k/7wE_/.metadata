@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TestExcel.xlsx",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "7wE_sVp72kGOkFDute4h7A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/7wE_sVp72kGOkFDute4h7A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/aC7kySkbd0qMHIq3n17YXg",
+  "Created": "2026-02-05T17:03:19.8373309Z",
+  "Updated": "2026-02-05T17:03:19.8373309Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Calendar  Calendar  Microsoft Teams",
+  "Type": "Screen",
+  "Id": "QCKvX_a3606hxOcesf3pew",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/QCKvX_a3606hxOcesf3pew",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Vjern4SPO0-zHNrYo3W5sA",
+  "Created": "2026-02-04T15:10:11.2451194Z",
+  "Updated": "2026-02-04T15:10:11.2451194Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_ndergEVYEKgflmSKCfkHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ad21e323-8bf4-4bbc-bbce-19614e5732fa" CvTextArea="204, 215, 46, 12" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="204, 215, 46, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="1e1e512b-bd46-4c4b-864e-bedf47773edf" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='#32770' title='Insert File' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a1e59808253a6100cad5078994e1453d.png" xmlns="">0fxzVQAMnEEi4iNRyz76KVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

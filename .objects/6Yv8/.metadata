@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Calendar  Calendar  Microsoft Teams",
+  "Type": "App",
+  "Id": "6Yv8DZEOPkaYM6HoBouxTg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/6Yv8DZEOPkaYM6HoBouxTg",
+  "Created": "2026-02-04T15:10:11.2309738Z",
+  "Updated": "2026-02-04T15:10:11.2309738Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

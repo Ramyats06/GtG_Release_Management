@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chat  GreenUI Path (You)  Microsoft Teams(3)",
+  "Type": "App",
+  "Id": "I0hOTaPPm0qVdfgdXoTTsg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/I0hOTaPPm0qVdfgdXoTTsg",
+  "Created": "2026-02-04T11:24:27.7154939Z",
+  "Updated": "2026-02-04T11:24:27.7154939Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

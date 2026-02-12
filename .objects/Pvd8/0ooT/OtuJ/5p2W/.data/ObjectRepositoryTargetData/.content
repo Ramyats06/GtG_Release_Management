@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JvWxOAT67kehHUllgO4A7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="08a8869b-af98-415d-b6b9-d1db96d3128b" DesignTimeRectangle="70, 314, 226, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIWBTreeDisplayNode' name='Inbox*' /&gt;" Guid="5be2bc13-2620-4391-beed-405dd285285a" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Deleted Items - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e42662a49eae971e5ff1703b4575b009.png" xmlns="">0Oo4yzJMeCUCkMsGcgmFTIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

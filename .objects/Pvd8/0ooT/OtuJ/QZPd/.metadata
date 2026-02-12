@@ -1,0 +1,14 @@
+﻿{
+  "Name": "WordTestDoc.docx",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QZPds_hiX0aJtGjMDSBVhg",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/QZPds_hiX0aJtGjMDSBVhg",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg",
+  "Created": "2026-02-09T09:16:03.6280087Z",
+  "Updated": "2026-02-09T09:16:03.6280087Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

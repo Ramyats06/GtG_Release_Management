@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2CF1_dFZ2kOAH-B2QHyPgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="163, 12, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='not pinned' role='list' /&gt;&lt;ctrl name='Meeting info 3 of 6 not pinned' role='page tab' /&gt;" Guid="b3f1c730-73f9-49d2-bcac-c421a5311ce4" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZGridMultiLevelPopupWndClass' title='More meeting controls' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="73f7144cee75b457107182e1a85210c4.png" xmlns="">0SgwSylezbEqi1VKpXOJIJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

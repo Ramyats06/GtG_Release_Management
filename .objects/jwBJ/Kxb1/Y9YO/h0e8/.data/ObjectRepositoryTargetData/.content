@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_r9hGtGpl0G9eERMCCc7uA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="82200e17-6592-4190-a95d-fceac5f18165" CvTextArea="138, 290, 300, 17" CvTextArgument="Email/Correspondence [268889.PMO0361]" CvType="Text" DesignTimeRectangle="137, 282, 447, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' cls='Chrome_WidgetWin_1' title='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' /&gt;&lt;ctrl name='Projects [268889.PMO0361] - GtG Release Management - phase 1 - i*' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open .Email/Corres*' role='row' /&gt;&lt;ctrl idx='4' role='grouping' /&gt;" Guid="9fdf4d10-749b-48f3-bde1-5bc1f44c5768" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c668a2257d9c7d701de7ed1a59264ad4.png" xmlns="">0dHVcjRgqC06yuiAGJymu4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

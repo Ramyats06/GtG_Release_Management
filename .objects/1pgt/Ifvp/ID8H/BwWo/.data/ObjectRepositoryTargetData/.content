@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kuIGwprQhEidAbHqkqbF1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1689, 66, 32, 32" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="bca4b4c3-0f42-40f6-bce8-2719650a39e1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADQSURBVFhH7dShDoMwEMbxvSoSi0FgsBU1CJ6gEoNFYGoRmAoMtrZv8I0mSwbsthQGI0tO/AXNJfdLSO7mnMOVMYABDGDAfwPGrkHTrNMwlp6n+gJg0dclpJTPshhRFEG01Dzdcb/AKKRxCimSCwCP5co4DOrXgNly/30eQBfIq2H5tlruOw/QCiRqBiCW+4YqR6GXb5/aB3izfE/bAQcu920DCHnoct8mgD8ycTY7PFNl3cNS84GFA6yBfjm7U91IzwcWDjgpBjCAAQy4GOBwByT7BQjj+RliAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4700bd98-4827-4ce5-b94a-a555a6ccfa0c" CvTextArea="1645, 121, 48, 13" CvTextArgument="Discard" CvType="Text" DesignTimeRectangle="1645, 121, 48, 14" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Calendar | Calendar | Microsoft Teams' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Calendar | Calendar | Microsoft Teams' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Calendar - GreenUI Path - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Discard' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='grouping' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Discard' /&gt;" Guid="46dd7308-2ab6-4374-91e0-f69e685feacf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c757aba50c5174aeba00daa2bc6d656.png" xmlns="">0AJcmDO7rTUK8yRoWT6Ki8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

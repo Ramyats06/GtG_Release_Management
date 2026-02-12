@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Message Read",
+  "Type": "Element",
+  "Id": "1-oGWknJTkalMeRhL-bejQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/1-oGWknJTkalMeRhL-bejQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg",
+  "Created": "2026-02-09T11:56:24.6184903Z",
+  "Updated": "2026-02-09T11:56:24.6184903Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

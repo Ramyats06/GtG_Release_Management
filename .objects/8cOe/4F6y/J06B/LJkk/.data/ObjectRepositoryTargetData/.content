@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SJ_A4Ja_GEGiK4vDg6nXGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3161b9f5-ba0e-4178-86da-3755ca687d7c" CvElementArea="166, 232, 98, 34" CvTextArea="180, 242, 70, 13" CvTextArgument="Remove all" CvType="Button" DesignTimeRectangle="167, 232, 96, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Downloads' role='document' /&gt;&lt;ctrl name='Remove all' role='push button' /&gt;" Guid="5610b2f1-575b-4957-ac0e-a90ee0add25e" ScopeSelectorArgument="&lt;wnd app='msedgewebview2.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b6b1337708f812799cf40e9048a2ef7a.png" xmlns="">0DQjQXSfnrEyy5tjMaq3s0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

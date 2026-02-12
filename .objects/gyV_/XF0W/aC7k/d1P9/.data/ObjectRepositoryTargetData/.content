@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XjJjBgMvZUOP8-isvHEtoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b04c77a3-96a6-4b2b-9d7e-b7a5e952b32e" CvTextArea="50, 51, 227, 14" CvTextArgument="Search for Workspaces (shortcut) - (Ctrl+9)" CvType="Text" DesignTimeRectangle="50, 51, 227, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="20ac08d3-cf9a-4766-8223-f0838b5af754" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0ed4db6944dd44465af51ec421847797.png" xmlns="">0hY0PGnInyUiJRlpVKZmJ6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

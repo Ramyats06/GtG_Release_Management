@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Zoom Meeting participant ID 489694",
+  "Type": "Screen",
+  "Id": "_FEuY5ogv0KX30FzfUflXQ",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/_FEuY5ogv0KX30FzfUflXQ",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/KdMvXL-0Wk6jxCIbk4RzqA",
+  "Created": "2026-02-04T17:03:53.837428Z",
+  "Updated": "2026-02-04T17:03:53.837428Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

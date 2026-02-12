@@ -1,0 +1,14 @@
+﻿{
+  "Name": "File Save Attachments W…",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Id": "EngkIVZJNkCcEgUkHPqE7A",
+  "Reference": "m1hPtSXhEE-MN2DzQb4wOA/EngkIVZJNkCcEgUkHPqE7A",
+  "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/Q7v9xvz3iEiAe6GiBHPrfg",
+  "Created": "2026-02-05T13:01:18.7237047Z",
+  "Updated": "2026-02-05T13:01:18.7237047Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

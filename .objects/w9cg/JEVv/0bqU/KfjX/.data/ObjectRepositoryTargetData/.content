@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SQ-ieW9vJEK2bpcbhj0-uw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="development.iceland.co.uk" CVScreenId="d43fe9d5-43b8-40fd-986b-b10a8c5753b1" CvElementArea="318, 393, 160, 81" CvTextArea="344, 422, 109, 21" CvTextArgument="Essentials" CvType="Button" DesignTimeRectangle="345, 415, 108, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Essentials' tag='P' /&gt;" Guid="1f4acf23-3571-4539-af95-88246100eeae" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='usi_entry_url_1=https://development.iceland.co.uk/=1770405112806;usi_referrer_url=direct traffic=1770405112806;usi_pv_count=1=1770405112806;usi_item_count=0=1770387113816;usi_saving_cart=1=-1;usi_app.company_id=13361=-1;' title='Online Food Shopping | Iceland Groceries' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="458490e704eb0c61fc19c37b8b59b041.png" xmlns="">05a5YohHHSU2vLnS_cv2Dqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

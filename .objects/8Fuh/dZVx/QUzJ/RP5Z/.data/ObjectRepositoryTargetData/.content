@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1IkKkT_hoEy9yZ2Hy4TpOQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/RP5Zfox4Q0urduMQxLi-Ug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="758e7cdd-b4a2-47a5-b4c1-f5c1dbdaf375" CvTextArea="25, 143, 49, 13" CvTextArgument="Meetings" CvType="Text" DesignTimeRectangle="14, 108, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' /&gt;&lt;ctrl name='Meetings 2 of 6' role='page tab' /&gt;" Guid="baa79885-46c0-492d-bb3f-bffb7d16ab74" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="14f16240-c7a0-4c40-9f10-a3ea1476c683" CvElementArea="14, 49, 74, 58" CvTextArea="34, 85, 31, 11" CvTextArgument="Home" CvType="Button" DesignTimeRectangle="14, 50, 72, 56" ElementType="TabPage" FuzzySelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Home 1 of 6' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Home 1 of 6' /&gt;" Guid="d3410459-f20a-4223-8091-9bbe038e20af" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e12e358ef3b67af934c259e18e8bcc93.png" xmlns="">0LROwuwdgBEG_ROuv8bTDZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
