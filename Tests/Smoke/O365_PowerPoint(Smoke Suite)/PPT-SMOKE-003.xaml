@@ -84,30 +84,30 @@
       <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_003" sap:VirtualizedContainerService.HintSize="1904.6666666666667,1198" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PPT_SMOKE_003" sap:VirtualizedContainerService.HintSize="1276,1188" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1175.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="29eec7b9-d0e2-4032-a7fd-4fa96e0a8e44" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1165" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="29eec7b9-d0e2-4032-a7fd-4fa96e0a8e44" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,916" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,909" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Litera'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29eec7b9-d0e2-4032-a7fd-4fa96e0a8e44" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Litera'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="29eec7b9-d0e2-4032-a7fd-4fa96e0a8e44" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="c061bdda-5858-4df1-bc4f-e50375fa4bd8" ContentHash="y9LleaXu-E2mLPqryNIvTA" CvTextArea="1184, 96, 49, 18" CvTextArgument="Litera" CvType="Text" DesignTimeRectangle="1171, 83, 77, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='Litera' /&gt;" Guid="012fa8ad-47f9-4403-94de-9cda466aa5b5" InformativeScreenshot="e9c2e1c2ac2e3f43e82e5059cc520686.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/JzBXyVVA5kG2Nwsa-QZvkA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Compare More Options Se…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="29eec7b9-d0e2-4032-a7fd-4fa96e0a8e44" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Compare More Options Se…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,660" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="29eec7b9-d0e2-4032-a7fd-4fa96e0a8e44" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
