@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="XLS_SMOKE_013" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="XLS_SMOKE_013_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="XLS_SMOKE_013" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="XLS_SMOKE_013_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -107,24 +107,30 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="XLS_SMOKE_013" sap:VirtualizedContainerService.HintSize="1368,3672" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="XLS_SMOKE_013" sap:VirtualizedContainerService.HintSize="1276,3963" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3649" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b56ca541-135f-46e9-b373-047e81b21222" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3940" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b56ca541-135f-46e9-b373-047e81b21222" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3393" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3684" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_uploadFiles - Invoke Workflow File (Tests\Smoke\O365_Excel(Smoke Suite)\Function_uploadFiles.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Excel(Smoke Suite)\Function_uploadFiles.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'A1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Text="[&quot;Filter test&quot; + &quot;[k(enter)]&quot;]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="mO72KZZn6UOlwuMGAoQ6YQ" DesignTimeRectangle="51, 363, 96, 29" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='A1' cls='XLSpreadsheetCell' name='A1' tableRow='1' /&gt;" Guid="1ae772c3-569c-4a11-8c8f-10c29285429e" InformativeScreenshot="ac7c63fc697ac4afb6de0f4510580af5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/x5aCHcXlIEighUiBoV14kQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
@@ -140,17 +146,17 @@
                 <uix:TargetAnchorable ContentHash="w_iSUN2IwE6TiKQ7Iql6oA" DesignTimeRectangle="51, 393, 96, 29" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='A2' cls='XLSpreadsheetCell' name='A2' tableRow='2' /&gt;" Guid="f67f318d-57d6-4eec-8657-35a4c86dca7f" InformativeScreenshot="b31a1376983e3e578eb6bac9b63174cd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vnPR7h6Yv0W87p8Uw5QZHQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A3'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A3'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="-_gsZcyrHUyujnFeamdCXA" DesignTimeRectangle="51, 422, 96, 29" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' tableRow='3' /&gt;" Guid="967367aa-8faf-4d0b-b3d8-8ee0103c4b58" InformativeScreenshot="884919d53049862b1a6d9c9f376a9774.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vuktXwVHl0aIS7TM2Y4_6A" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'A3'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.None]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,244" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Text="[&quot;B&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'A3'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.None]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Text="[&quot;B&quot; + &quot;[k(enter)]&quot;]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="-_gsZcyrHUyujnFeamdCXA" DesignTimeRectangle="51, 422, 96, 29" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' tableRow='3' /&gt;" Guid="967367aa-8faf-4d0b-b3d8-8ee0103c4b58" InformativeScreenshot="884919d53049862b1a6d9c9f376a9774.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vuktXwVHl0aIS7TM2Y4_6A" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A4'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A4'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b56ca541-135f-46e9-b373-047e81b21222" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="npb4l7P_GE-iFEbRUxtVng" DesignTimeRectangle="51, 451, 96, 29" ElementType="Cell" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' /&gt;&lt;uia automationid='A4' cls='XLSpreadsheetCell' name='A4' tableRow='4' /&gt;" Guid="9922d8dc-bd9e-4963-a3f7-df27f9792b1d" InformativeScreenshot="e31082302d230b72b92abd8742a935d9.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/PLJVJgMgtkWVzPoCY_lkQA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
