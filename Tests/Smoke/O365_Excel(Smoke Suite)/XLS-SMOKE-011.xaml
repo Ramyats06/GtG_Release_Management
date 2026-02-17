@@ -97,7 +97,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Open file from iManage" DisplayName="XLS_SMOKE_011" sap:VirtualizedContainerService.HintSize="1276,3412" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Open file from iManage" DisplayName="XLS_SMOKE_011" sap:VirtualizedContainerService.HintSize="1276,3723" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -195,13 +195,14 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1783" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V2">
+    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="552,122" sap2010:WorkflowViewState.IdRef="Delay_7" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1972" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1527" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1716" sap2010:WorkflowViewState.IdRef="Sequence_13">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -230,7 +231,7 @@
                 <uix:TargetAnchorable CVScreenId="a51314be-f97f-4bc3-ab21-0c7bb666452f" ContentHash="mfh6wgDmG0Cmk9QYzMweBg" CvTextArea="295, 350, 286, 14" CvTextArgument="[string.Format(&quot;{0}&quot;, cloudFilename)]" CvType="Text" DesignTimeRectangle="297, 342, 287, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open XLS-SMOKE-011*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="3df221a8-7110-4e2c-b328-639774bfc777" InformativeScreenshot="2a003f57e992c235549a27879d6394ae.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/rtJQz4RRfkKdMkvEPnKXaA" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Pane Ribbon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,656" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Pane Ribbon'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_14">
                   <sap:WorkflowViewStateService.ViewState>
@@ -255,6 +256,17 @@
                 <uix:TargetAnchorable ContentHash="pzvUGwmoUkGvCgt0qoOq2w" DesignTimeRectangle="11, 11, 1920, 267" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="6a6baa32-7062-4640-a6eb-df61a8bbdc05" InformativeScreenshot="c2b729439d017ec14148b12ca2893608.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/n2m76C8vbUWSvs92n0SX-A" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='#252602198v1&amp;lt;EUACTIVE&amp;gt; - TestExcel - Excel' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NCheckState.Target>
             </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5538bfb6-07ea-4cba-a1bd-fa304b2e0496" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="832d54d8-7b36-454c-a767-cc850c3de156" ContentHash="9nBQikV5xkCBOVBaAwCWBw" CvElementArea="1894, 22, 19, 18" CvType="CloseButton" DesignTimeRectangle="1894, 22, 20, 19" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="a9055c83-3c38-4582-ba10-9a7d34e19d7c" InformativeScreenshot="811435b32f8dfe5055168ce50227a0f3.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/9t6O6Og5h02hmpRvcd9nHg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="832d54d8-7b36-454c-a767-cc850c3de156" CvElementArea="1847, 23, 18, 18" CvType="MaximizeButton" DesignTimeRectangle="1847, 23, 18, 18" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Restore Down' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Restore Down' /&gt;" Guid="3458c321-dcac-4568-b4e3-3e37a58e8fd3" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
