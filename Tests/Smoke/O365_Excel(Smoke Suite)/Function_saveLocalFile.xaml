@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Function_saveLocalFile" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Function_saveLocalFile" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="localFilename" Type="InArgument(x:String)" />
   </x:Members>
@@ -94,19 +94,19 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Save file locally" sap:VirtualizedContainerService.HintSize="1276,2725" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Save file locally" sap:VirtualizedContainerService.HintSize="1276,2441" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2702" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="e4eeab60-cf32-4859-841b-2fbed8d0f1b9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2418" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="e4eeab60-cf32-4859-841b-2fbed8d0f1b9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2446" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2162" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -182,7 +182,7 @@
                 <uix:TargetAnchorable CVScreenId="2d1d24ae-b9ab-4090-bf38-9ce57c28f379" ContentHash="eT3LsyAAeECphiJ_sC_3Tg" CvElementArea="1121, 784, 133, 40" CvTextArea="1167, 796, 39, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1121, 785, 132, 39" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" Guid="67ba109d-362f-4dfb-869a-e34ec278a5cd" InformativeScreenshot="04b7b214b1f0dbb27d15969cd714a3e1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/mlfdW-j1yEaYyrdqaBIp4g" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Saving'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,497" sap2010:WorkflowViewState.IdRef="NCheckState_1" Mode="WaitDisappear" ScopeIdentifier="e4eeab60-cf32-4859-841b-2fbed8d0f1b9" Timeout="30" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Saving'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,488" sap2010:WorkflowViewState.IdRef="NCheckState_1" Mode="WaitDisappear" ScopeIdentifier="e4eeab60-cf32-4859-841b-2fbed8d0f1b9" Timeout="30" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
@@ -204,25 +204,13 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable CVScreenId="46ff042e-b9a0-4838-a4f0-4f84ada4dae8" ContentHash="PE0EQvcs9UCDD4b-b1VXVQ" CvTextArea="16, 8, 261, 16" CvTextArgument="Saving ?" CvType="Text" DesignTimeRectangle="8, 3, 334, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='TitleBar' role='title bar' /&gt;" Guid="2d3f5b45-104b-4c9a-86c9-c451da9d0ac7" InformativeScreenshot="c962fb10746ed597aa84c7978974bced.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/S96eaRudY0-TeQ3uhnr0oA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='NUIDialog' title='Saving' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="46ff042e-b9a0-4838-a4f0-4f84ada4dae8" CvElementArea="282, 84, 55, 25" CvTextArea="290, 90, 37, 12" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="282, 85, 54, 23" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='NetUIButton' name='Cancel' role='Button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Cancel' /&gt;" Guid="1b4369d2-7035-4d4b-afc5-0b76225a36b2" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484,275" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-              <ui:CommentOut.Body>
-                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,173" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                </Sequence>
-              </ui:CommentOut.Body>
-            </ui:CommentOut>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

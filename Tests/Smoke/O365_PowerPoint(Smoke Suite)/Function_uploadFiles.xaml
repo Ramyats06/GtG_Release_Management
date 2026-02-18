@@ -1,0 +1,170 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Function_uploadFiles" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Function_uploadFiles_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Function_uploadFiles" sap:VirtualizedContainerService.HintSize="1276,1289" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1266" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" OutUiElement="{x:Null}" ScopeGuid="11f19e22-9e38-43fb-9dec-2dc68fa7c608" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1010" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Task Pane Options Close…'" Exists="{x:Null}" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,950" sap2010:WorkflowViewState.IdRef="NCheckState_1" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="11f19e22-9e38-43fb-9dec-2dc68fa7c608" Timeout="{x:Null}" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,551" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Upload All'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="11f19e22-9e38-43fb-9dec-2dc68fa7c608" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="Ugg1A00iGEGw39w1CEMUQQ" DesignTimeRectangle="328, 962, 140, 35" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoWorkPane' title='iManage Offline' /&gt;&lt;wnd aaname='iManage Offline' cls='NetUIHWND' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd ctrlname='wSyncOfflineControl1' /&gt;&lt;wnd ctrlname='panelBottom' /&gt;&lt;wnd ctrlname='buttonSyncAll' /&gt;&lt;ctrl name='Upload All' role='push button' /&gt;" Guid="5ab24e46-1a46-4089-8c8e-7ed22927171c" InformativeScreenshot="70e59e8454a63787d7f805957ee23530.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/TqFZImdptEmK7NzuAXWtww" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Close pane'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180" sap2010:WorkflowViewState.IdRef="NClick_2" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="11f19e22-9e38-43fb-9dec-2dc68fa7c608" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="29a70575-6ffe-4fa7-8bb8-38489ab6d56f" ContentHash="lgOYRusgEUiYD9XII_3n4w" CvElementArea="445, 295, 26, 26" CvType="CloseButton" DesignTimeRectangle="452, 197, 24, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUISimpleButton' name='Close pane' /&gt;" Guid="45e57cc8-244e-415e-a92c-7d91eb1b0f90" InformativeScreenshot="cc50bd72c1df092bc91079365a6f45df.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/EynZTNjn0UW-sVC4CaCKcQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="29a70575-6ffe-4fa7-8bb8-38489ab6d56f" CvTextArea="26, 297, 163, 25" CvTextArgument="iManage Offline" CvType="Text" DesignTimeRectangle="16, 193, 464, 28" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="6cc28c53-33b4-4e3f-a7ad-fb28c2075e1f" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="dc4d7577-8ee0-4e9b-a795-7e606bee17b4" ContentHash="zoGaMTO9eEChbIGhYIy0tg" CvTextArea="34, 239, 427, 16" CvTextArgument="iManage has detected documents that were used offline but have not" CvType="Text" DesignTimeRectangle="34, 239, 427, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="88d1f64c-ec90-42b0-9520-fb42df69d0d2" InformativeScreenshot="61b5065ba06940b460adff3e88cc2459.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/KP-6MPXSw0Sb7Z_nw2pTbw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="dc4d7577-8ee0-4e9b-a795-7e606bee17b4" CvTextArea="21, 202, 112, 17" CvTextArgument="iManage Offline" CvType="Text" DesignTimeRectangle="21, 202, 112, 17" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='iManage Offline toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="a46a2fa3-447e-4189-8859-3e987a099290" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="ZJudOfH8ek6uVx6ECIsBxg" FilePath="C:\Program Files\Microsoft Office\root\Office16\powerpnt.exe" IconBase64="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" InformativeScreenshot="df4e6fcbd0c0425e62a374a2612f7f72.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/uuJ2nH5_AkSVFGO-drF8dg" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" Version="V2">
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
