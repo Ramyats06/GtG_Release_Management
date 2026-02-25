@@ -99,7 +99,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_001" sap:VirtualizedContainerService.HintSize="1138,1510" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Launch Outlook" DisplayName="OUT_SMOKE_001" sap:VirtualizedContainerService.HintSize="1273,1718" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:DateTime" Name="startTime" />
       <Variable x:TypeArguments="s:DateTime" Name="endTime" />
@@ -108,6 +108,7 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Assign sap:VirtualizedContainerService.HintSize="552,114" sap2010:WorkflowViewState.IdRef="Assign_1">
@@ -118,18 +119,23 @@
         <InArgument x:TypeArguments="s:DateTime">[Now]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Inbox - rsundararajan@cooley.com - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1373" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="10769cf8-1532-439f-90d9-db8f23e45115" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Inbox - rsundararajan@cooley.com - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1550" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="10769cf8-1532-439f-90d9-db8f23e45115" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1117" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1294" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
             <uix:NCheckState DisplayName="Check App State 'New Email New Items Ign…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="10769cf8-1532-439f-90d9-db8f23e45115" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_6">

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_027" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_027_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_027" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_027_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -83,60 +83,65 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_027" sap:VirtualizedContainerService.HintSize="1286,1504" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_027" sap:VirtualizedContainerService.HintSize="1273,1677" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Sent Items - rsundararajan@cooley.com - Outlo" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,1481" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="b32e6d80-a4dd-4bef-b039-63a0cab2b1f6" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Sent Items - rsundararajan@cooley.com - Outlo" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,1654" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b32e6d80-a4dd-4bef-b039-63a0cab2b1f6" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,1225" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,1398" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="552,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Deleted Items 29 unrea…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b32e6d80-a4dd-4bef-b039-63a0cab2b1f6" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="2695d786-2d37-40aa-a3eb-27a58c4924cb" DesignTimeRectangle="70, 386, 226, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIWBTreeDisplayNode' name='Deleted Items*' /&gt;" Guid="e7d69bb0-2fd7-46d9-9f12-24cde22e6028" InformativeScreenshot="0c56ee59d533c7f8f810d58cb7adc0cf.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Sent Items - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Deleted Items - rsundararajan@cooley.com - Ou" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,976" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="841bb59f-973b-4a45-93f3-21613c01507e" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Deleted Items - rsundararajan@cooley.com - Ou" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,972" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="841bb59f-973b-4a45-93f3-21613c01507e" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,720" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,716" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'New Email New Items Rec…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,660" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="841bb59f-973b-4a45-93f3-21613c01507e" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State 'New Email New Items Rec…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,656" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="841bb59f-973b-4a45-93f3-21613c01507e" Version="V5">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_7">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: When clicked on Deleted Items, Deleted inbox opens successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: When clicked on Deleted Items, Deleted inbox opens successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_8">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: When clicked on Deleted Items, Deleted inbox opens successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: When clicked on Deleted Items, Deleted inbox opens successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
@@ -155,6 +160,9 @@
               </uix:NApplicationCard.OCREngine>
               <uix:NApplicationCard.TargetApp>
                 <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="liDtKj6n2Eu1DsA0I-kl-w" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="0b4890e8562f7a1acb5e64bd628c47df.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nMLLjTFH80W8Kkg-L36nxQ" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Deleted Items - greenui.path@cooley.com - Outlook' /&gt;" Version="V2">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
                   <uix:TargetApp.WorkingDirectory>
                     <InArgument x:TypeArguments="x:String" />
                   </uix:TargetApp.WorkingDirectory>
@@ -172,7 +180,14 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="ag6ZB7S1b06ChzMfGojKlw" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="76b17314ec5c412330ecb9658a272383.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QmmPxEHDDEe8LP7c0ujT2Q" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Sent Items - greenui.path@cooley.com - Outlook' /&gt;" Version="V2" />
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="ag6ZB7S1b06ChzMfGojKlw" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="76b17314ec5c412330ecb9658a272383.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QmmPxEHDDEe8LP7c0ujT2Q" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Sent Items - greenui.path@cooley.com - Outlook' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

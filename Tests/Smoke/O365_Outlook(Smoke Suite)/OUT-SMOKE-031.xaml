@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_031" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_031_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_031" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_031_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -83,24 +83,29 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_031" sap:VirtualizedContainerService.HintSize="1286,1188" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_031" sap:VirtualizedContainerService.HintSize="1273,1365" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1165" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="978c78a1-760a-4c3c-9662-d7ce11af8dd3" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1342" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="978c78a1-760a-4c3c-9662-d7ce11af8dd3" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,909" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1086" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="978c78a1-760a-4c3c-9662-d7ce11af8dd3" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="6bd034df-d21e-4521-89a8-3bf5884d3b6e" ContentHash="4BdZJtsfqU-cCRhC2eF7ng" CvTextArea="513, 96, 45, 19" CvTextArgument="View" CvType="Text" DesignTimeRectangle="501, 83, 71, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia automationid='TabView' cls='NetUIRibbonTab' name='View' /&gt;" Guid="46ba46ec-e0c6-4c93-bbd1-7981da818bb9" InformativeScreenshot="75e07f5a2babb2fbf576d26e2c96e88a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/6lX4-Fvp0Uq5miIbg8B9pw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />

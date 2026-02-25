@@ -85,83 +85,116 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_023" sap:VirtualizedContainerService.HintSize="1286,2065" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_023" sap:VirtualizedContainerService.HintSize="1273,2872" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2042" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2849" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1786" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2593" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_SetWorkPanel - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_SetWorkPanel.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_SetWorkPanel.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestDociManage.docx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="[UiPath.UIAutomationNext.Enums.NMouseButton.Right]" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="4ac691ef-46e8-41d1-89b4-e004a347f967" ContentHash="cU8LDuOcFUSiU_1H17fotw" CvTextArea="1464, 708, 186, 21" CvTextArgument="TestDociManage.docx" CvType="Text" DesignTimeRectangle="1464, 708, 186, 21" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="6320aef9-2f31-4320-bf2a-f0cce4b4b69a" InformativeScreenshot="d46c04ff79d7a9f954cebada1d15a8af.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vAnSjVFgt0q3OzXXS18blg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Preview Edit Open In Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,308" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
-              <uix:NMouseScroll.SearchedElement>
-                <uix:SearchedElement>
-                  <uix:SearchedElement.OutUiElement>
-                    <OutArgument x:TypeArguments="ui:UiElement" />
-                  </uix:SearchedElement.OutUiElement>
-                  <uix:SearchedElement.Target>
-                    <uix:TargetAnchorable CVScreenId="6fac3045-be83-41bc-8acd-a800b9102cdc" ContentHash="e0TeJTQVBESh0gmV4lW4EQ" CvTextArea="1645, 1023, 85, 15" CvTextArgument="More Actions" CvType="Text" DesignTimeRectangle="1640, 1023, 90, 15" ElementVisibilityArgument="Interactive" Guid="4c1850bb-28f7-4817-aec4-1b64168f1050" InformativeScreenshot="1aabc360a46904537d3d823099549682.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/RVLSXdJn3kGjwVC2Cnlvcw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive" />
-                  </uix:SearchedElement.Target>
-                  <uix:SearchedElement.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:SearchedElement.Timeout>
-                </uix:SearchedElement>
-              </uix:NMouseScroll.SearchedElement>
-              <uix:NMouseScroll.Target>
-                <uix:TargetAnchorable ContentHash="dlT-WifCi0u7asohp9dxfg" DesignTimeRectangle="1606, 330, 238, 771" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl role='popup menu' /&gt;" Guid="036662d4-5abf-42ad-9a2d-3abc77738921" InformativeScreenshot="0d3b07390c44c30ae967d261fcc49fd9.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CDOj1B8ybk6M9CQfUwZDgQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NMouseScroll.Target>
-            </uix:NMouseScroll>
+            <uix:NCheckState DisplayName="Check App State 'More Actions'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,767" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,359" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Preview Edit Open In Pr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,299" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
+                    <uix:NMouseScroll.SearchedElement>
+                      <uix:SearchedElement>
+                        <uix:SearchedElement.OutUiElement>
+                          <OutArgument x:TypeArguments="ui:UiElement" />
+                        </uix:SearchedElement.OutUiElement>
+                        <uix:SearchedElement.Target>
+                          <uix:TargetAnchorable CVScreenId="6fac3045-be83-41bc-8acd-a800b9102cdc" ContentHash="e0TeJTQVBESh0gmV4lW4EQ" CvTextArea="1645, 1023, 85, 15" CvTextArgument="More Actions" CvType="Text" DesignTimeRectangle="1640, 1023, 90, 15" ElementVisibilityArgument="Interactive" Guid="4c1850bb-28f7-4817-aec4-1b64168f1050" InformativeScreenshot="1aabc360a46904537d3d823099549682.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/RVLSXdJn3kGjwVC2Cnlvcw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:SearchedElement.Target>
+                        <uix:SearchedElement.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:SearchedElement.Timeout>
+                      </uix:SearchedElement>
+                    </uix:NMouseScroll.SearchedElement>
+                    <uix:NMouseScroll.Target>
+                      <uix:TargetAnchorable ContentHash="dlT-WifCi0u7asohp9dxfg" DesignTimeRectangle="1606, 330, 238, 771" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl role='popup menu' /&gt;" Guid="036662d4-5abf-42ad-9a2d-3abc77738921" InformativeScreenshot="0d3b07390c44c30ae967d261fcc49fd9.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/CDOj1B8ybk6M9CQfUwZDgQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NMouseScroll.Target>
+                  </uix:NMouseScroll>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="949d3ff8-4cb4-4005-96d2-9a840ee14561" ContentHash="exvZWxmq20SgB9nu1gwdBA" CvTextArea="1645, 1023, 85, 15" CvTextArgument="More Actions" CvType="Text" DesignTimeRectangle="1610, 1015, 206, 37" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='More Actions' role='menu item' /&gt;" Guid="acc87a87-1185-48bf-a571-06de68c1c1b0" InformativeScreenshot="e50eab97c5acba6b3562093d94b0bbd7.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/slrLgB_TK0SQ-XCN-bds5w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'More Actions'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="949d3ff8-4cb4-4005-96d2-9a840ee14561" ContentHash="5uX4TsHEc0qL5dz4ZPHCLw" CvTextArea="1645, 1023, 85, 15" CvTextArgument="More Actions" CvType="Text" DesignTimeRectangle="1610, 1015, 206, 37" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='More Actions' role='menu item' /&gt;" Guid="acc87a87-1185-48bf-a571-06de68c1c1b0" InformativeScreenshot="e50eab97c5acba6b3562093d94b0bbd7.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/PV7xUNvx30adhXSKoBOcpg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="949d3ff8-4cb4-4005-96d2-9a840ee14561" ContentHash="exvZWxmq20SgB9nu1gwdBA" CvTextArea="1645, 1023, 85, 15" CvTextArgument="More Actions" CvType="Text" DesignTimeRectangle="1610, 1015, 206, 37" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='More Actions' role='menu item' /&gt;" Guid="acc87a87-1185-48bf-a571-06de68c1c1b0" InformativeScreenshot="e50eab97c5acba6b3562093d94b0bbd7.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/slrLgB_TK0SQ-XCN-bds5w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Properties'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Properties'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="276c4e1f-f954-43d2-aa67-6b4ed92a5f24" ContentHash="51cbtnPkLUiODGjf9kZQhQ" CvTextArea="1436, 767, 83, 16" CvTextArgument="i Properties" CvType="Text" DesignTimeRectangle="1419, 758, 184, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Properties' role='menu item' /&gt;&lt;ctrl name='Properties' role='menu item' /&gt;" Guid="ec4311a8-00c8-4ff3-8474-8c0d607723a8" InformativeScreenshot="a05be4a71eefcbcc686708e68ac2cd2e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/O1nTBOOatUacbD7CEDHSbw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'TestDociManage v. 1 #25…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,669" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'TestDociManage v. 1 #25…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: When clicked on view Properties, the Propertie panel opens up successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="PASSED: When clicked on view Properties, the Propertie panel opens up successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: When clicked on view Properties, the Propertie panel has NOT opened up successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_2" OutputMessageFormat="FAILED: When clicked on view Properties, the Propertie panel has NOT opened up successfully" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable ContentHash="-b0pce3xc0q_le24tJLlnQ" DesignTimeRectangle="1349, 381, 574, 695" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='68' role='grouping' /&gt;" Guid="c5564183-1166-4486-9667-fb61aef61a72" InformativeScreenshot="b00427b6f8010cfa71747cc4d8175666.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Fhy39kuscUCVwgvvzZ6jLQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Back'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,182" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Back'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="9f366869-9f84-4c66-b832-2602dc5f8dd8" ContentHash="B07MXPxffESlVjHmFDF6hA" CvElementArea="1375, 338, 26, 29" CvType="ArrowButton" DesignTimeRectangle="1358, 329, 61, 53" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='2' name='Back' role='push button' /&gt;" Guid="b37214c8-0dc5-4c70-98d3-2f282bf6e553" InformativeScreenshot="faeb9726ed933e38d5e42b6c9cc28abb.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/74S-vjUU4UCDbYy-OVsukg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -183,7 +216,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="y0de0Jbl3E2WyiELl27ZFg" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="d91bd7b7a4c8d0dd163e46d0a457bd9e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" Version="V2">
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="3ztDJ_d6_kSDb25K7L6b5A" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="0810aad44ab69e75cffe44fc2c93c086.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" Version="V2">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>

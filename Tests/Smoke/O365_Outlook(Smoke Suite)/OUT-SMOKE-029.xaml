@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_029" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_029_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_029" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_029_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -83,25 +83,30 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_029" sap:VirtualizedContainerService.HintSize="1286,1184" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_029" sap:VirtualizedContainerService.HintSize="1273,1361" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1161" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="dbc9875e-3328-408b-a74d-ce031ba12b60" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1338" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="dbc9875e-3328-408b-a74d-ce031ba12b60" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,905" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1082" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send  Receive'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dbc9875e-3328-408b-a74d-ce031ba12b60" Version="V5">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Send  Receive'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dbc9875e-3328-408b-a74d-ce031ba12b60" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="30797ec8-b156-4474-8c9d-2484cc8e75f1" ContentHash="pUZ7SnrG1kOGmHd8fAH7Bg" CvTextArea="269, 96, 130, 19" CvTextArgument="Send / Receive" CvType="Text" DesignTimeRectangle="178, 64, 90, 15" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="7351970e-f33d-4b0a-ba80-11e32901346c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAZCAYAAAD0SVYHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAO4SURBVGhD7ZbNbWoxEIVfMTRAARSQCiggDVBACsieAthnTwE0QAUpgg6Iviudp9Ho2HcuRKAgLz4l2OP587F9/10ul+tgkBnCGFiGMAaWIYyBZQhjYPlzwvj8/LyuVqvr8Xi086/M4XCYav/6+rLzv0lTGN/f39MmvL29TcmI9Xpt7R/FPcKglu12a+cAn7FWwTriujWP5OnCOJ/PkwBgt9tNTYGPj4+pSW7No7hVGKfTabapEgbiUc2w2WymcXrh1r0iVhg0gEbQTDf/TG4VBjWxwW5OSBjEyHPv7+/THIcmz70iVhicmN6V+0xuEQbPYmvDIz1hcNMsjfuXscLQ6ajeGPoe0ZXLE8Szw7hs4obu9/v/tvx1G8FafOAr2kU/eU0L4rEm5uPoCUPve4xbqVuwPn6vsSY+axVfuXbtUysec0tjCCsMvccsJICzETilYAUhaW1ovHVUFGPY4zc2KxegcXwxJzGpqCXCYE3l+6AlDOWDnzw2VzfoaWYjVTe21LTEVxaGbjG3R8S6NV+wwgDEoU3grwsOSjbfLtgzrg2XHclFOxJmvNeAaKuc8lwLNa9y++FTuZAD0DxiQvRRrVu/JQJH1Zfri9tYvoOww15j1RiiKQzBQm0GCbA5cZ451BnHRExOieEv2+GXAvUbn1lAwjWnB7m1fGUkjIyrr1p3rxaxtIexdoTLWPwo1tMZx6oxxKwwBMHYPAJEceC0R68ogTCY02/+p+BoI3p+Mjo5TowOCUM5U6eegeyDsR7ywf+tWkRem+n1UDXGG8mJIPpzKIYoCwN07cQk+E3zSNYh1bqihBNGTlT0/GT0hro5Bz5dbN1o8QRiV6m7V4uo+mrVzo2kW4mnApv8NFRjiEXCgFwoDWtdUZHehmZh4JOxaCN0dTo/GfzMndYIPnN9oGbHnKp1Yzf3lNzbQx1YNpd6uTHiPFRjCCsMboSsII2TQLxWddXmj5rMEmG0fPKbAlt+IrFZbt7REgZIkDqJ1bpll5+iyL091Ae8bkiXfzWGsMLQRqEwggD/M5bVT1IkAyRG42gCa6JtqyjIwmAzo0/WqGjZzgmD2EtOCPSEoTr1jVWtGzt+45fNwQb4X0/yb/QQf6xn3h2GagxhhYFjAtEEAgGLcUKAlr0SAzYwfov0isrCAJQtMQLxWdvzI1g7Z+PAnnXEcPM0knkay+9K3UDP8Bn7iV3M794estHM9Q5DNV9Y/I3xF5Co3dygxssJg9PJSXCnYFDnJW+Mwf0MYQwsQxgDw+X6A+qVeKA1wetiAAAAAElFTkSuQmCC" InformativeScreenshot="a0f80aeb0dbe0c18b3b6465371a8d45a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Klq28FMtpUeAbwdncU5h1A" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>

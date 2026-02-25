@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="MpaY-k496E2BdseACmt7ug" Reference="m1hPtSXhEE-MN2DzQb4wOA/utCLnns4PEqLIY-ZXZQoPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="IEBK0RImzESYuTvtxvLwIQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/utCLnns4PEqLIY-ZXZQoPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="302, 311, 276, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4704' cls='SuperGrid' name='Table View' /&gt;&lt;uia cls='LeafRow' name='To Get to Green Release Management, Subject Testing by Saving in Draft, Sent None, Size 43 KB, ' tableRow='0' /&gt;" Guid="e5525b79-d8d9-4270-8e25-12cf742e4c71" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="2b9715218a6e3c809da3d7bf1498ad48.png" xmlns="">0BaMBb4rX1k21w_Dfs7-w8A</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b16cfec7-3af8-4c5b-a617-fb4a34d8f303" CvTextArea="328, 532, 137, 13" CvTextArgument="Testing by Saving in Draft" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="328, 532, 134, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="f7018afd-9b61-4bd9-88ba-80bdd4b80f1e" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1fe020eb-b92e-4a8a-a378-7e4ef8258b8d" CvTextArea="329, 514, 150, 14" CvTextArgument="Get to Green Release..." CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="329, 514, 149, 14" ElementType="Text" Guid="57e0ae7f-127f-4436-b972-1ddfa9857ec4" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f4eb182c545e251e8d5ab54367243a0.png" xmlns="">0cBSDzxihrkGWfofyVxaANQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
