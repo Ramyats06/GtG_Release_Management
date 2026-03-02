@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Function_CloseItemsLeftOpen" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Function_CloseItemsLeftOpen_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Function_CloseItemsLeftOpen" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Function_CloseItemsLeftOpen_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -35,6 +35,7 @@
       <x:String>UiPath.Platform.SyncObjects</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -80,26 +81,35 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Function_CloseItemsLeftOpen" sap:VirtualizedContainerService.HintSize="1273,978" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Function_CloseItemsLeftOpen" sap:VirtualizedContainerService.HintSize="1273,1324" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Inbox - greenui.path@cooley.com - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,955" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="8c0d14ca-48a5-4e1c-abb7-1b82824ba629" Version="V2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="552,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;LOG: Starting function: close items left open&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Inbox - greenui.path@cooley.com - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1128" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="8c0d14ca-48a5-4e1c-abb7-1b82824ba629" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,699" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,872" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484,173" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;LOG: Inside function: close items left open&quot;]" />
             <uix:NCheckState DisplayName="Check App State 'Outlook closed while yo…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,639" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="8c0d14ca-48a5-4e1c-abb7-1b82824ba629" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="Sequence_3">
@@ -112,7 +122,7 @@
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="124f8bcb-ca9e-4a63-bbd2-6abff33ada6e" ContentHash="MBXXGZ2GuE2nm2IvG937rA" CvElementArea="346, 121, 77, 26" CvTextArea="375, 128, 17, 12" CvTextArgument="No" CvType="Button" DesignTimeRectangle="347, 122, 75, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Outlook closed while you had items open.  Reopen those items fro*' cls='NetUIHWND' /&gt;&lt;ctrl name='No' role='push button' /&gt;" Guid="46ca094a-ad6d-4946-9383-996d90d6aaa5" InformativeScreenshot="7e67316c5574bfb5a8fd7e6aa9cd8864.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/kTDx_VHuf0utgVqi5uazXg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='NUIDialog' title='Microsoft Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="124f8bcb-ca9e-4a63-bbd2-6abff33ada6e" CvTextArea="59, 58, 278, 17" CvTextArgument="Outlook closed while you had items open." CvType="Text" DesignTimeRectangle="59, 58, 278, 17" ElementType="Text" Guid="cf924013-46f0-4b2c-963f-71f7845b4583" SearchSteps="CV" TargetType="ComputerVisionBased" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -133,7 +143,7 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable CVScreenId="124f8bcb-ca9e-4a63-bbd2-6abff33ada6e" ContentHash="hLaeXPCH80uyQ8MBO_-tjw" CvTextArea="59, 58, 278, 17" CvTextArgument="Outlook closed while you had items open." CvType="Text" DesignTimeRectangle="59, 58, 278, 17" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="7d831c80-958c-4ec9-9f8b-b73de773becb" InformativeScreenshot="772d8526e59e23139ef52b380d8f1d91.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/0iQUtzZfeEiUApN2dOUwPQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='NUIDialog' title='Microsoft Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="124f8bcb-ca9e-4a63-bbd2-6abff33ada6e" CvElementArea="263, 121, 77, 26" CvTextArea="291, 128, 18, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="263, 122, 75, 24" ElementType="Button" FuzzySelectorArgument="&lt;wnd aaname='Outlook closed while you had items open.  Reopen those items fro*' cls='NetUIHWND' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Yes' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Yes' /&gt;" Guid="def23733-35b7-4ce5-b95c-5bc6ccf787fb" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

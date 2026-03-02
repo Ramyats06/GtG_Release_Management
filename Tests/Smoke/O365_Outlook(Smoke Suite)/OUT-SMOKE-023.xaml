@@ -85,7 +85,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_023" sap:VirtualizedContainerService.HintSize="1273,2872" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_023" sap:VirtualizedContainerService.HintSize="728,2872" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -191,7 +191,13 @@
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="-b0pce3xc0q_le24tJLlnQ" DesignTimeRectangle="1349, 381, 574, 695" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='.Email/Correspondence [268889.PMO0361] - iManage Work - Web cont*' cls='Chrome_WidgetWin_1' title='.Email/Correspondence [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='.Email/Correspondence [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='68' role='grouping' /&gt;" Guid="c5564183-1166-4486-9667-fb61aef61a72" InformativeScreenshot="b00427b6f8010cfa71747cc4d8175666.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Fhy39kuscUCVwgvvzZ6jLQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="ddbc5e8d-e705-4747-a402-1536f56c974b" CvTextArea="1596, 304, 70, 17" CvTextArgument="Properties" CvType="Text" DesignTimeRectangle="1549, 292, 371, 46" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl idx='6' role='grouping' /&gt;" Guid="d302f46f-bb10-4ced-af14-5a3999d740b3" InformativeScreenshot="42e52f455a4e12525cd317bd8ba45941.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="ddbc5e8d-e705-4747-a402-1536f56c974b" CvTextArea="1553, 272, 81, 14" CvTextArgument="Work Panel" CvType="Text" DesignTimeRectangle="1549, 263, 371, 28" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Work Panel toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIElement' role='Title Bar' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Task Pane Options&amp;#x9;Close pane' /&gt;" Guid="6de2ad61-4f39-4970-ad84-86dec618e6f2" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Back'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d3f978e9-e428-4820-94f2-274d08ebaed9" Version="V5">

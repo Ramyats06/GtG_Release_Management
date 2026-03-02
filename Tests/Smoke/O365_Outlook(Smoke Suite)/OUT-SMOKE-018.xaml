@@ -38,6 +38,7 @@
       <x:String>UiPath.Testing.Activities</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -83,21 +84,28 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_018" sap:VirtualizedContainerService.HintSize="1273,3208" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_018" sap:VirtualizedContainerService.HintSize="1273,3727" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3185" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="868405ec-8388-450d-843a-b800ab11ef45" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3704" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="868405ec-8388-450d-843a-b800ab11ef45" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,2929" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,3448" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -108,16 +116,19 @@
                 <scg:Dictionary x:TypeArguments="x:String, Argument" />
               </ui:InvokeWorkflowFile.Arguments>
             </ui:InvokeWorkflowFile>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="552,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;LOG: Invoke workflow - open work panel&quot;]" />
             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_SetWorkPanel - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_SetWorkPanel.xaml)" sap:VirtualizedContainerService.HintSize="552,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_SetWorkPanel.xaml">
               <ui:InvokeWorkflowFile.Arguments>
                 <scg:Dictionary x:TypeArguments="x:String, Argument" />
               </ui:InvokeWorkflowFile.Arguments>
             </ui:InvokeWorkflowFile>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="552,173" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;LOG: click to open folder&quot;]" />
             <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'TestEmailAttachment'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="868405ec-8388-450d-843a-b800ab11ef45" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="f4c68ebe-412a-4fd4-8512-b71373467a9d" ContentHash="bo-hAu4ApkKfk8HwuatsXA" CvTextArea="1295, 550, 121, 12" CvTextArgument="TestEmailAttachment" CvType="Text" DesignTimeRectangle="1295, 550, 121, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="52323c83-955f-4c96-a956-265d9a6334b5" InformativeScreenshot="4ddc3a1da926447ab018bbe613828f82.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/KTzhJDxAzUa40ZdjimD8pg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="552,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;LOG: click to select doc&quot;]" />
             <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Single]" DisplayName="Click 'WordTestDoc.docx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="868405ec-8388-450d-843a-b800ab11ef45" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="1f434724-27e1-488b-92de-1d19aaa37263" ContentHash="gR_HFbGiukeZBJx_BzSjIw" CvTextArea="1295, 550, 107, 12" CvTextArgument="WordTestDoc.docx" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="2267, 759, 107, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="14203f57-1ed4-4c6d-bf93-64c42f654743" InformativeScreenshot="1e203495f7498cdf20cd17a09f832ec6.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QZPds_hiX0aJtGjMDSBVhg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
@@ -211,7 +222,7 @@
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
-                        <uix:TargetAnchorable ContentHash="dLR7WTDQ9UC43uofGx9qKA" DesignTimeRectangle="8, 8, 1920, 178" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="0ceaabc5-5559-4699-acc3-b450e663b7b7" InformativeScreenshot="4042f3e4e5fb8c1f9a9bf1af53352b99.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OS-VP6hbzEGDMdZQ5yPc6w" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252636793v1&amp;lt;EUACTIVE&amp;gt; - WordTestDoc - Word' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        <uix:TargetAnchorable ContentHash="dLR7WTDQ9UC43uofGx9qKA" DesignTimeRectangle="8, 8, 1920, 178" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUInetpane' name='Ribbon' /&gt;" Guid="0ceaabc5-5559-4699-acc3-b450e663b7b7" InformativeScreenshot="4042f3e4e5fb8c1f9a9bf1af53352b99.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OS-VP6hbzEGDMdZQ5yPc6w" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='*; - WordTestDoc - *' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
                   </Sequence>
