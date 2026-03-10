@@ -123,7 +123,7 @@
         <InArgument x:TypeArguments="x:String">["WORD-SMOKE-024 Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,1654" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="624c23ce-0c3c-4976-952b-d6abac918e0c" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,1654" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="624c23ce-0c3c-4976-952b-d6abac918e0c" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
