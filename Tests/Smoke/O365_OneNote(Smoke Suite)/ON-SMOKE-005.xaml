@@ -36,6 +36,8 @@
       <x:String>System.Reflection</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -83,43 +85,66 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ON_SMOKE_005" sap:VirtualizedContainerService.HintSize="1904.6666666666667,1389.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ON_SMOKE_005" sap:VirtualizedContainerService.HintSize="1273,1834" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Untitled page - OneNote" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1366.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Untitled page - OneNote" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1811" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1107.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1555" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'Home'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="a04e515a-1301-46e9-ad7e-4d82bad5f85e" ContentHash="8woWjlUhOkCqbzzAU-3nzQ" CvTextArea="111, 96, 55, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="98, 83, 83, 45" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Home' role='page tab' /&gt;" Guid="f572b6df-48db-4eb0-b271-ad8913220fbf" InformativeScreenshot="f0e45b74c4b61f107a6b895decb95d5b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/bOzVse3cCkWpjo6SlIGi1Q" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Meeting Details'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="f3843beb-2d21-48e0-aca6-4b9a88ad937b" ContentHash="qfOpAQjRrkCzbNafwcy2Rw" CvElementArea="1592, 4, 213, 62" CvTextArea="1650, 25, 139, 24" CvTextArgument="Meeting Details" CvType="Button" DesignTimeRectangle="1598, 6, 202, 61" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Meeting Details' role='push button' /&gt;" Guid="851329b9-3445-4749-8038-435b5b43538c" InformativeScreenshot="7bd4801d07df5219665c3af8434d4ac4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DtAdkjMvbk6SZj0ecxzvIw" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Meeting Details'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Meeting Details'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,648" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Meeting Details has opened Successfuly" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'Home'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="a04e515a-1301-46e9-ad7e-4d82bad5f85e" ContentHash="8woWjlUhOkCqbzzAU-3nzQ" CvTextArea="111, 96, 55, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="98, 83, 83, 45" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Ribbon' role='property page' /&gt;&lt;ctrl name='Ribbon Tabs' role='page tab list' /&gt;&lt;ctrl name='Home' role='page tab' /&gt;" Guid="f572b6df-48db-4eb0-b271-ad8913220fbf" InformativeScreenshot="f0e45b74c4b61f107a6b895decb95d5b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/bOzVse3cCkWpjo6SlIGi1Q" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="f3843beb-2d21-48e0-aca6-4b9a88ad937b" ContentHash="qfOpAQjRrkCzbNafwcy2Rw" CvElementArea="1592, 4, 213, 62" CvTextArea="1650, 25, 139, 24" CvTextArgument="Meeting Details" CvType="Button" DesignTimeRectangle="1598, 6, 202, 61" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Meeting Details' role='push button' /&gt;" Guid="851329b9-3445-4749-8038-435b5b43538c" InformativeScreenshot="7bd4801d07df5219665c3af8434d4ac4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DtAdkjMvbk6SZj0ecxzvIw" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Meeting Details'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="f3843beb-2d21-48e0-aca6-4b9a88ad937b" ContentHash="qfOpAQjRrkCzbNafwcy2Rw" CvElementArea="1592, 4, 213, 62" CvTextArea="1650, 25, 139, 24" CvTextArgument="Meeting Details" CvType="Button" DesignTimeRectangle="1598, 6, 202, 61" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Meeting Details' role='push button' /&gt;" Guid="851329b9-3445-4749-8038-435b5b43538c" InformativeScreenshot="7bd4801d07df5219665c3af8434d4ac4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DtAdkjMvbk6SZj0ecxzvIw" ScopeSelectorArgument="&lt;wnd app='onenote.exe' cls='Framework::CFrame' title='Untitled page - OneNote' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Meeting Details'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,658" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="4fd574b0-a735-4e6e-a5b8-ce4d90c72a1f" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_1" OutputMessageFormat="Assertion Passed: Meeting Details has opened Successfuly" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
