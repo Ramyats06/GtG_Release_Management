@@ -88,7 +88,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Save draft email wth iManage filing location" DisplayName="OUT_SMOKE_013" sap:VirtualizedContainerService.HintSize="1273,6800" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Save draft email wth iManage filing location" DisplayName="OUT_SMOKE_013" sap:VirtualizedContainerService.HintSize="728,6800" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -408,10 +408,10 @@
                     </ui:CommentOut>
                     <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Message Unread'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="[UiPath.UIAutomationNext.Enums.NMouseButton.Right]" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable CVScreenId="b16cfec7-3af8-4c5b-a617-fb4a34d8f303" CvTextArea="328, 532, 137, 13" CvTextArgument="Testing by Saving in Draft" CvTextOccurrenceArgument="2" CvType="Text" DesignTimeRectangle="328, 532, 137, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="f7018afd-9b61-4bd9-88ba-80bdd4b80f1e" InformativeScreenshot="d3c897e09dd2584e6bcd78aa29c0195b.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable CVScreenId="b16cfec7-3af8-4c5b-a617-fb4a34d8f303" CvTextArea="328, 532, 137, 13" CvTextArgument="Testing by Saving in Draft" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="328, 400, 138, 14" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="f7018afd-9b61-4bd9-88ba-80bdd4b80f1e" InformativeScreenshot="8765f7f891d9db9e6afb5a5909cc279e.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target CVScreenId="1fe020eb-b92e-4a8a-a378-7e4ef8258b8d" CvTextArea="329, 514, 150, 14" CvTextArgument="Get to Green Release..." CvTextOccurrenceArgument="2" CvType="Text" DesignTimeRectangle="329, 514, 149, 14" ElementType="Text" Guid="57e0ae7f-127f-4436-b972-1ddfa9857ec4" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="1fe020eb-b92e-4a8a-a378-7e4ef8258b8d" CvTextArea="329, 514, 150, 14" CvTextArgument="Get to Green Release..." CvTextOccurrenceArgument="2" CvType="Text" DesignTimeRectangle="328, 383, 151, 14" ElementType="Text" Guid="57e0ae7f-127f-4436-b972-1ddfa9857ec4" SearchSteps="CV" TargetType="ComputerVisionBased" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
                         </uix:TargetAnchorable>
