@@ -85,7 +85,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_011" sap:VirtualizedContainerService.HintSize="1273,4912" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_011" sap:VirtualizedContainerService.HintSize="728,4912" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -126,10 +126,10 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Testing by attaching a …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,189" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="c09aa080-7f9c-4895-8f72-2821bd0876a8" ContentHash="ebo9KLIcbEiPNYI9Qlt7Dw" CvTextArea="328, 367, 148, 13" CvTextArgument="Testing by attaching a file ..." CvType="Text" DesignTimeRectangle="328, 367, 148, 13" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="35e8b3f9-0d4e-4495-b48b-3070cc395468" InformativeScreenshot="85ba3bbe7bd2fe1855ac31d677fc25f5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/jK6_WrpKaEyk5BaG9mLLoQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="c09aa080-7f9c-4895-8f72-2821bd0876a8" ContentHash="0lBfzgTp6UewPo37fESKQw" CvTextArea="328, 367, 148, 13" CvTextArgument="Testing by attaching a file ..." CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="328, 425, 148, 14" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="35e8b3f9-0d4e-4495-b48b-3070cc395468" InformativeScreenshot="c7df9bce5fb00f325facd60d8e4fc7da.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/jK6_WrpKaEyk5BaG9mLLoQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="c09aa080-7f9c-4895-8f72-2821bd0876a8" CvTextArea="329, 349, 87, 14" CvTextArgument="GreenUl Path" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="329, 349, 87, 14" ElementType="Text" Guid="e90212b8-4588-4895-87aa-9fa9852984b6" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      <uix:Target CVScreenId="c09aa080-7f9c-4895-8f72-2821bd0876a8" CvTextArea="329, 349, 87, 14" CvTextArgument="GreenUl Path" CvType="Text" DesignTimeRectangle="328, 408, 89, 14" ElementType="Text" Guid="e90212b8-4588-4895-87aa-9fa9852984b6" SearchSteps="CV" TargetType="ComputerVisionBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -137,7 +137,13 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,189" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="ad9b1b41-8021-4d94-9e14-20c8b0f84a35" ContentHash="nexKNeqa50SMTG-pwnvjsw" CvElementArea="1425, 223, 21, 19" CvType="Icon" DesignTimeRectangle="1423, 221, 25, 23" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="933eadf4-58b6-4dcd-9b33-3b97acbd4df2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAYAAAD+4+QTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADxSURBVEhLY/j79+9/WuNRS0jCA2eJfd7H/9aZn1CwTcbH/wfO/cZQSwzGagm6BTAc1fgZQy0xmCRLbLI+/rfJ/IAXB1R/wTCPJEuIwSCHoJs3OCxxL/r0f8Phn/9ff/j7Hxt49BJVPcmW2GZ9+n/l3p//q/f9/O9X/hnFMFyYZEtKpn79f+H2bzB74fYf/3/9/gd1PwKAxE5d//0/qAriCJItmbzm+/9lu3+C2V+///sfXofpG/ucT/9nbPgBtgjEp4lPGuZ+++9SAHEEWZYQEycU+wSECaUu9DgBYXTzCFpCDkY3b+AsoTYetYQE/Pc/AKjbApyy+xr1AAAAAElFTkSuQmCC" InformativeScreenshot="0c4d97f3935860d7ad08a4475866de76.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nRl_tJg0oUK_Lj-fc7hwuA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="ad9b1b41-8021-4d94-9e14-20c8b0f84a35" ContentHash="nexKNeqa50SMTG-pwnvjsw" CvElementArea="1425, 223, 21, 19" CvType="Icon" DesignTimeRectangle="1423, 221, 25, 23" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="933eadf4-58b6-4dcd-9b33-3b97acbd4df2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAXCAYAAAD+4+QTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADxSURBVEhLY/j79+9/WuNRS0jCA2eJfd7H/9aZn1CwTcbH/wfO/cZQSwzGagm6BTAc1fgZQy0xmCRLbLI+/rfJ/IAXB1R/wTCPJEuIwSCHoJs3OCxxL/r0f8Phn/9ff/j7Hxt49BJVPcmW2GZ9+n/l3p//q/f9/O9X/hnFMFyYZEtKpn79f+H2bzB74fYf/3/9/gd1PwKAxE5d//0/qAriCJItmbzm+/9lu3+C2V+///sfXofpG/ucT/9nbPgBtgjEp4lPGuZ+++9SAHEEWZYQEycU+wSECaUu9DgBYXTzCFpCDkY3b+AsoTYetYQE/Pc/AKjbApyy+xr1AAAAAElFTkSuQmCC" InformativeScreenshot="0c4d97f3935860d7ad08a4475866de76.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nRl_tJg0oUK_Lj-fc7hwuA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6">
+                  <uix:TargetAnchorable.WaitForReadyArgument>
+                    <InArgument x:TypeArguments="uix:NWaitForReady">
+                      <Literal x:TypeArguments="uix:NWaitForReady" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="Interactive" />
+                    </InArgument>
+                  </uix:TargetAnchorable.WaitForReadyArgument>
+                </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'All Attachments...'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,189" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e6aa1a6c-3f84-40b0-89b6-ed634e16997c" Version="V5">

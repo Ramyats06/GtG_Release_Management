@@ -85,13 +85,13 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_012" sap:VirtualizedContainerService.HintSize="728,4032" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_012" sap:VirtualizedContainerService.HintSize="633,4032" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,4009" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,4009" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="c2ea8d5b-32c1-4fea-bca2-57487753c855" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

@@ -95,7 +95,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_014" sap:VirtualizedContainerService.HintSize="1273,3920" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_014" sap:VirtualizedContainerService.HintSize="633,3920" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -121,7 +121,7 @@
         <InArgument x:TypeArguments="x:String">["WORD-SMOKE-014 Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3669" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="a8174c42-37cf-41fc-b4ef-7c1e2f80183f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3669" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="a8174c42-37cf-41fc-b4ef-7c1e2f80183f" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -238,7 +238,7 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable CVScreenId="8b438015-611a-4829-8439-fb2276dbea6b" ContentHash="2Z2PHSmaCkS8jOW1Pkk3Cw" CvElementArea="48, 221, 1821, 797" CvType="InputBox" DesignTimeRectangle="54, 437, 1810, 581" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;" Guid="5acdc5e0-fd68-48a8-923f-3411a0774308" InformativeScreenshot="00f09a7a3748fc9926d24951d691120f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/jDKsd2KtDEGJMO694_829w" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252815900v1&amp;lt;EUACTIVE&amp;gt; - WORD-SMOKE-014 Test iManage 03-04-2026 *' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="8b438015-611a-4829-8439-fb2276dbea6b" CvTextArea="75, 65, 36, 12" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="66, 56, 55, 30" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='TabHome' cls='NetUIRibbonTab' name='Home' role='Tab Item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Home' /&gt;" Guid="d471974b-9656-4568-9150-0f3f8ba9ec18" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
