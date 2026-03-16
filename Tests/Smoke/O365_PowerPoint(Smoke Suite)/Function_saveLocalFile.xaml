@@ -1,0 +1,219 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Function_saveLocalFile" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="localFilename" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Function_saveLocalFile_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Function_saveLocalFile" sap:VirtualizedContainerService.HintSize="1273,2563" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2540" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="025be864-1632-4b45-bf18-a5379f843b11" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2284" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="59c01501-a2c9-4d32-ab60-ec5cc766a456" ContentHash="r0YlBdV620asX6v-QeO6zA" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="41, 96, 31, 18" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="1a5c2bcb-49fd-4dcf-8466-29456d62c535" InformativeScreenshot="ee4a3eb053c6c1b818822ecdc75c4398.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QKWrKEOp00WkTX_G1dZ1IA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="73f96802-ca86-496a-b5fd-8e42ad0fbd9f" ContentHash="eR7wzC23WkecaujsENS_zA" CvTextArea="74, 852, 64, 18" CvTextArgument="Save As" CvType="Text" DesignTimeRectangle="11, 831, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIRibbonTab' name='Save As' /&gt;" Guid="66b71347-0805-4a71-9e7e-3d60abfd5ef8" InformativeScreenshot="9dc7b0ee9fc68dbd923b6e2366308d44.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Y1y5XO-Xo06ZtlV8Q9zCnw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Browse'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="34e83e5f-1470-421f-b089-885b5991f0a6" ContentHash="ZY69KUJcJUKmrF1RGNCqWg" CvTextArea="259, 561, 49, 14" CvTextArgument="Browse" CvType="Text" DesignTimeRectangle="207, 546, 316, 44" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Save As' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Saving Features' /&gt;&lt;uia cls='NetUIElement' idx='2' /&gt;&lt;uia cls='NetUISimpleButton' name='Browse' /&gt;" Guid="8b4ef4e5-8b05-4295-ae2c-d9fefe819e56" InformativeScreenshot="cba1d1ad5e031d25a0a6aa3cbe664f7a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DnKzUicoU0GdWbTDHcAzsA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="34e83e5f-1470-421f-b089-885b5991f0a6" CvTextArea="205, 78, 68, 16" CvTextArgument="Save As" CvType="Text" DesignTimeRectangle="206, 72, 68, 42" ElementType="Text" FuzzySelectorArgument="&lt;uia cls='NetUIElement' name='Save As' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUILabel' name='Save As' role='Text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Save As' /&gt;" Guid="34095d18-5ec3-44eb-a02d-2dc904e167e5" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="8d709942-e105-4748-9fa5-fbde4f31f014" ContentHash="74PqosvqE0KtBlmm14gu1A" CvElementArea="143, 41, 824, 34" CvType="InputBox" DesignTimeRectangle="897, 41, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Address band' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Previous Locations' /&gt;" Guid="3f95b129-91f5-4606-869e-6c4b602fd4aa" InformativeScreenshot="de64ac91c550436c8117ce1aa71703de.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/XtTTmnGnNE6CMHuSzDk8XQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8d709942-e105-4748-9fa5-fbde4f31f014" CvElementArea="143, 41, 824, 34" CvType="InputBox" DesignTimeRectangle="931, 41, 34, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Address band' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Refresh &amp;quot;Documents&amp;quot; (F5)' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Refresh &amp;quot;Documents&amp;quot; (F5)' /&gt;" Guid="a0bb77d3-b528-40b6-b9a1-650a5418b39d" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DelayBefore="2" DeselectAfter="True" DisplayName="Type Into 'CUsersgreenuipathOn…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Text="[&quot;H:\&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="b15d50e2-53d1-4afc-bc58-bfe6e358ba7e" ContentHash="qqCyhLA4ok2yx5dkA_Lebg" CvElementArea="143, 41, 782, 34" CvType="InputBox" DesignTimeRectangle="146, 41, 785, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" Guid="6c9ab841-db71-401b-ac50-c1394648c54d" InformativeScreenshot="fa306d4faf211b2e95ccad6906c96cd1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/SKtZKRRtZUiORYIKDatObw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'TestData'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="41526205-fe05-4d1a-901e-5ad6675a398b" ContentHash="c0xqxh0Yj0WlKKP--yF7Cw" CvTextArea="306, 319, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="305, 311, 405, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='3' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="78e976f1-904d-4926-8f40-21914e044ae7" InformativeScreenshot="8ca71f149c1a7e3b5ec16a0567c635ca.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/FnM4Z3EKwkeAPJT1vO4T6w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Text="[localFilename]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="74d78d33-e23f-4385-924f-1e5b85eb1319" ContentHash="4bQVTYzANUqurW3X8JK-dQ" CvElementArea="198, 476, 742, 36" CvType="InputBox" DesignTimeRectangle="202, 481, 710, 27" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="bcd9c29e-2c5a-466b-a58b-31a3cab51b44" InformativeScreenshot="be0e833047407aa24620f8d91d5cebe2.png" IsResponsive="True" Reference="m1hPtSXhEE-MN2DzQb4wOA/GIcEW18TOU6cfNAlzy4YTA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="74d78d33-e23f-4385-924f-1e5b85eb1319" CvTextArea="111, 486, 79, 17" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="26, 478, 173, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Explorer Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Details Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='File name:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='File name:' /&gt;" Guid="f8bc7bf7-c279-4d72-9254-eb9c343eea23" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="831f81a3-87a4-485b-b6f6-20991e2b0e79" ContentHash="Tv56ZcDnr0mWE3GB2Ci4VQ" CvElementArea="641, 643, 133, 40" CvTextArea="685, 655, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="641, 644, 132, 39" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" Guid="04c118f1-83c6-4782-9de6-35b18e4347b5" InformativeScreenshot="1f3d4c74acd8a155c8d0b00346f23682.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZEmfhynHOEGbvWaYsBvwyg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Saving'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,497" sap2010:WorkflowViewState.IdRef="NCheckState_1" Mode="WaitDisappear" ScopeIdentifier="025be864-1632-4b45-bf18-a5379f843b11" Timeout="30" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable ContentHash="2a4XjYiJykeAeLaW3M-HCg" DesignTimeRectangle="0, 0, 350, 123" ElementVisibilityArgument="Interactive" Guid="8e977a92-ae2d-48d3-bf79-b7c4e50d6517" InformativeScreenshot="2f3393201df916b5c5f4a7fb723dce7a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/BzbfdcIcok27-7dCT-NM_g" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='NUIDialog' title='Saving' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,113" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="aiKtlwOUoUmalMtAq8hLuQ" FilePath="C:\Program Files\Microsoft Office\root\Office16\powerpnt.exe" IconBase64="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" InformativeScreenshot="b05775519034a52227895118c46dddf1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/yZ0poSHOf0yTMfdBjnSfxw" Selector="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='*' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

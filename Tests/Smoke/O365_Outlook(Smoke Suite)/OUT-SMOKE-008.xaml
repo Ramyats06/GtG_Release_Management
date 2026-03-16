@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_005" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_005_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_005" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_005_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -91,26 +91,32 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="OUT_SMOKE_008" sap:VirtualizedContainerService.HintSize="1904.6666666666667,3472.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Verify new meeting window" DisplayName="OUT_SMOKE_008" sap:VirtualizedContainerService.HintSize="1273,3621" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Inbox - rsundararajan@cooley.com - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3450" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Inbox - rsundararajan@cooley.com - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3567" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,3190.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,3311" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'List Item Calendar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="552,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'List Item Calendar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="-BF4A58NmEmSDcHEVcSUCg" DesignTimeRectangle="11, 155, 72, 72" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name=' ' /&gt;&lt;uia cls='NetUIListView' /&gt;&lt;uia cls='NetUIListViewItem' name='Calendar' /&gt;" Guid="87e21381-7565-47e3-9646-50cb6089cc05" InformativeScreenshot="54842b1cf83badfa9d371efd80ca53fc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/i5Xxsd5MU0ybbANwIRUkmA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='OneDrive - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
@@ -121,7 +127,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,416" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Shortcuts="[d(hk)][k(Esc)][u(hk)]" Version="V5">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,394" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Shortcuts="[d(hk)][k(Esc)][u(hk)]" Version="V5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -129,25 +135,25 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NKeyboardShortcuts>
-            <uix:NCheckState DisplayName="Check App State 'Verification target'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="552,674" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Verification target'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="552,665" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Passed: Calendar ribbon is present and remains unchanged" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="Assertion Passed: Calendar ribbon is present and remains unchanged" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion Failed: Calendar ribbon is either missing or has changed" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="Assertion Failed: Calendar ribbon is either missing or has changed" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
@@ -166,7 +172,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Meeting'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Meeting'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="mReXktBt7k2CHI3cGkWLxg" DesignTimeRectangle="228, 132, 77, 118" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='New' /&gt;&lt;uia automationid='NewMeetingHiddenWhenWithAllVisible' cls='NetUIRibbonButton' name='New Meeting' /&gt;" Guid="395327a3-3aec-4654-a5fb-e456c6cfd5ea" ImageBase64="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" InformativeScreenshot="703d345e57de1afa03e76632a6e2d72c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Mdk2S03AJ0yTvu96yyz1Jw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Calendar - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -183,25 +189,25 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Zoom'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="552,674" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Zoom'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="552,665" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="0d339159-3fa1-4f46-9a1c-28a1ff5a387f" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="Assertion Passed: New Meeting window opened successfully and Zoom button is visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="Assertion Passed: New Meeting window opened successfully and Zoom button is visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_14">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="Assertion Failed: New Meeting window did not open or Zoom button is not visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="Assertion Failed: New Meeting window did not open or Zoom button is not visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
@@ -220,37 +226,37 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Untitled - Meeting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,984" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="d07bd8c7-3b46-4240-86f1-d0201a5d1402" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Untitled - Meeting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,972" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="d07bd8c7-3b46-4240-86f1-d0201a5d1402" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,724.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,716" sap2010:WorkflowViewState.IdRef="Sequence_15">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'Add a Zoom Meeting'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="d07bd8c7-3b46-4240-86f1-d0201a5d1402" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State 'Add a Zoom Meeting'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,656" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="d07bd8c7-3b46-4240-86f1-d0201a5d1402" Version="V5">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_16">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" OutputMessageFormat="Assertion Passed: Window is maximized and all ribbon elements remain visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_7" OutputMessageFormat="Assertion Passed: Window is maximized and all ribbon elements remain visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_17">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" OutputMessageFormat="Assertion Failed: Window is maximized but ribbon elements are not fully visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_8" OutputMessageFormat="Assertion Failed: Window is maximized but ribbon elements are not fully visible." TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>

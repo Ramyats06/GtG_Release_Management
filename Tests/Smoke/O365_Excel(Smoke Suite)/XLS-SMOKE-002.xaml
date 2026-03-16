@@ -96,28 +96,36 @@
       <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="XLS_SMOKE_002" sap:VirtualizedContainerService.HintSize="1916,3081" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="New Blank Workbook checks" DisplayName="XLS_SMOKE_002" sap:VirtualizedContainerService.HintSize="1276,3234" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3058" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b2c47fd0-5e71-4a39-b10a-7b236dedcfcb" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Book1 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3180" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="b2c47fd0-5e71-4a39-b10a-7b236dedcfcb" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2802" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2924" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b2c47fd0-5e71-4a39-b10a-7b236dedcfcb" Version="V5">
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'iManage'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b2c47fd0-5e71-4a39-b10a-7b236dedcfcb" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="f8568e07-da52-4725-bf45-b7b49a3a238e" ContentHash="7-1FgKnMnUShmebFSNmCxw" CvTextArea="950, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="937, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="34db9fa2-45c5-4846-8406-e664dbba6b4d" InformativeScreenshot="e0fc39634446a8a10c709380fb6de184.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/flT0O_MejUSNquhMTfUXbg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="f8568e07-da52-4725-bf45-b7b49a3a238e" ContentHash="LOs5ihlegEiTRvpUpbQdMw" CvTextArea="950, 96, 78, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="630, 56, 70, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="34db9fa2-45c5-4846-8406-e664dbba6b4d" InformativeScreenshot="435e31f90ba4d034775dfd4edadd8303.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/flT0O_MejUSNquhMTfUXbg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3d52aedd-1c4c-44df-a2ba-c89fa82b8a7b" CvTextArea="29, 64, 21, 13" CvTextArgument="File" CvType="Text" DesignTimeRectangle="12, 56, 54, 30" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' role='Button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='File Tab' /&gt;" Guid="345f182c-781b-423f-a71c-013b4deeb71e" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NCheckState DisplayName="Check App State 'Connect Open Save As Sa…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="b2c47fd0-5e71-4a39-b10a-7b236dedcfcb" Version="V5">
@@ -168,7 +176,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="[“Verified: After clicking on Letria from the Ribbon, the Letria icons are displayed.”]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="[“Assertion passed: After clicking on Litera from the Ribbon, the Letria icons are displayed.”]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
@@ -178,7 +186,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="[“Letria icons did not appear after clicking Letria from the Ribbon.”]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="[“Assertion failed: Litera icons did not appear after clicking Letria from the Ribbon.”]" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="True" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>

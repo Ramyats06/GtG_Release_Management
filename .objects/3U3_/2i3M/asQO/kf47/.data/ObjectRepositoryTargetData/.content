@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="2aU2vyjXAEauZG7GYdJg2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="77BdcBQpO0Sd3RD5VV_zzg" Reference="m1hPtSXhEE-MN2DzQb4wOA/kf47gVC-bU2LGuiOwYT7mA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ec2901d0-35da-4075-8290-923d639824b5" CvTextArea="849, 143, 185, 21" CvTextArgument="Conditional Formatting" CvType="Text" DesignTimeRectangle="815, 134, 251, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia automationid='ConditionalFormattingMenu' cls='NetUIAnchor' name='Conditional Formatting' /&gt;" Guid="0289c1af-6076-4114-b00c-6ff8a2bdef96" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="27b6413930c524e29d5bc281560bca9d.png" xmlns="">01iRDbVW-UkW4getOiRau5w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ec2901d0-35da-4075-8290-923d639824b5" CvTextArea="849, 143, 185, 21" CvTextArgument="Conditional Formatting" CvType="Text" DesignTimeRectangle="899, 90, 75, 76" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='Styles' /&gt;&lt;uia automationid='ConditionalFormattingMenu' cls='NetUIAnchor' name='Conditional Formatting' /&gt;" Guid="0289c1af-6076-4114-b00c-6ff8a2bdef96" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Book1 - Excel' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="94dc669c-d745-481b-a2e9-80134e5a3a7e" CvTextArea="74, 65, 39, 12" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="66, 56, 55, 30" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='TabHome' cls='NetUIRibbonTab' name='Home' role='Tab Item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Home' /&gt;" Guid="864d03da-1cc8-448f-9192-ddd85ce80169" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="53263855df1ad7cc6817d2bed471d494.png" xmlns="">0Q3nzOckYuku14u18Z8X6gQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

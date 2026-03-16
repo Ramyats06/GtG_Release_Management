@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_014" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_014_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OUT_SMOKE_014" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="OUT_SMOKE_014_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -88,29 +88,256 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_014" sap:VirtualizedContainerService.HintSize="646,4481" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Attach multiple files from iManage" DisplayName="OUT_SMOKE_014" sap:VirtualizedContainerService.HintSize="1273,5324" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,505" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="743f8860-1292-4789-b73e-3ab68cc9ddb6" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,5270" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="743f8860-1292-4789-b73e-3ab68cc9ddb6" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="586,5014" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Email(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,180" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="743f8860-1292-4789-b73e-3ab68cc9ddb6" Version="V5">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_CloseItemsLeftOpen - Invoke Workflow File (Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml)" sap:VirtualizedContainerService.HintSize="552,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Outlook(Smoke Suite)\Function_CloseItemsLeftOpen.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Email(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="743f8860-1292-4789-b73e-3ab68cc9ddb6" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="UUHi73q_m0-Pot0Mr6EAhg" DesignTimeRectangle="113, 134, 62, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' /&gt;&lt;uia cls='NetUIChunk' name='New' /&gt;&lt;uia automationid='NewItem' cls='NetUIRibbonButton' name='New Email' /&gt;" Guid="00bafe02-dcaa-46e4-bffc-3625e1b3cf61" InformativeScreenshot="d7316302635fbb61f8037027a078844d.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ivLntKSSR0SbBAEqyB8rPA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - rsundararajan@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Untitled - Message (HTML)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,4588" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="6729173f-2543-42ff-8ae2-086c9609175b" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,4332" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'edit To(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Text="GtGRelMgmt@cooley.com" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable ContentHash="Mk-udAXDh0S8YEqL_j0xsA" DesignTimeRectangle="308, 428, 1578, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4117' cls='RichEdit20WPT' name='To' /&gt;" Guid="b473ca78-d93a-4e42-a724-9b1938a5f8be" InformativeScreenshot="0a0e241c6bf1d949c37293ac86a45aa8.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/5vS_Y6fe90iFexroKWvmOA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Subject(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Text="Testing by attaching a file from iManage" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable ContentHash="S_ks8QqgX06r_4f7gQJ1Lw" DesignTimeRectangle="308, 542, 1578, 60" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Subject' role='edit' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="46d43e3b-7437-45b0-a80d-e61e84671950" InformativeScreenshot="acab4c7af2f8e25ce312006237573789.png" IsResponsive="True" Reference="m1hPtSXhEE-MN2DzQb4wOA/cEyBOCMRAEy82K6sjOlu0w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="b0ddfeed-98cc-4803-b1ed-a490a45fdd9a" CvTextArea="198, 561, 61, 22" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="170, 558, 120, 44" ElementType="Text" FuzzySelectorArgument="&lt;uia automationid='4516' cls='Static' name='Subject' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Subject' /&gt;" Guid="f961edfe-5e00-48a8-b001-9473710737a4" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Insert iManage Attachme…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable ContentHash="04k2lt2tjkSb9Unh5Y2P3Q" DesignTimeRectangle="1436, 134, 125, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIRibbonButton' name='Insert iManage Attachment' /&gt;" Guid="57bf14be-c3c9-4279-b6dd-6c11a6a3cf97" InformativeScreenshot="657e4140fbdfbdd525385c16e53966e5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/07lIcnsHrk2oI7IGO7QG9g" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by attaching a file from iManage - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                    <uix:NCheckState DisplayName="Check App State 'Recent Matters'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,648" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'System'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,180" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable CVScreenId="70000122-1fef-402f-ba56-d80ae2d1fce9" ContentHash="W1fhibU-yUqv5UnLyJmZXA" CvTextArea="29, 64, 20, 13" CvTextArgument="File" CvType="Text" DesignTimeRectangle="28, 49, 24, 25" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='* [*.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='* [*.PMO0361] - iManage Work' /&gt;&lt;ctrl name='* [*.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Navigation Collapsed. Select to Expand navigation' role='push button' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="eee9d3cf-148e-4408-867d-bc6478bc7337" InformativeScreenshot="2651e48b99dd859aa1a311074396e622.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/tc5W5sHqd02IItqVw1cgGg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CVScreenId="7b72ed93-5075-4c29-92e7-fdb846abf757" CvElementArea="14, 5, 20, 20" CvType="Icon" DesignTimeRectangle="8, 8, 22, 22" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='System' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='System' /&gt;" Guid="dd135724-5058-481e-98c4-e9130c643ae9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADDSURBVEhL7ZAxCgIxEEW9l3oWC0HQ3htYiL0HUSztdK2stBE77S3cGMHdNV9/0kSQJSa4KGTghWFmMi+kJoRAFTiLmr0U9a4fvOssagSIeDeKNKttjmSTvywrI0hE7GVleItIa3DB7lBAXBWmy5uGOWvs2bNBov2xwHydoT+WOJ3vGuassWfPBomUUuiMzMtnSaZhzhp79myQiNEeGtFkYb6OOWsMe/Y/RJ8QRW+XuPCbolCiyJso8qY60TN4QEr5RSQeDAIAyNK9vYQAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable CVScreenId="e36cdcc1-aecd-4885-a41d-1589a629b4d0" ContentHash="jUbgSIkmb0Otm1WzXBdMqw" CvTextArea="56, 345, 84, 16" CvTextArgument="My Favorites" CvType="Text" DesignTimeRectangle="15, 329, 182, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='TestEmailAttachment - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='TestEmailAttachment - iManage Work' /&gt;&lt;ctrl name='TestEmailAttachment - iManage Work' role='document' /&gt;&lt;ctrl name='My Favorites' role='link' /&gt;" Guid="d9e9218a-57e9-4465-979e-3a8dd6554816" InformativeScreenshot="17df092775f9743d4ef5d5a6066ba8bc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ig2r9lMkJkiJaYVjh7oJng" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="e36cdcc1-aecd-4885-a41d-1589a629b4d0" CvTextArea="56, 345, 84, 16" CvTextArgument="My Favorites" CvType="Text" DesignTimeRectangle="57, 342, 83, 19" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='TestEmailAttachment - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='TestEmailAttachment - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='TestEmailAttachment - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='My Favorites' role='link' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='My Favorites' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='My Favorites' /&gt;" Guid="eec71518-72a9-4718-8cd4-832c5b1eb68e" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Recent Matters'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="e36cdcc1-aecd-4885-a41d-1589a629b4d0" ContentHash="jUbgSIkmb0Otm1WzXBdMqw" CvTextArea="56, 345, 84, 16" CvTextArgument="My Favorites" CvType="Text" DesignTimeRectangle="15, 329, 182, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='TestEmailAttachment - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='TestEmailAttachment - iManage Work' /&gt;&lt;ctrl name='TestEmailAttachment - iManage Work' role='document' /&gt;&lt;ctrl name='My Favorites' role='link' /&gt;" Guid="d9e9218a-57e9-4465-979e-3a8dd6554816" InformativeScreenshot="17df092775f9743d4ef5d5a6066ba8bc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ig2r9lMkJkiJaYVjh7oJng" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="e36cdcc1-aecd-4885-a41d-1589a629b4d0" CvTextArea="56, 345, 84, 16" CvTextArgument="My Favorites" CvType="Text" DesignTimeRectangle="57, 342, 83, 19" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='TestEmailAttachment - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='TestEmailAttachment - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='TestEmailAttachment - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='My Favorites' role='link' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='My Favorites' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='My Favorites' /&gt;" Guid="eec71518-72a9-4718-8cd4-832c5b1eb68e" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'Projects [268889.PMO036…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="659090ab-4daa-4856-9785-bce444382d9b" ContentHash="m9zWP745HUqcLNTlNyPUhQ" CvTextArea="166, 284, 265, 17" CvTextArgument="Quality Assurance [268889.PMO0361]" CvType="Text" DesignTimeRectangle="297, 275, 302, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='My Favorites - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='My Favorites - iManage Work' /&gt;&lt;ctrl name='My Favorites - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="35593d88-c08b-41a9-bb00-98cd1e4278b1" InformativeScreenshot="9cb0316d96d374016d10524d1bf297a2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Q-sf71kupUepitBqNUwfZg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="6d9b5354-1ab8-472b-aa93-e0078c91d0a2" CvTextArea="207, 101, 98, 13" CvTextArgument="MY FAVORITES" CvType="Text" DesignTimeRectangle="198, 89, 107, 34" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='My Favorites - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='My Favorites - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='My Favorites - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='MY FAVORITES' /&gt;" Guid="10addb47-d744-4603-ab20-c738f2507cd5" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DelayAfter="2" DelayBefore="2" DisplayName="Click 'Quality Assurance [2688…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="aa4758e3-4a90-4503-b437-0f34a51656be" ContentHash="9sFL2IWRY06QRbvXZfU-NA" CvTextArea="165, 230, 151, 14" CvTextArgument="TestEmailAttachment" CvType="Text" DesignTimeRectangle="297, 282, 287, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestEmailAtta*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="e6c4ec85-a7c6-4bce-b090-b81322dd6f1a" InformativeScreenshot="fa1fc79fd3ceb50dceafbd5d0c772ecd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/n1XEpuPprUuCzabuKRJkjA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="27ec604d-b4cb-4d32-b947-49598b041f19" CvTextArea="56, 345, 84, 16" CvTextArgument="My Favorites" CvType="Text" DesignTimeRectangle="15, 329, 182, 48" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='My Favorites' role='link' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='My Favorites' /&gt;" Guid="1b97cfeb-ca3e-479f-89fc-6dfc664fd48a" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PPT_Test.pptx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" ContentHash="XkbaCmKjtU6uyqJxAznRKw" CvElementArea="310, 351, 28, 28" CvType="CheckBox" DesignTimeRectangle="313, 353, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open PPT_Test.pptx*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="9d4c9450-0e23-40e1-82e3-8f7149214047" InformativeScreenshot="f503230092415400762bdc1f6105a7bd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/csilZUv9vkqFNm74RJWzhQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvTextArea="442, 340, 147, 27" CvTextArgument="PPT_Test.pptx" CvType="Text" DesignTimeRectangle="443, 329, 1224, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open PPT_Test.pptx*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='PPT_Test.pptx' /&gt;" Guid="7ed95b44-3e49-4a8d-a88c-5681c0a12c80" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestExcel.xlsx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" ContentHash="Q2qMGvomqEmir0aRhrvL3g" CvElementArea="310, 441, 29, 28" CvType="CheckBox" DesignTimeRectangle="313, 443, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestExcel.xls*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="3c7dc33d-2640-4f5f-b509-b52dbb35afb0" InformativeScreenshot="03962f6c4c1a99b561fe4ae15d0d6768.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3z-2aONBcUeTcyRvIsVIdw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvTextArea="441, 430, 145, 22" CvTextArgument="TestExcel.xlsx" CvType="Text" DesignTimeRectangle="443, 419, 1224, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestExcel.xls*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='TestExcel.xlsx' /&gt;" Guid="0dbfd73e-d67c-4c57-9d38-a44c2ee9e8ca" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Attach File(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="4d18aaa0-b304-4630-adad-ab49e8229f92" ContentHash="iqLCZlKJOEiXfLYjXRGTfQ" CvElementArea="1451, 1021, 179, 58" CvTextArea="1470, 1039, 106, 19" CvTextArgument="Attach File" CvType="Button" DesignTimeRectangle="1454, 1023, 140, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Attach File' role='push button' /&gt;" Guid="1526e51d-eb1e-42f5-a36d-be0ba80d2c79" InformativeScreenshot="eeb977c57825066cf8805b7e8d10975b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/n4Yx7RcOzEK5U54n3sLzNQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NCheckState DisplayName="Check App State 'PPT_Test.pptx 32 KB Tes…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASS: Two or more files has been attched from iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAIL: Two or more files has not been attched from iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable ContentHash="Ba58WEqEx0eennAXb48DOw" DesignTimeRectangle="57, 622, 1853, 69" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUIOlkAttachmentViewer' /&gt;" Guid="a3213b9b-8a42-4600-864a-9e213e6e3e44" InformativeScreenshot="0ee7d5338fabd9c431583bab61e42687.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/iJqow7k770CFdOZbNtSUJA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="313cf37d-d821-42e5-a9d7-d4bd94e95eb6" ContentHash="IK-b4TsNmkatMIfLFuVS-Q" CvElementArea="53, 424, 95, 119" CvTextArea="78, 500, 42, 18" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="38, 292, 60, 76" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' /&gt;" Guid="aaec8c17-e0f8-4e0b-b00b-1ab07a745c2b" InformativeScreenshot="d9bfc5b30d9b80801b91ef27b9a019c8.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/8Jg77fgHeUWZfCRGJjwUXQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Sending a large file - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="901e05b3-b249-4b76-9b80-991bbeb4e181" CvElementArea="112, 291, 83, 34" CvTextArea="145, 301, 15, 12" CvTextArgument="To" CvType="Button" DesignTimeRectangle="112, 291, 83, 34" ElementType="Button" Guid="5bd35bdc-6f98-48b5-ac44-9b63944e54b2" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send &amp;Only'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="9e9c6ce6-edcb-4d89-a7da-e66b8927e2a1" ContentHash="JhYvVRMuR0GLftRzvsBsdA" CvElementArea="1514, 1079, 136, 47" CvTextArea="1539, 1092, 85, 21" CvTextArgument="Send Only" CvType="Button" DesignTimeRectangle="1515, 1080, 134, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='flowLayoutFooterOptions' /&gt;&lt;wnd ctrlname='buttonSendOnly' /&gt;" Guid="f36b8aca-09e1-4024-a823-9238a8df2557" InformativeScreenshot="22d7e025450cf21923f92a272f46c190.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/gq4jiwrt-EO0mX9ovakYXw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NCheckState DisplayName="Check App State 'Set language Any langua…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,656" sap2010:WorkflowViewState.IdRef="NCheckState_2" Mode="WaitDisappear" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASS: Attached file from iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAIL: Attached file from iManage has Failed" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable ContentHash="gr4qBZAuo0C0RAQgnENcCw" DesignTimeRectangle="11, 45, 1920, 1094" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;" Guid="052ef551-56e3-4f5b-b9db-b287df44b245" InformativeScreenshot="eae7831f23c94fdc75069d727114b7ea.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/lrOvwCuFNkW8_JtiFhcU7A" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="244, 200, 1439, 818" ContentHash="EkBx72d8MkuhmFI-GF9CQA" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" InformativeScreenshot="153c05be66e64793f352bd26afd82d2f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" Version="V1">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -122,7 +349,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="y0de0Jbl3E2WyiELl27ZFg" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="d91bd7b7a4c8d0dd163e46d0a457bd9e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" Version="V2">
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="3ztDJ_d6_kSDb25K7L6b5A" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALRSURBVFhH7ZfdSxRRGMY3p21Ji3Z3JCMwcjGsLvoPgm4iCAkTyojCNiqRwvZSw0orVqvtAysEofTCJSUyKIqi0CyLFGEoV7aNSohQ6KIggqCbp/OOZ7azs+fY7Ic30QM/mH3n7Ps8M+fMnF3XfzmVduChwUCeMHhb55I0yQne1rlkTXKBt81AjTGoWNv3RUlVAlJ41wwkMbaQGVvIzAneNQMdGYSKNV1xqTkhMyd4V6bGmGG/Isc0PIersg3lnW+k5oTMnODuTLLGmbD52PwF2NQ1ZSI7lyTfAbwtcXSPf4NdVKNz9vEFGxtm14KtbiELRXB3JtsXjOmf3BLmsf2zPUReA+y79ZlbwTy26jQNlkL3ZpJ1Iq8Bhj78ME3uTH5PaUJY00JjxHq2AQor6kJpAazb3fKEJRTqBNVINEas5xCAYJuSMHjq6y/TZD4DVPROo6x9FEUbjsJbf5dNhTDYmgK63WKdUE2Btn47tN1R6YZDiGML6ofgru5BUd0D6Gffovgye8TFAbTALKkWoVgnnARY0PASC2tuYnHtAHxnJkxji5QAhP2xs3+2j9fWVakDHHwEbc8APDVRLGseSzFWBsj0RbSofCvclVeg7b//x5gdu3f0wlPZiaWhQamxRVoAESev4uV7T8FX2w3Plg64d/Wb0PGS4G3o599JTUXmDOCEkmDY3AsC1xLwBvtRuPMGvE3PoJ+bRPHF91JTEQqQ9XashZ4mA1iPWVkXM20dgf/kC+htr9ldiKP40kepOTH7MppD/m2HoUKvDmHFoYh0NyztiMF/Yhj+1lfQ2yegRxLMMD0It1GrtKkPf0P1i6giOoOVEQO+5iH4T4+xZ59Ny4XUdcFt1Fodfoy5CERGpOYi5T2fUBIehe/4MPSwkbI+uI1asobZErjOrtpcHyPJ9cFt1JI1ypVVV+PJ9cFt1GJfMOwN8gFfH5n/RfvH5HL9BgIsf5Fb3KeZAAAAAElFTkSuQmCC" InformativeScreenshot="0810aad44ab69e75cffe44fc2c93c086.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/OtuJKX3cJUmeWjY_2IIEzg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" Version="V2">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>
@@ -137,163 +364,6 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-    </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Untitled - Message (HTML)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3953" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="6729173f-2543-42ff-8ae2-086c9609175b" Version="V2">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3697" sap2010:WorkflowViewState.IdRef="Sequence_5">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'edit To(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Text="GtGRelMgmt@cooley.com" Version="V5">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable ContentHash="Mk-udAXDh0S8YEqL_j0xsA" DesignTimeRectangle="308, 428, 1578, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4117' cls='RichEdit20WPT' name='To' /&gt;" Guid="b473ca78-d93a-4e42-a724-9b1938a5f8be" InformativeScreenshot="0a0e241c6bf1d949c37293ac86a45aa8.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/5vS_Y6fe90iFexroKWvmOA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Subject(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Text="Testing by attaching a file from iManage" Version="V5">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable ContentHash="S_ks8QqgX06r_4f7gQJ1Lw" DesignTimeRectangle="308, 542, 1578, 60" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;uia automationid='4101' cls='RichEdit20WPT' name='Subject' role='edit' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="46d43e3b-7437-45b0-a80d-e61e84671950" InformativeScreenshot="acab4c7af2f8e25ce312006237573789.png" IsResponsive="True" Reference="m1hPtSXhEE-MN2DzQb4wOA/cEyBOCMRAEy82K6sjOlu0w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="b0ddfeed-98cc-4803-b1ed-a490a45fdd9a" CvTextArea="198, 561, 61, 22" CvTextArgument="Subject" CvType="Text" DesignTimeRectangle="170, 558, 120, 44" ElementType="Text" FuzzySelectorArgument="&lt;uia automationid='4516' cls='Static' name='Subject' role='text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Subject' /&gt;" Guid="f961edfe-5e00-48a8-b001-9473710737a4" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Insert iManage Attachme…(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable ContentHash="04k2lt2tjkSb9Unh5Y2P3Q" DesignTimeRectangle="1436, 134, 125, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Message' /&gt;&lt;uia cls='NetUIChunk' name='iManage Work' /&gt;&lt;uia cls='NetUIRibbonButton' name='Insert iManage Attachment' /&gt;" Guid="57bf14be-c3c9-4279-b6dd-6c11a6a3cf97" InformativeScreenshot="657e4140fbdfbdd525385c16e53966e5.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/07lIcnsHrk2oI7IGO7QG9g" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by attaching a file from iManage - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Recent Matters'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="cab898f2-4464-41d6-a525-e44edb711f94" ContentHash="p3PASxtcAU2mdOQTZdEAZQ" CvTextArea="82, 516, 124, 24" CvTextArgument="My Favorites" CvType="Text" DesignTimeRectangle="21, 492, 274, 72" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='My Favorites' role='link' /&gt;" Guid="0c0527d4-031f-4ee9-8375-dae8764fbfe7" InformativeScreenshot="99fe553b1d9a2367f75bb48ae41c39c7.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ig2r9lMkJkiJaYVjh7oJng" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'Projects [268889.PMO036…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="659090ab-4daa-4856-9785-bce444382d9b" ContentHash="lkBRsARq2US6BXsGjjcSKw" CvTextArea="166, 284, 265, 17" CvTextArgument="Quality Assurance [268889.PMO0361]" CvType="Text" DesignTimeRectangle="167, 275, 432, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='My Favorites - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='My Favorites - iManage Work' /&gt;&lt;ctrl name='My Favorites - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open Quality Assur*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="35593d88-c08b-41a9-bb00-98cd1e4278b1" InformativeScreenshot="96546fc21ed720aee32027d471a64ef4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Q-sf71kupUepitBqNUwfZg" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'Quality Assurance [2688…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="aa4758e3-4a90-4503-b437-0f34a51656be" ContentHash="cEo2fShu60m9umbPqbuGmA" CvTextArea="165, 230, 151, 14" CvTextArgument="TestEmailAttachment" CvType="Text" DesignTimeRectangle="167, 222, 417, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestEmailAtta*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="e6c4ec85-a7c6-4bce-b090-b81322dd6f1a" InformativeScreenshot="2d8008ec9f325f88af6d8eda112b146e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/n1XEpuPprUuCzabuKRJkjA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PPT_Test.pptx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" ContentHash="XkbaCmKjtU6uyqJxAznRKw" CvElementArea="310, 351, 28, 28" CvType="CheckBox" DesignTimeRectangle="313, 353, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open PPT_Test.pptx*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="9d4c9450-0e23-40e1-82e3-8f7149214047" InformativeScreenshot="f503230092415400762bdc1f6105a7bd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/csilZUv9vkqFNm74RJWzhQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvTextArea="442, 340, 147, 27" CvTextArgument="PPT_Test.pptx" CvType="Text" DesignTimeRectangle="443, 329, 1224, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open PPT_Test.pptx*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='PPT_Test.pptx' /&gt;" Guid="7ed95b44-3e49-4a8d-a88c-5681c0a12c80" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestExcel.xlsx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" ContentHash="Q2qMGvomqEmir0aRhrvL3g" CvElementArea="310, 441, 29, 28" CvType="CheckBox" DesignTimeRectangle="313, 443, 24, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestExcel.xls*' role='row' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" Guid="3c7dc33d-2640-4f5f-b509-b52dbb35afb0" InformativeScreenshot="03962f6c4c1a99b561fe4ae15d0d6768.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3z-2aONBcUeTcyRvIsVIdw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="c235e797-9136-4d8b-b644-1307a0a73d09" CvTextArea="441, 430, 145, 22" CvTextArgument="TestExcel.xlsx" CvType="Text" DesignTimeRectangle="443, 419, 1224, 39" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestExcel.xls*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='grouping' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='TestExcel.xlsx' /&gt;" Guid="0dbfd73e-d67c-4c57-9d38-a44c2ee9e8ca" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Attach File(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="4d18aaa0-b304-4630-adad-ab49e8229f92" ContentHash="iqLCZlKJOEiXfLYjXRGTfQ" CvElementArea="1451, 1021, 179, 58" CvTextArea="1470, 1039, 106, 19" CvTextArgument="Attach File" CvType="Button" DesignTimeRectangle="1454, 1023, 140, 55" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Attach File' role='push button' /&gt;" Guid="1526e51d-eb1e-42f5-a36d-be0ba80d2c79" InformativeScreenshot="eeb977c57825066cf8805b7e8d10975b.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/n4Yx7RcOzEK5U54n3sLzNQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='baseWebForm' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'PPT_Test.pptx 32 KB Tes…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_5" OutputMessageFormat="PASS: Two or more files has been attched from iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_6" OutputMessageFormat="FAIL: Two or more files has not been attched from iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="Ba58WEqEx0eennAXb48DOw" DesignTimeRectangle="57, 622, 1853, 69" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUIOlkAttachmentViewer' /&gt;" Guid="a3213b9b-8a42-4600-864a-9e213e6e3e44" InformativeScreenshot="0ee7d5338fabd9c431583bab61e42687.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/iJqow7k770CFdOZbNtSUJA" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NCheckState.Target>
-            </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="313cf37d-d821-42e5-a9d7-d4bd94e95eb6" ContentHash="NPfXljkfwUWT_r44Nm7dBQ" CvElementArea="53, 424, 95, 119" CvTextArea="78, 500, 42, 18" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="56, 428, 90, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' /&gt;" Guid="aaec8c17-e0f8-4e0b-b00b-1ab07a745c2b" InformativeScreenshot="96ce0941a7dbe925bacfae022ce85ce2.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/8Jg77fgHeUWZfCRGJjwUXQ" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Sending a large file - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send &amp;Only'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="9e9c6ce6-edcb-4d89-a7da-e66b8927e2a1" ContentHash="JhYvVRMuR0GLftRzvsBsdA" CvElementArea="1514, 1079, 136, 47" CvTextArea="1539, 1092, 85, 21" CvTextArgument="Send Only" CvType="Button" DesignTimeRectangle="1515, 1080, 134, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='flowLayoutFooterOptions' /&gt;&lt;wnd ctrlname='buttonSendOnly' /&gt;" Guid="f36b8aca-09e1-4024-a823-9238a8df2557" InformativeScreenshot="22d7e025450cf21923f92a272f46c190.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/gq4jiwrt-EO0mX9ovakYXw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Set language Any langua…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,664.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_2" Mode="WaitDisappear" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-              <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target disappears" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="PASS: Attached file from iManage" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,174.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="FAIL: Attached file from iManage has Failed" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
-              <uix:NCheckState.Target>
-                <uix:TargetAnchorable ContentHash="gr4qBZAuo0C0RAQgnENcCw" DesignTimeRectangle="11, 45, 1920, 1094" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;" Guid="052ef551-56e3-4f5b-b9db-b287df44b245" InformativeScreenshot="eae7831f23c94fdc75069d727114b7ea.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/lrOvwCuFNkW8_JtiFhcU7A" ScopeSelectorArgument="&lt;wnd app='outlook.exe' ctrlname='LocalizableFilingLocationsDialog' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NCheckState.Target>
-            </uix:NCheckState>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.OCREngine>
-        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
-          <ActivityFunc.Argument>
-            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
-          </ActivityFunc.Argument>
-        </ActivityFunc>
-      </uix:NApplicationCard.OCREngine>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="244, 200, 1439, 818" ContentHash="EkBx72d8MkuhmFI-GF9CQA" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" InformativeScreenshot="153c05be66e64793f352bd26afd82d2f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/zJXLyETPAUK90UdOCJPc_Q" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled - Message (HTML) ' /&gt;" Version="V1">
-          <uix:TargetApp.Arguments>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.Arguments>
-          <uix:TargetApp.WorkingDirectory>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.WorkingDirectory>
-        </uix:TargetApp>
-      </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>
 </Activity>

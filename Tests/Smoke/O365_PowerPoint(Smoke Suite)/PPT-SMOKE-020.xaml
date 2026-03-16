@@ -83,10 +83,11 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_020" sap:VirtualizedContainerService.HintSize="1916,1184" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Verify Recent file list appears" DisplayName="PPT_SMOKE_020" sap:VirtualizedContainerService.HintSize="1276,1215" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1161" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="db1bff2c-c493-46de-b697-567a9a27f0cc" Version="V2">
@@ -101,9 +102,9 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db1bff2c-c493-46de-b697-567a9a27f0cc" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db1bff2c-c493-46de-b697-567a9a27f0cc" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="f22802c4-ee93-4280-9aee-6d7253c5c138" ContentHash="eMD4u28PbUqb4gppoHr-Tw" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="12, 56, 54, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="e128d8eb-e2a2-4583-8248-c9b7c173afd5" InformativeScreenshot="1955f062a03a4dd2555822fb09231d95.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/urafQjgJUECOLqVZyVW0BA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="f22802c4-ee93-4280-9aee-6d7253c5c138" ContentHash="GBTIIwHjHEizI5XLfZVjJQ" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="12, 56, 54, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="e128d8eb-e2a2-4583-8248-c9b7c173afd5" InformativeScreenshot="1955f062a03a4dd2555822fb09231d95.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/urafQjgJUECOLqVZyVW0BA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="f22802c4-ee93-4280-9aee-6d7253c5c138" CvTextArea="110, 96, 57, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="66, 56, 55, 30" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='TabHome' cls='NetUIRibbonTab' name='Home' role='Tab Item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Home' /&gt;" Guid="d6d4f241-c5bd-4703-9a90-18b068bf97ee" SearchSteps="FuzzySelector, CV" />
@@ -134,10 +135,10 @@
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable CVScreenId="f284e9d2-3682-4d05-bbe8-76928169a0d1" ContentHash="OpGikuKY8kqahe2oncATlg" CvTextArea="389, 462, 205, 25" CvTextArgument="TestingPPTLocal.pptx" CvType="Text" DesignTimeRectangle="389, 462, 205, 25" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="86fc0493-596f-4820-bb9f-72c28e03f776" InformativeScreenshot="3efe0e602c4b37e98dfba3d39ddfe243.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/iBffKoUJYE-0eljBZY8SXQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="5ee17969-cac8-4ffa-92bc-db5968299369" CvTextArea="218, 229, 48, 14" CvTextArgument="Recent" CvType="Text" DesignTimeRectangle="214, 222, 64, 28" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='PlaceTabHomeContent' cls='NetUIScrollViewer' name='Home' /&gt;&lt;uia automationid='GroupRecentDocuments' cls='NetUISlabContainer' name='Open' /&gt;&lt;uia cls='NetUIPanViewer' /&gt;&lt;uia cls='NetUITabHeader' name='Recent' /&gt;" Guid="0630614f-b46b-482b-8481-1a67dc45adf8" InformativeScreenshot="13a9555e11ed778d9014ca26df0a7dd5.png" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="f284e9d2-3682-4d05-bbe8-76928169a0d1" CvTextArea="317, 341, 390, 21" CvTextArgument="Recent Favorites Shared with Me" CvType="Text" DesignTimeRectangle="317, 341, 390, 21" FuzzySelectorArgument="&lt;uia automationid='PlaceTabHomeContent' cls='NetUIScrollViewer' name='Home' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='GroupRecentDocuments' cls='NetUISlabContainer' name='Open' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIPanViewer' role='Pane' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Recent&amp;#x9;Favorites&amp;#x9;Shared with Me' /&gt;" Guid="566ba4f4-03ac-46c6-bddc-c74f6c3f49f5" SearchSteps="FuzzySelector, CV" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="5ee17969-cac8-4ffa-92bc-db5968299369" CvTextArea="266, 275, 34, 12" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="266, 275, 34, 12" ElementType="Text" Guid="d4407c01-2683-4775-8399-2601abb3f574" SearchSteps="CV" TargetType="ComputerVisionBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>

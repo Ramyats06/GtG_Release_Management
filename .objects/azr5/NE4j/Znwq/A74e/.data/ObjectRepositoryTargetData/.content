@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="kZyIF6ypzEK-OkQ7pVxgpQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="eOSvOnZDpEygO2Mw-NnKbQ" Reference="m1hPtSXhEE-MN2DzQb4wOA/A74e68Y5PkG6ad-Y8h4urw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6a3ffb73-0136-40b2-9791-e55b781ed03f" CvElementArea="49, 315, 1825, 791" CvType="InputBox" DesignTimeRectangle="57, 316, 1802, 790" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='UIA_AutomationId_Word_Page_1' name='Page 1' role='page' /&gt;" Guid="89a7ef84-368e-4956-aa45-22e5f2036ad8" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="024c5a31352ecd1602559cf140a95962.png" xmlns="">0taJ97WJ3DE6vppOYQIU-1g</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="051ac48d-843e-4624-83bf-801f17d6c1b6" CvElementArea="387, 214, 1496, 801" CvType="InputBox" DesignTimeRectangle="385, 216, 1499, 801" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;" Guid="c9506adf-1c6e-4b4c-89d8-c2472592914b" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="416, 88, 251, 96" ElementType="Container" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' matching:helpText='fuzzy' fuzzylevel:helpText='0.0' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Home' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Paragraph' role='Group' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Bullets&amp;#x9;More Options&amp;#x9;&amp;#xA;Numbering&amp;#x9;More Options&amp;#x9;&amp;#xA;Multilevel List&amp;#xA;Decrease Indent&amp;#xA;Increase Indent&amp;#xA;Sort...&amp;#xA;Show All&amp;#xA;Align Left&amp;#xA;Center&amp;#xA;Align Right&amp;#xA;Justify&amp;#xA;Line and Paragraph Spacing&amp;#xA;Shading RGB(0, 0, 0)&amp;#x9;More Options&amp;#x9;&amp;#xA;Borders&amp;#x9;More Options&amp;#x9;&amp;#xA;Paragraph...' /&gt;" Guid="7f1d6bd6-e515-4ea0-b994-6ee290a72ca1" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="438dd88ea3dbb5002242ef282fd33884.png" xmlns="">0-zbb2jv_wkKrmcW_ww3fCQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>

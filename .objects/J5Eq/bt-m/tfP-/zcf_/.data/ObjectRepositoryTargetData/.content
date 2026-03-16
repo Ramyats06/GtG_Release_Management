@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Xuab37c8H0upPrnsZxcLEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="0shxXFDKRUm4AsjmrBx7gA" Reference="m1hPtSXhEE-MN2DzQb4wOA/zcf_P5UOgkWtbAhCri713g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cllp.sharepoint.com/sites/is" DesignTimeRectangle="11, 186, 1920, 953" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Technology - Home - Microsoft Edge' role='pane' /&gt;&lt;ctrl idx='68' role='pane' /&gt;" Guid="c943402d-99ce-43ee-8847-706620f0ba7b" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Technology - Home - Work - Microsoft​ Edge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="13c954c42f55cc6fe9867b65652c2e9c.png" xmlns="">00ELeFqtTVUy0XSdOR_sgmQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cllp.sharepoint.com" CVScreenId="60b21ceb-a04e-4e1c-af93-5e37c623758e" CvTextArea="66, 144, 78, 27" CvTextArgument="Cooley" CvType="Text" DesignTimeRectangle="68, 146, 74, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="7ab4c05f-0b0a-48d2-a087-e4552b7e7aac" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Cooleynet - Home' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="60b21ceb-a04e-4e1c-af93-5e37c623758e" CvTextArea="172, 149, 83, 17" CvTextArgument="SharePoint" CvType="Text" DesignTimeRectangle="175, 134, 78, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='SharePoint' tag='SPAN' type='' class='hpyHhmSe9hmk5gopLr9a5Q==' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='SharePoint' /&gt;" Guid="b6f08cc5-a1f7-4f9e-a5cf-be001afc0072" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5b9cc463404d55f43cd75d3457a2a317.png" xmlns="">0TtQ-Z_vyzkO81CeTHUDwSw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

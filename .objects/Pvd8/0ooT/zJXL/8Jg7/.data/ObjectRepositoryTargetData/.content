@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="NPfXljkfwUWT_r44Nm7dBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="IK-b4TsNmkatMIfLFuVS-Q" Reference="m1hPtSXhEE-MN2DzQb4wOA/8Jg77fgHeUWZfCRGJjwUXQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="313cf37d-d821-42e5-a9d7-d4bd94e95eb6" CvElementArea="53, 424, 95, 119" CvTextArea="78, 500, 42, 18" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="56, 428, 90, 114" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' /&gt;" Guid="aaec8c17-e0f8-4e0b-b00b-1ab07a745c2b" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Sending a large file - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="96ce0941a7dbe925bacfae022ce85ce2.png" xmlns="">0a8ooRHhcKUuKX-nBlFq8_w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="313cf37d-d821-42e5-a9d7-d4bd94e95eb6" CvElementArea="53, 424, 95, 119" CvTextArea="78, 500, 42, 18" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="38, 292, 60, 76" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='4256' cls='Button' name='Send' /&gt;" Guid="aaec8c17-e0f8-4e0b-b00b-1ab07a745c2b" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Testing by Sending a large file - Message (HTML) ' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="901e05b3-b249-4b76-9b80-991bbeb4e181" CvElementArea="112, 291, 83, 34" CvTextArea="145, 301, 15, 12" CvTextArgument="To" CvType="Button" DesignTimeRectangle="112, 291, 83, 34" ElementType="Button" Guid="5bd35bdc-6f98-48b5-ac44-9b63944e54b2" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d9bfc5b30d9b80801b91ef27b9a019c8.png" xmlns="">0C9Gq268KLUC0P2k-qHCKdA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

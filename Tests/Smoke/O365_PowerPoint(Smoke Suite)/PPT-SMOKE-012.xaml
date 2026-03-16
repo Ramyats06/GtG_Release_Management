@@ -241,7 +241,7 @@
       <AssemblyReference>Microsoft.CodeAnalysis.Workspaces</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="PPT_SMOKE_012" sap:VirtualizedContainerService.HintSize="1916,2462" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Start Slide show" DisplayName="PPT_SMOKE_012" sap:VirtualizedContainerService.HintSize="1276,2462" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

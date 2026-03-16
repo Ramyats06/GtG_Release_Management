@@ -97,7 +97,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PPT_SMOKE_006" sap:VirtualizedContainerService.HintSize="1276,5597" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Reopen saved local fle" DisplayName="PPT_SMOKE_006" sap:VirtualizedContainerService.HintSize="1276,4191" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="localFilename" />
@@ -105,6 +105,7 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Assign sap:VirtualizedContainerService.HintSize="552,114" sap2010:WorkflowViewState.IdRef="Assign_1">
@@ -123,13 +124,13 @@
         <InArgument x:TypeArguments="x:String">["PPT-SMOKE-006 Test Local " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.IfOpenedByAppBrowser]" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3571" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.IfOpenedByAppBrowser]" DisplayName="Presentation1 - PowerPoint" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2134" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3306" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1869" sap2010:WorkflowViewState.IdRef="Sequence_13">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -202,64 +203,11 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="59c01501-a2c9-4d32-ab60-ec5cc766a456" ContentHash="r0YlBdV620asX6v-QeO6zA" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="41, 96, 31, 18" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="1a5c2bcb-49fd-4dcf-8466-29456d62c535" InformativeScreenshot="ee4a3eb053c6c1b818822ecdc75c4398.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QKWrKEOp00WkTX_G1dZ1IA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save As'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="73f96802-ca86-496a-b5fd-8e42ad0fbd9f" ContentHash="eR7wzC23WkecaujsENS_zA" CvTextArea="74, 852, 64, 18" CvTextArgument="Save As" CvType="Text" DesignTimeRectangle="11, 831, 228, 61" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIRibbonTab' name='Save As' /&gt;" Guid="66b71347-0805-4a71-9e7e-3d60abfd5ef8" InformativeScreenshot="9dc7b0ee9fc68dbd923b6e2366308d44.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Y1y5XO-Xo06ZtlV8Q9zCnw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Browse'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="34e83e5f-1470-421f-b089-885b5991f0a6" ContentHash="ZY69KUJcJUKmrF1RGNCqWg" CvTextArea="259, 561, 49, 14" CvTextArgument="Browse" CvType="Text" DesignTimeRectangle="207, 546, 316, 44" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Save As' /&gt;&lt;uia automationid='SaveGroup' cls='NetUISlabContainer' name='Saving Features' /&gt;&lt;uia cls='NetUIElement' idx='2' /&gt;&lt;uia cls='NetUISimpleButton' name='Browse' /&gt;" Guid="8b4ef4e5-8b05-4295-ae2c-d9fefe819e56" InformativeScreenshot="cba1d1ad5e031d25a0a6aa3cbe664f7a.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/DnKzUicoU0GdWbTDHcAzsA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="34e83e5f-1470-421f-b089-885b5991f0a6" CvTextArea="205, 78, 68, 16" CvTextArgument="Save As" CvType="Text" DesignTimeRectangle="206, 72, 68, 42" ElementType="Text" FuzzySelectorArgument="&lt;uia cls='NetUIElement' name='Save As' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUILabel' name='Save As' role='Text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Save As' /&gt;" Guid="34095d18-5ec3-44eb-a02d-2dc904e167e5" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="8d709942-e105-4748-9fa5-fbde4f31f014" ContentHash="74PqosvqE0KtBlmm14gu1A" CvElementArea="143, 41, 824, 34" CvType="InputBox" DesignTimeRectangle="897, 41, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Address band' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Previous Locations' /&gt;" Guid="3f95b129-91f5-4606-869e-6c4b602fd4aa" InformativeScreenshot="de64ac91c550436c8117ce1aa71703de.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/XtTTmnGnNE6CMHuSzDk8XQ" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="8d709942-e105-4748-9fa5-fbde4f31f014" CvElementArea="143, 41, 824, 34" CvType="InputBox" DesignTimeRectangle="931, 41, 34, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Address band' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Refresh &amp;quot;Documents&amp;quot; (F5)' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Refresh &amp;quot;Documents&amp;quot; (F5)' /&gt;" Guid="a0bb77d3-b528-40b6-b9a1-650a5418b39d" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DelayBefore="2" DeselectAfter="True" DisplayName="Type Into 'CUsersgreenuipathOn…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Text="[&quot;H:\&quot; + &quot;[k(enter)]&quot;]" Version="V5">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable CVScreenId="b15d50e2-53d1-4afc-bc58-bfe6e358ba7e" ContentHash="qqCyhLA4ok2yx5dkA_Lebg" CvElementArea="143, 41, 782, 34" CvType="InputBox" DesignTimeRectangle="146, 41, 785, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" Guid="6c9ab841-db71-401b-ac50-c1394648c54d" InformativeScreenshot="fa306d4faf211b2e95ccad6906c96cd1.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/SKtZKRRtZUiORYIKDatObw" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DisplayName="Click 'TestData'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="41526205-fe05-4d1a-901e-5ad6675a398b" ContentHash="c0xqxh0Yj0WlKKP--yF7Cw" CvTextArea="306, 319, 69, 16" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="305, 311, 405, 33" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='3' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="78e976f1-904d-4926-8f40-21914e044ae7" InformativeScreenshot="8ca71f149c1a7e3b5ec16a0567c635ca.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/FnM4Z3EKwkeAPJT1vO4T6w" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Double]" ClipboardMode="Never" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Text="[localFilename]" Version="V5">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable CVScreenId="74d78d33-e23f-4385-924f-1e5b85eb1319" ContentHash="4bQVTYzANUqurW3X8JK-dQ" CvElementArea="198, 476, 742, 36" CvType="InputBox" DesignTimeRectangle="202, 481, 710, 27" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="bcd9c29e-2c5a-466b-a58b-31a3cab51b44" InformativeScreenshot="be0e833047407aa24620f8d91d5cebe2.png" IsResponsive="True" Reference="m1hPtSXhEE-MN2DzQb4wOA/GIcEW18TOU6cfNAlzy4YTA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="74d78d33-e23f-4385-924f-1e5b85eb1319" CvTextArea="111, 486, 79, 17" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="26, 478, 173, 33" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Explorer Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Details Pane' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='File name:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='File name:' /&gt;" Guid="f8bc7bf7-c279-4d72-9254-eb9c343eea23" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="609a1494-6fb1-46bd-b240-cad1046e9ce5" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="831f81a3-87a4-485b-b6f6-20991e2b0e79" ContentHash="Tv56ZcDnr0mWE3GB2Ci4VQ" CvElementArea="641, 643, 133, 40" CvTextArea="685, 655, 40, 16" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="641, 644, 132, 39" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" Guid="04c118f1-83c6-4782-9de6-35b18e4347b5" InformativeScreenshot="1f3d4c74acd8a155c8d0b00346f23682.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ZEmfhynHOEGbvWaYsBvwyg" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_saveLocalFile - Invoke Workflow File (Tests\Smoke\O365_PowerPoint(Smoke Suite)\Function_saveLocalFile.xaml)" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_PowerPoint(Smoke Suite)\Function_saveLocalFile.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="localFilename">[localFilename]</InArgument>
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
             <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="484,113" sap2010:WorkflowViewState.IdRef="Delay_1" />
           </Sequence>
         </ActivityAction>
@@ -296,7 +244,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1b2b8851-6178-492b-9cbd-700fd85eabcc" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="f22802c4-ee93-4280-9aee-6d7253c5c138" ContentHash="eMD4u28PbUqb4gppoHr-Tw" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="12, 56, 54, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="e128d8eb-e2a2-4583-8248-c9b7c173afd5" InformativeScreenshot="1955f062a03a4dd2555822fb09231d95.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/urafQjgJUECOLqVZyVW0BA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="f22802c4-ee93-4280-9aee-6d7253c5c138" ContentHash="GBTIIwHjHEizI5XLfZVjJQ" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="12, 56, 54, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="e128d8eb-e2a2-4583-8248-c9b7c173afd5" InformativeScreenshot="1955f062a03a4dd2555822fb09231d95.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/urafQjgJUECOLqVZyVW0BA" ScopeSelectorArgument="&lt;wnd app='powerpnt.exe' cls='PPTFrameClass' title='Presentation1 - PowerPoint' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="f22802c4-ee93-4280-9aee-6d7253c5c138" CvTextArea="110, 96, 57, 18" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="66, 56, 55, 30" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='TabHome' cls='NetUIRibbonTab' name='Home' role='Tab Item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Home' /&gt;" Guid="d6d4f241-c5bd-4703-9a90-18b068bf97ee" SearchSteps="FuzzySelector, CV" />
