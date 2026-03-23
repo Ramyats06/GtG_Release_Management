@@ -95,9 +95,11 @@
       <AssemblyReference>System.Collections</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_024" sap:VirtualizedContainerService.HintSize="1273,4138" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_024" sap:VirtualizedContainerService.HintSize="1273,4433" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="cloudFilename" />
@@ -123,6 +125,8 @@
         <InArgument x:TypeArguments="x:String">["WORD-SMOKE-024 Test iManage " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
+    <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="620,122" sap2010:WorkflowViewState.IdRef="Delay_4" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="620,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Delaying: &quot; + cloudFilename]" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,1654" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="624c23ce-0c3c-4976-952b-d6abac918e0c" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">

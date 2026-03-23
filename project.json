@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.227030330",
+  "projectVersion": "1.0.227963425",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -814,6 +814,36 @@
         "testCaseId": "8b06a9c1-da6a-4804-9dab-fe630fe72763",
         "testCaseType": "TestCase",
         "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-024.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c535f48e-70ac-4df3-bc26-207d94ca179a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-013.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ff60aa58-6444-4634-ac18-c88c8d03d4c3",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-014.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "32e2ee70-bd6f-4406-9941-07649a3263ac",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-015.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d3fb371a-3903-49ea-a690-7226ad304c95",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-016.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "6b8c6b7f-2ac5-446f-ad40-d99b7786b7b9",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-017.xaml"
       }
     ],
     "saveToCloud": false
