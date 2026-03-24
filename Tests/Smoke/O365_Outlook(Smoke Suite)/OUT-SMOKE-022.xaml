@@ -83,19 +83,19 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_022" sap:VirtualizedContainerService.HintSize="1273,2105" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_022" sap:VirtualizedContainerService.HintSize="1130,2413" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2082" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a355ee81-99f9-411f-bb72-345ae75a8b19" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,2390" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a355ee81-99f9-411f-bb72-345ae75a8b19" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1826" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2134" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -111,6 +111,30 @@
                 <scg:Dictionary x:TypeArguments="x:String, Argument" />
               </ui:InvokeWorkflowFile.Arguments>
             </ui:InvokeWorkflowFile>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'table(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,308" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="a355ee81-99f9-411f-bb72-345ae75a8b19" Version="V5">
+              <uix:NMouseScroll.SearchedElement>
+                <uix:SearchedElement>
+                  <uix:SearchedElement.OutUiElement>
+                    <OutArgument x:TypeArguments="ui:UiElement" />
+                  </uix:SearchedElement.OutUiElement>
+                  <uix:SearchedElement.Target>
+                    <uix:TargetAnchorable CVScreenId="192e6807-c47b-4e52-b102-d6af1c8f01b0" ContentHash="lpsOt2h950mcRju7Uc4iKQ" CvTextArea="1295, 972, 125, 16" CvTextArgument="TestDociManage.docx" CvType="Text" DesignTimeRectangle="1295, 972, 125, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="e7c7eb41-8134-4d1d-a2f3-df5eaa102528" InformativeScreenshot="841c80052f7ecc823a912534eb85494e.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/ncpQylvyf0yYQ4vYM1yBjw" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target CVScreenId="192e6807-c47b-4e52-b102-d6af1c8f01b0" CvTextArea="1313, 988, 59, 12" CvTextArgument="#252,636,770" CvType="Text" DesignTimeRectangle="1313, 988, 59, 12" FuzzySelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' fuzzylevel:cls='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open TestDociManag*' role='row' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Doc. Number 252,636,770' role='grouping' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='| #252,636,770' /&gt;" Guid="5f715c23-3569-4153-ad7a-d15eb77e5937" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:SearchedElement.Target>
+                  <uix:SearchedElement.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:SearchedElement.Timeout>
+                </uix:SearchedElement>
+              </uix:NMouseScroll.SearchedElement>
+              <uix:NMouseScroll.Target>
+                <uix:TargetAnchorable ContentHash="u0v8uwy2OUW-alZ-4crl7w" DesignTimeRectangle="1218, 538, 701, 472" ElementType="Table" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl role='table' /&gt;" Guid="3803c4b5-8f05-477c-9413-aaf645f65a05" InformativeScreenshot="f7b8eb0fb570bd68879a3e5963be57ec.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/WQU8p8FEQkuTDd6nMjdf6A" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NMouseScroll.Target>
+            </uix:NMouseScroll>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TestDociManage.docx'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="[UiPath.UIAutomationNext.Enums.NMouseButton.Right]" ScopeIdentifier="a355ee81-99f9-411f-bb72-345ae75a8b19" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="60a71bb4-3ab9-427d-a553-fda1c75b3f32" CvTextArea="1295, 550, 107, 12" CvTextArgument="WordTestDoc.docx" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="2267, 547, 107, 12" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="c9f3779c-db14-4724-bb90-e714af67021d" InformativeScreenshot="98279c7d05f9b56702de02834e2bec87.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
@@ -155,7 +179,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="e5f7dedb-36db-499c-9509-f698c5306d3e" CvElementArea="1899, 870, 16, 17" CvType="CloseButton" DesignTimeRectangle="1903, 874, 10, 10" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Close' role='push button' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="297a1879-5a64-47b4-be0e-be2b31517049" InformativeScreenshot="54318f998bea7ef1a39a7f92c62b2df4.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="e5f7dedb-36db-499c-9509-f698c5306d3e" CvElementArea="1873, 870, 18, 16" CvType="ArrowButton" DesignTimeRectangle="1871, 866, 24, 27" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' fuzzylevel:cls='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' fuzzylevel:cls='0.0' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Collapse activities' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Collapse activities' /&gt;" Guid="c304aee3-d5be-4fb8-871f-95c8773f0d09" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
