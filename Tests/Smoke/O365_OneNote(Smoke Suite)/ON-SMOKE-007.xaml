@@ -173,14 +173,7 @@
                 </ActivityFunc>
               </uix:NApplicationCard.OCREngine>
               <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="-11, -11, 1942, 1150" ContentHash="B1qL4874tEW0g1UwrClneA" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB5SURBVGhD7dIxCoAwDEbhXtA7Fa/UxdspgYIZMsWGtPZ98C9OedQCAABmUGu9V1o/+yUfV0FApOO8zGkERLKOl2kERLKOl2kERLKOl2kEZCMg294BrbVh89r7BWbwKcD6Fbzz2vsFZkBANgKy/TdgpfWzAQAA/Ep5AN2MSRbDCx/4AAAAAElFTkSuQmCC" InformativeScreenshot="636a315d7a755b87437aeee65e5a6020.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/vufU387jnkaHnDRb6UV_vg" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Untitled page - Message (HTML) ' /&gt;" Version="V2">
-                  <uix:TargetApp.Arguments>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.Arguments>
-                  <uix:TargetApp.WorkingDirectory>
-                    <InArgument x:TypeArguments="x:String" />
-                  </uix:TargetApp.WorkingDirectory>
-                </uix:TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1048" FilePath="C:\Program Files\Microsoft Office\root\Office16\outlook.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABhSURBVFhH7dIxCoAwDIXhXNA7JVlyoAzxVg66R8Q6iAidouL74C1d+lNKAPAKIjIzc1auXb0zsykL/Sdg0PG0AwIQUBZw51sBEZHu3r0eeAF8QgRcAlR12Q4r164GgKcRrdPoaBIEVCrqAAAAAElFTkSuQmCC" InformativeScreenshot="c5de5fac8539fead5561963f61ea3945.png" Selector="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='* - Message (HTML) ' /&gt;" Version="V2" />
               </uix:NApplicationCard.TargetApp>
             </uix:NApplicationCard>
           </Sequence>

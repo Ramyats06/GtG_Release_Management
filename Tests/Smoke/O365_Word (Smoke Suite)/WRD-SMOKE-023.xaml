@@ -99,7 +99,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_023" sap:VirtualizedContainerService.HintSize="1273,2955" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_023" sap:VirtualizedContainerService.HintSize="728,2955" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="fileName" />
       <Variable x:TypeArguments="ui:QueueItem" Name="transactionItem" />
@@ -158,7 +158,13 @@
             </ui:InvokeWorkflowFile>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'iManage(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="beeb4c27-25a4-43d1-86f6-451cb94c9eef" ContentHash="72nCoChGDEy9Y17PfrMycQ" CvTextArea="1130, 96, 79, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="1119, 83, 105, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="ea9393de-d8ec-49ec-8047-565215e38e2e" InformativeScreenshot="e46f6ff3943a58ce5e4ebf77adb59392.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/E8OnuUfQb0q7TbmwB3yOYQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="beeb4c27-25a4-43d1-86f6-451cb94c9eef" ContentHash="72nCoChGDEy9Y17PfrMycQ" CvTextArea="1130, 96, 79, 24" CvTextArgument="iManage" CvType="Text" DesignTimeRectangle="746, 56, 70, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' /&gt;&lt;uia cls='NetUIRibbonTab' name='iManage' /&gt;" Guid="ea9393de-d8ec-49ec-8047-565215e38e2e" InformativeScreenshot="6d147eca0a4f22ce44c7f4bcc08a6d5f.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/E8OnuUfQb0q7TbmwB3yOYQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="c5b69b4f-feef-4c15-a076-cd622c529523" CvTextArea="74, 65, 39, 12" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="66, 56, 55, 30" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIPanViewer' name='Ribbon Tabs' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='TabHome' cls='NetUIRibbonTab' name='Home' role='Tab Item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Home' /&gt;" Guid="f35b68a2-19cc-47e7-8336-0263bfda78f3" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3a0cf9db-138d-49e7-9bc8-a36ae749748f" Version="V5">
@@ -268,7 +274,7 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable CVScreenId="e11374ee-bdd1-49ae-a500-1df2ad864698" ContentHash="fHdd3BAQe0Gqn_fIaJcTQg" CvTextArea="1433, 201, 80, 16" CvTextArgument="Litera Forte" CvType="Text" DesignTimeRectangle="1428, 193, 492, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIElement' /&gt;" Guid="21cde565-7b38-4b30-8d42-5fc762b806cd" InformativeScreenshot="fbbf1f4727cdfa13905ae4ef3cd7adec.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/3ld0iZUwe0eeyUWdEoYwAA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='#252834661v1&amp;lt;EUACTIVE&amp;gt; - Testforte082914 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="1430, 247, 297, 22" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='tabMain' cls='WindowsForms10.Window.8.app.0.176ca78_r60_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia automationid='treeDocContents' cls='WindowsForms10.Window.8.app.0.176ca78_r60_ad3' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;uia name='UK Engagement Letter Pro Bono Community Links' role='tree item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='0' /&gt;" Guid="1573b504-5928-4ed0-b16e-63f2d0dafb9f" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
