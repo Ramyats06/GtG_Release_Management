@@ -85,7 +85,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OUT_SMOKE_010" sap:VirtualizedContainerService.HintSize="1130,6495" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OUT_SMOKE_010" sap:VirtualizedContainerService.HintSize="1221,6495" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -405,7 +405,7 @@
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable CVScreenId="9d15c101-4a1c-41fa-8cb0-26811dd6f9b6" ContentHash="luNc8S-TY0qVRXRBF7vtVQ" CvTextArea="1296, 646, 64, 13" CvTextArgument="100mb.doc" CvType="Text" DesignTimeRectangle="1296, 639, 534, 22" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='MsoCommandBarDock' title='MsoDockRight' /&gt;&lt;wnd cls='MsoWorkPane' title='Work Panel' /&gt;&lt;wnd aaname='Work Panel' cls='NetUIHWND' /&gt;&lt;wnd aaname='Work Panel' cls='CMMOcxHost' /&gt;&lt;wnd ctrlname='ControlAxSourcingSite' /&gt;&lt;wnd aaname='Work Panel' cls='WindowsForms10.Window.*' /&gt;&lt;wnd cls='WindowsForms10.Window.*' /&gt;&lt;wnd aaname='Quality Assurance [268889.PMO0361] - iManage Work - Web content' cls='Chrome_WidgetWin_1' title='Quality Assurance [268889.PMO0361] - iManage Work' /&gt;&lt;ctrl name='Quality Assurance [268889.PMO0361] - iManage Work' role='document' /&gt;&lt;ctrl name='Press SPACE to select this row Press Enter to open 100mb.doc Fil*' role='row' /&gt;&lt;ctrl idx='5' role='grouping' /&gt;" Guid="b08f4a1e-47a8-465e-84bc-465847f11bdd" InformativeScreenshot="de5873dfa0c8838af05bef3c56eececd.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/q40lXGTytUKdBnhlD5sh3w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Get to Green Release Management - Inbox - Get to Green Release M*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable ContentHash="kZiYc4eQ1UGLnW8TiE536Q" DesignTimeRectangle="1286, 682, 346, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='*100mb.doc*' role='row' /&gt;" Guid="c4d1de14-2776-4301-91f1-cc451ffd15f5" InformativeScreenshot="2864192f3b10fffa02354db1acec8289.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/q40lXGTytUKdBnhlD5sh3w" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Inbox - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NCheckState.Target>
             </uix:NCheckState>
           </Sequence>

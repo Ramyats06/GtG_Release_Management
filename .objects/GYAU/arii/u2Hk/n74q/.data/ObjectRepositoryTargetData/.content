@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="2CF1_dFZ2kOAH-B2QHyPgw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="MnpVjE-EHECeBgS7gzyJRw" Reference="m1hPtSXhEE-MN2DzQb4wOA/n74qCNx6jUeVN1GJhKcCww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="163, 12, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='not pinned' role='list' /&gt;&lt;ctrl name='Meeting info 3 of 6 not pinned' role='page tab' /&gt;" Guid="b3f1c730-73f9-49d2-bcac-c421a5311ce4" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZGridMultiLevelPopupWndClass' title='More meeting controls' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="73f7144cee75b457107182e1a85210c4.png" xmlns="">0SgwSylezbEqi1VKpXOJIJw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bd5e4911-e17d-4291-8845-3c36cc67678e" CvTextArea="1665, 75, 83, 18" CvTextArgument="Meeting info" CvType="Text" DesignTimeRectangle="1559, 61, 296, 43" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Meeting info' role='text' /&gt;" Guid="a1324a03-a296-461b-8382-fcf538d62cb1" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bd5e4911-e17d-4291-8845-3c36cc67678e" CvTextArea="1570, 368, 74, 17" CvTextArgument="Description" CvType="Text" DesignTimeRectangle="1571, 365, 73, 20" FuzzySelectorArgument="&lt;wnd aaname='Zoom Meeting' cls='UnifyWebViewAdaptWnd' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Meeting details - Web content - Profile 2' cls='Chrome_WidgetWin_1' title='Meeting details' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Meeting details' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Description ' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='grouping' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Description' /&gt;" Guid="655efe46-e18d-4eb3-997f-84dc94a85e67" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6eba1854a600729d75a99f7c5d37274.png" xmlns="">0Ip7grck94Uu1_Bo2cMElUw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

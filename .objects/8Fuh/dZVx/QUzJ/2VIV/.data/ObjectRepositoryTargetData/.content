@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="1mTr5x_YUEmmE9_TRIZ1cw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="fWza8xcEVUKfZpBN7T9h5A" Reference="m1hPtSXhEE-MN2DzQb4wOA/2VIVsqae9EqNLBw_Ed5QMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3f06fc08-75dd-4189-a148-0d631e361a42" CvTextArea="34, 85, 31, 11" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="14, 50, 72, 56" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' /&gt;&lt;ctrl name='Home 1 of 6' role='page tab' /&gt;" Guid="cc69ae8f-f8cc-4bbf-aab3-743c04ca27ac" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="c39af0968a75cf7755fb8a02a180746f.png" xmlns="">0KkkhnYMSdkGJvVHETniLjQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3f06fc08-75dd-4189-a148-0d631e361a42" CvTextArea="34, 85, 31, 11" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="740, 8, 87, 52" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Main navigation' role='page tab list' /&gt;&lt;ctrl name='Home 1 of 6' role='page tab' /&gt;" Guid="cc69ae8f-f8cc-4bbf-aab3-743c04ca27ac" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="44f848a477c3b2f80ddb285d200849c5.png" xmlns="">03aYPhPy2ZE6f_-wgzoA2aw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
