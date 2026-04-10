@@ -99,7 +99,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_004" sap:VirtualizedContainerService.HintSize="1273,4811" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_004" sap:VirtualizedContainerService.HintSize="1214,5064" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="localFilename" />
@@ -109,7 +109,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="552,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="520,175" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[filenameTimestamp]</OutArgument>
       </Assign.To>
@@ -117,7 +117,7 @@
         <InArgument x:TypeArguments="x:String">[DateString + " " + TimeString.Replace(":", "-")]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="552,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign sap:VirtualizedContainerService.HintSize="520,175" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[localFilename]</OutArgument>
       </Assign.To>
@@ -125,14 +125,14 @@
         <InArgument x:TypeArguments="x:String">["WORD-SMOKE-004 Test Local " + filenameTimestamp]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="552,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[localFilename]" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,922" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="ca90818e-4a2e-4f0d-b439-fef102acdd8c" Version="V2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="520,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[localFilename]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,923" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="ca90818e-4a2e-4f0d-b439-fef102acdd8c" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,657" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,668" sap2010:WorkflowViewState.IdRef="Sequence_11">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="FileSaved" />
             </Sequence.Variables>
@@ -141,7 +141,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="5" DisplayName="Type Into 'page Page 1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,240" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="ca90818e-4a2e-4f0d-b439-fef102acdd8c" Text="This is a Test Doc" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="5" DisplayName="Type Into 'page Page 1'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="ca90818e-4a2e-4f0d-b439-fef102acdd8c" Text="This is a Test Doc" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="051ac48d-843e-4624-83bf-801f17d6c1b6" ContentHash="eOSvOnZDpEygO2Mw-NnKbQ" CvElementArea="387, 214, 1496, 801" CvType="InputBox" DesignTimeRectangle="385, 216, 1499, 801" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;" Guid="c9506adf-1c6e-4b4c-89d8-c2472592914b" InformativeScreenshot="438dd88ea3dbb5002242ef282fd33884.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/A74e68Y5PkG6ad-Y8h4urw" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -152,12 +152,12 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_SaveLocalFile - Invoke Workflow File (Tests\Smoke\O365_Word (Smoke Suite)\Function_SaveLocalFile.xaml)" sap:VirtualizedContainerService.HintSize="382,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Word (Smoke Suite)\Function_SaveLocalFile.xaml">
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Function_SaveLocalFile - Invoke Workflow File (Tests\Smoke\O365_Word (Smoke Suite)\Function_SaveLocalFile.xaml)" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Tests\Smoke\O365_Word (Smoke Suite)\Function_SaveLocalFile.xaml">
               <ui:InvokeWorkflowFile.Arguments>
                 <InArgument x:TypeArguments="x:String" x:Key="localFilename">[localFilename]</InArgument>
               </ui:InvokeWorkflowFile.Arguments>
             </ui:InvokeWorkflowFile>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Close(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,180" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ca90818e-4a2e-4f0d-b439-fef102acdd8c" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Close(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ca90818e-4a2e-4f0d-b439-fef102acdd8c" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="02949aea-d8fb-4f9b-b617-dab9517c8f75" ContentHash="TCJJHSVb0E2pOyF-CKNjnA" CvElementArea="1894, 22, 19, 19" CvType="CloseButton" DesignTimeRectangle="1894, 22, 21, 19" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="4f6ac23c-3e46-44c3-8662-1dfc99be26f3" InformativeScreenshot="05050dba3d0633dd5923f8dd6a9d327c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/O6QkUoM97EaPGX02WnpW_Q" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='**' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -195,14 +195,14 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="552,122" sap2010:WorkflowViewState.IdRef="Delay_2" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,3343" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V2">
+    <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="520,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Document1 - Word" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,3366" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3087" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,3111" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -231,12 +231,12 @@
                 <uix:TargetAnchorable CVScreenId="2d9ea51f-860d-4707-ad69-49c82dd5171e" ContentHash="4xV0Ql1aMkKk9zT5D58cUw" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="17, 83, 81, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="e1ba89e0-886d-4a79-952a-d1dc3740b806" InformativeScreenshot="f8efe17ecb94fafe07aeca7e5d660e85.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/PC1018gnWUizeE7AwdV1ZA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File Tab'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="2d9ea51f-860d-4707-ad69-49c82dd5171e" ContentHash="4xV0Ql1aMkKk9zT5D58cUw" CvTextArea="41, 96, 31, 18" CvTextArgument="File" CvType="Text" DesignTimeRectangle="17, 83, 81, 45" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia automationid='FileTabButton' cls='NetUIRibbonTab' name='File Tab' /&gt;" Guid="e1ba89e0-886d-4a79-952a-d1dc3740b806" InformativeScreenshot="f8efe17ecb94fafe07aeca7e5d660e85.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/PC1018gnWUizeE7AwdV1ZA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open(4)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="ef03bf97-a319-4bf7-945c-003cad40e6f8" ContentHash="HvWDXH9iX0Cb9fi9H9tmSw" CvTextArea="50, 251, 30, 15" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="8, 237, 158, 40" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='NavBarMenu' cls='NetUIKeyboardTabElement' name='File' /&gt;&lt;uia cls='NetUIRibbonTab' name='Open' /&gt;" Guid="b7707d8e-5e61-4141-bcf7-3ad8f113b727" InformativeScreenshot="1e62c8dbcb434d8eb2d70a8a163d8766.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/wYz-GyLaME2eKwjbdxM0-A" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -247,7 +247,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Browse(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Browse(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="e3bdd6e9-d1a7-4c59-90df-e929416664cd" ContentHash="2rHPBz0wdkO5HaioKyzddA" CvTextArea="259, 595, 49, 14" CvTextArgument="Browse" CvType="Text" DesignTimeRectangle="207, 580, 316, 44" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='NetUIElement' name='Open' /&gt;&lt;uia automationid='GroupOpenPlaces' cls='NetUISlabContainer' name='Open' /&gt;&lt;uia cls='NetUIElement' /&gt;&lt;uia cls='NetUISimpleButton' name='Browse' /&gt;" Guid="4aed8270-8260-4632-9252-0995061c269d" InformativeScreenshot="52f9763a317fc960e6ccdc14408f69bc.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/GUHdf1ZMREaNgJ5iQfktYQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='Document1 - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -258,7 +258,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="113f2482-85b2-43fd-8293-f3fbca2ea339" ContentHash="RQHhb7bgCkqK1pVf41LLTA" CvElementArea="143, 41, 582, 34" CvType="InputBox" DesignTimeRectangle="657, 41, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Address band' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Previous Locations' /&gt;" Guid="27763a73-55f6-436f-937b-3f1c8807dea1" InformativeScreenshot="f1dcb4733521fced3f2e9a272108b409.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/cuWKU9mu-k66Zr_qHkdJEA" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Open' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -269,7 +269,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DisplayName="Type Into 'CUsersgreenuipathOn…(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Text="[&quot;H:\&quot; + &quot;[k(enter)]&quot;]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DisplayName="Type Into 'CUsersgreenuipathOn…(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Text="[&quot;H:\&quot; + &quot;[k(enter)]&quot;]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="22d839ae-bb12-47e6-8bfc-5ad54a072100" ContentHash="VTCdEbW1ZUivDNLl6etjbQ" CvElementArea="145, 41, 546, 33" CvType="InputBox" DesignTimeRectangle="146, 41, 545, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" Guid="2f5004cd-c3c9-4b1a-93b7-bcb2961241de" InformativeScreenshot="0393810c215edc05c5630a34c5b54661.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/YdM9ey_MUEqI0MgNsVmK9w" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -280,7 +280,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DelayAfter="2" DisplayName="Click 'TestData(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="[UiPath.UIAutomationNext.Enums.NClickType.Double]" DelayAfter="2" DisplayName="Click 'TestData(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="2dbad6ea-0bd4-4e8b-a92a-95ed8bda900e" ContentHash="UuJHKayiYkWO2fMh-t6B4Q" CvTextArea="205, 215, 45, 12" CvTextArgument="TestData" CvType="Text" DesignTimeRectangle="204, 211, 270, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='3' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="fa0ad088-7249-4d1c-982a-f2d6dcb3425b" InformativeScreenshot="0a2e44fb6a0cc3c85b940475aff4fb14.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/aC383uhMrUGLDTCKc7Irig" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -291,7 +291,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'WORD-SMOKE-004 Test Loc…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'WORD-SMOKE-004 Test Loc…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="93398f24-8b0b-42b2-b371-1538ba281a22" ContentHash="jyFG4u5VsUidl-NWT9ZUFg" CvTextArea="204, 277, 223, 14" CvTextArgument="[string.Format(&quot;{0}&quot;, localFilename)]" CvType="Text" DesignTimeRectangle="204, 274, 236, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='6' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" Guid="6ca5a36f-5537-4e43-be38-14c55f286c30" InformativeScreenshot="7e8ffc9e81637c61b0542d2591e24a11.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/8ou0KkDgs0KJlY0039-0Lg" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -302,8 +302,8 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,194" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="1b3a11c7-8693-421f-af40-4ab2d0dbd9ab" ContentHash="jw6CooqyM0a-UAw8SJmq3g" CvElementArea="747, 489, 89, 26" CvType="InputBox" DesignTimeRectangle="747, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" Guid="a41cca17-e50f-4276-83a5-705389a3b0a7" InformativeScreenshot="c36f210699a15766c0ae3efec1f7c6c4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/nvJrMgsA1EePITzZck-dIQ" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -314,25 +314,25 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Home'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Timeout="15" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Home'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,642" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Timeout="15" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="The saved file from my PC opened successfully." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" OutputMessageFormat="The saved file from my PC opened successfully." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="The saved file from my PC did not open successfully." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="False" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" OutputMessageFormat="The saved file from my PC did not open successfully." TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
@@ -345,7 +345,7 @@
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="10" DelayBefore="2" DisplayName="Click 'Close(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="10" DelayBefore="2" DisplayName="Click 'Close(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,185" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8f5d482-8b5b-4300-ad63-2e0de280c6b1" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="02949aea-d8fb-4f9b-b617-dab9517c8f75" ContentHash="TCJJHSVb0E2pOyF-CKNjnA" CvElementArea="1894, 22, 19, 19" CvType="CloseButton" DesignTimeRectangle="1894, 22, 21, 19" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' helpText='Ribbon toolbar' /&gt;&lt;uia cls='NetUIAppFrameHelper' name='Close' /&gt;" Guid="4f6ac23c-3e46-44c3-8662-1dfc99be26f3" InformativeScreenshot="05050dba3d0633dd5923f8dd6a9d327c.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/O6QkUoM97EaPGX02WnpW_Q" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='**' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -377,5 +377,6 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
+    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="488,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[&quot;H:\TestData\&quot; + localFilename + &quot;.docx&quot;]" />
   </Sequence>
 </Activity>
