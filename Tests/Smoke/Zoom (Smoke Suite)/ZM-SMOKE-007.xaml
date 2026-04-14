@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ZM_SMOKE_007" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ZM_SMOKE_007_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ZM_SMOKE_007" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ZM_SMOKE_007_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -36,6 +36,8 @@
       <x:String>System.Reflection</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -83,45 +85,56 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ZM_SMOKE_007" sap:VirtualizedContainerService.HintSize="1138,1681" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ZM_SMOKE_007" sap:VirtualizedContainerService.HintSize="1221,1843" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Zoom Meeting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1658" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Zoom Meeting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1820" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1402" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1564" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NHover DisplayName="Hover 'Video content'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,308" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="SameAsCard" ScopeIdentifier="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V5">
-              <uix:NHover.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="97, 60, 1742, 979" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='VideoContainerWndClass' title='Zoom Video Container' /&gt;&lt;wnd aaname='Video content GreenUI Path(Host, me, Participant ID: 444896), No*' cls='VideoRenderWndClass' title='Video content' /&gt;" Guid="b8dd9e3d-4f31-4097-84fa-1249101e6f44" InformativeScreenshot="489d617d34f273da39f385f45849b0df.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-              </uix:NHover.Target>
-              <uix:NHover.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Target>
-                    <uix:TargetAnchorable DesignTimeRectangle="8, 981, 1920, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ZPControlPanelClass' title='Meeting tools' /&gt;" Guid="73470441-0c94-4a00-b1e3-35fb944db363" InformativeScreenshot="81badbc71eaeb18506ce792d2506489f.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                  </uix:VerifyExecutionOptions.Target>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NHover.VerifyOptions>
-            </uix:NHover>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484,470" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,359" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NHover DisplayName="Hover 'Video content'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,299" sap2010:WorkflowViewState.IdRef="NHover_1" InteractionMode="SameAsCard" ScopeIdentifier="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V5">
+                    <uix:NHover.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="97, 60, 1742, 979" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='VideoContainerWndClass' title='Zoom Video Container' /&gt;&lt;wnd aaname='Video content GreenUI Path(Host, me, Participant ID: 444896), No*' cls='VideoRenderWndClass' title='Video content' /&gt;" Guid="b8dd9e3d-4f31-4097-84fa-1249101e6f44" InformativeScreenshot="489d617d34f273da39f385f45849b0df.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NHover.Target>
+                    <uix:NHover.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable DesignTimeRectangle="8, 981, 1920, 58" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ZPControlPanelClass' title='Meeting tools' /&gt;" Guid="73470441-0c94-4a00-b1e3-35fb944db363" InformativeScreenshot="81badbc71eaeb18506ce792d2506489f.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NHover.VerifyOptions>
+                  </uix:NHover>
+                </Sequence>
+              </ui:CommentOut.Body>
+            </ui:CommentOut>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="779, 988, 130, 49" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='ZPControlPanelClass' title='Meeting tools' /&gt;&lt;ctrl name='Participants, open panel, 1 participants, Alt+U' role='push button' /&gt;&lt;ctrl role='pane' /&gt;" Guid="7f769221-747a-43f5-90ed-63fa6ac4e80d" InformativeScreenshot="52ce5daf71730f2b99ab2a1b740ee8e9.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                <uix:TargetAnchorable CVScreenId="65c0cd70-c253-4601-a63e-a191ef48e898" CvTextArea="722, 1019, 65, 15" CvTextArgument="Participants" CvType="Text" DesignTimeRectangle="722, 1019, 65, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="3d31f8c8-17aa-43b9-8bf5-c9c85497c595" InformativeScreenshot="31ba4a97eec118e83985bd23029f49ad.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NCheckState DisplayName="Check App State 'Participants (1) Pop ou…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V5">
@@ -146,10 +159,10 @@
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable CVScreenId="43d28cec-903c-4936-b637-4d2f3f6517a5" CvTextArea="1659, 76, 95, 16" CvTextArgument="Participants (1)" CvType="Text" DesignTimeRectangle="1559, 61, 296, 43" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Participants (1)' role='text' /&gt;" Guid="60487c43-71b6-4bf2-991b-19cd00c1a4f0" InformativeScreenshot="18ed49cc9dffbd7a2a0ef3234dd1e94f.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="20ba5c38-4ba9-4244-9039-2ea741fdd79b" CvTextArea="1658, 75, 96, 17" CvTextArgument="Participants (1)" CvType="Text" DesignTimeRectangle="1559, 61, 296, 43" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Participants (1)' role='text' /&gt;" Guid="720a4aad-9b01-4641-ac7e-87f9a4250ca3" InformativeScreenshot="5eddbb9ec8eeb93beeff360dbe9fa5d0.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="43d28cec-903c-4936-b637-4d2f3f6517a5" CvTextArea="1659, 76, 95, 16" CvTextArgument="Participants (1)" CvType="Text" DesignTimeRectangle="1547, 61, 372, 43" FuzzySelectorArgument="&lt;ctrl automationid='' role='pane' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Participants (1)&amp;#xD;&amp;#xA;Pop out&amp;#xD;&amp;#xA;Close' /&gt;" Guid="003054c0-12e5-40ef-b0bb-4c63d9db0c67" SearchSteps="FuzzySelector, CV" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="20ba5c38-4ba9-4244-9039-2ea741fdd79b" CvTextArea="1606, 120, 141, 15" CvTextArgument="GreenUI Path (Host, me)" CvType="Text" DesignTimeRectangle="1607, 109, 252, 36" FuzzySelectorArgument="&lt;ctrl name='Participant list, use arrow key to navigate' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='GreenUI Path,(Host, me), Computer audio unmuted,Video on' role='list item' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='pane' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='GreenUI Path&amp;#xD;&amp;#xA;(Host, me)&amp;#xD;&amp;#xA;Verified identity profile&amp;#xD;&amp;#xA;Smart name tags' /&gt;" Guid="6c30e048-4bf4-4f68-8084-d86fcc13bdd4" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -163,9 +176,9 @@
             </uix:NCheckState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1307bca1-ae02-4158-a718-3345b42b6ea8" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="d872c748-46cd-4f93-b3c8-7cc11f223750" CvElementArea="1891, 73, 21, 20" CvType="CloseButton" DesignTimeRectangle="1893, 75, 16, 16" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl idx='2' name='Close' role='push button' /&gt;" Guid="138fde8f-a9d3-4387-b028-79d588bcd549" InformativeScreenshot="e96d6aaf189c4c4b89d1b607e554917c.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                <uix:TargetAnchorable CVScreenId="d872c748-46cd-4f93-b3c8-7cc11f223750" CvElementArea="1891, 73, 21, 20" CvType="CloseButton" DesignTimeRectangle="1893, 75, 16, 16" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl idx='2' name='Close' role='push button' /&gt;" Guid="138fde8f-a9d3-4387-b028-79d588bcd549" InformativeScreenshot="3322f62df7c737b8ddb4517670b9b2e3.png" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="d872c748-46cd-4f93-b3c8-7cc11f223750" CvTextArea="1659, 76, 95, 16" CvTextArgument="Participants (1)" CvType="Text" DesignTimeRectangle="1559, 61, 296, 43" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Participants (1)' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Participants (1)' /&gt;" Guid="3c202c74-79ec-4a66-be60-26ba93ec45bf" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -183,7 +196,11 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="O29Gu0cqvkaV-2yDX1AqBg" FilePath="C:\Users\GreenUIPATH\AppData\Roaming\Zoom\bin\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="a9cde391f70e3839e0ed5aced101d882.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fkNjpHu_2k-vz1YysBmZkQ" Selector="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting participant ID: 444896' /&gt;" Version="V2" />
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="DHaisvPAL0uCbbGE6LVd9g" FilePath="C:\Program Files\ZoomVDI\bin\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="4d28ad79ee9df644e064e86eee1d9866.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/fkNjpHu_2k-vz1YysBmZkQ" Selector="&lt;wnd app='zoom.exe' cls='ConfMultiTabContentWndClass' title='Zoom Meeting' /&gt;" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+        </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

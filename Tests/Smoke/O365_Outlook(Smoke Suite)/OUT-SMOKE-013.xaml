@@ -88,20 +88,20 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Save draft email wth iManage filing location" DisplayName="OUT_SMOKE_013" sap:VirtualizedContainerService.HintSize="728,6800" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Save draft email wth iManage filing location" DisplayName="OUT_SMOKE_013" sap:VirtualizedContainerService.HintSize="1221,6962" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="688,6746" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="f29c84fa-8fa2-426a-84f9-88233546d773" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Get to Green Release Management - Inbox - Get" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="688,6908" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="f29c84fa-8fa2-426a-84f9-88233546d773" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,6490" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="654,6652" sap2010:WorkflowViewState.IdRef="Sequence_13">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -292,13 +292,13 @@
                 </uix:TargetApp>
               </uix:NApplicationCard.TargetApp>
             </uix:NApplicationCard>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Untitled - Message (HTML)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3059" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="6729173f-2543-42ff-8ae2-086c9609175b" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Untitled - Message (HTML)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,3221" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="6729173f-2543-42ff-8ae2-086c9609175b" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2803" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2965" sap2010:WorkflowViewState.IdRef="Sequence_14">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -406,20 +406,31 @@
                         </Sequence>
                       </ui:CommentOut.Body>
                     </ui:CommentOut>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Message Unread'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,189" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="[UiPath.UIAutomationNext.Enums.NMouseButton.Right]" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable CVScreenId="b16cfec7-3af8-4c5b-a617-fb4a34d8f303" CvTextArea="328, 532, 137, 13" CvTextArgument="Testing by Saving in Draft" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="328, 400, 138, 14" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="f7018afd-9b61-4bd9-88ba-80bdd4b80f1e" InformativeScreenshot="8765f7f891d9db9e6afb5a5909cc279e.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                              <uix:Target CVScreenId="1fe020eb-b92e-4a8a-a378-7e4ef8258b8d" CvTextArea="329, 514, 150, 14" CvTextArgument="Get to Green Release..." CvTextOccurrenceArgument="2" CvType="Text" DesignTimeRectangle="328, 383, 151, 14" ElementType="Text" Guid="57e0ae7f-127f-4436-b972-1ddfa9857ec4" SearchSteps="CV" TargetType="ComputerVisionBased" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                    </uix:NClick>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484,351" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Message Unread'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,180" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="[UiPath.UIAutomationNext.Enums.NMouseButton.Right]" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable CVScreenId="b16cfec7-3af8-4c5b-a617-fb4a34d8f303" CvTextArea="328, 532, 137, 13" CvTextArgument="Testing by Saving in Draft" CvTextOccurrenceArgument="1" CvType="Text" DesignTimeRectangle="328, 400, 138, 14" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="f7018afd-9b61-4bd9-88ba-80bdd4b80f1e" InformativeScreenshot="8765f7f891d9db9e6afb5a5909cc279e.png" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="1fe020eb-b92e-4a8a-a378-7e4ef8258b8d" CvTextArea="329, 514, 150, 14" CvTextArgument="Get to Green Release..." CvTextOccurrenceArgument="2" CvType="Text" DesignTimeRectangle="328, 383, 151, 14" ElementType="Text" Guid="57e0ae7f-127f-4436-b972-1ddfa9857ec4" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
                     <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,180" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6729173f-2543-42ff-8ae2-086c9609175b" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable CVScreenId="c95fa53d-524e-49b6-b62c-76190c386ffe" ContentHash="mRonx3h0gkuejtBR-bDFCw" CvTextArea="55, 867, 51, 18" CvTextArgument="Delete" CvType="Text" DesignTimeRectangle="2, 856, 240, 44" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Delete' role='menu item' /&gt;" Guid="e20a2489-b114-42bf-89f1-8db6985dc985" InformativeScreenshot="dc595667013c0dc9b23b5ec2e00a41e9.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/NgIhvLErV0K6H8op_rce8Q" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='Net UI Tool Window' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                        <uix:TargetAnchorable CVScreenId="93134875-a24b-4dd3-9b2e-48308b0a816c" ContentHash="gkSik_rXukOr3Jxq24IlVA" CvTextArea="1118, 278, 42, 12" CvTextArgument="Discard" CvType="Text" DesignTimeRectangle="1118, 278, 42, 12" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="3e351ade-e466-4c43-a80c-a590178fcf80" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFsAAAAkCAYAAADmQkaNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVGhD7ZXLccMgEIZTDTVk3AXXjPughfgcH6lFreikJnTZsDyi1YPYHimbxPzfDGNYJJA/VqsXAmpAtiKQrQhkKwLZikC2IpCtCGQrAtmKQLYih8o+n9/odHr9ajwGE7tkS7H3tpbZndkscBzHm6110cwflt2RM4aMaNb3eS7Qe7LGkgz9LPw8+/Y7VHbpL39L/zGWfy7Ld10ea9OU7EDMZhdmfoPWZFNP3hpKyS3nU7yUmyn5t+Odm2LTm5LWc86GeD7QeLjpOus9ZMf5zm2Ul3TtrM6vkHtwX16fxmXZ3vMhNCdbysn9nIHrD2il5PDh5IydBC724/utDzsWtp7nMf5xzV7Pp+zL2ViTPYtXDo9pWzaPZT3e/vMsPGV4pYxwVheJUXxF9mK/BspIedXl614QcmZlQWbzfI0kLh1CjFlHrpbZjFj3yT+Qz8ehsr9rkH2Q7GEYNgWXxvOQfYDs6/UjirzVLpf3fEe77JYN7geyFYFsRSBbEchWBLIVgWxFIFsRyFYEstUg+gQWXD9Pu+ORCwAAAABJRU5ErkJggg==" InformativeScreenshot="4af17b2e4699c3a9ce52c015bc2ea4b4.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/NgIhvLErV0K6H8op_rce8Q" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='rctrl_renwnd32' title='Drafts - greenui.path@cooley.com - Outlook' /&gt;" SearchSteps="Image, CV" Version="V6" WaitForReadyArgument="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
                   </Sequence>

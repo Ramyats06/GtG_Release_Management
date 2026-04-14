@@ -84,25 +84,25 @@
       <AssemblyReference>GtG_Release Management.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ZM_SMOKE_001" sap:VirtualizedContainerService.HintSize="1138,995" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ZM_SMOKE_001" sap:VirtualizedContainerService.HintSize="1221,1576" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Zoom Workplace" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,972" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="f2b8b8da-3453-4971-bbb6-8745b6d4b0ed" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Zoom Workplace" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="552,1553" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.IfNotOpen]" ScopeGuid="f2b8b8da-3453-4971-bbb6-8745b6d4b0ed" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,716" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1297" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Back (Alt+Left) Forward…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,656" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="f2b8b8da-3453-4971-bbb6-8745b6d4b0ed" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Back (Alt+Left) Forward…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,665" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="f2b8b8da-3453-4971-bbb6-8745b6d4b0ed" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
@@ -132,6 +132,36 @@
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Schedule Schedule'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484,572" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="f2b8b8da-3453-4971-bbb6-8745b6d4b0ed" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="True" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="VerifyExpression_3" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,89" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="33982678-abfd-40fe-8608-8d3f18421d5c" ContentHash="Z3NtMP2-EE-UnbOu6hPPEg" CvElementArea="227, 432, 97, 96" CvType="Icon" DesignTimeRectangle="215, 428, 120, 146" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl idx='418' role='pane' /&gt;" Guid="751a4642-a9e7-4660-a920-b2dec63142ad" ImageBase64="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" InformativeScreenshot="60e3951ea2eeebee61b335a5ad01e581.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/Wmzx3N62bUSHupYNPRbC4A" ScopeSelectorArgument="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
             </uix:NCheckState>
           </Sequence>
         </ActivityAction>
@@ -144,11 +174,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="352, 119, 1062, 793" ContentHash="_Htz8rE21ECfvOkF-Sx9eA" FilePath="C:\Users\GreenUIPATH\AppData\Roaming\Zoom\bin\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="12e98f1b5fe4a1dc58cc6863ae65b269.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" Version="V2">
-          <uix:TargetApp.WorkingDirectory>
-            <InArgument x:TypeArguments="x:String" />
-          </uix:TargetApp.WorkingDirectory>
-        </uix:TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="UQ7NbJGTCkSeJYQ_mG3uOw" FilePath="C:\Program Files\ZoomVDI\bin\zoom.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATySURBVFhHnZdvbBN1GMfvnXdXjRpCTEAjxmDQYFSIbkajDXHdvw4rdUyr4lCDBKKSxYHOyGoywE2T8oLgO18AbwwxwxjfYUBQWTCmgBgiEg4HZCiya9d23dbuHn/P78/d73fttZUneZLlt949n36f7/NcT2skln9QDD+6bTq1cqBwaMVAId28PW899UkenhnK0Vy1cwpadmWtyHAm3T5ij0ZTmcFoyg7zy28ulq6/csfdm8qDD/TN2sv6ZmD51iI8sq0IBABWfjQNj39cgObBPAgQhMB87tMpaB3JQsfnGehK2RbCxFL2En7bxmLha5OxezaVJu97Zw7uf3cOlm6ZA4R46P3GQRBCBulK/dvLb1878FvftaEMi96eBwIB924uQT0QGUIGkdXARDV4meoRSswmb38d4M71Dix8ax4QZPHGsgIiIOS2PPZhJYjsDxkkECKUKPeGXinDbeuAJkIseKM6SJAaCNJIW9qH7Rgvy0KPjy8xE7OWmSgBQoRedSiEUOP/gtTyB1VjODuJJuflmfTmS9NgvlwkOQtBIAIC/SFAgvxRry2rdmW9Vpg9WcvsyYECQVJABIH4/YEgjfrj2aEpmxa/NVEIm2ttIBAkESLPMkCNWv5ACNmo9fzxdDIX1swX/06a3TeAQqzNqCAUwgfCYYL80cjYIghCPLk9t1szu6+Nmt3XgeUN2PPdDPx13QnMHV/PuxDohQPHHMgWgMZvlx2If1aClqESnDjvsEMSB8cceub3B652zYxfTRvxCSBKUIgHN9u0UK1ANTDlzwkIDPG3fIaffWKgpPiDQKQ1c80Vy1hzGYz4VZIqiEj8ViJ2HGRt2fAFO8MboxKoCKojYuQb1hYsepYog4H/l9vycH/R0ozYJTBeGAcPQgVp6s9ApsBvgMW5P/YfnaFnW/eVFaOKQC8If/TuZWDYCr8/CMBFYOkHmagsLhlVAKASYmwRRIQ8tkJBBPCPrWY8fwFoChAO0dQ34RX/aoqblBkVQRQAaWxFyKPbsZOdIYB/f2hG1zkwVp9XIPzFURHaEpEEwgXYS5aXuz+m6RmG3BYBgBPjH1tN7zxjGV2/E4g/KEjTlnG3+L7vc7Bs44Sbi9ZdcyEUAGl/iJD3B44gBgLI23TBm845zYieSRvRs0AhiBr7D2foh4Pi0j8lOhkHjhYpZVuSFBaLjECctlgxeZHhJGAggGgLXWIIoEdPjRIIoEkgmt+7SG+ChYIS27Ln2zz0f0mK05Z4/kDj4vVyWxACR1BeYgzEOaQZnad3G51pMDpPMQiaXBHeFmP1BcfzSOXYet7gJpUU8YMoa508hTW942RY7/gVMFUQry0uiDwtVcbWr0a95ws+COkTUW8fm9TbfwFMBkHSVYOkAlJbDRdEVqRCDQpi0eIYetuJpN42BjQRxFXE3xYCUQ+kqiJCDQ+Eyi8Cfx4ZrT/aLkTbSRfEbYuAoWoIf5Cs2RbuD39bemwLfwby8izMyLGYHjkOeuvPjgdCsqo//G1p0B8cJtQd8I6gR35IUggGUqGGC6K0RVJDASEQmJX+8KSvFhUQgSD+aZEUQQhZEa5G3eIi9JYjvQTAqlRDBandFgXExtc9fvvGAk2iR46gGjII9weBwKzaFgXENmN/JpV3gJsJuqxIa26JHB81Wn9KUyihiGgLPtTIc4WudrJd8Rp+eY3QtP8A3v3aTwR2mWQAAAAASUVORK5CYII=" InformativeScreenshot="5b6ea69e0decbb49a7ceacb06857a4af.png" Reference="m1hPtSXhEE-MN2DzQb4wOA/QUzJbPYlF0axbAveYYDHzA" Selector="&lt;wnd app='zoom.exe' cls='ZPPTMainFrmWndClassEx' title='Zoom Workplace' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

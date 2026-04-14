@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.16.0",
-  "projectVersion": "1.0.227978015",
+  "projectVersion": "1.0.229440555",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -844,6 +844,78 @@
         "testCaseId": "6b8c6b7f-2ac5-446f-ad40-d99b7786b7b9",
         "testCaseType": "TestCase",
         "fileName": "Tests\\Smoke\\O365_Teams(Smoke Suite)\\TEAMS-SMOKE-017.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e64e5f1a-0d6b-4e9a-af87-69a3be041b6a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-006.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "decb004b-0df1-4708-82ca-4210bc16bf2a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-007.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f35c3e0c-d784-4db7-a81d-6fcf5523391b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-008.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9def4f82-a3e4-4667-9325-bcbde4775084",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-009.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9a130789-daa8-4d51-aef0-cc1e74d652c8",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-010.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d43ce63d-680a-47cb-813c-2fd63b96f3b7",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-011.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d4331927-f3be-4ad8-a2a1-80afc615273d",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-012.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "033459a9-240f-4257-b671-1117c5df8c81",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-013.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f5fb7413-3e54-4a64-890f-d2ad069b2e6a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-014.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "16726873-30c6-4944-bda7-1c8e1fc3a304",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-015.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "54bec448-fd4c-48c7-9f07-3900104572c9",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-016.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d522ca99-9e8f-4c11-b22f-818727296bd9",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\Smoke\\Zoom (Smoke Suite)\\ZM-SMOKE-017.xaml"
       }
     ],
     "saveToCloud": false
