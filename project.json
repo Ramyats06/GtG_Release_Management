@@ -913,6 +913,27 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-034.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "909b39f9-aebc-47fb-a88c-ee9e8f4f2929",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-035.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1d1a656c-6aa8-4603-80b3-7258bd2f8c85",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-036.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3a9c09ff-4a22-41f8-9e03-71c453b849a3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Smoke\\O365_Word (Smoke Suite)\\WRD-SMOKE-037.xaml"
       }
     ],
     "saveToCloud": false

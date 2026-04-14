@@ -97,7 +97,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="WRD_SMOKE_033" sap:VirtualizedContainerService.HintSize="1142,5588" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="WRD_SMOKE_033" sap:VirtualizedContainerService.HintSize="1217,5711" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="filenameTimestamp" />
       <Variable x:TypeArguments="x:String" Name="localFilename" />
@@ -263,7 +263,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="807433e6-4d80-4594-a816-55b4f34c644c" CvElementArea="1172, 145, 16, 15" CvTextArea="1163, 130, 35, 16" CvTextArgument="Reject" CvType="ArrowButton" DesignTimeRectangle="1160, 128, 42, 38" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Review' /&gt;&lt;uia cls='NetUIChunk' name='Tracking' /&gt;&lt;uia automationid='ReviewRejectChangeMenu_Dropdown' cls='NetUIRibbonButton' name='More Options' /&gt;" Guid="a93a3a51-8f2a-4c9b-8d40-86b7ae5e9a20" InformativeScreenshot="a6744a1779b2477029865ad35fe4e948.png" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='WORD-SMOKE-033 Test Local 04-08-2026 08-48-36.docx - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="807433e6-4d80-4594-a816-55b4f34c644c" CvElementArea="1167, 92, 33, 35" CvType="Icon" DesignTimeRectangle="1160, 90, 42, 38" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Review' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Tracking' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='ReviewRejectChangeAndMoveToNext' cls='NetUIRibbonButton' name='Reject and Move to Next' role='Button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='Reject and Move to Next' /&gt;" Guid="17c03c40-1fc2-47aa-9b2d-d91925e154aa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAqCAYAAADMKGkhAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEtSURBVFhH7dZNCsIwFARgjyWKK3Er3kOP4M9J9C6u9DIibgT7Q2RKA7WmTV6NY4U3MFToi3wNoXRg/jQKZ0fh7CicHTF8NBqKu9ttytXx0gmeJElwMT+bTaPjKfDz+RQdT4HjGhtPg6Mx8VQ4GgtPh6Mx8B/DL5Oxs/Z+04N+iqfsuK9d8nW4rwr3pQ3uOuu2rnlUd9wXhZf9Gdx1nqu1c3memzRNX9aivd5xoG3q+N7CLfq2WprH8Vj8ruJdcMxhvi1fhwOJAHNdzN/wdXh9rimUo9KGr8JD0QgFjjbhbSRohAZHm/BSNEKFo3X8/bAXoxE6HM2yrPgvoPGux1Ua3fGQ/uUZ78VbRdrtdl2s9eEkeDG8a0JRoXM0ePVbxRfMRf9W6UsUzo7CuTHmCTsSyW/2qaGOAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -274,7 +274,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="42944729-1bfe-4059-b0a4-2e69eb006080" CvTextArea="38, 93, 100, 16" CvTextArgument="Reject All Changes" CvType="Text" DesignTimeRectangle="2, 86, 257, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='NetUIHWND' /&gt;&lt;ctrl name='Reject All Changes' role='menu item' /&gt;" Guid="3bed153c-c1e0-4509-abfb-8ccf1cab1c98" InformativeScreenshot="fa257fc11f6026034ea392e9f3d5c5a1.png" ScopeSelectorArgument="&lt;wnd app='winword.exe' cls='OpusApp' title='WORD-SMOKE-033 Test Local 04-08-2026 08-48-36.docx - Word' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="6fa9ec68-6bc9-4ef0-82bc-9436ed6b98c5" CvElementArea="1173, 146, 14, 12" CvTextArea="1163, 130, 35, 15" CvTextArgument="Reject" CvType="ArrowButton" DesignTimeRectangle="1558, 128, 42, 38" FuzzySelectorArgument="&lt;uia cls='MsoCommandBar' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Review' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='NetUIChunk' name='Tracking' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='ReviewRejectChangeMenu_Dropdown' cls='NetUIRibbonButton' name='More Options' role='Menu Item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='More Options' /&gt;" Guid="938470f2-9377-4ac4-a670-23baf163d3d6" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -344,6 +344,7 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
+    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="488,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
     <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="488,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[&quot;H:\TestData\&quot; + localFilename + &quot;.docx&quot;]" />
   </Sequence>
 </Activity>
