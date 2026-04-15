@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ObjectRepositoryTargetData ContentHash="Uez1jd30tEGntnmTFDd2zg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 83, 102, 1056" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl idx='49' role='grouping' /&gt;" Guid="0b65655d-0fc1-40bd-bc8e-4ee0ead4bb74" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="11, 83, 102, 1056" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | * | Microsoft Teams' /&gt;&lt;ctrl name='Chat | * | Microsoft Teams' role='document' /&gt;&lt;ctrl idx='49' role='grouping' /&gt;" Guid="0b65655d-0fc1-40bd-bc8e-4ee0ead4bb74" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | * | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
       <imageRef attrName="InformativeScreenshot" originalValue="d2eba2769c5e405e7e343bd8adf38e7f.png" xmlns="">0kgpg0XWUrEueQB_cOfy3Cw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="eXrioM-EuU6lO8_yxEbong" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="4OOlAnLPaUKlp-6irW6cuQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="01b85546-efe4-496f-a326-5166d7920a65" CvElementArea="1475, 105, 31, 35" CvType="ArrowButton" DesignTimeRectangle="1475, 108, 32, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;&lt;ctrl name='Chat | Sundararajan, Ramya (You) | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Back' role='push button' /&gt;" Guid="2074f4c0-4a78-48f3-80ac-e92aa2274dc4" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="01b85546-efe4-496f-a326-5166d7920a65" CvTextArea="1529, 114, 184, 24" CvTextArgument="Set status message" CvType="Text" DesignTimeRectangle="1529, 114, 184, 24" ElementType="Text" Guid="80e2fd93-72e4-4d24-9af1-1fb8d976fa37" SearchSteps="CV" TargetType="ComputerVisionBased" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="f75ade0440c2fe49cf40e66934b0e20c.png" xmlns="">0cxFfBcB4FkakajJZkukHrg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="140698ef-98f9-4fed-973b-e27d1a0ca300" CvElementArea="472, 15, 22, 26" CvType="ArrowButton" DesignTimeRectangle="464, 9, 41, 41" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | * | Microsoft Teams' /&gt;&lt;ctrl name='Chat | * | Microsoft Teams' role='document' /&gt;&lt;ctrl name='Back' role='push button' /&gt;" Guid="ceab7d7c-6a5c-4264-a789-8023e6e26ca0" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | * | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="54571b747fba922cedf3e06144d8f003.jpg" xmlns="">036vFhZvaj0yPcdFSfzJz7A</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="QTftfqhVdU2vmNBK1jukpA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="QJzEjdpPeEaF-TT9a3_6rA" Reference="m1hPtSXhEE-MN2DzQb4wOA/ApM_Z4vElUiV7WKEuQcUjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="bedaeed1-e464-403c-826c-c724658ed923" CvTextArea="1473, 113, 111, 25" CvTextArgument="Cooley LLP" CvType="Text" DesignTimeRectangle="1473, 113, 111, 25" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="6587b0e1-08bc-4db0-b64b-0247ca7e8def" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Sundararajan, Ramya (You) | Microsoft Teams' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="dcec511aabd522c294481ab22e2c98e4.png" xmlns="">0nXkZUoYxqUuFSkHrpeAe_g</imageRef>
-    </TargetAnchorable>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="df22ab2f-e4e0-4b66-8965-b89f3b360ca1" CvTextArea="3574, 232, 73, 17" CvTextArgument="Available" CvType="Text" DesignTimeRectangle="3451, 221, 396, 41" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' title='Chat | * | Microsoft Teams' /&gt;&lt;ctrl name='Chat | * | Microsoft Teams' role='document' /&gt;&lt;ctrl name='List of Account Manager options' role='popup menu' /&gt;&lt;ctrl name='*, change status' role='menu item' /&gt;" Guid="a4cc3dc8-e863-4ab2-bc4a-c32267baf74f" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | * | Microsoft Teams' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
