@@ -1,13 +1,17 @@
 ﻿{
   "Name": "Available, change status",
   "Type": "Element",
+  "TaxonomyType": "Element",
   "Id": "nW3PqFsoME6zNHJSCbCHGg",
   "Reference": "m1hPtSXhEE-MN2DzQb4wOA/nW3PqFsoME6zNHJSCbCHGg",
   "ParentRef": "m1hPtSXhEE-MN2DzQb4wOA/u9BN9aR2-E6PwgujQUs1JQ",
   "Created": "2025-11-24T11:03:27.1026321Z",
-  "Updated": "2025-11-24T11:03:27.1026321Z",
+  "Updated": "2026-04-15T18:29:14.3595074Z",
   "CreatedBy": [
     "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
     "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.12.0.0, Culture=neutral, PublicKeyToken=null"
   ]
 }
