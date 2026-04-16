@@ -5,9 +5,9 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.IntegrationService.Activities": "[1.22.0]",
-    "UiPath.System.Activities": "[25.10.3]",
-    "UiPath.Testing.Activities": "[25.10.0]",
-    "UiPath.UIAutomation.Activities": "[25.10.21]",
+    "UiPath.System.Activities": "25.12.2",
+    "UiPath.Testing.Activities": "25.10.1",
+    "UiPath.UIAutomation.Activities": "[25.10.28]",
     "UiPath.Word.Activities": "[2.3.0-preview]"
   },
   "webServices": [],
@@ -38,7 +38,6 @@
     "projectProfile": "Developement",
     "outputType": "Tests",
     "libraryOptions": {
-      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ObjectRepositoryScreenData ContentHash="_RmyGUE7e0-V4upLm-Isiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | Microsoft Teams' /&gt;" Url="[Nothing]" />
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='* | Microsoft Teams' /&gt;" Url="[Nothing]" />
   </ObjectRepositoryScreenData.Data>
 </ObjectRepositoryScreenData>

@@ -54,5 +54,7 @@
   "UiPath.UIAutomationNext.Activities.SAP.SAPLogonRetries": "5",
   "UiPath.UIAutomationNext.Activities.SAP.SAPLogonDelayBetweenRetries": "0.5",
   "UiPath.UIAutomationNext.Activities.UITask.UITaskTraceLevel": "Html",
-  "UiPath.UIAutomationNext.Activities.UITask.UITaskTraceRetention": "7"
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskTraceRetention": "7",
+  "UiPath.UIAutomationNext.Activities.Generic.UIATraceRetention": "7",
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskTraceAttachMode": "OnFailure"
 }

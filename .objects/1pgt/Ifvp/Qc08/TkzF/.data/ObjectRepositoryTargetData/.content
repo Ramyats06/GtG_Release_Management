@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ObjectRepositoryTargetData ContentHash="EacOtup5H0aNT9rix0CxGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 8, 1920, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='TeamsOverlay' /&gt;" Guid="4e79e81f-82ad-426c-a8ab-625550ef5c83" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Calendar | Calendar | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 8, 1920, 48" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='TeamsOverlay' /&gt;" Guid="4e79e81f-82ad-426c-a8ab-625550ef5c83" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='* | Microsoft Teams' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
       <imageRef attrName="InformativeScreenshot" originalValue="b208acf164f59189c91bd7294dd9e00c.png" xmlns="">0XNewVtGLdku0pjSYt-Ce4Q</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>

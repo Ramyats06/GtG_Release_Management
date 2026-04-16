@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <ObjectRepositoryTargetData ContentHash="eMzFIOEYT0mvANruNmdbzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7da7c112-3ffd-4ffd-855c-438798768f1a" CvTextArea="1455, 957, 162, 19" CvTextArgument="Attach cloud files" CvType="Text" DesignTimeRectangle="1455, 957, 162, 19" ElementVisibilityArgument="Interactive" Guid="153e2348-3c68-4b70-a6e6-cab35ec4c505" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='Chat | * | Microsoft Teams' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7da7c112-3ffd-4ffd-855c-438798768f1a" CvTextArea="1455, 957, 162, 19" CvTextArgument="Attach cloud files" CvType="Text" DesignTimeRectangle="1455, 957, 162, 19" ElementVisibilityArgument="Interactive" Guid="153e2348-3c68-4b70-a6e6-cab35ec4c505" ScopeSelectorArgument="&lt;wnd app='ms-teams.exe' appid='MSTeams_8wekyb3d8bbwe!MSTeams' title='* | Microsoft Teams' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
       <imageRef attrName="InformativeScreenshot" originalValue="24ccd7b32af7d564b992a875a56bd9c8.png" xmlns="">0DF7D1OPhdkyopkPkuIhUXA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
